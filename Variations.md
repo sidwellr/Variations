@@ -6,8 +6,8 @@
 |[blur](blurs/blurs.md#blur) | Circle with a bright center
 |[blur_circle](blurs/blurs.md#blur_circle) | Circle with even coloring
 |[blur_heart](blurs/blurs.md#blur_heart) | Creates a heart from two ellipses
-|[blur3D](blurs/blurs.md#blur3D) | Three dimensional Gaussian blur
-|[boarders](boarders/boarders.md#boarders) | Divide the plane into squares with borders
+|[blur3D](blurs/blurs.md#blur3D--pre_blur3D) | Three dimensional Gaussian blur
+|[boarders](boarders/boarders.md#boarders-1) | Divide the plane into squares with borders
 |[boarders2](boarders/boarders.md#boarders2--pre_boarders2) | Adds some parameters to boarders
 | |
 |[circleblur](blurs/blurs.md#circleblur) | Circle with even coloring
@@ -24,9 +24,9 @@
 | |
 |[gaussian_blur](blurs/blurs.md#gaussian_blur) | Fuzzy circle with a bright center, made from a Gaussian distribution
 | |
-|[inversion](inversion/inversion.md#inversion) | Generalizes 2D circle inversion; same as spherical with the default parameters
+|[inversion](inversion/inversion.md#inversion-1) | Generalizes 2D circle inversion; same as spherical with the default parameters
 | |
-|[linear](linear/linear.md#linear) | Copy the input (x and y only)
+|[linear](linear/linear.md#linear-1) | Copy the input (x and y only)
 |[linear3D](linear/linear.md#linear3D) | Copy the input (x, y, and z)
 |[linearT](linear/linear.md#linearT) | Tweak of linear, adding parameters
 |[linearT3D](linear/linear.md#linearT3D) | Tweak of linear3D, adding parameters
@@ -39,8 +39,8 @@
 |[post_spherical](inversion/inversion.md#spherical) | Reflects the plane across the unit circle
 | |
 |[pre_blur](blurs/blurs.md#pre_blur) | Pre version of gaussian_blur
-|[pre_blur3D](blurs/blurs.md#blur3D) | Three dimensional Gaussian blur
-|[pre_boarders2](boarders/boarders.md#boarders2) | Adds some parameters to boarders
+|[pre_blur3D](blurs/blurs.md#blur3D--pre_blur3D) | Three dimensional Gaussian blur
+|[pre_boarders2](boarders/boarders.md#boarders2--pre_boarders2) | Adds some parameters to boarders
 |[pre_spherical](inversion/inversion.md#spherical) | Reflects the plane across the unit circle
 | |
 |[sineblur](blurs/blurs.md#sineblur) | A circle with a shading effect
