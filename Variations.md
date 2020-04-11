@@ -28,8 +28,8 @@
 | |
 |[linear](linear/linear.md#linear-1) | Copy the input (x and y only)
 |[linear3D](linear/linear.md#linear3D) | Copy the input (x, y, and z)
-|[linearT](linear/linear.md#linearT) | Tweak of linear, adding parameters
-|[linearT3D](linear/linear.md#linearT3D) | Tweak of linear3D, adding parameters
+|[linearT](linear/linear.md#linearT) | Tweak of linear, adding an exponent for x and y
+|[linearT3D](linear/linear.md#linearT3D) | Tweak of linear3D, adding an exponent for x, y, and z
 | |
 |[nBlur](blurs/blurs.md#nBlur) | Polygon shaped blur
 | |

@@ -64,11 +64,13 @@ Chaotica is only 2D, but supports linear3D for compatibility.
 See links under linear above.
 
 ## linearT
-Tweak of linear, adding parameters.
+Tweak of linear, adding an exponent for x and y.
 
 Type: 2D
 Author: FractalDesire
 Date: 28 Mar 2011
+
+![](linearT-1.png)
 
 Parameter values between 0 and 2 make the most sense. Same as linear when both are 1.
 
@@ -80,7 +82,7 @@ Parameter values between 0 and 2 make the most sense. Same as linear when both a
 https://www.deviantart.com/fractaldesire/art/linearT-plugin-202668974   
 
 ## linearT3D
-Tweak of linear3D, adding parameters.
+Tweak of linear3D, adding an exponent for x, y, and z.
 
 Type: 3D
 Author: FractalDesire
