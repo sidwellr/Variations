@@ -43,7 +43,7 @@ Raise input point to a complex power to produce a spiral
 
 Type: 2D  
 Author: Anton Liasotskiy (zy0rg)  
-Date: May 2016
+Date: March 2013  
 
 ![](cpow3-1.png)
 
