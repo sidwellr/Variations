@@ -9,7 +9,7 @@
 |[blur3D](blurs/blurs.md#blur3D) | Three dimensional Gaussian blur
 |[boarders](boarders/boarders.md#boarders) | Divide the plane into squares with borders
 |[boarders2](boarders/boarders.md#boarders2--pre_boarders2) | Adds some parameters to boarders
-|
+| |
 |[circleblur](blurs/blurs.md#circleblur) | Circle with even coloring
 |[cpow](cpow/cpow.md#cpow) | Raise input point to a complex power specified by its real and imaginary parts
 |[cpow2](cpow/cpow.md#cpow2) | Raise input point to a complex power specified in polar coordinates
