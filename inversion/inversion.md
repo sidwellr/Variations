@@ -5,8 +5,8 @@ Variations that invert across various shapes, such as the unit circle.
 Generalizes 2D circle inversion; same as spherical with the default parameters.
 
 Type: 2D  
-Author: Gregg Helt (CozyG)
-Date: 2017
+Author: Gregg Helt (CozyG)  
+Date: 2017  
 
 Like spherical, but adds five additional features: shapes besides the standard circle, restricted inversion, alternative p-norms, including the inversion shape and/or original points in the result, and direct coloring.
 
@@ -45,8 +45,8 @@ http://archive.bridgesmathart.org/2017/bridges2017-467.html
 Spherical with x and y scaling.
 
 Type: 2D  
-Author: Rob Richards (piritipany)
-Date: 21 Feb 2009
+Author: Rob Richards (piritipany)  
+Date: 21 Feb 2009  
 
 | Parameter | Description |
 | --- | --- |
@@ -59,8 +59,8 @@ https://www.deviantart.com/piritipany/art/Ovoid-and-Ovoid3d-Plugins-113635970
 Spherical with x, y, and z scaling.
 
 Type: 3D  
-Author: Rob Richards (piritipany)
-Date: 21 Feb 2009
+Author: Rob Richards (piritipany)  
+Date: 21 Feb 2009  
 
 | Parameter | Description |
 | --- | --- |
@@ -92,9 +92,9 @@ https://www.jwfsanctuary.club/variation-information/spherical/
 ## spherical3D
 A 3D version of spherical
 
-Type: 3D
-Author: Chris Johns (TyrantWave)
-Date: 24 Dec 2008
+Type: 3D  
+Author: Chris Johns (TyrantWave)  
+Date: 24 Dec 2008  
 
 https://www.deviantart.com/tyrantwave/art/Spherical3D-Plugin-107283662   
 http://alien-dreams.deviantart.com/art/Xenophilia-Tutorial-264350378   
@@ -104,8 +104,9 @@ http://tyrantwave.deviantart.com/art/Apophysis-Base-Forms-Pack-103671251
 ## spherical3D_wf
 Another 3D version of spherical
 
-Type: 3D
-Author: Andreas Maschke (thargor6)
+Type: 3D  
+Author: Andreas Maschke (thargor6)  
+Date 7 Mar 2012  
 
 | Parameter | Description |
 | --- | --- |

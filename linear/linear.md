@@ -4,9 +4,9 @@ Variations that just copy the input, some with minor modification.
 ## bi_linear
 Swap x and y.
 
-Type: 2D
-Author: Shortgreenpigg
-Date: 16 Nov 2010
+Type: 2D   
+Author: Shortgreenpigg   
+Date: 16 Nov 2010   
 
 https://www.deviantart.com/shortgreenpigg/art/Bi-Linear-Plugin-186437236   
 
@@ -31,8 +31,8 @@ http://xyrus02.deviantart.com/art/DirectColoring-plugins-for-7x-169594950 (defun
 Copy the input (x and y only)
 
 Type: 2D  
-Author: Scott Draves
-Date: Sept 2003
+Author: Scott Draves  
+Date: Sept 2003  
 
 ![](linear-1.png)
 
@@ -55,9 +55,9 @@ https://www.jwfsanctuary.club/variation-information/linear/
 ## linear3D
 Copy the input (x, y, and z).
 
-Type: 3D
-Author: Georg Kiehne (xyrus02)
-Date: Oct 2007
+Type: 3D  
+Author: Georg Kiehne (xyrus02)  
+Date: Oct 2007  
 
 Chaotica is only 2D, but supports linear3D for compatibility.
 
@@ -66,9 +66,9 @@ See links under linear above.
 ## linearT
 Tweak of linear, adding an exponent for x and y.
 
-Type: 2D
-Author: FractalDesire
-Date: 28 Mar 2011
+Type: 2D  
+Author: FractalDesire  
+Date: 28 Mar 2011  
 
 ![](linearT-1.png)
 
@@ -84,9 +84,9 @@ https://www.deviantart.com/fractaldesire/art/linearT-plugin-202668974
 ## linearT3D
 Tweak of linear3D, adding an exponent for x, y, and z.
 
-Type: 3D
-Author: FractalDesire
-Date: 28 Mar 2011
+Type: 3D  
+Author: FractalDesire  
+Date: 28 Mar 2011  
 
 Parameter values between 0 and 2 make the most sense. Same as linear3D when all are 1.
 

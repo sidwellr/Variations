@@ -4,9 +4,9 @@ Treats 2D points as complex numbers and raises them to a complex power that can 
 ## cpow
 Raise input point to a complex power specified by its real and imaginary parts.
 
-Type: 2D
-Author: Joel Faber
-Date: 10 Aug 2008
+Type: 2D  
+Author: Joel Faber  
+Date: 10 Aug 2008  
 
 | Parameter | Description |
 | --- | --- |
@@ -23,9 +23,9 @@ https://fractalformulas.wordpress.com/flame-variations/cpow-and-escher/
 ## cpow2
 Raise input point to a complex power specified in polar coordinates.
 
-Type: 2D
-Author: Peter Sdobnov (Zueuk)
-Date: 13 Mar 2009
+Type: 2D  
+Author: Peter Sdobnov (Zueuk)  
+Date: 13 Mar 2009  
 
 | Parameter | Description |
 | --- | --- |
@@ -41,8 +41,9 @@ https://fractalformulas.wordpress.com/flame-variations/cpow-and-escher/
 ## cpow3
 Raise input point to a complex power to produce a spiral
 
-Type: 2D
-Author: Anton Liasotskiy (zy0rg)
+Type: 2D  
+Author: Anton Liasotskiy (zy0rg)  
+Date: May 2016
 
 ![](cpow3-1.png)
 
@@ -63,9 +64,9 @@ https://fractalformulas.wordpress.com/flame-variations/cpow-and-escher/
 ## cpow3_wf
 Attempt to port cpow2 to JWildfire that "by happy accident became something else".
 
-Type: 2D
-Author: Gregg Helt (cozyg)
-Date: 11 Mar 2015
+Type: 2D  
+Author: Gregg Helt (cozyg)  
+Date: 11 Mar 2015  
 
 This variation is the result of a serendipitous mistake the author made while attempting to implement cpow2 in JWildfire. He liked the results, so released this variation. It was originally added to JWildfire with the name "cpow3", but  it was renamed to "cpow3_wf" when the above cpow3 was added in JWildfire version 3.21.
 
@@ -74,8 +75,8 @@ http://jwildfire.org/forum/viewtopic.php?f=23&t=1743
 ## droste
 Implements Escher's map using logarithms; same effect as escher.
 
-Type: 2D
-Author: Joel Faber (unreleased)
+Type: 2D  
+Author: Joel Faber (unreleased)  
 
 Droste was "test code that [the author] forgot to delete" when he first released the plugin package containing escher. It was deleted from later versions, but still made its way into plugin collections. It does the same thing as escher
 
@@ -90,9 +91,9 @@ http://www.deviantart.com/art/BD-s-Droste-Plastic-script-76392380
 ## escher
 Implements Escher’s Map by treating each point of the flame as a complex number and raising it to a power determined by the variable beta.
 
-Type: 2D
-Author: Joel Faber
-Date: 21 Oct 2007
+Type: 2D  
+Author: Joel Faber  
+Date: 21 Oct 2007  
 
 ![](escher-1.png)
 

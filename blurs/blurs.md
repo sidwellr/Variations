@@ -4,16 +4,16 @@ Variations that ignore the input and generate specific shapes.
 ## blur
 Circle with a bright center.
 
-Type: 2D blur
+Type: 2D blur  
 
 ![](blur-1.png)
 
 ## blur_circle
 Circle with even coloring.
 
-Type: 2D blur
-Author: Joel and Michael Faber
-Date: 15 Mar 2009
+Type: 2D blur  
+Author: Joel and Michael Faber  
+Date: 15 Mar 2009  
 
 Square blur followed by circlize. Same result as circleblur. An older version had a "hole" parameter which didn't work correctly and was later removed.
 
@@ -25,9 +25,9 @@ https://www.jwfsanctuary.club/variation-information/blur/
 ## blur_heart
 Creates a heart from two ellipses.
 
-Type: 2D blur
-Author: Luca G (dark-beam)
-Date: 14 Nov 2011
+Type: 2D blur  
+Author: Luca G (dark-beam)  
+Date: 14 Nov 2011  
 
 ![](blur_heart-1.png)
 
@@ -46,14 +46,14 @@ http://www.deviantart.com/art/BCs-BDs-Gnarly-Blur-Heart-Script-284934920
 ## blur3D / pre_blur3D
 Three dimensional Gaussian blur.
 
-Type: 3D blur
+Type: 3D blur  
 
 ## circleblur
 Circle with even coloring.
 
-Type: 2D blur
-Author: Anton Liasotskiy (zy0rg)
-Date: 9 Jan 2013
+Type: 2D blur  
+Author: Anton Liasotskiy (zy0rg)  
+Date: 9 Jan 2013  
 
 ![](circleblur-1.png)
 
@@ -64,7 +64,7 @@ https://www.jwfsanctuary.club/variation-information/blur/
 ## gaussian_blur
 Fuzzy circle with a bright center, made from a Gaussian distribution.
 
-Type: 2D blur
+Type: 2D blur  
 
 ![](gaussian_blur-1.png)
 
@@ -74,9 +74,9 @@ https://www.jwfsanctuary.club/variation-information/gaussian_blur/
 ## nBlur
 Polygon shaped blur
 
-Type: 2D blur
-Author: FractalDesire
-Date: 21 Dec 2010
+Type: 2D blur  
+Author: FractalDesire  
+Date: 21 Dec 2010  
 
 ![](nblur-1.png) ![](nblur-2.png)
 
@@ -100,14 +100,14 @@ https://fractalformulas.wordpress.com/flame-variations/nblur/
 ## pre_blur
 Pre version of gaussian_blur.
 
-Type: 2D blur
+Type: 2D blur  
 
 ## sineblur
 A circle with a shading effect.
 
-Type: 2D blur
-Author: Anton Liasotskiy (zy0rg)
-Date: 9 Jan 2013
+Type: 2D blur  
+Author: Anton Liasotskiy (zy0rg)  
+Date: 9 Jan 2013  
 
 ![](sineblur-1.png)
 
@@ -124,9 +124,9 @@ https://www.jwfsanctuary.club/variation-information/blur/
 ## sphereblur
 3D version of sineblur
 
-Type: 3D blur
-Author: Anton Liasotskiy (zy0rg)
-Date: 9 Jan 2013
+Type: 3D blur  
+Author: Anton Liasotskiy (zy0rg)  
+Date: 9 Jan 2013  
 
 | Parameter | Description |
 | --- | --- |
@@ -137,8 +137,8 @@ http://zy0rg.deviantart.com/art/Sphereblur-687844594
 ## square
 Square shaped blur
 
-Type: 2D blur
-Author: Antonio Intieri (gygrazok)
+Type: 2D blur  
+Author: Antonio Intieri (gygrazok)  
 
 ![](square-1.png)
 
@@ -147,16 +147,16 @@ http://lu-kout.deviantart.com/art/Apophysis-Plugin-Pack-1-v0-4-59907275
 ## square3D
 Cube shaped blur
 
-Type: 3D blur
+Type: 3D blur  
 
 ![](square3D-1.png)
 
 ## starblur
 Star shaped blur
 
-Type: 2D blur
-Author: Anton Liasotskiy (zy0rg)
-Date: 9 Jan 2013
+Type: 2D blur  
+Author: Anton Liasotskiy (zy0rg)  
+Date: 9 Jan 2013  
 
 ![](starblur-1.png) ![](starblur-2.png)
 
@@ -172,9 +172,9 @@ https://www.deviantart.com/zy0rg/art/Blur-Package-347648919
 ## waveblur_wf
 Creates waves, like ripples in a pond.
 
-Type: 3D blur
-Author: Andreas Maschke
-Date: 30 Jan 2015
+Type: 3D blur  
+Author: Andreas Maschke  
+Date: 30 Jan 2015  
 
 ![](waveblur-1.png)
 
@@ -191,9 +191,9 @@ Date: 30 Jan 2015
 ## xheart_blur_wf
 Heart shaped blur
 
-Type: 2D blur
-Author: Andreas Maschke
-Date: 30 Aug 2014
+Type: 2D blur  
+Author: Andreas Maschke  
+Date: 30 Aug 2014  
 
 ![](xheart_blur-1.png)
 

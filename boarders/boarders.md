@@ -16,7 +16,7 @@ Adds some parameters to boarders.
 
 Type: 2D  
 Author: Georg Kiehne (xyrus02)  
-Date: 31 Jul 2010
+Date: 31 Jul 2010  
 
 ![](boarders2-1.png)
 
@@ -35,7 +35,7 @@ Presumably, a direct color version of boarders, but it appears to be the same as
 
 Type: 2D, direct color  
 Author: Georg Kiehne (xyrus02)  
-Date: 30 Jun 2010
+Date: 30 Jun 2010  
 
 http://xyrus-02.deviantart.com/art/DC-Collection-169594950 (defunct)   
 https://sourceforge.net/p/apo-plugins/code/HEAD/tree/personal/georgkiehne/   
@@ -45,7 +45,7 @@ Hexagon version of boarders. Source not found.
 
 Type: 2D  
 Author: Alexey Ermushev (eralex61)  
-Date: Early 2008
+Date: Early 2008  
 
 Comment in xtrb source code:
 "Some comments on TriBorders plugin structure. It builds dual tessellation
@@ -67,7 +67,7 @@ Modification of tri_boarders2 with extra parameters.
 
 Type: 2D  
 Author: Georg Kiehne (xyrus02)  
-Date: 17 Nov 2012
+Date: 17 Nov 2012  
 
 ![](xtrb-1.png)
 
