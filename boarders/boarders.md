@@ -8,8 +8,8 @@ Type: 2D
 Author: Joel and Michael Faber   
 Date: 16 Sep 2007   
 
-https://sourceforge.net/projects/apo-plugins/files/apo-plugins/80810/
-http://tyrantwave.deviantart.com/art/Apophysis-3D-Baseforms-Pack-113871861
+https://sourceforge.net/projects/apo-plugins/files/apo-plugins/80810/   
+http://tyrantwave.deviantart.com/art/Apophysis-3D-Baseforms-Pack-113871861   
 
 ## boarders2 / pre_boarders2
 Adds some parameters to boarders.
@@ -28,7 +28,7 @@ To imitate boarders, set all parameters to 0.5.
 | left |  |
 | right |  |
 
-http://xyrus02.deviantart.com/art/Boarders2-plugin-for-Apophysis-173427128 (defunct)
+http://xyrus02.deviantart.com/art/Boarders2-plugin-for-Apophysis-173427128    (defunct)
 
 ## dc_boarders
 Presumably, a direct color version of boarders, but it appears to be the same as boarders.
@@ -37,8 +37,8 @@ Type: 2D, direct color
 Author: Georg Kiehne (xyrus02)  
 Date: 30 Jun 2010
 
-http://xyrus-02.deviantart.com/art/DC-Collection-169594950 (defunct)
-https://sourceforge.net/p/apo-plugins/code/HEAD/tree/personal/georgkiehne/
+http://xyrus-02.deviantart.com/art/DC-Collection-169594950 (defunct)   
+https://sourceforge.net/p/apo-plugins/code/HEAD/tree/personal/georgkiehne/   
 
 ## tri_boarders2
 Hexagon version of boarders. Source not found.
@@ -57,10 +57,10 @@ trilinear coordinates instead of usual Cartesian system (from where Tri Borders 
 | radius |   |
 | width |   |
 
-https://eralex61.deviantart.com/art/Some-Plugins-76087119/ (defunct)
-http://nightmares06.deviantart.com/art/Bubble-Triboarders-Tutorial-99317545
-https://www.deviantart.com/djeaton3162/art/Glossy-TriBoarders-Script-76820857
-https://www.deviantart.com/djeaton3162/art/Tiled-Tri-Boarders-Script-76868935
+https://eralex61.deviantart.com/art/Some-Plugins-76087119/ (defunct)   
+http://nightmares06.deviantart.com/art/Bubble-Triboarders-Tutorial-99317545   
+https://www.deviantart.com/djeaton3162/art/Glossy-TriBoarders-Script-76820857   
+https://www.deviantart.com/djeaton3162/art/Tiled-Tri-Boarders-Script-76868935   
 
 ## xtrb
 Modification of tri_boarders2 with extra parameters.
@@ -84,5 +84,5 @@ To imitate tri_boarders2, set power, dist, a, and b to 1 and the amount to the s
 
 Bug: The amount is multiplied twice, which may cause unexpected results. To work around, set the amount to the square root of what would normally be used.
 
-http://xyrus02.deviantart.com/art/XTrb-Plugin-for-Apophysis-136800563 (defunct)
-https://www.deviantart.com/bpclarke/art/BC-BDs-Spher-Loonie-Bwraps-Xtrb-Projective-Batch-2-310446818
+http://xyrus02.deviantart.com/art/XTrb-Plugin-for-Apophysis-136800563 (defunct)   
+https://www.deviantart.com/bpclarke/art/BC-BDs-Spher-Loonie-Bwraps-Xtrb-Projective-Batch-2-310446818   

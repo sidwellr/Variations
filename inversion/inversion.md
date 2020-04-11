@@ -39,7 +39,7 @@ There are two anomalies with shape points (when draw_shape ≠ 0) and passthroug
 Ring mode has some quirks. First, ring_scale must be something other than 1 for it to work, which causes a glitch when ring_mode is 1 and ring_scale is moved gradually to or from 1. Second, it doesn't work correctly for some values of scale. To ensure proper operation, set ring_scale smaller than 1 when scale ≥ 1 and larger than 1 when scale ≤ 1.
 
 #### Links
-http://archive.bridgesmathart.org/2017/bridges2017-467.html
+http://archive.bridgesmathart.org/2017/bridges2017-467.html   
 
 ## ovoid
 Spherical with x and y scaling.
@@ -53,7 +53,7 @@ Date: 21 Feb 2009
 | x | Scale factor for x |
 | y | Scale factor for y |
 
-https://www.deviantart.com/piritipany/art/Ovoid-and-Ovoid3d-Plugins-113635970
+https://www.deviantart.com/piritipany/art/Ovoid-and-Ovoid3d-Plugins-113635970   
 
 ## ovoid3D
 Spherical with x, y, and z scaling.
@@ -68,7 +68,7 @@ Date: 21 Feb 2009
 | y | Scale factor for y |
 | z | Scale factor for z |
 
-https://www.deviantart.com/piritipany/art/Ovoid-and-Ovoid3d-Plugins-113635970
+https://www.deviantart.com/piritipany/art/Ovoid-and-Ovoid3d-Plugins-113635970   
 
 ## spherical
 Reflects the plane across the unit circle. Also post_spherical and pre_spherical.
@@ -77,17 +77,17 @@ Type: 2D
 Author: Scott Draves
 Date: Sept 2003
 
-http://mathworld.wolfram.com/Inversion.html
-http://fiery-fire.deviantart.com/art/Apo-Tuto-Sphericals-146647576
-http://taser-rander.deviantart.com/art/Spherical-Fractal-Tutorial-47533316
-http://fiery-fire.deviantart.com/art/Apo-Tuto-Spherical-Bubbles-127911026
-http://heavenriver.deviantart.com/art/Apophysis-Spherical-Disc-Tut-181823644
-http://plangkye.deviantart.com/art/Tutorial-Spherical-Jscope-for-the-Xaos-Phobic-362538919
-http://www.mfcreative.co.uk/apophysisswirltutorial/
-http://c-91.deviantart.com/art/Spherical-Plants-Apophysis-Tutorial-347919168
-https://www.deviantart.com/universalkinase/art/Understanding-Spherical-Transforms-Apophysis-Tut-506110933
-http://tatasz.deviantart.com/art/Inverting-Things-with-Spherical-570650125
-https://www.jwfsanctuary.club/variation-information/spherical/
+http://mathworld.wolfram.com/Inversion.html   
+http://fiery-fire.deviantart.com/art/Apo-Tuto-Sphericals-146647576   
+http://taser-rander.deviantart.com/art/Spherical-Fractal-Tutorial-47533316   
+http://fiery-fire.deviantart.com/art/Apo-Tuto-Spherical-Bubbles-127911026   
+http://heavenriver.deviantart.com/art/Apophysis-Spherical-Disc-Tut-181823644   
+http://plangkye.deviantart.com/art/Tutorial-Spherical-Jscope-for-the-Xaos-Phobic-362538919   
+http://www.mfcreative.co.uk/apophysisswirltutorial/   
+http://c-91.deviantart.com/art/Spherical-Plants-Apophysis-Tutorial-347919168   
+https://www.deviantart.com/universalkinase/art/Understanding-Spherical-Transforms-Apophysis-Tut-506110933   
+http://tatasz.deviantart.com/art/Inverting-Things-with-Spherical-570650125   
+https://www.jwfsanctuary.club/variation-information/spherical/   
 
 ## spherical3D
 A 3D version of spherical
@@ -96,10 +96,10 @@ Type: 3D
 Author: Chris Johns (TyrantWave)
 Date: 24 Dec 2008
 
-https://www.deviantart.com/tyrantwave/art/Spherical3D-Plugin-107283662
-http://alien-dreams.deviantart.com/art/Xenophilia-Tutorial-264350378
-http://tyrantwave.deviantart.com/art/Apophysis-3D-Baseforms-Pack-113871861
-http://tyrantwave.deviantart.com/art/Apophysis-Base-Forms-Pack-103671251
+https://www.deviantart.com/tyrantwave/art/Spherical3D-Plugin-107283662   
+http://alien-dreams.deviantart.com/art/Xenophilia-Tutorial-264350378   
+http://tyrantwave.deviantart.com/art/Apophysis-3D-Baseforms-Pack-113871861   
+http://tyrantwave.deviantart.com/art/Apophysis-Base-Forms-Pack-103671251   
 
 ## spherical3D_wf
 Another 3D version of spherical

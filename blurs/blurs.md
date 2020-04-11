@@ -17,10 +17,10 @@ Date: 15 Mar 2009
 
 Square blur followed by circlize. Same result as circleblur. An older version had a "hole" parameter which didn't work correctly and was later removed.
 
-https://sourceforge.net/projects/apo-plugins/files/apo-plugins/80810/
-http://sourceforge.net/p/apo-plugins/code/HEAD/tree/
-https://fractalformulas.wordpress.com/flame-variations/blur/
-https://www.jwfsanctuary.club/variation-information/blur/
+https://sourceforge.net/projects/apo-plugins/files/apo-plugins/80810/   
+http://sourceforge.net/p/apo-plugins/code/HEAD/tree/   
+https://fractalformulas.wordpress.com/flame-variations/blur/   
+https://www.jwfsanctuary.club/variation-information/blur/   
 
 ## blur_heart
 Creates a heart from two ellipses.
@@ -39,9 +39,9 @@ Date: 14 Nov 2011
 
 Keep |a|≤|b| to keep the dimple below the zero point; if it goes below, the dimple will have some fill in it.
 
-https://www.deviantart.com/dark-beam/art/Blur-heart-hearty-apoplugins-269015914
-http://www.mathematische-basteleien.de/heart.htm
-http://www.deviantart.com/art/BCs-BDs-Gnarly-Blur-Heart-Script-284934920
+https://www.deviantart.com/dark-beam/art/Blur-heart-hearty-apoplugins-269015914   
+http://www.mathematische-basteleien.de/heart.htm   
+http://www.deviantart.com/art/BCs-BDs-Gnarly-Blur-Heart-Script-284934920   
 
 ## blur3D / pre_blur3D
 Three dimensional Gaussian blur.
@@ -57,9 +57,9 @@ Date: 9 Jan 2013
 
 ![](circleblur-1.png)
 
-http://zy0rg.deviantart.com/art/Blur-Package-347648919
-https://fractalformulas.wordpress.com/flame-variations/blur/
-https://www.jwfsanctuary.club/variation-information/blur/
+http://zy0rg.deviantart.com/art/Blur-Package-347648919   
+https://fractalformulas.wordpress.com/flame-variations/blur/   
+https://www.jwfsanctuary.club/variation-information/blur/   
 
 ## gaussian_blur
 Fuzzy circle with a bright center, made from a Gaussian distribution.
@@ -68,8 +68,8 @@ Type: 2D blur
 
 ![](gaussian_blur-1.png)
 
-https://fractalformulas.wordpress.com/flame-variations/blur/
-https://www.jwfsanctuary.club/variation-information/gaussian_blur/
+https://fractalformulas.wordpress.com/flame-variations/blur/   
+https://www.jwfsanctuary.club/variation-information/gaussian_blur/   
 
 ## nBlur
 Polygon shaped blur
@@ -92,10 +92,10 @@ Date: 21 Dec 2010
 | exactCalc | If 0, the calculation will be interpolated to make the variation run faster. This will sometimes result in faint lines between the center and corners of the polygon, depending on the other settings and the color.<br>If 1, calculation will be exact, but may take longer.|
 | highlightEdges | This parameter provides an alternative to exactCalc to reduce the faint lines that sometimes appear between the center and corners of the polygon. The default value is 1; reduce it to darken and increase it to lighten these lines. It can also be used to highlight these edges if desired for special effect. The exactCalc and circumCircle values must both be 0 for this to have any effect. Any value is allowed, but the lowest effective value is 0.1.|
 
-https://www.deviantart.com/fractaldesire/art/nBlur-plugin-190401515
-http://freerangeapophysis.wordpress.com/2011/01/01/first-play-with-nblur/
-http://zweezwyy.deviantart.com/art/nBlur-a-useful-tool-207495126
-https://fractalformulas.wordpress.com/flame-variations/nblur/
+https://www.deviantart.com/fractaldesire/art/nBlur-plugin-190401515   
+http://freerangeapophysis.wordpress.com/2011/01/01/first-play-with-nblur/   
+http://zweezwyy.deviantart.com/art/nBlur-a-useful-tool-207495126   
+https://fractalformulas.wordpress.com/flame-variations/nblur/   
 
 ## pre_blur
 Pre version of gaussian_blur.
@@ -117,9 +117,9 @@ Date: 9 Jan 2013
 
 The appearance is greatly influnced by the background; the default of 1 works well for dark backgrounds, but a somewhat higher value (like 20) is better for light backgrounds. Very high values will have low density in the center. Values less than 1 will produce a smaller circle with a fuzzy edge.
 
-https://www.deviantart.com/zy0rg/art/Blur-Package-347648919
-https://fractalformulas.wordpress.com/flame-variations/blur/
-https://www.jwfsanctuary.club/variation-information/blur/
+https://www.deviantart.com/zy0rg/art/Blur-Package-347648919   
+https://fractalformulas.wordpress.com/flame-variations/blur/   
+https://www.jwfsanctuary.club/variation-information/blur/   
 
 ## sphereblur
 3D version of sineblur
@@ -132,7 +132,7 @@ Date: 9 Jan 2013
 | --- | --- |
 | power | Controls the shading effect. |
 
-http://zy0rg.deviantart.com/art/Sphereblur-687844594
+http://zy0rg.deviantart.com/art/Sphereblur-687844594   
 
 ## square
 Square shaped blur
@@ -142,7 +142,7 @@ Author: Antonio Intieri (gygrazok)
 
 ![](square-1.png)
 
-http://lu-kout.deviantart.com/art/Apophysis-Plugin-Pack-1-v0-4-59907275
+http://lu-kout.deviantart.com/art/Apophysis-Plugin-Pack-1-v0-4-59907275   
 
 ## square3D
 Cube shaped blur
@@ -167,7 +167,7 @@ Date: 9 Jan 2013
 
 Negative values are allowed for both parameters, and can generate interesting shapes.
 
-https://www.deviantart.com/zy0rg/art/Blur-Package-347648919
+https://www.deviantart.com/zy0rg/art/Blur-Package-347648919   
 
 ## waveblur_wf
 Creates waves, like ripples in a pond.
