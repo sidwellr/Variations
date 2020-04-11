@@ -36,6 +36,9 @@
 |[ovoid](inversion/inversion.md#ovoid) | Spherical with x and y scaling
 |[ovoid3D](inversion/inversion.md#ovoid3D) | Spherical with x, y, and z scaling
 | |
+|[pie](blurs/blurs.md#pie) | A circle with wedges missing, like pieces of pie |
+|[pie_fl](blurs/blurs.md#pie_fl) | Fluid version of pie, allows fractional value for slices |
+|[pie3D](blurs/blurs.md#pie3D) | Three dimensional version of pie |
 |[post_spherical](inversion/inversion.md#spherical) | Reflects the plane across the unit circle
 | |
 |[pre_blur](blurs/blurs.md#pre_blur) | Pre version of gaussian_blur

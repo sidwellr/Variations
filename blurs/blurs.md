@@ -97,6 +97,50 @@ http://freerangeapophysis.wordpress.com/2011/01/01/first-play-with-nblur/
 http://zweezwyy.deviantart.com/art/nBlur-a-useful-tool-207495126   
 https://fractalformulas.wordpress.com/flame-variations/nblur/   
 
+## pie
+A circle with wedges missing, like pieces of pie.
+
+Type: 2D blur  
+Author: Joel Faber  
+Date: 16 Sep 2007  
+
+![](pie-1.png)
+
+| Parameter | Description |
+| --- | --- |
+| slices | The number of slices. Two slices will overlap if not an integer (some versions require this to be an integer). |
+| rotation | Amount to rotate the shape, in radians. |
+| thickness | The proportion of wedge to space, from 0 (wedges are lines) to 1 (no space). |
+
+http://sourceforge.net/projects/apo-plugins/files/apo-plugins/80810/  
+http://joelfaber.deviantart.com/art/A-Recipe-for-Plastic-Pie-35295850  
+
+## pie_fl
+Fluid version of pie, allows fractional value for slices.
+
+Type: 2D blur  
+Author: Fred E (morphapoph)  
+Date: 8 Sep 2010  
+
+Same as pie, but relaxes the restriction that slices is an integer.
+
+https://www.deviantart.com/morphapoph/art/Apo-Anim-friendly-Plugins-178559281  
+
+## pie3D
+Three dimensional version of pie.
+
+Type: 3D blur  
+Author: Andreas Maschke (thargor6)  
+Date: 21 Nov 2011
+
+![](pie3D-1.png)
+
+| Parameter | Description |
+| --- | --- |
+| slices | The number of slices. Two slices will overlap if not an integer. |
+| rotation | Amount to rotate the shape, in radians. |
+| thickness | The proportion of wedge to space, from 0 (wedges are lines) to 1 (no space). |
+
 ## pre_blur
 Pre version of gaussian_blur.
 
