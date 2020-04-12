@@ -8,6 +8,8 @@ Type: 2D
 Author: Gregg Helt (CozyG)  
 Date: 2017  
 
+![](inversion-1.png)
+
 Like spherical, but adds five additional features: shapes besides the standard circle, restricted inversion, alternative p-norms, including the inversion shape and/or original points in the result, and direct coloring.
 
 | Parameter | Description |
@@ -76,6 +78,8 @@ Reflects the plane across the unit circle. Also post_spherical and pre_spherical
 Type: 2D
 Author: Scott Draves
 Date: Sept 2003
+
+![](spherical-1.png)
 
 http://mathworld.wolfram.com/Inversion.html   
 http://fiery-fire.deviantart.com/art/Apo-Tuto-Sphericals-146647576   
