@@ -146,6 +146,23 @@ Pre version of gaussian_blur.
 
 Type: 2D blur  
 
+## primitives_wf
+Blur with selectable two or three dimensional shape.
+
+Type: 2D or 3D blur (depends on shape parameter)
+Author: Andreas Maschke (thargor6)
+Date: 12 Oct 2013
+
+![](primitives_wf-1.png)
+
+| Parameter | Description |
+| --- | --- |
+| shape | Shape of primitive:<br>0 - Circle or Disk<br>1 - Sphere<br>2 - Cube<br>3 - Square<br>4 - Triangle<br>5 - Pyramid<br>6 - Torus |
+| a | For Torus, the radius of the tube |
+| b | For Torus, the radius of the hole |
+| c | Not used at this time |
+| filled | 0 for hollow, 1 for filled (triangles and pyramids are always filled) |
+
 ## sineblur
 A circle with a shading effect.
 

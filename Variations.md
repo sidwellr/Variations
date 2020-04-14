@@ -40,11 +40,11 @@
 |[pie_fl](blurs/blurs.md#pie_fl) | Fluid version of pie, allows fractional value for slices |
 |[pie3D](blurs/blurs.md#pie3D) | Three dimensional version of pie |
 |[post_spherical](inversion/inversion.md#spherical) | Reflects the plane across the unit circle
-| |
 |[pre_blur](blurs/blurs.md#pre_blur) | Pre version of gaussian_blur
 |[pre_blur3D](blurs/blurs.md#blur3D--pre_blur3D) | Three dimensional Gaussian blur
 |[pre_boarders2](boarders/boarders.md#boarders2--pre_boarders2) | Adds some parameters to boarders
 |[pre_spherical](inversion/inversion.md#spherical) | Reflects the plane across the unit circle
+|[primitives_wf](blurs/blurs.md#primitives_wf) | Blur with selectable two or three dimensional shape
 | |
 |[sineblur](blurs/blurs.md#sineblur) | A circle with a shading effect
 |[sphereblur](blurs/blurs.md#sphereblur) | 3D version of sineblur
