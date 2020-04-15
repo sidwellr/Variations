@@ -20,7 +20,11 @@
 |[dc_linear](linear/linear.md#dc_linear) | Direct color version of linear3D
 |[droste](cpow/cpow.md#droste) | Implements Escher's map using logarithms; same effect as escher
 | |
+|[epispiral](rosecurve/rosecurve.md#epispiral) | An inside-out rose curve, known as an epispiral curve
+|[epispiral_wf](rosecurve/rosecurve.md#epispiral_wf) | Alternate version of epispiral
 |[escher](cpow/cpow.md#escher) | Implements Escher’s Map
+| |
+|[flower](rosecurve/rosecurve.md#flower) | Filled-in rose curve; looks like a flower with petals
 | |
 |[gaussian_blur](blurs/blurs.md#gaussian_blur) | Fuzzy circle with a bright center, made from a Gaussian distribution
 | |
@@ -45,6 +49,9 @@
 |[pre_boarders2](boarders/boarders.md#boarders2--pre_boarders2) | Adds some parameters to boarders
 |[pre_spherical](inversion/inversion.md#spherical) | Reflects the plane across the unit circle
 |[primitives_wf](blurs/blurs.md#primitives_wf) | Blur with selectable two or three dimensional shape
+|[pRose3D](rosecurve/rosecurve.md#pRose3D) | Rose curve with three dimensional shaping
+| |
+|[rose_wf](rosecurve/rosecurve.md#rose_wf) | Simple rose curve
 | |
 |[sineblur](blurs/blurs.md#sineblur) | A circle with a shading effect
 |[sphereblur](blurs/blurs.md#sphereblur) | 3D version of sineblur
