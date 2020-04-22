@@ -6,9 +6,9 @@ Maurer lines extend the Maurer rose (see [maurer_rose](../rosecurve/rosecurve.md
 ## maurer_lines
 Generalized string art
 
-Type: 2D half-blur with 3D, Direct Color, and full-blur options
-Author: Gregg Helt (cozyg)
-Date: 30 Sep 2017
+Type: 2D half-blur with 3D, Direct Color, and full-blur options  
+Author: Gregg Helt (cozyg)  
+Date: 30 Sep 2017  
 
 ![](maurer_lines-1.png) ![](maurer_lines-2.png)
 
