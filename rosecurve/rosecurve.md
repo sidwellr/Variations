@@ -55,12 +55,35 @@ Author: cyberxaos
 | holes | 1 is normal. Larger values both increase the flower size and add holes in the center. Smaller values (down to 0.5) shrink the flower size and, if petals is odd, grow new petals in the spaces between the main ones. |
 | petals | The frequency of the rose curve. Normally an integer; produces this many petals when odd, or twice as many when even. Other values are allowed and produce intermediate results (but won't produce the entire curve). |
 
+## maurer_rose
+String art on a rose curve.
+
+Type: 2D half-blur
+Author: Gregg Helt (cozyg)
+Date: 30 Sep 2017
+
+![](maurer_rose-1.png) ![](maurer_rose-2.png)
+
+| Parameter | Description |
+| --- | --- |
+| kn | Rose curve numerator |
+| kd | Rose curve denominator |
+| c | Rose curve offset (addition to rose curve equation) |
+| line_offset_degrees | Step size from one endpoint to the next along the rose curve, in degrees. Think of driving 360 nails along the rose curve; this is the number of nails between endpoints of each Maurer line. |
+| line_count | Number of Maurer lines to display (fewer will be visible when they overlap); increase the value if there are unwanted gaps in the result |
+| show_lines | Relative density of the Maurer lines (0 to hide them) |
+| show_points | Relative density of the endpoints (0 to hide them) |
+| show_curve | Relative density of the rose curve (0 to hide it) |
+| line_thickness | Thickness of the Maurer lines |
+| point_thickness | Thickness of the endpoints |
+| curve_thickness | Thickness of the rose curve |
+
 ## pRose3D
 Rose curve with three dimensional shaping
 
-Type: 3D half-blur
-Author: Larry Berlin (aporev)
-Date: 15 Oct 2009
+Type: 3D half-blur  
+Author: Larry Berlin (aporev)  
+Date: 15 Oct 2009  
 
 ![](pRose3D-1.png) ![](pRose3D-2.png)
 
