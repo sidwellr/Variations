@@ -29,6 +29,7 @@
 |[gaussian_blur](blurs/blurs.md#gaussian_blur) | Fuzzy circle with a bright center, made from a Gaussian distribution
 | |
 |[inversion](inversion/inversion.md#inversion-1) | Generalizes 2D circle inversion; same as spherical with the default parameters
+|[isosfplot3d_wf](plotting/plotting.md#isosfplot3d_wf) | Isosurface plot (plots points where the value of a function is near zero)
 | |
 |[linear](linear/linear.md#linear-1) | Copy the input (x and y only)
 |[linear3D](linear/linear.md#linear3D) | Copy the input (x, y, and z)
@@ -43,9 +44,11 @@
 |[ovoid](inversion/inversion.md#ovoid) | Spherical with x and y scaling
 |[ovoid3D](inversion/inversion.md#ovoid3D) | Spherical with x, y, and z scaling
 | |
+|[parplot2d_wf](plotting/plotting.md#parplot2d_wf) | Parametric equation surface plot (2D surface plotted in three dimensions)
 |[pie](blurs/blurs.md#pie) | A circle with wedges missing, like pieces of pie |
 |[pie_fl](blurs/blurs.md#pie_fl) | Fluid version of pie, allows fractional value for slices |
 |[pie3D](blurs/blurs.md#pie3D) | Three dimensional version of pie |
+|[polarplot2d_wf](plotting/plotting.md#polarplot2d_wf) | Plot, in polar coordinates, rho in terms of theta, with 3D extrusion
 |[post_spherical](inversion/inversion.md#spherical) | Reflects the plane across the unit circle
 |[pre_blur](blurs/blurs.md#pre_blur) | Pre version of gaussian_blur
 |[pre_blur3D](blurs/blurs.md#blur3D--pre_blur3D) | Three dimensional Gaussian blur
@@ -71,3 +74,6 @@
 | |
 |[xheart_blur_wf](blurs/blurs.md#xheart_blur_wf) | Heart shaped blur
 |[xtrb](boarders/boarders.md#xtrb) | Modification of tri_boarders2 with extra parameters
+| |
+|[yplot2d_wf](plotting/plotting.md#yplot2d_wf) | Plot y in terms of x, with 3D extrusion
+|[yplot3d_wf](plotting/plotting.md#yplot3d_wf) | Plot y in terms of x and z
