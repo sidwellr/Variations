@@ -4,8 +4,8 @@ These variations are all blurs that plot formulas in two or three dimensions. Th
 ## isosfplot3d_wf
 Isosurface plot (plots points where the value of a function is near zero).
 
-Type: 3D blur  
-Author: Andreas Maschke (thorgor6)  
+Type: 3D blur (DC and colormap options)  
+Author: Andreas Maschke (thargor6)  
 Date: 6 Jan 2017  
 
 ![](isosfplot3d-1.png) ![](isosfplot3d-2.png)
@@ -15,7 +15,7 @@ Date: 6 Jan 2017
 | Parameter | Description |
 | --- | --- |
 | formula | The formula to use; it can use "x", "y", "z", and "param_a" through "param_f" as well as constants and standard math functions. Changing preset_id will overwrite it with the preset formula. |
-| colormap_filename | The file containing the colormap used with color_mode 0 |
+| colormap_filename | The file containing the colormap used with color_modes 0-2 |
 | preset_id | The preset to use; set to -1 to not use a preset |
 | xmin, xmax | The range for x in the iso formula; used to generate the plot |
 | ymin, ymax | The range for y in the iso formula; used to generate the plot |
@@ -32,8 +32,8 @@ https://github.com/thargor6/JWildfire/blob/master/src/org/jwildfire/create/tina/
 ## parplot2d_wf
 Parametric equation surface plot (2D surface plotted in three dimensions).
 
-Type: 3D blur  (but can be normal)  
-Author: Andreas Maschke (thorgor6)  
+Type: 3D blur (but can be normal, DC and colormap options)  
+Author: Andreas Maschke (thargor6)  
 Date: 29 Nov 2016  
 
 ![](parplot2d-1.png) ![](parplot2d-2.png)
@@ -64,7 +64,7 @@ Plot, in polar coordinates, rho in terms of theta, with 3D extrusion.
 
 *Note that this is not available in JWildfire version 5.5 and earlier. It will be in later versions.*
 
-Type: 3D blur  
+Type: 3D blur (DC and colormap options)  
 Author: Rick Sidwell  
 Date: 22 Apr 2020  
 
@@ -91,8 +91,8 @@ https://github.com/thargor6/JWildfire/blob/master/src/org/jwildfire/create/tina/
 ## yplot2d_wf
 Plot y in terms of x, with 3D extrusion.
 
-Type: 3D blur  
-Author: Andreas Maschke (thorgor6)  
+Type: 3D blur (DC and colormap options)  
+Author: Andreas Maschke (thargor6)  
 Date: 29 Nov 2016  
 
 ![](yplot2d-1.png) ![](yplot2d-2.png)
@@ -119,8 +119,8 @@ https://happy-stars.deviantart.com/art/Color-and-Displacement-Variables-HelpfulH
 ## yplot3d_wf
 Plot y in terms of x and z.
 
-Type: 3D blur  
-Author: Andreas Maschke (thorgor6)  
+Type: 3D blur (DC and colormap options)  
+Author: Andreas Maschke (thargor6)  
 Date: 29 Nov 2016  
 
 ![](yplot3d-1.png) ![](yplot3d-2.png)
