@@ -20,6 +20,7 @@
 |[dc_linear](linear/linear.md#dc_linear) | Direct color version of linear3D
 |[droste](cpow/cpow.md#droste) | Implements Escher's map using logarithms; same effect as escher
 | |
+|[eJulia](julia/julia.md#eJulia) | Polynomial Julia sets in elliptic coordinates
 |[epispiral](rosecurve/rosecurve.md#epispiral) | An inside-out rose curve, known as an epispiral curve
 |[epispiral_wf](rosecurve/rosecurve.md#epispiral_wf) | Alternate version of epispiral
 |[escher](cpow/cpow.md#escher) | Implements Escher’s Map
@@ -30,6 +31,16 @@
 | |
 |[inversion](inversion/inversion.md#inversion-1) | Generalizes 2D circle inversion; same as spherical with the default parameters
 |[isosfplot3d_wf](plotting/plotting.md#isosfplot3d_wf) | Isosurface plot (plots points where the value of a function is near zero)
+| |
+|[julia](julia/julia.md#julia-1) | Classic quadratic Julia set (deprecated; use julian with power=2)
+|[julia3D](julia/julia.md#julia3D) | Classic polynomial Julia set with 3D extrusion
+|[julia3Dq](julia/julia.md#julia3Dq) | Julia set using a rational power with 3D extrusion
+|[julia3Dz](julia/julia.md#julia3Dz) | Classic polynomial Julia set with 3D extrusion
+|[juliac](julia/julia.md#juliac) | Julia set using a complex power
+|[julian](julia/julia.md#julian) | Classic polynomial Julia set
+|[julian2](julia/julia.md#julian2) | Julian with an integrated affine transform
+|[julian3Dx](julia/julia.md#julian3Dx) | Julian2 with 3D wave effect
+|[juliaq](julia/julia.md#juliaq) | Julia set using a rational power
 | |
 |[linear](linear/linear.md#linear-1) | Copy the input (x and y only)
 |[linear3D](linear/linear.md#linear3D) | Copy the input (x, y, and z)
@@ -45,10 +56,14 @@
 |[ovoid3D](inversion/inversion.md#ovoid3D) | Spherical with x, y, and z scaling
 | |
 |[parplot2d_wf](plotting/plotting.md#parplot2d_wf) | Parametric equation surface plot (2D surface plotted in three dimensions)
-|[pie](blurs/blurs.md#pie) | A circle with wedges missing, like pieces of pie |
-|[pie_fl](blurs/blurs.md#pie_fl) | Fluid version of pie, allows fractional value for slices |
-|[pie3D](blurs/blurs.md#pie3D) | Three dimensional version of pie |
+|[phoenix_julia](julia/julia.md#phoenix_julia) | Julian with extra distortion parameters
+|[pie](blurs/blurs.md#pie) | A circle with wedges missing, like pieces of pie
+|[pie_fl](blurs/blurs.md#pie_fl) | Fluid version of pie, allows fractional value for slices
+|[pie3D](blurs/blurs.md#pie3D) | Three dimensional version of pie
 |[polarplot2d_wf](plotting/plotting.md#polarplot2d_wf) | Plot, in polar coordinates, rho in terms of theta, with 3D extrusion
+|[post_julia3Dq](julia/julia.md#julia3Dq) | Julia set using a rational power with 3D extrusion
+|[post_julian2](julia/julia.md#julian2) | Julian with an integrated affine transform
+|[post_juliaq](julia/julia.md#juliaq) | Julia set using a rational power
 |[post_spherical](inversion/inversion.md#spherical) | Reflects the plane across the unit circle
 |[pre_blur](blurs/blurs.md#pre_blur) | Pre version of gaussian_blur
 |[pre_blur3D](blurs/blurs.md#blur3D--pre_blur3D) | Three dimensional Gaussian blur
