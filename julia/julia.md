@@ -1,12 +1,12 @@
 # Julia
-Variations based on polynomial Julia sets. For escape time fractals, the formula is $z → z^n + c$. For flames, the mapping is reversed and the $+c$ part is done by the affine transform, so these variations basically take the root of the input taken as a complex number, returning one of the results at random.
+Variations based on polynomial Julia sets. For escape time fractals, the formula is *z → z^n + c*. For flames, the mapping is reversed and the *"+ c"* part is done by the affine transform, so these variations basically take the root of the input taken as a complex number, returning one of the results at random.
 
 ## eJulia
 Polynomial Julia sets in elliptic coordinates
 
-Type: 2D
-Author: Michael Faber
-Date: 24 Jun 2012
+Type: 2D  
+Author: Michael Faber  
+Date: 24 Jun 2012  
 
 ![](eJulia-1.png)
 
@@ -126,7 +126,7 @@ Date: 11 Sep 2009
 | --- | --- |
 | power | The power for the polynomial; 2 for quadratic. Must be an integer. Negative values are allowed and return the reciprocal. |
 | dist | Distortion factor; increase to stretch the result and help fill in the hole normally left in the middle. Negative values do an inversion (aka spherical). |
-| a - f | Affine coefficients: $(x,y) → (ax+by+e, cx+dy+f)$ |
+| a - f | Affine coefficients: *(x,y) → (ax+by+e, cx+dy+f)* |
 
 https://xyrus02.deviantart.com/art/JuliaN2-Plugin-for-Apophysis-136717838 (Defunct)
 
@@ -143,7 +143,7 @@ Date: 21 May 2014
 | --- | --- |
 | power | The power for the polynomial; 2 for quadratic. Must be an integer. Negative values are allowed and return the reciprocal. |
 | dist | Distortion factor; increase to stretch the result and help fill in the hole normally left in the middle. Negative values do an inversion (aka spherical). |
-| a - f | Affine coefficients: $(x,y) → (ax+by+e, cx+dy+f)$ |
+| a - f | Affine coefficients: *(x,y) → (ax+by+e, cx+dy+f)* |
 
 http://xyrus-02.deviantart.com/art/julian3Dx-Plugin-for-Apophysis-455502519 (Defunct)
 
