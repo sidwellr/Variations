@@ -1,6 +1,8 @@
 # Julia
 Variations based on polynomial Julia sets. For escape time fractals, the formula is *z → z^n + c*. For flames, the mapping is reversed and the *"+ c"* part is done by the affine transform, so these variations basically take the root of the input taken as a complex number, returning one of the results at random.
 
+Based on complex numbers, the Julia transform is two dimensional by nature. Some 3D Julia variants have been written, but the 3D transformation is not related to the basic Julia operation.
+
 ## eJulia
 Polynomial Julia sets in elliptic coordinates
 
@@ -38,6 +40,19 @@ Author: Joel Faber
 | --- | --- |
 | power | The power for the polynomial; 2 for quadratic. Must be an integer. Negative values are allowed and return the reciprocal. |
 
+## julia3D_fl
+"Fluid" version of julia3D; allows fractional values for power.
+
+Type: 3D  
+Author: Fred E (morphapoph)  
+Date: 8 Sep 2010
+
+| Parameter | Description |
+| --- | --- |
+| power | The power for the polynomial; 2 for quadratic. May be fractional. Negative values are allowed and return the reciprocal. |
+
+https://www.deviantart.com/morphapoph/art/Apo-Anim-friendly-Plugins-178559281
+
 ## julia3Dq
 Julia set using a rational power with 3D extrusion. Also post_julia3Dq.
 
@@ -65,6 +80,19 @@ Type: 3D
 | --- | --- |
 | power | The power for the polynomial; 2 for quadratic. Must be an integer. Negative values are allowed and return the reciprocal. |
 
+## julia3Dz_fl
+"Fluid" version of julia3Dz; allows fractional values for power
+
+Type: 3D  
+Author: Fred E (morphapoph)  
+Date: 8 Sep 2010
+
+| Parameter | Description |
+| --- | --- |
+| power | The power for the polynomial; 2 for quadratic. May be fractional. Negative values are allowed and return the reciprocal. |
+
+https://www.deviantart.com/morphapoph/art/Apo-Anim-friendly-Plugins-178559281
+
 ## juliac
 Julia set using a complex power.
 
@@ -82,6 +110,24 @@ Date: 9 Sep 2008
 
 https://www.deviantart.com/sc0t0ma/art/Juliac-97512904  
 
+## juliacomplex
+Julia set using a complex power.
+
+Type: 2D  
+Author: Luca G (dark-beam)  
+Date: 21 Nov 2011  
+
+![](juliacomplex-1.png)
+
+| Parameter | Description |
+| --- | --- |
+| Re_p | The real part of the complex power. Negative values are allowed and return the reciprocal. |
+| Im_p | The imaginary part of the complex power. |
+| dist | Distortion factor; increase to stretch the result and help fill in the hole normally left in the middle. Negative values do an inversion (aka spherical). |
+| logadd | An addition to the imaginary part; changes the shape of the "blades" |
+
+https://www.deviantart.com/dark-beam/art/Juliacomplex-apoplugin-270181347
+
 ## julian
 Classic polynomial Julia set
 
@@ -90,6 +136,8 @@ Author: Scott Draves
 Date: 15 Apr 2006  
 
 ![](julian-1.png) ![](julian-2.png)
+
+Often referenced as "juliaN" to emphasize it is julia with an "N" parameter, but the variation name is all lower case.
 
 | Parameter | Description |
 | --- | --- |
@@ -113,6 +161,20 @@ http://cosmic-cuttlefish.deviantart.com/art/Tutorial-Fractal-Stars-315456570
 https://chronologicaldot.wordpress.com/2014/04/05/how-julia-transforms-work/  
 https://www.deviantart.com/meckie/art/Simple-3D-Julian-and-DOF-Tut-77364026  
 
+## julian_fl
+"Fluid" version of julian; allows fractional values for power
+
+Type: 3D  
+Author: Fred E (morphapoph)  
+Date: 8 Sep 2010
+
+| Parameter | Description |
+| --- | --- |
+| power | The power for the polynomial; 2 for quadratic. May be fractional. Negative values are allowed and return the reciprocal. |
+| dist | Distortion factor; increase to stretch the result and help fill in the hole normally left in the middle. Negative values do an inversion (aka spherical). |
+
+https://www.deviantart.com/morphapoph/art/Apo-Anim-friendly-Plugins-178559281
+
 ## julian2
 Julian with an integrated affine transform. Also post_julian2.
 
@@ -120,7 +182,7 @@ Type: 2D
 Author: Georg Kiehne (xyrus02)  
 Date: 11 Sep 2009
 
-![](julian2-1.png)
+![](julian2-1.png) ![](julian2-2.png)
 
 | Parameter | Description |
 | --- | --- |
@@ -129,6 +191,25 @@ Date: 11 Sep 2009
 | a - f | Affine coefficients: *(x,y) → (ax+by+e, cx+dy+f)* |
 
 https://xyrus02.deviantart.com/art/JuliaN2-Plugin-for-Apophysis-136717838 (Defunct)
+
+## julian2dc
+Julian2 with direct color.
+
+Type: 2D Direct Color  
+Author: Georg Kiehne (xyrus02)  
+Date: 16 Dec 2010  
+
+![](julian2dc-1.png)
+
+| Parameter | Description |
+| --- | --- |
+| power | The power for the polynomial; 2 for quadratic. Must be an integer. Negative values are allowed and return the reciprocal. |
+| dist | Distortion factor; increase to stretch the result and help fill in the hole normally left in the middle. Negative values do an inversion (aka spherical). |
+| col | Controls direct color; 0 for radial, 1 for circles, others for spiral
+| a - f | Affine coefficients: *(x,y) → (ax+by+e, cx+dy+f)* |
+
+http://xyrus-worx.org/Content/apophysis.directcolor.php (Defunct)
+https://sourceforge.net/p/apo-plugins/code/HEAD/tree/personal/georgkiehne/julian2dc.c
 
 ## julian3Dx
 Julian2 with 3D wave effect
@@ -146,6 +227,24 @@ Date: 21 May 2014
 | a - f | Affine coefficients: *(x,y) → (ax+by+e, cx+dy+f)* |
 
 http://xyrus-02.deviantart.com/art/julian3Dx-Plugin-for-Apophysis-455502519 (Defunct)
+
+## juliaNab
+Variant of julian with different parameters.
+
+Type: 2D  
+Author: Ffey  
+Date: 2 Aug 2011  
+
+![](juliaNab-1.png)
+
+| Parameter | Description |
+| --- | --- |
+| n | The power for the polynomial; same as julian parameter power |
+| a | Distortion factor; same as julian parameter dist |
+| b | Added to x and y; shifts result diagonally |
+| separ | Power for x; integers work best |
+
+http://ffey.deviantart.com/art/apoplugin-juliaNab-246311162 (Defunct)
 
 ## juliaq
 Julia set using a rational power. Also post_juliaq.

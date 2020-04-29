@@ -34,12 +34,18 @@
 | |
 |[julia](julia/julia.md#julia-1) | Classic quadratic Julia set (deprecated; use julian with power=2)
 |[julia3D](julia/julia.md#julia3D) | Classic polynomial Julia set with 3D extrusion
+|[julia3D_fl](julia/julia.md#julia3D_fl) | "Fluid" version of julia3D; allows fractional values for power
 |[julia3Dq](julia/julia.md#julia3Dq) | Julia set using a rational power with 3D extrusion
 |[julia3Dz](julia/julia.md#julia3Dz) | Classic polynomial Julia set with 3D extrusion
+|[julia3Dz_fl](julia/julia.md#julia3Dz_fl) | "Fluid" version of julia3Dz; allows fractional values for power
 |[juliac](julia/julia.md#juliac) | Julia set using a complex power
+|[juliacomplex](julia/julia.md#juliacomplex) | Julia set using a complex power
 |[julian](julia/julia.md#julian) | Classic polynomial Julia set
+|[julian_fl](julia/julia.md#julian_fl) | "Fluid" version of julian; allows fractional values for power
 |[julian2](julia/julia.md#julian2) | Julian with an integrated affine transform
+|[julian2dc](julia/julia.md#julian2dc) | Julian2 with direct color
 |[julian3Dx](julia/julia.md#julian3Dx) | Julian2 with 3D wave effect
+|[juliaNab](julia/julia.md#juliaNab) | Variant of julian with different parameters
 |[juliaq](julia/julia.md#juliaq) | Julia set using a rational power
 | |
 |[linear](linear/linear.md#linear-1) | Copy the input (x and y only)
