@@ -208,7 +208,7 @@ Date: 16 Dec 2010
 | col | Controls direct color; 0 for radial, 1 for circles, others for spiral
 | a - f | Affine coefficients: *(x,y) → (ax+by+e, cx+dy+f)* |
 
-http://xyrus-worx.org/Content/apophysis.directcolor.php (Defunct)
+http://xyrus-worx.org/Content/apophysis.directcolor.php (Defunct)  
 https://sourceforge.net/p/apo-plugins/code/HEAD/tree/personal/georgkiehne/julian2dc.c
 
 ## julian3Dx
@@ -266,7 +266,7 @@ https://www.deviantart.com/zueuk/art/juliaq-Apophysis-plugins-340813357
 Julian with extra distortion parameters.
 
 Type: 2D  
-Author: Chris Johns (TyrantWave)
+Author: Chris Johns (TyrantWave)  
 Date: 2 May 2009
 
 ![](phoenix_julia-1.png)
