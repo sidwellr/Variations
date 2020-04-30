@@ -11,6 +11,7 @@
 |[boarders2](boarders/boarders.md#boarders2--pre_boarders2) | Adds some parameters to boarders
 | |
 |[circleblur](blurs/blurs.md#circleblur) | Circle with even coloring
+|[clifford_js](attractors/attractors.md#clifford_js) | Strange attractor attributed to Cliff Pickover
 |[cpow](cpow/cpow.md#cpow) | Raise input point to a complex power specified by its real and imaginary parts
 |[cpow2](cpow/cpow.md#cpow2) | Raise input point to a complex power specified in polar coordinates
 |[cpow3](cpow/cpow.md#cpow3) | Raise input point to a complex power to produce a spiral
@@ -28,6 +29,8 @@
 |[flower](rosecurve/rosecurve.md#flower) | Filled-in rose curve; looks like a flower with petals
 | |
 |[gaussian_blur](blurs/blurs.md#gaussian_blur) | Fuzzy circle with a bright center, made from a Gaussian distribution
+| |
+|[henon](attractors/attractors.md#henon) | Strange attractor discovered by Michel Hénon
 | |
 |[inversion](inversion/inversion.md#inversion-1) | Generalizes 2D circle inversion; same as spherical with the default parameters
 |[isosfplot3d_wf](plotting/plotting.md#isosfplot3d_wf) | Isosurface plot (plots points where the value of a function is near zero)
@@ -52,7 +55,10 @@
 |[linear3D](linear/linear.md#linear3D) | Copy the input (x, y, and z)
 |[linearT](linear/linear.md#linearT) | Tweak of linear, adding an exponent for x and y
 |[linearT3D](linear/linear.md#linearT3D) | Tweak of linear3D, adding an exponent for x, y, and z
+|[lorenz_js](attractors/attractors#lorenz_js) | Strange attractor first studied by Edward Lorenz
+|[lozi](attractors/attractors.md#lozi) | Strange attractor discovered by René Lozi
 | |
+|[macmillan](attractors/attractors.md#macmillan) | Perturbed McMillan map (studied by Edwin McMillan)
 |[maurer_lines](maurerlines/maurerlines.md#maurer_lines) | Generalized string art
 |[maurer_rose](rosecurve/rosecurve.md#maurer_rose) | String art on a rose curve
 | |
@@ -62,6 +68,7 @@
 |[ovoid3D](inversion/inversion.md#ovoid3D) | Spherical with x, y, and z scaling
 | |
 |[parplot2d_wf](plotting/plotting.md#parplot2d_wf) | Parametric equation surface plot (2D surface plotted in three dimensions)
+|[pdj](attractors/attractors.md#pdj) | Peter de Jong attractor
 |[phoenix_julia](julia/julia.md#phoenix_julia) | Julian with extra distortion parameters
 |[pie](blurs/blurs.md#pie) | A circle with wedges missing, like pieces of pie
 |[pie_fl](blurs/blurs.md#pie_fl) | Fluid version of pie, allows fractional value for slices
@@ -88,6 +95,7 @@
 |[square](blurs/blurs.md#square) | Square shaped blur
 |[square3D](blurs/blurs.md#square3D) | Cube shaped blur
 |[starblur](blurs/blurs.md#starblur) | Star shaped blur
+|[svensson_js](attractors/attractors.md#svensson_js) | Johnny Svensson attractor
 | |
 |[tri_boarders2](boarders/boarders.md#tri_boarders2) | Divide the plane into hexagons with borders
 | |
