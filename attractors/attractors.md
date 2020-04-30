@@ -75,9 +75,9 @@ https://mathworld.wolfram.com/LoziMap.html
 ## macmillan
 Perturbed McMillan map (studied by Edwin McMillan)
 
-Type: 2D blur
-Author: Jesus Sosa
-Date: 29 Mar 2018
+Type: 2D blur  
+Author: Jesus Sosa  
+Date: 29 Mar 2018  
 
 ![](macmillan-1.png)
 

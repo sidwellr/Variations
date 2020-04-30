@@ -55,7 +55,7 @@
 |[linear3D](linear/linear.md#linear3D) | Copy the input (x, y, and z)
 |[linearT](linear/linear.md#linearT) | Tweak of linear, adding an exponent for x and y
 |[linearT3D](linear/linear.md#linearT3D) | Tweak of linear3D, adding an exponent for x, y, and z
-|[lorenz_js](attractors/attractors#lorenz_js) | Strange attractor first studied by Edward Lorenz
+|[lorenz_js](attractors/attractors.md#lorenz_js) | Strange attractor first studied by Edward Lorenz
 |[lozi](attractors/attractors.md#lozi) | Strange attractor discovered by René Lozi
 | |
 |[macmillan](attractors/attractors.md#macmillan) | Perturbed McMillan map (studied by Edwin McMillan)
