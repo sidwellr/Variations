@@ -87,6 +87,8 @@
 | |
 |[rose_wf](rosecurve/rosecurve.md#rose_wf) | Simple rose curve
 | |
+|[sattractor3D](attractors/attractors.md#sattractor3D) | Generate a 3D mesh from differential equations
+|[sattractor_js](attractors/attractors.md#sattractor_js) | A strange attractor attributed to Roger Bagula
 |[sineblur](blurs/blurs.md#sineblur) | A circle with a shading effect
 |[sphereblur](blurs/blurs.md#sphereblur) | 3D version of sineblur
 |[spherical](inversion/inversion.md#spherical) | Reflects the plane across the unit circle
