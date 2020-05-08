@@ -68,6 +68,7 @@
 |[ovoid3D](inversion/inversion.md#ovoid3D) | Spherical with x, y, and z scaling
 | |
 |[parplot2d_wf](plotting/plotting.md#parplot2d_wf) | Parametric equation surface plot (2D surface plotted in three dimensions)
+|[parplot3d_wf](plotting/plotting.md#parplot3d_wf) | Plot rho in terms of theta and phi (spherical coordinates) or theta and (cylindrical coordinates)
 |[pdj](attractors/attractors.md#pdj) | Peter de Jong attractor
 |[phoenix_julia](julia/julia.md#phoenix_julia) | Julian with extra distortion parameters
 |[pie](blurs/blurs.md#pie) | A circle with wedges missing, like pieces of pie

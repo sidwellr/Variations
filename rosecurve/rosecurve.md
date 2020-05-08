@@ -106,7 +106,35 @@ Date: 15 Oct 2009
 | wigsc | Wiggle scale (circumference effects) |
 | offset | Wiggle offset |
 
-https://www.deviantart.com/aporev/art/pRose3D-Plugin-140417044
+https://www.deviantart.com/aporev/art/pRose3D-Plugin-140417044  
+
+## rhodonea
+Advanced rose curve
+
+Type: 2D (can be half-blur or crop)  
+Author: Gregg Helt (cozyg)  
+Date: 24 May 2015  
+
+![](rhodonea-1.png) ![](rhodonea-2.png)
+
+| Parameter | Description |
+| --- | --- |
+| knumer | Rose curve numerator |
+| kdenom | Rose curve denominator |
+| inner_mode | Transform mode when input point is on or inside the curve:<br>0 - Curve only<br>1 - Spread mode 1<br>2 - Spread mode 2<br>3 - Spread mode 3<br>4 - Spread mode 4<br>5 - Mask inside the curve<br>6 - Mask outside the curve |
+| outer_mode | Transform mode when input point is outside the curve (values same as inner_mode) |
+| inner_spread | Spread amount for inner_modes 1-4 |
+| outer_spread | Spread amount for outer_modes 1-4 |
+| inner_spread_ratio | The x to y ratio for inner_spread; 1 for normal, larger to shrink x, smaller to expand x |
+| outer_spread_ratio | The x to y ratio for outer_spread; 1 for normal, larger to expand x, smaller to shrink x |
+| spread_split | Ratio between inner and outer spread; 1 to make them equal, larger to make outer spread larger |
+| fill | Amount to thicken curve
+| radial_offset | Rose curve offset (addition to rose curve equation) |
+| cycles | Number of cycles to plot: 0 to calculate automatically; set manually if needed (may be fractional, for example 0.5 for half a cycle) |
+| cycle_offset | Offset for input points, in radians |
+| metacycles | Number of times to repeat the curve if cycles is 0 (calculated automatically) |
+| metacycle_expansion | Amount to expand (or contract if negative) repeated closed cycles |
+
 
 ## rose_wf
 Simple rose curve.

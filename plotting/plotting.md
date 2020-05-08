@@ -62,8 +62,6 @@ https://happy-stars.deviantart.com/art/Color-and-Displacement-Variables-HelpfulH
 ## polarplot2d_wf
 Plot, in polar coordinates, rho in terms of theta, with 3D extrusion.
 
-*Note that this is not available in JWildfire version 5.5 and earlier. It will be in later versions.*
-
 Type: 3D blur (DC and colormap options)  
 Author: Rick Sidwell  
 Date: 22 Apr 2020  
@@ -87,6 +85,34 @@ Date: 22 Apr 2020
 | param_a through param_f | Values that can be used by the formula to parameterize it; parameters not used in the formula are ignored |
 
 https://github.com/thargor6/JWildfire/blob/master/src/org/jwildfire/create/tina/variation/plot/polarplot2d_wf_presets.txt  
+
+## polarplot3d_wf
+Plot rho in terms of theta and phi (spherical coordinates) or theta and (cylindrical coordinates).
+
+Type: 3D blur (DC and colormap options)  
+Author: Rick Sidwell  
+Date: 22 Apr 2020  
+
+![](polarplot3d-1.png) ![](polarplot3d-2.png)
+
+| Parameter | Description |
+| --- | --- |
+| formula | The formula to use; it returns the value for rho, and can use "t" (for theta), "u" (for either phi or z) and "param_a" through "param_f" as well as constants and standard math functions. Changing preset_id will overwrite it with the preset formula. |
+| colormap_filename | The file containing the colormap used with color_mode 0 |
+| displ_map_filename | The file containing the displacement map |
+| preset_id | The preset to use; set to -1 to not use a preset |
+| tmin, tmax | The range for theta; used to generate the plot |
+| umin, umax | The range for u, representing phi or z; used to generate the plot |
+| rmin, rmax | The range for rho, used only with color_mode 2; it does not constrain the plot, but set these parameters to the range of the plot for maximum color distribution when using color_mode 2 |
+| cylindrical | 0: Use spherical coordinates (u represents phi)<br>1: Use cylindrical coordinates (u represents z) |
+| direct_color | 0: Don't use direct color<br>1: Use direct color |
+| color_mode | The mode when using direct color<br>0: Use the specified colormap<br>1: Use the theta value<br>2: Use the u (for phi or z) value<br>3: use the rho value<br>4: Use a combination of theta and phi/z |
+| blend_color | Whether to blend colormap colors with surrounding colors (color_mode 0 only)<br>0: Don't blend colors<br>1: Blend colors |
+| displ_amount | Scaling for the displacement map; 0 to disable displacement |
+| blend_displ_map | Whether to blend values from the displacement map<br>0: Don't blend values<br>1: Blend values |
+| param_a through param_f | Values that can be used by the formula to parameterize it; parameters not used in the formula are ignored |
+
+https://github.com/thargor6/JWildfire/blob/master/src/org/jwildfire/create/tina/variation/plot/polarplot3d_wf_presets.txt  
 
 ## yplot2d_wf
 Plot y in terms of x, with 3D extrusion.
