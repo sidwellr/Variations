@@ -68,13 +68,13 @@
 |[ovoid3D](inversion/inversion.md#ovoid3D) | Spherical with x, y, and z scaling
 | |
 |[parplot2d_wf](plotting/plotting.md#parplot2d_wf) | Parametric equation surface plot (2D surface plotted in three dimensions)
-|[parplot3d_wf](plotting/plotting.md#parplot3d_wf) | Plot rho in terms of theta and phi (spherical coordinates) or theta and (cylindrical coordinates)
 |[pdj](attractors/attractors.md#pdj) | Peter de Jong attractor
 |[phoenix_julia](julia/julia.md#phoenix_julia) | Julian with extra distortion parameters
 |[pie](blurs/blurs.md#pie) | A circle with wedges missing, like pieces of pie
 |[pie_fl](blurs/blurs.md#pie_fl) | Fluid version of pie, allows fractional value for slices
 |[pie3D](blurs/blurs.md#pie3D) | Three dimensional version of pie
 |[polarplot2d_wf](plotting/plotting.md#polarplot2d_wf) | Plot, in polar coordinates, rho in terms of theta, with 3D extrusion
+|[polarplot3d_wf](plotting/plotting.md#polarplot3d_wf) | Plot rho in terms of theta and phi (spherical coordinates) or theta and (cylindrical coordinates)
 |[post_julia3Dq](julia/julia.md#julia3Dq) | Julia set using a rational power with 3D extrusion
 |[post_julian2](julia/julia.md#julian2) | Julian with an integrated affine transform
 |[post_juliaq](julia/julia.md#juliaq) | Julia set using a rational power
@@ -86,6 +86,7 @@
 |[primitives_wf](blurs/blurs.md#primitives_wf) | Blur with selectable two or three dimensional shape
 |[pRose3D](rosecurve/rosecurve.md#pRose3D) | Rose curve with three dimensional shaping
 | |
+|[rhodonea](rosecurve/rosecurve.md#rhodonea) | Advanced rose curve
 |[rose_wf](rosecurve/rosecurve.md#rose_wf) | Simple rose curve
 | |
 |[sattractor3D](attractors/attractors.md#sattractor3D) | Generate a 3D mesh from differential equations
