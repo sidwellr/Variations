@@ -6,7 +6,7 @@ Summaries of related variations are grouped together. This page lists the groups
 
 These variations use the formulas for strange attractors.
 
-[![](attractors/clifford-1.png)](attractors/attractors.md#clifford)
+[![](attractors/clifford-1.png)](attractors/attractors.md#clifford_js)
 [![](attractors/gingerbread_man-1.png)](attractors/attractors.md#gingerbread_man)
 [![](attractors/gumowski_mira-1.png)](attractors/attractors.md#gumowski_mira)
 [![](attractors/henon-1.png)](attractors/attractors.md#henon)
@@ -32,7 +32,7 @@ Variations that ignore the input and generate specific shapes.
 [![](blurs/blur-1.png)](blurs/blurs.md#blur)
 [![](blurs/blur_heart-1.png)](blurs/blurs.md#blur_heart)
 [![](blurs/circleblur-1.png)](blurs/blurs.md#circleblur)
-[![](blurs/baussian_blur-1.png)](blurs/blurs.md#gaussian_blur)
+[![](blurs/gaussian_blur-1.png)](blurs/blurs.md#gaussian_blur)
 [![](blurs/nblur-1.png)](blurs/blurs.md#nBlur)
 [![](blurs/nblur-2.png)](blurs/blurs.md#nBlur)
 [![](blurs/pie-1.png)](blurs/blurs.md#pie)
@@ -61,14 +61,14 @@ Treats 2D points as complex numbers and raises them to a complex power that can 
 [![](cpow/escher-1.png)](cpow/cpow.md#escher)
 
 ## [Inversion](inversion/inversion.md#Inversion)
-[![](inversion/inversion-1.png)](inversion/inversion.md/inversion-1)
-[![](inversion/spherical-1.png)](inversion/inversion.md/spherical-1)
+[![](inversion/inversion-1.png)](inversion/inversion.md#inversion-1)
+[![](inversion/spherical-1.png)](inversion/inversion.md#spherical-1)
 
 ## [Julia](julia/julia.md#Julia)
 
 Variations based on polynomial Julia sets.
 
-[![](julia/ejulia-1.png)](julia/julia.md#eJulia)
+[![](julia/eJulia-1.png)](julia/julia.md#eJulia)
 [![](julia/julia3D-1.png)](julia/julia.md#julia3D)
 [![](julia/julia3Dq-1.png)](julia/julia.md#julia3Dq)
 [![](julia/julia3Dz-1.png)](julia/julia.md#julia3Dz)
@@ -90,7 +90,7 @@ Variations that just copy the input, some with minor modification.
 
 [![](linear/dc_linear-1.png)](linear/linear.md#dc_linear)
 [![](linear/dc_linear-2.png)](linear/linear.md#dc_linear)
-[![](linear/linear-1.png)](linear/linear.md#linear)
+[![](linear/linear-1.png)](linear/linear.md#linear-1)
 [![](linear/linearT-1.png)](linear/linear.md#linearT)
 
 ## [Maurer Lines](maurerlines/maurerlines.md#Maurer-Lines)
