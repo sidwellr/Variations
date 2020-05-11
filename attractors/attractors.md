@@ -16,6 +16,29 @@ Date:  4 Nov 2017
 
 http://paulbourke.net/fractals/clifford/  
 
+## gingerbread_man
+An attractor that resembles a gingerbread man.
+
+Type: 2D Blur  
+Author: Jesus Sosa  
+Date: 7 May 2019  
+
+![](gingerbread_man-1.png)
+
+https://mathworld.wolfram.com/GingerbreadmanMap.html  
+
+## gumowski_mira
+The strange attractor of Gumowski-Mira.
+
+Type: 2D Blur  
+Author: Jesus Sosa  
+Date: 7 May 2019  
+
+![](gumowski_mira-1.png)
+
+https://www.openprocessing.org/sketch/195425/  
+https://demonstrations.wolfram.com/StrangeAttractorOfGumowskiMira/  
+
 ## henon
 Strange attractor discovered by Michel Hénon.
 
@@ -32,6 +55,24 @@ Date: 6 Jun 2009
 https://www.deviantart.com/tyrantwave/art/Henon-and-Lozi-Apo-Plugins-125039554  
 https://mathworld.wolfram.com/HenonMap.html  
 https://en.wikipedia.org/wiki/H%C3%A9non_map  
+
+## hopalong
+Hopalong attractor, also known as the Martin map.
+
+Type: 2D Blur  
+Author: Jesus Sosa  
+Date: 7 May 2019  
+
+![](hopalong-1.png) ![](hopalong-2.png)
+
+| Parameter | Description |
+| --- | --- |
+| random | Setting random changes the other parameters to random values (the values will be the same for any value of random)
+| a - c | Variables that define the attractor |
+| startx, starty | Starting values for plotting the attractor
+
+http://www.fraktalwelt.de/myhome/simpiter2.html  
+https://www.youtube.com/watch?v=JhHugpABjDo  
 
 ## lorenz_js
 Strange attractor first studied by Edward Lorenz.
@@ -107,7 +148,7 @@ https://www.algosome.com/articles/strange-attractors-de-jong.html
 ## sattractor3D
 Generate a 3D mesh from differential equations.
 
-Type: 3D  
+Type: 3D blur  
 Author: Jesus Sosa  
 Data: 21 Feb 2018
 
@@ -169,3 +210,18 @@ Date: 12 Dec 2017
 | a - d | Variables that define the attractor |
 
 http://paulbourke.net/fractals/peterdejong/  
+
+## threeply
+A strange attractor named Three Ply
+
+Type: 2D Blur  
+Author: Jesus Sosa  
+Date: 7 May 2019  
+
+![](threeply-1.png) ![](threeply-2.png)
+
+| Parameter | Description |
+| --- | --- |
+| a - c | Variables that define the attractor |
+
+http://www.jamesh.id.au/fractals/orbit/threeply.html  

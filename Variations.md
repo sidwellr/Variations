@@ -29,8 +29,11 @@
 |[flower](rosecurve/rosecurve.md#flower) | Filled-in rose curve; looks like a flower with petals
 | |
 |[gaussian_blur](blurs/blurs.md#gaussian_blur) | Fuzzy circle with a bright center, made from a Gaussian distribution
+|[gingerbread_man](attractors/attractors.md#gingerbread_man) | An attractor that resembles a gingerbread man
+|[gumowski_mira](attractors/attractors.md#gumowski_mira) | The strange attractor of Gumowski-Mira
 | |
 |[henon](attractors/attractors.md#henon) | Strange attractor discovered by Michel Hénon
+|[hopalong](attractors/attractors.md#hopalong) | Hopalong attractor, also known as the Martin map
 | |
 |[inversion](inversion/inversion.md#inversion-1) | Generalizes 2D circle inversion; same as spherical with the default parameters
 |[isosfplot3d_wf](plotting/plotting.md#isosfplot3d_wf) | Isosurface plot (plots points where the value of a function is near zero)
@@ -101,6 +104,7 @@
 |[starblur](blurs/blurs.md#starblur) | Star shaped blur
 |[svensson_js](attractors/attractors.md#svensson_js) | Johnny Svensson attractor
 | |
+|[threeply](attractors/attractors.md#threeply) | A strange attractor named Three Ply
 |[tri_boarders2](boarders/boarders.md#tri_boarders2) | Divide the plane into hexagons with borders
 | |
 |[waveblur_wf](blurs/blurs.md#waveblur_wf) | Creates waves, like ripples in a pond
