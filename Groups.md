@@ -61,6 +61,9 @@ Treats 2D points as complex numbers and raises them to a complex power that can 
 [![](cpow/escher-1.png)](cpow/cpow.md#escher)
 
 ## [Inversion](inversion/inversion.md#Inversion)
+
+Variations that invert across various shapes, such as the unit circle.
+
 [![](inversion/inversion-1.png)](inversion/inversion.md#inversion-1)
 [![](inversion/spherical-1.png)](inversion/inversion.md#spherical-1)
 
