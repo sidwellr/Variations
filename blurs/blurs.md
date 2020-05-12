@@ -48,6 +48,8 @@ Three dimensional Gaussian blur.
 
 Type: 3D blur  
 
+![](blur3D-1.png)
+
 ## circleblur
 Circle with even coloring.
 
@@ -230,6 +232,21 @@ Negative values are allowed for both parameters, and can generate interesting sh
 
 https://www.deviantart.com/zy0rg/art/Blur-Package-347648919   
 
+## triangle
+Triangular blur (3D)
+
+Type: 3D blur  
+Author: Jesus Sosa  
+Date: 7 May 2020
+
+![](triangle-1.png)
+
+| Parameter | Description |
+| --- | --- |
+| x1, y1, z1 | Coordinates of the first vertex |
+| x2, y2, z2 | Coordinates of the second vertex |
+| x3, y3, z3 | Coordinates of the third vertex |
+
 ## waveblur_wf
 Creates waves, like ripples in a pond.
 
@@ -264,3 +281,8 @@ Based on xheart (which is not a blur).
 | --- | --- |
 | angle | Angle of the lobes in radians (offset from π/4) |
 | ratio | Stretch factor for the lobes |
+
+## zblur
+Gaussian blur for the z axis only (no effect on x or y).
+
+Type: 3D blur

@@ -21,7 +21,7 @@ An attractor that resembles a gingerbread man.
 
 Type: 2D Blur  
 Author: Jesus Sosa  
-Date: 7 May 2019  
+Date: 7 May 2020  
 
 ![](gingerbread_man-1.png)
 
@@ -32,7 +32,7 @@ The strange attractor of Gumowski-Mira.
 
 Type: 2D Blur  
 Author: Jesus Sosa  
-Date: 7 May 2019  
+Date: 7 May 2020  
 
 ![](gumowski_mira-1.png)
 
@@ -61,7 +61,7 @@ Hopalong attractor, also known as the Martin map.
 
 Type: 2D Blur  
 Author: Jesus Sosa  
-Date: 7 May 2019  
+Date: 7 May 2020  
 
 ![](hopalong-1.png) ![](hopalong-2.png)
 
@@ -216,7 +216,7 @@ A strange attractor named Three Ply
 
 Type: 2D Blur  
 Author: Jesus Sosa  
-Date: 7 May 2019  
+Date: 7 May 2020  
 
 ![](threeply-1.png) ![](threeply-2.png)
 

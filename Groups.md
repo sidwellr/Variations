@@ -31,6 +31,7 @@ Variations that ignore the input and generate specific shapes.
 
 [![](blurs/blur-1.png)](blurs/blurs.md#blur)
 [![](blurs/blur_heart-1.png)](blurs/blurs.md#blur_heart)
+[![](blurs/blur3D-1.png)](blurs/blurs.md#blur3D--pre_blur3D)
 [![](blurs/circleblur-1.png)](blurs/blurs.md#circleblur)
 [![](blurs/gaussian_blur-1.png)](blurs/blurs.md#gaussian_blur)
 [![](blurs/nblur-1.png)](blurs/blurs.md#nBlur)
@@ -43,6 +44,7 @@ Variations that ignore the input and generate specific shapes.
 [![](blurs/square3D-1.png)](blurs/blurs.md#square3D)
 [![](blurs/starblur-1.png)](blurs/blurs.md#starblur)
 [![](blurs/starblur-2.png)](blurs/blurs.md#starblur)
+[![](blurs/triangle-1.png)](blurs/blurs.md#triangle)
 [![](blurs/waveblur-1.png)](blurs/blurs.md#waveblur_wf)
 [![](blurs/xheart_blur-1.png)](blurs/blurs.md#xheart_blur_wf)
 
@@ -64,8 +66,9 @@ Treats 2D points as complex numbers and raises them to a complex power that can 
 
 Variations that invert across various shapes, such as the unit circle.
 
+[![](inversion/d_spherical-1.png)](inversion/inversion.md#d_spherical)
 [![](inversion/inversion-1.png)](inversion/inversion.md#inversion-1)
-[![](inversion/spherical-1.png)](inversion/inversion.md#spherical-1)
+[![](inversion/spherical-1.png)](inversion/inversion.md#spherical)
 
 ## [Julia](julia/julia.md#Julia)
 

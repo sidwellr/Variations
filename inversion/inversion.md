@@ -1,6 +1,21 @@
 # Inversion
 Variations that invert across various shapes, such as the unit circle.
 
+## d_spherical
+Combines spherical and linear.
+
+Type: 2D  
+Author: Tatyana Zabanova (tatasz)  
+Date: 5 Jun 2017
+
+![](d_spherical-1.png)
+
+| Parameter | Description |
+| --- | --- |
+| d_spher_weight | Weight of spherical vs linear; 0 is all linear, 1 is all spherical, 0.5 is half and half; should be between 0 and 1
+
+https://www.deviantart.com/tatasz/art/Utilities-Plugin-Pack-684337906
+
 ## inversion
 Generalizes 2D circle inversion; same as spherical with the default parameters.
 

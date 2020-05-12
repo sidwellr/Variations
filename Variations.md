@@ -17,6 +17,7 @@
 |[cpow3](cpow/cpow.md#cpow3) | Raise input point to a complex power to produce a spiral
 |[cpow3_wf](cpow/cpow.md#cpow3_wf) | Attempt to port cpow2 to JWildfire that "by happy accident became something else"
 | |
+|[d_spherical](inversion/inversion.md#d_spherical) | Combines spherical and linear
 |[dc_boarders](boarders/boarders.md#dc_boarders) | Presumably, a direct color version of boarders, but it appears to be the same as boarders
 |[dc_linear](linear/linear.md#dc_linear) | Direct color version of linear3D
 |[droste](cpow/cpow.md#droste) | Implements Escher's map using logarithms; same effect as escher
@@ -106,6 +107,7 @@
 | |
 |[threeply](attractors/attractors.md#threeply) | A strange attractor named Three Ply
 |[tri_boarders2](boarders/boarders.md#tri_boarders2) | Divide the plane into hexagons with borders
+|[triangle](blurs/blurs.md#triangle) | Triangular blur (3D)
 | |
 |[waveblur_wf](blurs/blurs.md#waveblur_wf) | Creates waves, like ripples in a pond
 | |
@@ -114,3 +116,5 @@
 | |
 |[yplot2d_wf](plotting/plotting.md#yplot2d_wf) | Plot y in terms of x, with 3D extrusion
 |[yplot3d_wf](plotting/plotting.md#yplot3d_wf) | Plot y in terms of x and z
+| |
+|[zblur](blurs/blurs.md#zblur) | Gaussian blur for the z axis only (no effect on x or y)
