@@ -50,6 +50,17 @@ Type: 3D blur
 
 ![](blur3D-1.png)
 
+## chrysanthemum
+Chrysanthemum flower shaped curve.
+
+Type: 2D blur  
+Author: Jesus Sosa  
+Date: 1 Feb 2018  
+
+![](chrysanthemum-1.png)
+
+http://paulbourke.net/geometry/chrysanthemum/  
+
 ## circleblur
 Circle with even coloring.
 
@@ -231,6 +242,31 @@ Date: 9 Jan 2013
 Negative values are allowed for both parameters, and can generate interesting shapes.
 
 https://www.deviantart.com/zy0rg/art/Blur-Package-347648919   
+
+## superShape3d
+General 3D shape generator using two superformula instances.
+
+Type: 3D blur  
+Name: David Young (Sc0t0ma)  
+Date: 19 Oct 2008  
+
+![](superShape3d-1.png) ![](superShape3d-2.png)
+
+| Parameter | Description |
+| --- | --- |
+| rho | Upper bound for XY drawing; when m1 is an integer, the optimal value is 𝜋2 ≈ 9.8696; increase when m1 is fractional or spiral is non-zero |
+| phi | Upper bound for YZ drawing; a typical value is 𝜋2/4 ≈ 2.4674, which fills a quarter of the shape; adjust as needed |
+| m1 | Number of corners for the XY plane |
+| m2 | Number of corners for the YZ plane |
+| a1, b1 | Stretch or contract the XY plane shape |
+| a2, b2 | Stretch or contract the YZ plane shape |
+| n1_1, n2_1, n3_1 | Shaping variables for the XY plane |
+| n1_2, n2_2, n3_2 | Shaping variables for the YZ plane |
+| spiral | Set to a non-zero value to make 3D Archimedean spirals |
+| toroidmap | 0: Map points to spherical coordinates (normal)<br>1: Map points to toroidal coordinates |
+
+https://www.deviantart.com/sc0t0ma/art/SuperShape3d-101195889  
+http://paulbourke.net/geometry/supershape/  
 
 ## triangle
 Triangular blur (3D)

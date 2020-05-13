@@ -10,8 +10,12 @@
 |[boarders](boarders/boarders.md#boarders-1) | Divide the plane into squares with borders
 |[boarders2](boarders/boarders.md#boarders2--pre_boarders2) | Adds some parameters to boarders
 | |
+|[cannabiscurve_wf](halfblurs/halfblurs.md#cannabiscurve_wf) | Shape resembling a cannabis leaf
+|[chrysanthemum](blurs/blurs.md#chrysanthemum) | Chrysanthemum flower shaped curve
+|[cloverleaf_wf](halfblurs/halfblurs.md#cloverleaf_wf) | Shape resembling a four leaf clover
 |[circleblur](blurs/blurs.md#circleblur) | Circle with even coloring
 |[clifford_js](attractors/attractors.md#clifford_js) | Strange attractor attributed to Cliff Pickover
+|[conic/conic2](halfblurs/halfblurs.md#conic--conic2) | Conic section shape (ellipse, parabola, or hyperbola)
 |[cpow](cpow/cpow.md#cpow) | Raise input point to a complex power specified by its real and imaginary parts
 |[cpow2](cpow/cpow.md#cpow2) | Raise input point to a complex power specified in polar coordinates
 |[cpow3](cpow/cpow.md#cpow3) | Raise input point to a complex power to produce a spiral
@@ -95,6 +99,7 @@
 | |
 |[sattractor3D](attractors/attractors.md#sattractor3D) | Generate a 3D mesh from differential equations
 |[sattractor_js](attractors/attractors.md#sattractor_js) | A strange attractor attributed to Roger Bagula
+|[shape](halfblurs/halfblurs.md#shape) | General shape generator using the superformula
 |[sineblur](blurs/blurs.md#sineblur) | A circle with a shading effect
 |[sphereblur](blurs/blurs.md#sphereblur) | 3D version of sineblur
 |[spherical](inversion/inversion.md#spherical) | Reflects the plane across the unit circle
@@ -103,6 +108,7 @@
 |[square](blurs/blurs.md#square) | Square shaped blur
 |[square3D](blurs/blurs.md#square3D) | Cube shaped blur
 |[starblur](blurs/blurs.md#starblur) | Star shaped blur
+|[square](blurs/blurs.md#square) | General 3D shape generator using two superformula instances
 |[svensson_js](attractors/attractors.md#svensson_js) | Johnny Svensson attractor
 | |
 |[threeply](attractors/attractors.md#threeply) | A strange attractor named Three Ply
@@ -117,4 +123,5 @@
 |[yplot2d_wf](plotting/plotting.md#yplot2d_wf) | Plot y in terms of x, with 3D extrusion
 |[yplot3d_wf](plotting/plotting.md#yplot3d_wf) | Plot y in terms of x and z
 | |
+|[Z_conic](halfblurs/halfblurs.md#conic--conic2) | Conic section shape (ellipse, parabola, or hyperbola)
 |[zblur](blurs/blurs.md#zblur) | Gaussian blur for the z axis only (no effect on x or y)

@@ -32,6 +32,7 @@ Variations that ignore the input and generate specific shapes.
 [![](blurs/blur-1.png)](blurs/blurs.md#blur)
 [![](blurs/blur_heart-1.png)](blurs/blurs.md#blur_heart)
 [![](blurs/blur3D-1.png)](blurs/blurs.md#blur3D--pre_blur3D)
+[![](blurs/chrysanthemum-1.png)](blurs/blurs.md#chrysanthemum)
 [![](blurs/circleblur-1.png)](blurs/blurs.md#circleblur)
 [![](blurs/gaussian_blur-1.png)](blurs/blurs.md#gaussian_blur)
 [![](blurs/nblur-1.png)](blurs/blurs.md#nBlur)
@@ -44,6 +45,8 @@ Variations that ignore the input and generate specific shapes.
 [![](blurs/square3D-1.png)](blurs/blurs.md#square3D)
 [![](blurs/starblur-1.png)](blurs/blurs.md#starblur)
 [![](blurs/starblur-2.png)](blurs/blurs.md#starblur)
+[![](blurs/superShape3d-1.png)](blurs/blurs.md#superShape3d)
+[![](blurs/superShape3d-2.png)](blurs/blurs.md#superShape3d)
 [![](blurs/triangle-1.png)](blurs/blurs.md#triangle)
 [![](blurs/waveblur-1.png)](blurs/blurs.md#waveblur_wf)
 [![](blurs/xheart_blur-1.png)](blurs/blurs.md#xheart_blur_wf)
@@ -61,6 +64,16 @@ Treats 2D points as complex numbers and raises them to a complex power that can 
 
 [![](cpow/cpow3-1.png)](cpow/cpow.md#cpow3)
 [![](cpow/escher-1.png)](cpow/cpow.md#escher)
+
+## [Half Blurs](halfblurs/halfblurs#Half-Blurs)
+Variations that generate specific shapes using polar coordinates.
+
+[![](halfblurs/cannabiscurve-1.png)](halfblurs/halfblurs.md#cannabiscurve_wf)
+[![](halfblurs/cloverleaf-1.png)](halfblurs/halfblurs.md#cloverleaf)
+[![](halfblurs/conic-1.png)](halfblurs/halfblurs.md#conic--conic2)
+[![](halfblurs/conic-2.png)](halfblurs/halfblurs.md#conic--conic2)
+[![](halfblurs/shape-1.png)](halfblurs/halfblurs.md#shape)
+[![](halfblurs/shape-2.png)](halfblurs/halfblurs.md#shape)
 
 ## [Inversion](inversion/inversion.md#Inversion)
 
