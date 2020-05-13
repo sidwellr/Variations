@@ -69,7 +69,7 @@ Treats 2D points as complex numbers and raises them to a complex power that can 
 Variations that generate specific shapes using polar coordinates.
 
 [![](halfblurs/cannabiscurve-1.png)](halfblurs/halfblurs.md#cannabiscurve_wf)
-[![](halfblurs/cloverleaf-1.png)](halfblurs/halfblurs.md#cloverleaf)
+[![](halfblurs/cloverleaf-1.png)](halfblurs/halfblurs.md#cloverleaf_wf)
 [![](halfblurs/conic-1.png)](halfblurs/halfblurs.md#conic--conic2)
 [![](halfblurs/conic-2.png)](halfblurs/halfblurs.md#conic--conic2)
 [![](halfblurs/shape-1.png)](halfblurs/halfblurs.md#shape)

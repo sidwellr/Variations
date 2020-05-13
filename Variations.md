@@ -108,7 +108,7 @@
 |[square](blurs/blurs.md#square) | Square shaped blur
 |[square3D](blurs/blurs.md#square3D) | Cube shaped blur
 |[starblur](blurs/blurs.md#starblur) | Star shaped blur
-|[square](blurs/blurs.md#square) | General 3D shape generator using two superformula instances
+|[superShape3d](blurs/blurs.md#superShape3d) | General 3D shape generator using two superformula instances
 |[svensson_js](attractors/attractors.md#svensson_js) | Johnny Svensson attractor
 | |
 |[threeply](attractors/attractors.md#threeply) | A strange attractor named Three Ply
