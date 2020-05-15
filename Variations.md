@@ -8,7 +8,7 @@
 |[blur_heart](blurs/blurs.md#blur_heart) | Creates a heart from two ellipses
 |[blur3D](blurs/blurs.md#blur3D--pre_blur3D) | Three dimensional Gaussian blur
 |[boarders](boarders/boarders.md#boarders-1) | Divide the plane into squares with borders
-|[boarders2](boarders/boarders.md#boarders2--pre_boarders2) | Adds some parameters to boarders
+|[boarders2](boarders/boarders.md#boarders2--pre_boarders2) | Divide the plane into squares with borders, with parameters
 | |
 |[cannabiscurve_wf](halfblurs/halfblurs.md#cannabiscurve_wf) | Shape resembling a cannabis leaf
 |[chrysanthemum](blurs/blurs.md#chrysanthemum) | Chrysanthemum flower shaped curve
@@ -118,7 +118,7 @@
 |[waveblur_wf](blurs/blurs.md#waveblur_wf) | Creates waves, like ripples in a pond
 | |
 |[xheart_blur_wf](blurs/blurs.md#xheart_blur_wf) | Heart shaped blur
-|[xtrb](boarders/boarders.md#xtrb) | Modification of tri_boarders2 with extra parameters
+|[xtrb](boarders/boarders.md#xtrb) | Divide the plane into hexagons with borders; tri_boarders2 with extra parameters
 | |
 |[yplot2d_wf](plotting/plotting.md#yplot2d_wf) | Plot y in terms of x, with 3D extrusion
 |[yplot3d_wf](plotting/plotting.md#yplot3d_wf) | Plot y in terms of x and z
