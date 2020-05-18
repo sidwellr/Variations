@@ -24,6 +24,16 @@ These variations use the formulas for strange attractors.
 [![](attractors/threeply-1.png)](attractors/attractors.md#threeply)
 [![](attractors/threeply-2.png)](attractors/attractors.md#threeply)
 
+## [Blurry](blurry/blurry.md#Blurry)
+Variations that add different types of blurriness.
+
+[![](blurry/blur_linear-1.png)](blurry/blurry.md#blur_linear)
+[![](blurry/blur_pixelize-1.png)](blurry/blurry.md#blur_pixelize)
+[![](blurry/blur_zoom-1.png)](blurry/blurry.md#blur_zoom)
+[![](blurry/exblur-1.png)](blurry/blurry.md#exblur)
+[![](blurry/noise-1.png)](blurry/blurry.md#noise)
+[![](blurry/pixel_flow-1.png)](blurry/blurry.md#pixel_flow)
+[![](blurry/radial_blur-1.png)](blurry/blurry.md#radial_blur)
 
 ## [Blurs](blurs/blurs.md#Blurs)
 

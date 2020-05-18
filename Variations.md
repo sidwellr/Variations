@@ -6,6 +6,9 @@
 |[blur](blurs/blurs.md#blur) | Circle with a bright center
 |[blur_circle](blurs/blurs.md#blur_circle) | Circle with even coloring
 |[blur_heart](blurs/blurs.md#blur_heart) | Creates a heart from two ellipses
+|[blur_linear](blurry/blurry.md#blur_linear) | Create a motion blur effect
+|[blur_pixelize](blurry/blurry.md#blur_pixelize) | Averages colors in an area to make large square pixels
+|[blur_zoom](blurry/blurry.md#blur_zoom) | Create a zoom blur effect
 |[blur3D](blurs/blurs.md#blur3D--pre_blur3D) | Three dimensional Gaussian blur
 |[boarders](boarders/boarders.md#boarders-1) | Divide the plane into squares with borders
 |[boarders2](boarders/boarders.md#boarders2--pre_boarders2) | Divide the plane into squares with borders, with parameters
@@ -30,6 +33,7 @@
 |[epispiral](rosecurve/rosecurve.md#epispiral) | An inside-out rose curve, known as an epispiral curve
 |[epispiral_wf](rosecurve/rosecurve.md#epispiral_wf) | Alternate version of epispiral
 |[escher](cpow/cpow.md#escher) | Implements Escher’s Map
+|[exblur](blurry/blurry.md#exblur) | Blur effect radiating from a point
 | |
 |[flower](rosecurve/rosecurve.md#flower) | Filled-in rose curve; looks like a flower with petals
 | |
@@ -71,6 +75,7 @@
 |[maurer_rose](rosecurve/rosecurve.md#maurer_rose) | String art on a rose curve
 | |
 |[nBlur](blurs/blurs.md#nBlur) | Polygon shaped blur
+|[noise](blurry/blurry.md#noise) | Add noise as a blur effect
 | |
 |[ovoid](inversion/inversion.md#ovoid) | Spherical with x and y scaling
 |[ovoid3D](inversion/inversion.md#ovoid3D) | Spherical with x, y, and z scaling
@@ -81,6 +86,7 @@
 |[pie](blurs/blurs.md#pie) | A circle with wedges missing, like pieces of pie
 |[pie_fl](blurs/blurs.md#pie_fl) | Fluid version of pie, allows fractional value for slices
 |[pie3D](blurs/blurs.md#pie3D) | Three dimensional version of pie
+|[pixel_flow](blurry/blurry.md#pixel_flow) | Blur effect resembling flowing pixels
 |[polarplot2d_wf](plotting/plotting.md#polarplot2d_wf) | Plot, in polar coordinates, rho in terms of theta, with 3D extrusion
 |[polarplot3d_wf](plotting/plotting.md#polarplot3d_wf) | Plot rho in terms of theta and phi (spherical coordinates) or theta and (cylindrical coordinates)
 |[post_julia3Dq](julia/julia.md#julia3Dq) | Julia set using a rational power with 3D extrusion
@@ -94,6 +100,7 @@
 |[primitives_wf](blurs/blurs.md#primitives_wf) | Blur with selectable two or three dimensional shape
 |[pRose3D](rosecurve/rosecurve.md#pRose3D) | Rose curve with three dimensional shaping
 | |
+|[radial_blur](blurry/blurry.md#radial_blur) | Blur effect rotating around the origin
 |[rhodonea](rosecurve/rosecurve.md#rhodonea) | Advanced rose curve
 |[rose_wf](rosecurve/rosecurve.md#rose_wf) | Simple rose curve
 | |
