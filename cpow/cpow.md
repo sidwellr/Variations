@@ -8,6 +8,8 @@ Type: 2D
 Author: Joel Faber  
 Date: 10 Aug 2008  
 
+[![](cpow-1.png)](cpow-1.flame)
+
 | Parameter | Description |
 | --- | --- |
 | r | Real part of the power |
@@ -26,6 +28,8 @@ Raise input point to a complex power specified in polar coordinates.
 Type: 2D  
 Author: Peter Sdobnov (Zueuk)  
 Date: 13 Mar 2009  
+
+[![](cpow2-1.png)](cpow2-1.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -68,7 +72,9 @@ Type: 2D
 Author: Gregg Helt (cozyg)  
 Date: 11 Mar 2015  
 
-This variation is the result of a serendipitous mistake the author made while attempting to implement cpow2 in JWildfire. He liked the results, so released this variation. It was originally added to JWildfire with the name "cpow3", but  it was renamed to "cpow3_wf" when the above cpow3 was added in JWildfire version 3.21.
+[![](cpow3_wf-1.png)](cpow3_wf-1.flame)
+
+This variation is the result of a serendipitous mistake the author made while attempting to implement cpow2 in JWildfire. He liked the results, so released this variation. It was originally added to JWildfire with the name "cpow3", but it was renamed to "cpow3_wf" when the above cpow3 was added in JWildfire version 3.21.
 
 http://jwildfire.org/forum/viewtopic.php?f=23&t=1743   
 

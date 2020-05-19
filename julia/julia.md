@@ -3,6 +3,8 @@ Variations based on polynomial Julia sets. For escape time fractals, the formula
 
 Based on complex numbers, the Julia transform is two dimensional by nature. Some 3D Julia variants have been written, but the 3D transformation is not related to the basic Julia operation.
 
+Several other variations have incorporated the functionality of julian, including [cpow](cpow/cpow.md#cpow) and [xtrb](boarders/boarders.md#xtrb).
+
 ## eJulia
 Polynomial Julia sets in elliptic coordinates
 

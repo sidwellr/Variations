@@ -72,7 +72,10 @@ Divide the plane into squares or hexagons with borders.
 
 Treats 2D points as complex numbers and raises them to a complex power that can be specified in various ways.
 
+[![](cpow/cpow-1.png)](cpow/cpow.md#cpow)
+[![](cpow/cpow2-1.png)](cpow/cpow.md#cpow2)
 [![](cpow/cpow3-1.png)](cpow/cpow.md#cpow3)
+[![](cpow/cpow3_wf-1.png)](cpow/cpow.md#cpow3_wf)
 [![](cpow/escher-1.png)](cpow/cpow.md#escher)
 
 ## [Half Blurs](halfblurs/halfblurs#Half-Blurs)
