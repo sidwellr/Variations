@@ -6,7 +6,7 @@ Circle with a bright center.
 
 Type: 2D blur  
 
-![](blur-1.png)
+[![](blur-1.png)](blur-1.flame)
 
 ## blur_circle
 Circle with even coloring.
@@ -29,7 +29,7 @@ Type: 2D blur
 Author: Luca G (dark-beam)  
 Date: 14 Nov 2011  
 
-![](blur_heart-1.png)
+[![](blur_heart-1.png)](blur_heart-1.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -48,7 +48,7 @@ Three dimensional Gaussian blur.
 
 Type: 3D blur  
 
-![](blur3D-1.png)
+[![](blur3D-1.png)](blur3D-1.flame)
 
 ## chrysanthemum
 Chrysanthemum flower shaped curve.
@@ -57,7 +57,7 @@ Type: 2D blur
 Author: Jesus Sosa  
 Date: 1 Feb 2018  
 
-![](chrysanthemum-1.png)
+[![](chrysanthemum-1.png)](chrysanthemum-1.flame)
 
 http://paulbourke.net/geometry/chrysanthemum/  
 
@@ -68,7 +68,7 @@ Type: 2D blur
 Author: Anton Liasotskiy (zy0rg)  
 Date: 9 Jan 2013  
 
-![](circleblur-1.png)
+[![](circleblur-1.png)](circleblur-1.flame)
 
 http://zy0rg.deviantart.com/art/Blur-Package-347648919   
 https://fractalformulas.wordpress.com/flame-variations/blur/   
@@ -79,7 +79,7 @@ Fuzzy circle with a bright center, made from a Gaussian distribution.
 
 Type: 2D blur  
 
-![](gaussian_blur-1.png)
+[![](gaussian_blur-1.png)](gaussian_blur-1.flame)
 
 https://fractalformulas.wordpress.com/flame-variations/blur/   
 https://www.jwfsanctuary.club/variation-information/gaussian_blur/   
@@ -91,7 +91,7 @@ Type: 2D blur
 Author: FractalDesire  
 Date: 21 Dec 2010  
 
-![](nblur-1.png) ![](nblur-2.png)
+[![](nblur-1.png)](nblur-1.flame) [![](nblur-2.png)](nblur-2.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -117,7 +117,7 @@ Type: 2D blur
 Author: Joel Faber  
 Date: 16 Sep 2007  
 
-![](pie-1.png)
+[![](pie-1.png)](pie-1.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -146,7 +146,7 @@ Type: 3D blur
 Author: Andreas Maschke (thargor6)  
 Date: 21 Nov 2011
 
-![](pie3D-1.png)
+[![](pie3D-1.png)](pie3D-1.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -166,7 +166,7 @@ Type: 2D or 3D blur (depends on shape parameter)
 Author: Andreas Maschke (thargor6)
 Date: 12 Oct 2013
 
-![](primitives_wf-1.png)
+[![](primitives_wf-1.png)](primitives_wf-1.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -183,7 +183,7 @@ Type: 2D blur
 Author: Anton Liasotskiy (zy0rg)  
 Date: 9 Jan 2013  
 
-![](sineblur-1.png)
+[![](sineblur-1.png)](sineblur-1.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -214,7 +214,7 @@ Square shaped blur
 Type: 2D blur  
 Author: Antonio Intieri (gygrazok)  
 
-![](square-1.png)
+[![](square-1.png)](square-1.flame)
 
 http://lu-kout.deviantart.com/art/Apophysis-Plugin-Pack-1-v0-4-59907275   
 
@@ -223,7 +223,7 @@ Cube shaped blur
 
 Type: 3D blur  
 
-![](square3D-1.png)
+[![](square3D-1.png)](square3D-1.flame)
 
 ## starblur
 Star shaped blur
@@ -232,7 +232,7 @@ Type: 2D blur
 Author: Anton Liasotskiy (zy0rg)  
 Date: 9 Jan 2013  
 
-![](starblur-1.png) ![](starblur-2.png)
+[![](starblur-1.png)](starblur-1.flame) [![](starblur-2.png)](starblur-2.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -250,7 +250,7 @@ Type: 3D blur
 Name: David Young (Sc0t0ma)  
 Date: 19 Oct 2008  
 
-![](superShape3d-1.png) ![](superShape3d-2.png)
+[![](superShape3d-1.png)](superShape3d-1.flame) [![](superShape3d-2.png)](superShape3d-2.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -275,7 +275,7 @@ Type: 3D blur
 Author: Jesus Sosa  
 Date: 7 May 2020
 
-![](triangle-1.png)
+[![](triangle-1.png)](triangle-1.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -290,7 +290,7 @@ Type: 3D blur
 Author: Andreas Maschke  
 Date: 30 Jan 2015  
 
-![](waveblur-1.png)
+[![](waveblur-1.png)](waveblur-1.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -309,7 +309,7 @@ Type: 2D blur
 Author: Andreas Maschke  
 Date: 30 Aug 2014  
 
-![](xheart_blur-1.png)
+[![](xheart_blur-1.png)](xheart_blur-1.flame)
 
 Based on xheart (which is not a blur).
 

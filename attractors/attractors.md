@@ -8,7 +8,7 @@ Type: 2D
 Author: Jesus Sosa  
 Date:  4 Nov 2017  
 
-![](clifford-1.png)
+[![](clifford-1.png)](clifford-1.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -23,7 +23,7 @@ Type: 2D Blur
 Author: Jesus Sosa  
 Date: 7 May 2020  
 
-![](gingerbread_man-1.png)
+[![](gingerbread_man-1.png)](gingerbread_man-1.flame)
 
 https://mathworld.wolfram.com/GingerbreadmanMap.html  
 
@@ -34,7 +34,7 @@ Type: 2D Blur
 Author: Jesus Sosa  
 Date: 7 May 2020  
 
-![](gumowski_mira-1.png)
+[![](gumowski_mira-1.png)](gumowski_mira-1.flame)
 
 https://www.openprocessing.org/sketch/195425/  
 https://demonstrations.wolfram.com/StrangeAttractorOfGumowskiMira/  
@@ -46,7 +46,7 @@ Type: 2D
 Author: Chris Johns (TyrantWave)  
 Date: 6 Jun 2009
 
-![](henon-1.png)
+[![](henon-1.png)](henon-1.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ Type: 2D Blur
 Author: Jesus Sosa  
 Date: 7 May 2020  
 
-![](hopalong-1.png) ![](hopalong-2.png)
+[![](hopalong-1.png)](hopalong-1.flame) [![](hopalong-2.png)](hopalong-2.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -81,7 +81,7 @@ Type: 3D Direct Color
 Author: Jesus Sosa  
 Date: 12 Dec 2017  
 
-![](lorenz-1.png)
+[![](lorenz-1.png)](lorenz-1.flame)
 
 Lorenz uses Euler's method to solve the Lorenz system of ordinary differential equations. Coloring is based on the resulting x and y values.
 
@@ -103,7 +103,7 @@ Type: 2D
 Author: Chris Johns (TyrantWave)  
 Date: 6 Jun 2009
 
-![](lozi-1.png)
+[![](lozi-1.png)](lozi-1.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -120,7 +120,7 @@ Type: 2D blur
 Author: Jesus Sosa  
 Date: 29 Mar 2018  
 
-![](macmillan-1.png)
+[![](macmillan-1.png)](macmillan-1.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -136,7 +136,7 @@ Type: 2D
 Author: Scott Draves  
 Date: Sept 2003  
 
-![](pdj-1.png)
+[![](pdj-1.png)](pdj-1.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -152,7 +152,7 @@ Type: 3D blur
 Author: Jesus Sosa  
 Data: 21 Feb 2018
 
-![](sattractor3D-1.png) ![](sattractor3D-2.png)
+[![](sattractor3D-1.png)](sattractor3D-1.flame) [![](sattractor3D-2.png)](sattractor3D-2.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -188,7 +188,7 @@ Type: 2D
 Author: Jesus Sosa  
 Date: 21 Dec 2017
 
-![](sattractor-1.png) ![](sattractor-2.png)
+[![](sattractor-1.png)](sattractor-1.flame) [![](sattractor-2.png)](sattractor-2.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -203,7 +203,7 @@ Type: 2D
 Author: Jesus Sosa  
 Date: 12 Dec 2017  
 
-![](svensson-1.png)
+[![](svensson-1.png)](svensson-1.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -218,7 +218,7 @@ Type: 2D Blur
 Author: Jesus Sosa  
 Date: 7 May 2020  
 
-![](threeply-1.png) ![](threeply-2.png)
+[![](threeply-1.png)](threeply-1.flame) [![](threeply-2.png)](threeply-2.flame)
 
 | Parameter | Description |
 | --- | --- |

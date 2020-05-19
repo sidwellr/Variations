@@ -13,7 +13,7 @@ Type: 2D half-blur
 Author: cyberxaos  
 Date: 3 Aug 2007
 
-![](epispiral-1.png)
+[![](epispiral-1.png)](epispiral-1.flame)
 
 Epispiral is a rose curve which is inverted on the unit circle (see spherical), so the "petals" point towards the origin and extend out to infinity. Some implementations spell the name with a capital 'E'.
 
@@ -34,7 +34,7 @@ Type: 2D half-blur
 Author: Andreas Maschke (thorgor6)  
 Date: 12 Jun 2011
 
-![](epispiral_wf-1.png)
+[![](epispiral_wf-1.png)](epispiral_wf-1.flame)
 
 Like epispiral, but with only one variable, and the result is half the size.
 
@@ -48,7 +48,7 @@ Filled-in rose curve; looks like a flower with petals.
 Type: 2D half-blur  
 Author: cyberxaos  
 
-![](flower-1.png)
+[![](flower-1.png)](flower-1.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -62,7 +62,7 @@ Type: 2D half-blur
 Author: Gregg Helt (cozyg)
 Date: 30 Sep 2017
 
-![](maurer_rose-1.png) ![](maurer_rose-2.png)
+[![](maurer_rose-1.png)](maurer_rose-1.flame) [![](maurer_rose-2.png)](maurer_rose-2.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -85,7 +85,7 @@ Type: 3D half-blur
 Author: Larry Berlin (aporev)  
 Date: 15 Oct 2009  
 
-![](pRose3D-1.png) ![](pRose3D-2.png)
+[![](pRose3D-1.png)](pRose3D-1.flame) [![](pRose3D-2.png)](pRose3D-2.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -115,7 +115,7 @@ Type: 2D (can be half-blur or crop)
 Author: Gregg Helt (cozyg)  
 Date: 24 May 2015  
 
-![](rhodonea-1.png) ![](rhodonea-2.png)
+[![](rhodonea-1.png)](rhodonea-1.flame) [![](rhodonea-2.png)](rhodonea-2.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -143,7 +143,7 @@ Type: 2D half-blur
 Author: Andreas Maschke (thargor6)  
 Date: 12 Jun 2011
 
-![](rose_wf-1.png)
+[![](rose_wf-1.png)](rose_wf-1.flame)
 
 | Parameter | Description |
 | --- | --- |

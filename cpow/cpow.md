@@ -45,7 +45,7 @@ Type: 2D
 Author: Anton Liasotskiy (zy0rg)  
 Date: March 2013  
 
-![](cpow3-1.png)
+[![](cpow3-1.png)](cpow3-1.flame)
 
 This variation was never released by its author, but has been frequently shared in fractal chat rooms and forums. It is included in the Essential Plugin Pack at http://bezo97.tk/plugins.html, and has been implemented in JWildfire starting with version 3.21.
 
@@ -95,7 +95,7 @@ Type: 2D
 Author: Joel Faber  
 Date: 21 Oct 2007  
 
-![](escher-1.png)
+[![](escher-1.png)](escher-1.flame)
 
 | Parameter | Description |
 | --- | --- |

@@ -10,7 +10,7 @@ Type: 2D half-blur with 3D, Direct Color, and full-blur options
 Author: Gregg Helt (cozyg)  
 Date: 30 Sep 2017  
 
-![](maurer_lines-1.png) ![](maurer_lines-2.png)
+[![](maurer_lines-1.png)](maurer_lines-1.flame) [![](maurer_lines-2.png)](maurer_lines-2.flame)
 
 Maurer_lines produces a shape reminiscent of string art, art made by hammering nails into a board in some shape and stretching string between them. The crossing lines frequently give a shaded three dimensional appearance, but this is just an illusion; only render submodes 15-18 will produce a true 3D result.
 

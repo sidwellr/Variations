@@ -8,7 +8,7 @@ Type: 2D half blur
 Author: Andreas Maschke (thargor6)  
 Date: 15 Jan 2012
 
-![](cannabiscurve-1.png)
+[![](cannabiscurve-1.png)](cannabiscurve-1.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -23,7 +23,7 @@ Type: 2D half blur
 Author: Andreas Maschke (thargor6)  
 Date: 15 Jan 2012
 
-![](cloverleaf-1.png)
+[![](cloverleaf-1.png)](cloverleaf-1.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -36,7 +36,7 @@ Type: 2D half bluf
 Author: cyberxaos  
 Date: 28 Jan 2007  
 
-![](conic-1.png) ![](conic-2.png)
+[![](conic-1.png)](conic-1.flame) [![](conic-2.png)](conic-2.flame)
 
 Note that there is a different variation named "conic" which different from this one. This is probably why the Apophysis plugin is named conic2 (the variation is named "conic" in Apophysis versions where is it built-in, as well as JWildfire). There is also a variation named "Z_conic" which is the same as this one.
 
@@ -56,7 +56,7 @@ Type: 2D half blur
 Author: cyberxaos  
 Date: 18 Feb 2007  
 
-![](shape-1.png) ![](shape-2.png)
+[![](shape-1.png)](shape-1.flame) [![](shape-2.png)](shape-2.flame)
 
 | Parameter | Description |
 | --- | --- |

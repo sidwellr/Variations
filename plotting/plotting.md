@@ -8,7 +8,7 @@ Type: 3D blur (DC and colormap options)
 Author: Andreas Maschke (thargor6)  
 Date: 6 Jan 2017  
 
-![](isosfplot3d-1.png) ![](isosfplot3d-2.png)
+[![](isosfplot3d-1.png)](isosfplot3d-1.flame) [![](isosfplot3d-2.png)](isosfplot3d-2.flame)
 
 *Note: Colormaps do not work in JWildfire 5.5 and earlier.*
 
@@ -36,7 +36,7 @@ Type: 3D blur (but can be normal, DC and colormap options)
 Author: Andreas Maschke (thargor6)  
 Date: 29 Nov 2016  
 
-![](parplot2d-1.png) ![](parplot2d-2.png)
+[![](parplot2d-1.png)](parplot2d-1.flame) [![](parplot2d-2.png)](parplot2d-2.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -66,7 +66,7 @@ Type: 3D blur (DC and colormap options)
 Author: Rick Sidwell  
 Date: 22 Apr 2020  
 
-![](polarplot2d-1.png) ![](polarplot2d-2.png)
+[![](polarplot2d-1.png)](polarplot2d-1.flame) [![](polarplot2d-2.png)](polarplot2d-2.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -93,7 +93,7 @@ Type: 3D blur (DC and colormap options)
 Author: Rick Sidwell  
 Date: 22 Apr 2020  
 
-![](polarplot3d-1.png) ![](polarplot3d-2.png)
+[![](polarplot3d-1.png)](polarplot3d-1.flame) [![](polarplot3d-2.png)](polarplot3d-2.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -121,7 +121,7 @@ Type: 3D blur (DC and colormap options)
 Author: Andreas Maschke (thargor6)  
 Date: 29 Nov 2016  
 
-![](yplot2d-1.png) ![](yplot2d-2.png)
+[![](yplot2d-1.png)](yplot2d-1.flame) [![](yplot2d-2.png)](yplot2d-2.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -149,7 +149,7 @@ Type: 3D blur (DC and colormap options)
 Author: Andreas Maschke (thargor6)  
 Date: 29 Nov 2016  
 
-![](yplot3d-1.png) ![](yplot3d-2.png)
+[![](yplot3d-1.png)](yplot3d-1.flame) [![](yplot3d-2.png)](yplot3d-2.flame)
 
 | Parameter | Description |
 | --- | --- |

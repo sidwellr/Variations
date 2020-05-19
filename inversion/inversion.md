@@ -8,7 +8,7 @@ Type: 2D
 Author: Tatyana Zabanova (tatasz)  
 Date: 5 Jun 2017
 
-![](d_spherical-1.png)
+[![](d_spherical-1.png)](d_spherical-1.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -23,7 +23,7 @@ Type: 2D
 Author: Gregg Helt (CozyG)  
 Date: 2017  
 
-![](inversion-1.png)
+[![](inversion-1.png)](inversion-1.flame)
 
 Like spherical, but adds five additional features: shapes besides the standard circle, restricted inversion, alternative p-norms, including the inversion shape and/or original points in the result, and direct coloring.
 
@@ -94,7 +94,7 @@ Type: 2D
 Author: Scott Draves
 Date: Sept 2003
 
-![](spherical-1.png)
+[![](spherical-1.png)](spherical-1.flame)
 
 http://mathworld.wolfram.com/Inversion.html   
 http://fiery-fire.deviantart.com/art/Apo-Tuto-Sphericals-146647576   

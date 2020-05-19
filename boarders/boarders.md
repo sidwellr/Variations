@@ -20,7 +20,7 @@ Type: 2D
 Author: Georg Kiehne (xyrus02)  
 Date: 31 Jul 2010  
 
-![](boarders2-1.png)
+[![](boarders2-1.png)](boarders2-1.flame)
 
 Divide the plane into squares of size 1, and make a copy of each. Scale both copies by parameter c, and keep one copy in place. Poke a square hole in the other, dividing it into four trapezoids meeting at the corners to form a frame. Move each trapezoid away from the center a distance specified by parameter left, expanding them to maintain a solid frame.
 
@@ -70,7 +70,7 @@ Type: 2D
 Author: Georg Kiehne (xyrus02)  
 Date: 17 Nov 2012  
 
-![](xtrb-1.png)
+[![](xtrb-1.png)](xtrb-1.flame)
 
 Xtrb is a cross between tri_boarders2 and julian. To imitate tri_boarders2, set power, dist, a, and b to 1 and the amount to the square root of the tri_boarders2 amount.
 

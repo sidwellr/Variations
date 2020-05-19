@@ -17,7 +17,7 @@ Type: 3D
 Author: Georg Kiehne (xyrus02)  
 Date: 30 Jun 2010
 
-![](dc_linear-1.png) ![](dc_linear-2.png)
+[![](dc_linear-1.png)](dc_linear-1.flame) [![](dc_linear-2.png)](dc_linear-2.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -34,7 +34,7 @@ Type: 2D
 Author: Scott Draves  
 Date: Sept 2003  
 
-![](linear-1.png)
+[![](linear-1.png)](linear-1.flame)
 
 In Apophysis 7X15C and later, linear is actually linear3D. In JWildfire, linear is the same as linear3D when Preserve Z is set.
 
@@ -70,7 +70,7 @@ Type: 2D
 Author: FractalDesire  
 Date: 28 Mar 2011  
 
-![](linearT-1.png)
+[![](linearT-1.png)](linearT-1.flame)
 
 Parameter values between 0 and 2 make the most sense. Same as linear when both are 1.
 

@@ -10,7 +10,7 @@ Type: 2D
 Author: Michael Faber  
 Date: 24 Jun 2012  
 
-![](eJulia-1.png)
+[![](eJulia-1.png)](eJulia-1.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -34,7 +34,7 @@ Classic polynomial Julia set with 3D extrusion.
 Type: 3D  
 Author: Joel Faber  
 
-![](julia3D-1.png)
+[![](julia3D-1.png)](julia3D-1.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -60,7 +60,7 @@ Type: 3D
 Author: Peter Sdobnov (Zueuk)  
 Date: 2 Dec 2012
 
-![](julia3Dq-1.png)
+[![](julia3Dq-1.png)](julia3Dq-1.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -74,7 +74,7 @@ Classic polynomial Julia set with 3D extrusion.
 
 Type: 3D  
 
-![](julia3Dz-1.png)
+[![](julia3Dz-1.png)](julia3Dz-1.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -100,7 +100,7 @@ Type: 2D
 Author: David Young (Sc0t0ma)  
 Date: 9 Sep 2008  
 
-![](juliac-1.png)
+[![](juliac-1.png)](juliac-1.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -117,7 +117,7 @@ Type: 2D
 Author: Luca G (dark-beam)  
 Date: 21 Nov 2011  
 
-![](juliacomplex-1.png)
+[![](juliacomplex-1.png)](juliacomplex-1.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -135,7 +135,7 @@ Type: 2D
 Author: Scott Draves  
 Date: 15 Apr 2006  
 
-![](julian-1.png) ![](julian-2.png)
+[![](julian-1.png)](julian-1.flame) [![](julian-2.png)](julian-2.flame)
 
 Often referenced as "juliaN" to emphasize it is julia with an "N" parameter, but the variation name is all lower case.
 
@@ -182,7 +182,7 @@ Type: 2D
 Author: Georg Kiehne (xyrus02)  
 Date: 11 Sep 2009
 
-![](julian2-1.png) ![](julian2-2.png)
+[![](julian2-1.png)](julian2-1.flame) [![](julian2-2.png)](julian2-2.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -199,7 +199,7 @@ Type: 2D Direct Color
 Author: Georg Kiehne (xyrus02)  
 Date: 16 Dec 2010  
 
-![](julian2dc-1.png)
+[![](julian2dc-1.png)](julian2dc-1.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -218,7 +218,7 @@ Type: 3D
 Author: Georg Kiehne (xyrus02)  
 Date: 21 May 2014  
 
-![](julian3Dx-1.png)
+[![](julian3Dx-1.png)](julian3Dx-1.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -235,7 +235,7 @@ Type: 2D
 Author: Ffey  
 Date: 2 Aug 2011  
 
-![](juliaNab-1.png)
+[![](juliaNab-1.png)](juliaNab-1.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -253,7 +253,7 @@ Type: 2D
 Author: Peter Sdobnov (Zueuk)  
 Date: 2 Dec 2012
 
-![](juliaq-1.png)
+[![](juliaq-1.png)](juliaq-1.flame)
 
 | Parameter | Description |
 | --- | --- |
@@ -269,7 +269,7 @@ Type: 2D
 Author: Chris Johns (TyrantWave)  
 Date: 2 May 2009
 
-![](phoenix_julia-1.png)
+[![](phoenix_julia-1.png)](phoenix_julia-1.flame)
 
 | Parameter | Description |
 | --- | --- |

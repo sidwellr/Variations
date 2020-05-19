@@ -91,8 +91,8 @@ Use with another variation on the same transform. Very effective for softening b
 Blur effect resembling flowing pixels.
 
 Type: 2D with DC option  
-Author: Zotya Dócs (bezo97)
-Date: 15 Dec 2017
+Author: Zotya Dócs (bezo97)  
+Date: 15 Dec 2017  
 
 [![](pixel_flow-1.png)](pixel_flow-1.flame)
 
