@@ -47,13 +47,37 @@ Filled-in rose curve; looks like a flower with petals.
 
 Type: 2D half-blur  
 Author: cyberxaos  
+Date: Apr 2007
 
-[![](flower-1.png)](flower-1.flame)
+[![](flower-1.png)](flower-1.flame) [![](flower-2.png)](flower-2.flame)
+
+Originally from the Z+C++ Apophysis branch by cyberxaos, Jed Kelsey (Lu-Kout) included it in his plugin pack for users of standard Apophysis. Flower2 and Z_flower were also included in Apophysis plugin packs by Fred E (morphapoph) and Gregory Zitelli, respectively; they work exactly the same as flower.
 
 | Parameter | Description |
 | --- | --- |
 | holes | 1 is normal. Larger values both increase the flower size and add holes in the center. Smaller values (down to 0.5) shrink the flower size and, if petals is odd, grow new petals in the spaces between the main ones. |
 | petals | The frequency of the rose curve. Normally an integer; produces this many petals when odd, or twice as many when even. Other values are allowed and produce intermediate results (but won't produce the entire curve). |
+
+https://www.deviantart.com/lu-kout/art/Apophysis-Plugin-Pack-1-v0-4-59907275  
+https://www.deviantart.com/morphapoph/art/Apo-Anim-friendly-Plugins-178559281  
+https://www.deviantart.com/cothe/art/Apophysis-Z-Plugin-Pack-61192322  
+
+## flower3D
+Experimental 3D version of flower.
+
+Type: 3D half-blur  
+Author: Luca G (dark-beam)  
+Date: 10 Nov 2011
+
+[![](flower3D-1.png)](flower3D-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| holes | 1 is normal. Larger values both increase the flower size and add holes in the center. Smaller values (down to 0.5) shrink the flower size and, if petals is odd, grow new petals in the spaces between the main ones. |
+| petals | The frequency of the rose curve. Normally an integer; produces this many petals when odd, or twice as many when even. Other values are allowed and produce intermediate results (but won't produce the entire curve). |
+| zpetals | The frequency of the rose curve in the z direction. |
+
+https://www.deviantart.com/dark-beam/art/Flower3D-apoplugin-268287892  
 
 ## maurer_rose
 String art on a rose curve.

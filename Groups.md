@@ -24,6 +24,15 @@ These variations use the formulas for strange attractors.
 [![](attractors/threeply-1.png)](attractors/attractors.md#threeply)
 [![](attractors/threeply-2.png)](attractors/attractors.md#threeply)
 
+## [Blobs](blobs/blobs.md#Blobs)
+Variations that deform the plane by pinching it towards the origin, making a blob-like shape.
+[![](blobs/blob-1.png)](blobs/blobs.md#blob)
+[![](blobs/blob-2.png)](blobs/blobs.md#blob)
+[![](blobs/blob2-1.png)](blobs/blobs.md#blob2)
+[![](blobs/blob2-2.png)](blobs/blobs.md#blob2)
+[![](blobs/blob3D-1.png)](blobs/blobs.md#blob3D)
+[![](blobs/blob3D-2.png)](blobs/blobs.md#blob3D)
+
 ## [Blurry](blurry/blurry.md#Blurry)
 Variations that add different types of blurriness.
 
@@ -156,6 +165,8 @@ Variations based on the rose or rhodonea curve.
 [![](rosecurve/epispiral-1.png)](rosecurve/rosecurve.md#epispiral)
 [![](rosecurve/epispiral_wf-1.png)](rosecurve/rosecurve.md#epispiral_wf)
 [![](rosecurve/flower-1.png)](rosecurve/rosecurve.md#flower)
+[![](rosecurve/flower-2.png)](rosecurve/rosecurve.md#flower)
+[![](rosecurve/flower3D-1.png)](rosecurve/rosecurve.md#flower3D)
 [![](rosecurve/maurer_rose-1.png)](rosecurve/rosecurve.md#maurer_rose)
 [![](rosecurve/maurer_rose-2.png)](rosecurve/rosecurve.md#maurer_rose)
 [![](rosecurve/pRose3D-1.png)](rosecurve/rosecurve.md#pRose3D)

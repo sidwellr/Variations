@@ -3,6 +3,10 @@
 | Variation | Description
 | --- | ---
 |[bi_linear](linear/linear.md#bi_linear) | Swap x and y
+|[blob](blobs/blobs.md#blob) | Pushes and pulls the plane using a radial sine wave to make it look like a blob
+|[blob_fl](blobs/blobs.md#blob_fl) | "Fluid" version of blob; allows fractional values for waves
+|[blob2](blobs/blobs.md#blob2) | Modulate a flame using radial sine waves
+|[blob3D](blobs/blobs.md#blob3D) | A variant of blob that adds a 3D component
 |[blur](blurs/blurs.md#blur) | Circle with a bright center
 |[blur_circle](blurs/blurs.md#blur_circle) | Circle with even coloring
 |[blur_heart](blurs/blurs.md#blur_heart) | Creates a heart from two ellipses
@@ -36,6 +40,8 @@
 |[exblur](blurry/blurry.md#exblur) | Blur effect radiating from a point
 | |
 |[flower](rosecurve/rosecurve.md#flower) | Filled-in rose curve; looks like a flower with petals
+|[flower2](rosecurve/rosecurve.md#flower) | Filled-in rose curve; looks like a flower with petals
+|[flower3D](rosecurve/rosecurve.md#flower3D) | Experimental 3D version of flower
 | |
 |[gaussian_blur](blurs/blurs.md#gaussian_blur) | Fuzzy circle with a bright center, made from a Gaussian distribution
 |[gingerbread_man](attractors/attractors.md#gingerbread_man) | An attractor that resembles a gingerbread man
@@ -132,3 +138,4 @@
 | |
 |[Z_conic](halfblurs/halfblurs.md#conic--conic2) | Conic section shape (ellipse, parabola, or hyperbola)
 |[zblur](blurs/blurs.md#zblur) | Gaussian blur for the z axis only (no effect on x or y)
+|[Z_flower](rosecurve/rosecurve.md#flower) | Filled-in rose curve; looks like a flower with petals
