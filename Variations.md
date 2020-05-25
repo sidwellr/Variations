@@ -40,6 +40,7 @@
 |[exblur](blurry/blurry.md#exblur) | Blur effect radiating from a point
 | |
 |[flower](rosecurve/rosecurve.md#flower) | Filled-in rose curve; looks like a flower with petals
+|[flower_db](blobs/blobs.md#flower_db) | Reshape a flame into a 3D flower
 |[flower2](rosecurve/rosecurve.md#flower) | Filled-in rose curve; looks like a flower with petals
 |[flower3D](rosecurve/rosecurve.md#flower3D) | Experimental 3D version of flower
 | |

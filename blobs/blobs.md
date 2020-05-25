@@ -76,3 +76,25 @@ Date: 2011
 | low | Proportional height of the troughs of the waves. It is typically set less than 1, though this is not required. If less than 0, the blob will extend through the origin and out the other side, doubling the number of waves. |
 | high | Proportional height of the crests of the waves. It is typically set a bit larger than 1, though this is not required. |
 | waves | Number of waves. Normally an integer; if not, one of the waves will be cut off. |
+
+## flower_db
+Reshape a flame into a 3D flower
+
+Type: 3D  
+Author: Luca G and Gregg Helt  
+Date: 10 Jul 2014  
+
+[![](flower_db-1.png)](flower_db-1.flame) [![](flower_db-2.png)](flower_db-2.flame)
+
+| Parameter | Description |
+| --- | --- |
+| petals | Number of petals |
+| petal_split | Number of times to split each petal (resulting in petal_split+1 subpetals) |
+| petal_spread | Spread factor for each petal<br>>1: longer and thicker petals, coalescing towards the center<br>1: normal<br>0-1: petals are shorter and narrower, with additional petals sprouting between them<br>0: twice as many short petals<br><0: same as positive, but rotated |
+| stem_thickness | Thickness of the "stem" that is formed by pulling points near the center down (or up if negative) |
+| stem_length | Length of the "stem"; infinite when 0|
+| petal_fold_strength | How much to fold the tips of the petals; positive values fold up, negative down |
+| petal_fold_radius | How far from the center the petal fold starts |
+
+http://jwildfire.org/forum/viewtopic.php?f=18&t=1444  
+http://jwildfire.org/forum/viewtopic.php?f=23&t=1759  
