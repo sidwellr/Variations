@@ -34,6 +34,8 @@ Variations that deform the plane by pinching it towards the origin, making a blo
 [![](blobs/blob3D-2.png)](blobs/blobs.md#blob3D)
 [![](blobs/flower_db-1.png)](blobs/blobs.md#flower_db)
 [![](blobs/flower_db-2.png)](blobs/blobs.md#flower_db)
+[![](blobs/rose-1.png)](blobs/blobs.md#rose)
+[![](blobs/rose-2.png)](blobs/blobs.md#rose)
 
 ## [Blurry](blurry/blurry.md#Blurry)
 Variations that add different types of blurriness.

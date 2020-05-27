@@ -109,6 +109,7 @@
 | |
 |[radial_blur](blurry/blurry.md#radial_blur) | Blur effect rotating around the origin
 |[rhodonea](rosecurve/rosecurve.md#rhodonea) | Advanced rose curve
+|[rose](blobs/blobs.md#rose) | Modulate a flame using the rose curve
 |[rose_wf](rosecurve/rosecurve.md#rose_wf) | Simple rose curve
 | |
 |[sattractor3D](attractors/attractors.md#sattractor3D) | Generate a 3D mesh from differential equations

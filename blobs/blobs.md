@@ -98,3 +98,25 @@ Date: 10 Jul 2014
 
 http://jwildfire.org/forum/viewtopic.php?f=18&t=1444  
 http://jwildfire.org/forum/viewtopic.php?f=23&t=1759  
+
+## rose
+Modulate a flame using the rose curve.
+
+Type: 2D  
+Author: Jessica Darling (FarDareisMai)  
+Date: 3 Aug 2011  
+
+[![](rose-1.png)](rose-1.flame) [![](rose-2.png)](rose-2.flame)
+
+| Parameter | Description |
+| --- | --- |
+| numer | Rose curve numerator |
+| denom | Rose curve denominator |
+| inner_scale | Scale factor for points inside the curve |
+| outer_scale | Scale factor for points outside the curve |
+| angle_in | Offset to the input angle, as a fraction of 180 degrees/pi radians |
+| shear_x, shear_y | How much to shear x and y |
+| turn_x, turn_y | How much to turn x and y, in radians |
+| strength | Overall strength for the effect |
+
+https://www.deviantart.com/fardareismai/art/Apophysis-Plugin-Rose-246324281  
