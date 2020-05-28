@@ -40,6 +40,31 @@ There are also post_ and pre_ versions (post_polar2 and pre_polar2).
 
 https://www.jwfsanctuary.club/variation-information/polar/  
 
+## polar2_3D
+Variant of polar2 with added 3D wave.
+
+Type: 3D  
+Author: Larry Berlin (aporev)  
+Date: 27 Sep 2009  
+
+| Parameter | Description |
+| --- | --- |
+| pwr | Controls the size of the 3D wave |
+| freq | Frequency of the 3D wave |
+
+https://www.deviantart.com/aporev/art/petal3D-plugin-139564066  
+
+## pre_polar2_y
+Flawed attempt at a pre version of polar2.
+
+Type: 2D  
+Author: Kenny Vaneetvelde (Raykoid666)  
+Date: 17 Oct 2008  
+
+Included here for completeness only; there are several flaws in the implementation.
+
+https://www.deviantart.com/raykoid666/art/pre-plugin-pack-101004596  
+
 ## unpolar
 Treat the rectangular coordinates (x,y) of a point as log-polar coordinates (ρ,θ) (the inverse of polar2).
 

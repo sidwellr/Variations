@@ -127,6 +127,8 @@ Variations based on polynomial Julia sets.
 [![](julia/julian3Dx-1.png)](julia/julia.md#julian3Dx)
 [![](julia/juliaNab-1.png)](julia/julia.md#juliaNab)
 [![](julia/juliaq-1.png)](julia/julia.md#juliaq)
+[![](julia/npolar-1.png)](julia/julia.md#npolar)
+[![](julia/npolar-2.png)](julia/julia.md#npolar)
 [![](julia/phoenix_julia-1.png)](julia/julia.md#phoenix_julia)
 
 ## [Linear](linear/linear.md#Linear)

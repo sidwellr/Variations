@@ -264,6 +264,22 @@ Date: 2 Dec 2012
 
 https://www.deviantart.com/zueuk/art/juliaq-Apophysis-plugins-340813357
 
+## npolar
+Mashup of julian and polar2.
+
+Type: 2D  
+Author: Georg Kiehne (xyrus02)  
+Date: 8 Apr 2010  
+
+[![](npolar-1.png)](npolar-1.flame) [![](npolar-2.png)](npolar-2.flame)
+
+| Parameter | Description |
+| --- | --- |
+| parity | When odd, parity is a scale factor for julian; no polar2 is done.<br>When even, npolar first does [polar2](../polar/polar.md#polar2), then julian, then polar2 with x and y reversed; the value of parity is not used. |
+| n | The power for the polynomial; same as julian parameter power |
+
+http://xyrus-02.deviantart.com/art/npolar-160017708 (defunct)  
+
 ## phoenix_julia
 Julian with extra distortion parameters.
 

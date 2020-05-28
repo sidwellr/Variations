@@ -84,6 +84,7 @@
 | |
 |[nBlur](blurs/blurs.md#nBlur) | Polygon shaped blur
 |[noise](blurry/blurry.md#noise) | Add noise as a blur effect
+|[npolar](julia/julia.md#npolar) | Mashup of julian and polar2
 | |
 |[ovoid](inversion/inversion.md#ovoid) | Spherical with x and y scaling
 |[ovoid3D](inversion/inversion.md#ovoid3D) | Spherical with x, y, and z scaling
@@ -97,6 +98,7 @@
 |[pixel_flow](blurry/blurry.md#pixel_flow) | Blur effect resembling flowing pixels
 |[polar](polar/polar.md#polar-1) | Treat the polar coordinates (ρ,θ) of a point as rectangular coordinates (x,y)
 |[polar2](polar/polar.md#polar2) | Treat the log-polar coordinates (ρ,θ) of a point as rectangular coordinates (x,y)
+|[polar2_3D](polar/polar.md#polar2_3D) | Variant of polar2 with added 3D wave
 |[polarplot2d_wf](plotting/plotting.md#polarplot2d_wf) | Plot, in polar coordinates, rho in terms of theta, with 3D extrusion
 |[polarplot3d_wf](plotting/plotting.md#polarplot3d_wf) | Plot rho in terms of theta and phi (spherical coordinates) or theta and (cylindrical coordinates)
 |[post_julia3Dq](julia/julia.md#julia3Dq) | Julia set using a rational power with 3D extrusion
@@ -108,6 +110,7 @@
 |[pre_blur3D](blurs/blurs.md#blur3D--pre_blur3D) | Three dimensional Gaussian blur
 |[pre_boarders2](boarders/boarders.md#boarders2--pre_boarders2) | Adds some parameters to boarders
 |[pre_polar2](polar/polar.md#polar2) | Treat the log-polar coordinates (ρ,θ) of a point as rectangular coordinates (x,y)
+|[pre_polar2_y](polar/polar.md#pre_polar2_y) | Flawed attempt at a pre version of polar2
 |[pre_spherical](inversion/inversion.md#spherical) | Reflects the plane across the unit circle
 |[primitives_wf](blurs/blurs.md#primitives_wf) | Blur with selectable two or three dimensional shape
 |[pRose3D](rosecurve/rosecurve.md#pRose3D) | Rose curve with three dimensional shaping
