@@ -10,7 +10,7 @@ Treat the rectangular coordinates (x,y) of a point as polar coordinates (ρ,θ) 
 
 Type: 2D  
 Author: Luca G (dark-beam)  
-Date: 4 Oct 2018
+Date: 4 Oct 2018  
 
 [![](invpolar-1.png)](invpolar-1.flame)
 
@@ -30,9 +30,9 @@ https://www.deviantart.com/fardareismai/art/Polinear-Examples-765766115
 ## polar2
 Treat the log-polar coordinates (ρ,θ) of a point as rectangular coordinates (x,y).
 
-Type: 2D
-Author: Joel and Michael Faber
-Date: 7 Sep 2007
+Type: 2D  
+Author: Joel and Michael Faber  
+Date: 7 Sep 2007  
 
 There are also post_ and pre_ versions (post_polar2 and pre_polar2).
 
@@ -43,9 +43,9 @@ https://www.jwfsanctuary.club/variation-information/polar/
 ## unpolar
 Treat the rectangular coordinates (x,y) of a point as log-polar coordinates (ρ,θ) (the inverse of polar2).
 
-Type: 2D
-Author: Michael Faber
-Date: 15 Mar 2009
+Type: 2D  
+Author: Michael Faber  
+Date: 15 Mar 2009  
 
 [![](unpolar-1.png)](unpolar-1.flame) [![](unpolar-2.png)](unpolar-2.flame)
 
