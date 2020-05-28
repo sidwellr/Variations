@@ -52,6 +52,7 @@
 |[hopalong](attractors/attractors.md#hopalong) | Hopalong attractor, also known as the Martin map
 | |
 |[inversion](inversion/inversion.md#inversion-1) | Generalizes 2D circle inversion; same as spherical with the default parameters
+|[invpolar](polar/polar.md#invpolar) | Treat the rectangular coordinates (x,y) of a point as polar coordinates (ρ,θ) (the inverse of polar)
 |[isosfplot3d_wf](plotting/plotting.md#isosfplot3d_wf) | Isosurface plot (plots points where the value of a function is near zero)
 | |
 |[julia](julia/julia.md#julia-1) | Classic quadratic Julia set (deprecated; use julian with power=2)
@@ -94,15 +95,19 @@
 |[pie_fl](blurs/blurs.md#pie_fl) | Fluid version of pie, allows fractional value for slices
 |[pie3D](blurs/blurs.md#pie3D) | Three dimensional version of pie
 |[pixel_flow](blurry/blurry.md#pixel_flow) | Blur effect resembling flowing pixels
+|[polar](polar/polar.md#polar-1) | Treat the polar coordinates (ρ,θ) of a point as rectangular coordinates (x,y)
+|[polar2](polar/polar.md#polar2) | Treat the log-polar coordinates (ρ,θ) of a point as rectangular coordinates (x,y)
 |[polarplot2d_wf](plotting/plotting.md#polarplot2d_wf) | Plot, in polar coordinates, rho in terms of theta, with 3D extrusion
 |[polarplot3d_wf](plotting/plotting.md#polarplot3d_wf) | Plot rho in terms of theta and phi (spherical coordinates) or theta and (cylindrical coordinates)
 |[post_julia3Dq](julia/julia.md#julia3Dq) | Julia set using a rational power with 3D extrusion
 |[post_julian2](julia/julia.md#julian2) | Julian with an integrated affine transform
 |[post_juliaq](julia/julia.md#juliaq) | Julia set using a rational power
+|[post_polar2](polar/polar.md#polar2) | Treat the log-polar coordinates (ρ,θ) of a point as rectangular coordinates (x,y)
 |[post_spherical](inversion/inversion.md#spherical) | Reflects the plane across the unit circle
 |[pre_blur](blurs/blurs.md#pre_blur) | Pre version of gaussian_blur
 |[pre_blur3D](blurs/blurs.md#blur3D--pre_blur3D) | Three dimensional Gaussian blur
 |[pre_boarders2](boarders/boarders.md#boarders2--pre_boarders2) | Adds some parameters to boarders
+|[pre_polar2](polar/polar.md#polar2) | Treat the log-polar coordinates (ρ,θ) of a point as rectangular coordinates (x,y)
 |[pre_spherical](inversion/inversion.md#spherical) | Reflects the plane across the unit circle
 |[primitives_wf](blurs/blurs.md#primitives_wf) | Blur with selectable two or three dimensional shape
 |[pRose3D](rosecurve/rosecurve.md#pRose3D) | Rose curve with three dimensional shaping
@@ -129,6 +134,8 @@
 |[threeply](attractors/attractors.md#threeply) | A strange attractor named Three Ply
 |[tri_boarders2](boarders/boarders.md#tri_boarders2) | Divide the plane into hexagons with borders
 |[triangle](blurs/blurs.md#triangle) | Triangular blur (3D)
+| |
+|[unpolar](polar/polar.md#unpolar) | Treat the rectangular coordinates (x,y) of a point as log-polar coordinates (ρ,θ) (the opposite of polar2)
 | |
 |[waveblur_wf](blurs/blurs.md#waveblur_wf) | Creates waves, like ripples in a pond
 | |

@@ -162,6 +162,18 @@ These variations are all blurs that plot formulas in two or three dimensions. Th
 [![](plotting/yplot3d-1.png)](plotting/plotting.md#yplot3d_wf)
 [![](plotting/yplot3d-2.png)](plotting/plotting.md#yplot3d_wf)
 
+## [Polar](polar/polar.md)
+
+Variations that switch between polar or log-polar and rectangular coordinates.
+
+[![](polar/invpolar-1.png)](polar/polar.md#invpolar)
+[![](polar/polar-1.png)](polar/polar.md#polar-1)
+[![](polar/polar-2.png)](polar/polar.md#polar-1)
+[![](polar/polar2-1.png)](polar/polar.md#polar2)
+[![](polar/polar2-2.png)](polar/polar.md#polar2)
+[![](polar/unpolar-1.png)](polar/polar.md#unpolar)
+[![](polar/unpolar-2.png)](polar/polar.md#unpolar)
+
 ## [Rose Curve](rosecurve/rosecurve.md#Variations-Based-on-the-Rose-Curve)
 
 Variations based on the rose or rhodonea curve.
