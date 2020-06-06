@@ -1,5 +1,5 @@
-# Blurs
-Variations that ignore the input and generate specific shapes.
+# Shapes
+Variations that ignore the input and generate specific shapes. Often called "blurs" because they create a blur effect when used on the same transform with other variations.
 
 ## blur
 Circle with a bright center.

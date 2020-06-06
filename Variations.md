@@ -7,20 +7,20 @@
 |[blob_fl](blobs/blobs.md#blob_fl) | "Fluid" version of blob; allows fractional values for waves
 |[blob2](blobs/blobs.md#blob2) | Modulate a flame using radial sine waves
 |[blob3D](blobs/blobs.md#blob3D) | A variant of blob that adds a 3D component
-|[blur](blurs/blurs.md#blur) | Circle with a bright center
-|[blur_circle](blurs/blurs.md#blur_circle) | Circle with even coloring
-|[blur_heart](blurs/blurs.md#blur_heart) | Creates a heart from two ellipses
+|[blur](shapes/shapes.md#blur) | Circle with a bright center
+|[blur_circle](shapes/shapes.md#blur_circle) | Circle with even coloring
+|[blur_heart](shapes/shapes.md#blur_heart) | Creates a heart from two ellipses
 |[blur_linear](blurry/blurry.md#blur_linear) | Create a motion blur effect
 |[blur_pixelize](blurry/blurry.md#blur_pixelize) | Averages colors in an area to make large square pixels
 |[blur_zoom](blurry/blurry.md#blur_zoom) | Create a zoom blur effect
-|[blur3D](blurs/blurs.md#blur3D--pre_blur3D) | Three dimensional Gaussian blur
+|[blur3D](shapes/shapes.md#blur3D--pre_blur3D) | Three dimensional Gaussian blur
 |[boarders](boarders/boarders.md#boarders-1) | Divide the plane into squares with borders
 |[boarders2](boarders/boarders.md#boarders2--pre_boarders2) | Divide the plane into squares with borders, with parameters
 | |
 |[cannabiscurve_wf](halfblurs/halfblurs.md#cannabiscurve_wf) | Shape resembling a cannabis leaf
-|[chrysanthemum](blurs/blurs.md#chrysanthemum) | Chrysanthemum flower shaped curve
+|[chrysanthemum](shapes/shapes.md#chrysanthemum) | Chrysanthemum flower shaped curve
 |[cloverleaf_wf](halfblurs/halfblurs.md#cloverleaf_wf) | Shape resembling a four leaf clover
-|[circleblur](blurs/blurs.md#circleblur) | Circle with even coloring
+|[circleblur](shapes/shapes.md#circleblur) | Circle with even coloring
 |[clifford_js](attractors/attractors.md#clifford_js) | Strange attractor attributed to Cliff Pickover
 |[conic/conic2](halfblurs/halfblurs.md#conic--conic2) | Conic section shape (ellipse, parabola, or hyperbola)
 |[cpow](cpow/cpow.md#cpow) | Raise input point to a complex power specified by its real and imaginary parts
@@ -44,7 +44,7 @@
 |[flower2](rosecurve/rosecurve.md#flower) | Filled-in rose curve; looks like a flower with petals
 |[flower3D](rosecurve/rosecurve.md#flower3D) | Experimental 3D version of flower
 | |
-|[gaussian_blur](blurs/blurs.md#gaussian_blur) | Fuzzy circle with a bright center, made from a Gaussian distribution
+|[gaussian_blur](shapes/shapes.md#gaussian_blur) | Fuzzy circle with a bright center, made from a Gaussian distribution
 |[gingerbread_man](attractors/attractors.md#gingerbread_man) | An attractor that resembles a gingerbread man
 |[gumowski_mira](attractors/attractors.md#gumowski_mira) | The strange attractor of Gumowski-Mira
 | |
@@ -82,7 +82,7 @@
 |[maurer_lines](maurerlines/maurerlines.md#maurer_lines) | Generalized string art
 |[maurer_rose](rosecurve/rosecurve.md#maurer_rose) | String art on a rose curve
 | |
-|[nBlur](blurs/blurs.md#nBlur) | Polygon shaped blur
+|[nBlur](shapes/shapes.md#nBlur) | Polygon shaped blur
 |[noise](blurry/blurry.md#noise) | Add noise as a blur effect
 |[npolar](julia/julia.md#npolar) | Mashup of julian and polar2
 | |
@@ -92,9 +92,9 @@
 |[parplot2d_wf](plotting/plotting.md#parplot2d_wf) | Parametric equation surface plot (2D surface plotted in three dimensions)
 |[pdj](attractors/attractors.md#pdj) | Peter de Jong attractor
 |[phoenix_julia](julia/julia.md#phoenix_julia) | Julian with extra distortion parameters
-|[pie](blurs/blurs.md#pie) | A circle with wedges missing, like pieces of pie
-|[pie_fl](blurs/blurs.md#pie_fl) | Fluid version of pie, allows fractional value for slices
-|[pie3D](blurs/blurs.md#pie3D) | Three dimensional version of pie
+|[pie](shapes/shapes.md#pie) | A circle with wedges missing, like pieces of pie
+|[pie_fl](shapes/shapes.md#pie_fl) | Fluid version of pie, allows fractional value for slices
+|[pie3D](shapes/shapes.md#pie3D) | Three dimensional version of pie
 |[pixel_flow](blurry/blurry.md#pixel_flow) | Blur effect resembling flowing pixels
 |[polar](polar/polar.md#polar-1) | Treat the polar coordinates (ρ,θ) of a point as rectangular coordinates (x,y)
 |[polar2](polar/polar.md#polar2) | Treat the log-polar coordinates (ρ,θ) of a point as rectangular coordinates (x,y)
@@ -106,13 +106,13 @@
 |[post_juliaq](julia/julia.md#juliaq) | Julia set using a rational power
 |[post_polar2](polar/polar.md#polar2) | Treat the log-polar coordinates (ρ,θ) of a point as rectangular coordinates (x,y)
 |[post_spherical](inversion/inversion.md#spherical) | Reflects the plane across the unit circle
-|[pre_blur](blurs/blurs.md#pre_blur) | Pre version of gaussian_blur
-|[pre_blur3D](blurs/blurs.md#blur3D--pre_blur3D) | Three dimensional Gaussian blur
+|[pre_blur](shapes/shapes.md#pre_blur) | Pre version of gaussian_blur
+|[pre_blur3D](shapes/shapes.md#blur3D--pre_blur3D) | Three dimensional Gaussian blur
 |[pre_boarders2](boarders/boarders.md#boarders2--pre_boarders2) | Adds some parameters to boarders
 |[pre_polar2](polar/polar.md#polar2) | Treat the log-polar coordinates (ρ,θ) of a point as rectangular coordinates (x,y)
 |[pre_polar2_y](polar/polar.md#pre_polar2_y) | Flawed attempt at a pre version of polar2
 |[pre_spherical](inversion/inversion.md#spherical) | Reflects the plane across the unit circle
-|[primitives_wf](blurs/blurs.md#primitives_wf) | Blur with selectable two or three dimensional shape
+|[primitives_wf](shapes/shapes.md#primitives_wf) | Blur with selectable two or three dimensional shape
 |[pRose3D](rosecurve/rosecurve.md#pRose3D) | Rose curve with three dimensional shaping
 | |
 |[radial_blur](blurry/blurry.md#radial_blur) | Blur effect rotating around the origin
@@ -123,31 +123,31 @@
 |[sattractor3D](attractors/attractors.md#sattractor3D) | Generate a 3D mesh from differential equations
 |[sattractor_js](attractors/attractors.md#sattractor_js) | A strange attractor attributed to Roger Bagula
 |[shape](halfblurs/halfblurs.md#shape) | General shape generator using the superformula
-|[sineblur](blurs/blurs.md#sineblur) | A circle with a shading effect
-|[sphereblur](blurs/blurs.md#sphereblur) | 3D version of sineblur
+|[sineblur](shapes/shapes.md#sineblur) | A circle with a shading effect
+|[sphereblur](shapes/shapes.md#sphereblur) | 3D version of sineblur
 |[spherical](inversion/inversion.md#spherical) | Reflects the plane across the unit circle
 |[spherical3D](inversion/inversion.md#spherical3D) | A 3D version of spherical
 |[spherical3D_wf](inversion/inversion.md#spherical3D_wf) | A 3D version of spherical
-|[square](blurs/blurs.md#square) | Square shaped blur
-|[square3D](blurs/blurs.md#square3D) | Cube shaped blur
-|[starblur](blurs/blurs.md#starblur) | Star shaped blur
-|[superShape3d](blurs/blurs.md#superShape3d) | General 3D shape generator using two superformula instances
+|[square](shapes/shapes.md#square) | Square shaped blur
+|[square3D](shapes/shapes.md#square3D) | Cube shaped blur
+|[starblur](shapes/shapes.md#starblur) | Star shaped blur
+|[superShape3d](shapes/shapes.md#superShape3d) | General 3D shape generator using two superformula instances
 |[svensson_js](attractors/attractors.md#svensson_js) | Johnny Svensson attractor
 | |
 |[threeply](attractors/attractors.md#threeply) | A strange attractor named Three Ply
 |[tri_boarders2](boarders/boarders.md#tri_boarders2) | Divide the plane into hexagons with borders
-|[triangle](blurs/blurs.md#triangle) | Triangular blur (3D)
+|[triangle](shapes/shapes.md#triangle) | Triangular blur (3D)
 | |
 |[unpolar](polar/polar.md#unpolar) | Treat the rectangular coordinates (x,y) of a point as log-polar coordinates (ρ,θ) (the opposite of polar2)
 | |
-|[waveblur_wf](blurs/blurs.md#waveblur_wf) | Creates waves, like ripples in a pond
+|[waveblur_wf](shapes/shapes.md#waveblur_wf) | Creates waves, like ripples in a pond
 | |
-|[xheart_blur_wf](blurs/blurs.md#xheart_blur_wf) | Heart shaped blur
+|[xheart_blur_wf](shapes/shapes.md#xheart_blur_wf) | Heart shaped blur
 |[xtrb](boarders/boarders.md#xtrb) | Divide the plane into hexagons with borders; tri_boarders2 with extra parameters
 | |
 |[yplot2d_wf](plotting/plotting.md#yplot2d_wf) | Plot y in terms of x, with 3D extrusion
 |[yplot3d_wf](plotting/plotting.md#yplot3d_wf) | Plot y in terms of x and z
 | |
 |[Z_conic](halfblurs/halfblurs.md#conic--conic2) | Conic section shape (ellipse, parabola, or hyperbola)
-|[zblur](blurs/blurs.md#zblur) | Gaussian blur for the z axis only (no effect on x or y)
+|[zblur](shapes/shapes.md#zblur) | Gaussian blur for the z axis only (no effect on x or y)
 |[Z_flower](rosecurve/rosecurve.md#flower) | Filled-in rose curve; looks like a flower with petals

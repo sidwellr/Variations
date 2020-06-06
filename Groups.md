@@ -48,32 +48,6 @@ Variations that add different types of blurriness.
 [![](blurry/pixel_flow-1.png)](blurry/blurry.md#pixel_flow)
 [![](blurry/radial_blur-1.png)](blurry/blurry.md#radial_blur)
 
-## [Blurs](blurs/blurs.md#Blurs)
-
-Variations that ignore the input and generate specific shapes.
-
-[![](blurs/blur-1.png)](blurs/blurs.md#blur)
-[![](blurs/blur_heart-1.png)](blurs/blurs.md#blur_heart)
-[![](blurs/blur3D-1.png)](blurs/blurs.md#blur3D--pre_blur3D)
-[![](blurs/chrysanthemum-1.png)](blurs/blurs.md#chrysanthemum)
-[![](blurs/circleblur-1.png)](blurs/blurs.md#circleblur)
-[![](blurs/gaussian_blur-1.png)](blurs/blurs.md#gaussian_blur)
-[![](blurs/nblur-1.png)](blurs/blurs.md#nBlur)
-[![](blurs/nblur-2.png)](blurs/blurs.md#nBlur)
-[![](blurs/pie-1.png)](blurs/blurs.md#pie)
-[![](blurs/pie3D-1.png)](blurs/blurs.md#pie3D)
-[![](blurs/primitives_wf-1.png)](blurs/blurs.md#primitives_wf)
-[![](blurs/sineblur-1.png)](blurs/blurs.md#sineblur)
-[![](blurs/square-1.png)](blurs/blurs.md#square)
-[![](blurs/square3D-1.png)](blurs/blurs.md#square3D)
-[![](blurs/starblur-1.png)](blurs/blurs.md#starblur)
-[![](blurs/starblur-2.png)](blurs/blurs.md#starblur)
-[![](blurs/superShape3d-1.png)](blurs/blurs.md#superShape3d)
-[![](blurs/superShape3d-2.png)](blurs/blurs.md#superShape3d)
-[![](blurs/triangle-1.png)](blurs/blurs.md#triangle)
-[![](blurs/waveblur-1.png)](blurs/blurs.md#waveblur_wf)
-[![](blurs/xheart_blur-1.png)](blurs/blurs.md#xheart_blur_wf)
-
 ## [Boarders](boarders/boarders.md#Boarders)
 
 Divide the plane into squares or hexagons with borders.
@@ -192,3 +166,29 @@ Variations based on the rose or rhodonea curve.
 [![](rosecurve/rhodonea-1.png)](rosecurve/rosecurve.md#rhodonea)
 [![](rosecurve/rhodonea-2.png)](rosecurve/rosecurve.md#rhodonea)
 [![](rosecurve/rose_wf-1.png)](rosecurve/rosecurve.md#rose_wf)
+
+## [Shapes](blurs/blurs.md#Shapes)
+
+Variations that ignore the input and generate specific shapes.
+
+[![](blurs/blur-1.png)](blurs/blurs.md#blur)
+[![](blurs/blur_heart-1.png)](blurs/blurs.md#blur_heart)
+[![](blurs/blur3D-1.png)](blurs/blurs.md#blur3D--pre_blur3D)
+[![](blurs/chrysanthemum-1.png)](blurs/blurs.md#chrysanthemum)
+[![](blurs/circleblur-1.png)](blurs/blurs.md#circleblur)
+[![](blurs/gaussian_blur-1.png)](blurs/blurs.md#gaussian_blur)
+[![](blurs/nblur-1.png)](blurs/blurs.md#nBlur)
+[![](blurs/nblur-2.png)](blurs/blurs.md#nBlur)
+[![](blurs/pie-1.png)](blurs/blurs.md#pie)
+[![](blurs/pie3D-1.png)](blurs/blurs.md#pie3D)
+[![](blurs/primitives_wf-1.png)](blurs/blurs.md#primitives_wf)
+[![](blurs/sineblur-1.png)](blurs/blurs.md#sineblur)
+[![](blurs/square-1.png)](blurs/blurs.md#square)
+[![](blurs/square3D-1.png)](blurs/blurs.md#square3D)
+[![](blurs/starblur-1.png)](blurs/blurs.md#starblur)
+[![](blurs/starblur-2.png)](blurs/blurs.md#starblur)
+[![](blurs/superShape3d-1.png)](blurs/blurs.md#superShape3d)
+[![](blurs/superShape3d-2.png)](blurs/blurs.md#superShape3d)
+[![](blurs/triangle-1.png)](blurs/blurs.md#triangle)
+[![](blurs/waveblur-1.png)](blurs/blurs.md#waveblur_wf)
+[![](blurs/xheart_blur-1.png)](blurs/blurs.md#xheart_blur_wf)
