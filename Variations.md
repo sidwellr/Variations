@@ -133,7 +133,7 @@
 |[starblur](shapes/shapes.md#starblur) | Star shaped blur
 |[superShape3d](shapes/shapes.md#superShape3d) | General 3D shape generator using two superformula instances
 |[svensson_js](attractors/attractors.md#svensson_js) | Johnny Svensson attractor
-|[synth](synth/synth.md#synthv2) | Combo variation (emulates several others) with added wave functions
+|[synth](synth/synth.md#synth-v2) | Combo variation (emulates several others) with added wave functions
 | |
 |[threeply](attractors/attractors.md#threeply) | A strange attractor named Three Ply
 |[tri_boarders2](boarders/boarders.md#tri_boarders2) | Divide the plane into hexagons with borders
