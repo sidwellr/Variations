@@ -51,7 +51,7 @@ The following table describes the modes.
 | 14: shift rotate<br>circular<br>add | [![](synth-14.png)](synth-14.flame) | Modify the input by power and add the waveform to rotate it, giving a swirling effect.<br>Power modifies the input: 1 is like linear, -1 is like spherical<br>Smooth is not used.
 
 | Example | Mode, Direction, and Description |
-| --- | --- | --- |
+| --- | --- |
 | [![](synth-0.png)](synth-0.flame) | 0: spherical, radial, multiply<br>Reflects the plane across the unit circle, like the spherical variation.<br>Power adjusts the effect; -2 to match the spherical variation, 0 to act like linear.<br>Smooth distorts the waveform if enabled.
 | [![](synth-1.png)](synth-1.flame) | 1: bubble, radial, multiply<br>Maps the plane to a sphere, like the bubble variation but not 3D even in 3D flame programs.<br>Power is not used.<br>Smooth distorts the waveform if enabled.
 | [![](synth-2.png)](synth-2.flame) | 2: blur (v1), radial, multiply<br>A circle or disc; included for compatibility with synth version 1. Mode 3 works better (but power works differently).<br>Power adjusts the effect: -1 is a circle (not filled in); higher values fill in towards the center, lower values fill in away from the center (inside-out disc).<br>Smooth decreases the waveform effects away from the unit circle.
