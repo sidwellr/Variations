@@ -219,7 +219,7 @@ Variations that emulate a number of other variations, adding wavy effects using 
 [![](synth/synth-19.png)](synth/synth.md#synth-v2)
 [![](synth/synth-1001.png)](synth/synth.md#synth-v2)
 [![](synth/synth-1002.png)](synth/synth.md#synth-v2)
-[![](synth/synth-1003png)](synth/synth.md#synth-v2)
+[![](synth/synth-1003.png)](synth/synth.md#synth-v2)
 [![](synth/synth-1004.png)](synth/synth.md#synth-v2)
 [![](synth/synth-1005.png)](synth/synth.md#synth-v2)
 [![](synth/synth-1006.png)](synth/synth.md#synth-v2)
