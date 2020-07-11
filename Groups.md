@@ -224,3 +224,27 @@ Variations that emulate a number of other variations, adding wavy effects using 
 [![](synth/synth-1005.png)](synth/synth.md#synth-v2)
 [![](synth/synth-1006.png)](synth/synth.md#synth-v2)
 [![](synth/synth-1007.png)](synth/synth.md#synth-v2)
+
+## [Waves](waves/waves.md#Waves)
+
+Variations that add waves to x, y, and/or z. There are a lot of different variants on this theme, differing in the parameters available and how they are applied.
+
+[![](waves/auger-1.png)](waves/waves.md#auger)
+[![](waves/vibration-1.png)](waves/waves.md#vibration)
+[![](waves/vibration2-1.png)](waves/waves.md#vibration2)
+[![](waves/waves-1.png)](waves/waves.md#waves-1)
+[![](waves/waves2-1.png)](waves/waves.md#waves2)
+[![](waves/waves2_3D-1.png)](waves/waves.md#waves2_3D)
+[![](waves/waves2_radial-1.png)](waves/waves.md#waves2_radial)
+[![](waves/waves22-1.png)](waves/waves.md#waves22)
+[![](waves/waves23-1.png)](waves/waves.md#waves23)
+[![](waves/waves2b-1.png)](waves/waves.md#waves2b)
+[![](waves/waves2b-2.png)](waves/waves.md#waves2b)
+[![](waves/waves3-1.png)](waves/waves.md#waves3)
+[![](waves/waves4-1.png)](waves/waves.md#waves4)
+[![](waves/waves42-1.png)](waves/waves.md#waves42)
+[![](waves/waves2_wf-1.png)](waves/waves.md#wavesD2--waves2_wf)
+[![](waves/waves3_wf-1.png)](waves/waves.md#wavesD3--waves3_wf)
+[![](waves/waves4_wf-1.png)](waves/waves.md#wavesD4--waves4_wf)
+[![](waves/wavesn-1.png)](waves/waves.md#wavesn)
+[![](waves/wavesn-2.png)](waves/waves.md#wavesn)

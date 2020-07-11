@@ -58,6 +58,8 @@ Date: 18 Feb 2007
 
 [![](shape-1.png)](shape-1.flame) [![](shape-2.png)](shape-2.flame)
 
+The shape variation was later incorporated into the super_shape variation using the rnd parameter.
+
 | Parameter | Description |
 | --- | --- |
 | m | Number of corners |

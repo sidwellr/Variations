@@ -2,6 +2,8 @@
 
 | Variation | Description
 | --- | ---
+|[auger](waves/waves.md#auger) | Wave effect that gets stronger further from the origin
+| |
 |[bi_linear](linear/linear.md#bi_linear) | Swap x and y
 |[blob](blobs/blobs.md#blob) | Pushes and pulls the plane using a radial sine wave to make it look like a blob
 |[blob_fl](blobs/blobs.md#blob_fl) | "Fluid" version of blob; allows fractional values for waves
@@ -141,7 +143,26 @@
 | |
 |[unpolar](polar/polar.md#unpolar) | Treat the rectangular coordinates (x,y) of a point as log-polar coordinates (ρ,θ) (the opposite of polar2)
 | |
+|[vibration](waves/waves.md#vibration) | Add sine waves in two arbitrary directions
+|[vibration2](waves/waves.md#vibration2) | Add sine waves in two arbitrary directions with modulation
+| |
 |[waveblur_wf](shapes/shapes.md#waveblur_wf) | Creates waves, like ripples in a pond
+|[waves](waves/waves.md#waves-1) | Add sine waves to x and y (dependent variation)
+|[waves2](waves/waves.md#waves2) | Add sine waves to x and y
+|[waves2_3D](waves/waves.md#waves2_3D) | Add sine waves to x and y with 3D addition
+|[waves2_radial](waves/waves.md#waves2_radial) | Add sine waves to x and y outside a circle centered at the origin
+|[waves22](waves/waves.md#waves2) | Add sine waves to x and y with power option
+|[waves23](waves/waves.md#waves2) | Add triangular "waves" to x and y
+|[waves2_wf](waves/waves.md#wavesD2--waves2_wf) | Add damped sine or cosine waves to x and y
+|[waves3](waves/waves.md#waves3) | Add modulated sine waves to x and y
+|[waves3_wf](waves/waves.md#wavesD3--waves3_wf) | Add damped squared sine or cosine waves to x and y
+|[waves4](waves/waves.md#waves4) | Add sine waves to x and y with fracturing of horizontal wave
+|[waves42](waves/waves.md#waves42) | Add sine waves to x and y with fracturing of horizontal wave
+|[waves4_wf](waves/waves.md#wavesD4--waves4_wf) | Add damped cubed sine or cosine waves to x and y
+|[wavesD2](waves/waves.md#wavesD2--waves2_wf) | Add damped sine or cosine waves to x and y
+|[wavesD3](waves/waves.md#wavesD3--waves3_wf) | Add damped squared sine or cosine waves to x and y
+|[wavesD4](waves/waves.md#wavesD4--waves4_wf) | Add damped cubed sine or cosine waves to x and y
+|[waves](waves/waves.md#waves-1) | Add damped waves to polynomial Julia set (aka julian)
 | |
 |[xheart_blur_wf](shapes/shapes.md#xheart_blur_wf) | Heart shaped blur
 |[xtrb](boarders/boarders.md#xtrb) | Divide the plane into hexagons with borders; tri_boarders2 with extra parameters
