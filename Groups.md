@@ -248,3 +248,16 @@ Variations that add waves to x, y, and/or z. There are a lot of different varian
 [![](waves/waves4_wf-1.png)](waves/waves.md#wavesD4--waves4_wf)
 [![](waves/wavesn-1.png)](waves/waves.md#wavesn)
 [![](waves/wavesn-2.png)](waves/waves.md#wavesn)
+
+
+## [Z Manipulation](zmanip/zmanip.md#Z-Manipulation)
+Variations that manipulate only the z coordinate.
+
+[![](zmanip/extrude-1.png)](zmanip/zmanip.md#extrude)
+[![](zmanip/inflateZ_1-1.png)](zmanip/zmanip.md#inflateZ-1)
+[![](zmanip/inflateZ_3-1.png)](zmanip/zmanip.md#inflateZ-3)
+[![](zmanip/inflateZ_4-1.png)](zmanip/zmanip.md#inflateZ-4)
+[![](zmanip/inflateZ_5-1.png)](zmanip/zmanip.md#inflateZ-5)
+[![](zmanip/inflateZ_6-1.png)](zmanip/zmanip.md#inflateZ-6)
+[![](zmanip/post_bumpmap_wf-1.png)](zmanip/zmanip.md#post_bumpmap_wf)
+[![](zmanip/ztranslate-1.png)](zmanip/zmanip.md#ztranslate)

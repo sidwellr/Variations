@@ -40,7 +40,9 @@
 |[epispiral_wf](rosecurve/rosecurve.md#epispiral_wf) | Alternate version of epispiral
 |[escher](cpow/cpow.md#escher) | Implements Escher’s Map
 |[exblur](blurry/blurry.md#exblur) | Blur effect radiating from a point
+|[extrude](zmanip/zmanip.md#extrude) | Extrude the other variations on the transform by stretching the z coordinate
 | |
+|[flatten](zmanip/zmanip.md#flatten--zclear) | Flatten the flame by setting the z coordinate to 0
 |[flower](rosecurve/rosecurve.md#flower) | Filled-in rose curve; looks like a flower with petals
 |[flower_db](blobs/blobs.md#flower_db) | Reshape a flame into a 3D flower
 |[flower2](rosecurve/rosecurve.md#flower) | Filled-in rose curve; looks like a flower with petals
@@ -53,6 +55,12 @@
 |[henon](attractors/attractors.md#henon) | Strange attractor discovered by Michel Hénon
 |[hopalong](attractors/attractors.md#hopalong) | Hopalong attractor, also known as the Martin map
 | |
+|[inflateZ_1](zmanip/zmanip.md#inflateZ_1) | Set z to tilt the plane forward, basing z mostly on y, but with some distortion
+|[inflateZ_2](zmanip/zmanip.md#inflateZ_2) | Set z to tilt the plane diagonally
+|[inflateZ_3](zmanip/zmanip.md#inflateZ_3) | Warp z to give a strong three dimensional effect
+|[inflateZ_4](zmanip/zmanip.md#inflateZ_4) | Set z to create interleaved helix shapes
+|[inflateZ_5](zmanip/zmanip.md#inflateZ_5) | Set z to give a gentle three dimensional wave shape
+|[inflateZ_6](zmanip/zmanip.md#inflateZ_6) | Set z to give a rolling shape
 |[inversion](inversion/inversion.md#inversion-1) | Generalizes 2D circle inversion; same as spherical with the default parameters
 |[invpolar](polar/polar.md#invpolar) | Treat the rectangular coordinates (x,y) of a point as polar coordinates (ρ,θ) (the inverse of polar)
 |[isosfplot3d_wf](plotting/plotting.md#isosfplot3d_wf) | Isosurface plot (plots points where the value of a function is near zero)
@@ -103,17 +111,22 @@
 |[polar2_3D](polar/polar.md#polar2_3D) | Variant of polar2 with added 3D wave
 |[polarplot2d_wf](plotting/plotting.md#polarplot2d_wf) | Plot, in polar coordinates, rho in terms of theta, with 3D extrusion
 |[polarplot3d_wf](plotting/plotting.md#polarplot3d_wf) | Plot rho in terms of theta and phi (spherical coordinates) or theta and (cylindrical coordinates)
+|[post_bumpmap_wf](zmanip/zmanip.md#post_bumpmap_wf) | Set z from an external bumpmap image
 |[post_julia3Dq](julia/julia.md#julia3Dq) | Julia set using a rational power with 3D extrusion
 |[post_julian2](julia/julia.md#julian2) | Julian with an integrated affine transform
 |[post_juliaq](julia/julia.md#juliaq) | Julia set using a rational power
 |[post_polar2](polar/polar.md#polar2) | Treat the log-polar coordinates (ρ,θ) of a point as rectangular coordinates (x,y)
 |[post_spherical](inversion/inversion.md#spherical) | Reflects the plane across the unit circle
+|[post_zscale](zmanip/zmanip.md#zscale) | Multiply the z value by the variation amount
+|[post_ztranslate](zmanip/zmanip.md#ztranslate) | Add the variation amount to z, translating points up or down the z axis
 |[pre_blur](shapes/shapes.md#pre_blur) | Pre version of gaussian_blur
 |[pre_blur3D](shapes/shapes.md#blur3D--pre_blur3D) | Three dimensional Gaussian blur
 |[pre_boarders2](boarders/boarders.md#boarders2--pre_boarders2) | Adds some parameters to boarders
 |[pre_polar2](polar/polar.md#polar2) | Treat the log-polar coordinates (ρ,θ) of a point as rectangular coordinates (x,y)
 |[pre_polar2_y](polar/polar.md#pre_polar2_y) | Flawed attempt at a pre version of polar2
 |[pre_spherical](inversion/inversion.md#spherical) | Reflects the plane across the unit circle
+|[pre_zscale](zmanip/zmanip.md#zscale) | Multiply the z value by the variation amount
+|[pre_ztranslate](zmanip/zmanip.md#ztranslate) | Add the variation amount to z, translating points up or down the z axis
 |[primitives_wf](shapes/shapes.md#primitives_wf) | Blur with selectable two or three dimensional shape
 |[pRose3D](rosecurve/rosecurve.md#pRose3D) | Rose curve with three dimensional shaping
 | |
@@ -171,6 +184,10 @@
 |[yplot2d_wf](plotting/plotting.md#yplot2d_wf) | Plot y in terms of x, with 3D extrusion
 |[yplot3d_wf](plotting/plotting.md#yplot3d_wf) | Plot y in terms of x and z
 | |
-|[Z_conic](halfblurs/halfblurs.md#conic--conic2) | Conic section shape (ellipse, parabola, or hyperbola)
 |[zblur](shapes/shapes.md#zblur) | Gaussian blur for the z axis only (no effect on x or y)
+|[zclear](zmanip/zmanip.md#flatten--zclear) | Flatten the flame by setting the z coordinate to 0
+|[zcone](zmanip/zmanip.md#zcone) | Add the x-y distance of each point to z, thus transforming the plane into a cone
+|[zscale](zmanip/zmanip.md#zscale) | Multiply the z value by the variation amount
+|[ztranslate](zmanip/zmanip.md#ztranslate) | Add the variation amount to z, translating points up or down the z axis
+|[Z_conic](halfblurs/halfblurs.md#conic--conic2) | Conic section shape (ellipse, parabola, or hyperbola)
 |[Z_flower](rosecurve/rosecurve.md#flower) | Filled-in rose curve; looks like a flower with petals
