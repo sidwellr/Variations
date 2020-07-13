@@ -1,13 +1,6 @@
 # Z Manipulation
 Variations that manipulate only the z coordinate. All of these must be used with another variation to process x and y (even if linear to simply copy it).
 
-## flatten / zclear
-Flatten the other variations on the transform by setting the z coordinate to 0.
-
-Type: 3D (sets z only)  
-Author: Georg Kiehne (xyrus02)  
-Date: 28 Jul 2013  
-
 ## extrude
 Extrude the other variations on the transform by stretching the z coordinate.
 
@@ -22,6 +15,13 @@ Date: 26 Jul 2010
 | root_face | Density of the extruded face compared to the rest, from 0 (root face has no extra density) to 1 (only the root face) |
 
 http://xyrus02.deviantart.com/art/Extrude-Plugin-for-Apophysis-172778628 (defunct)  
+
+## flatten / zclear
+Flatten the other variations on the transform by setting the z coordinate to 0.
+
+Type: 3D (sets z only)  
+Author: Georg Kiehne (xyrus02)  
+Date: 28 Jul 2013  
 
 ## inflateZ_1
 Set z to tilt the plane forward, basing z mostly on y, but with some distortion.
