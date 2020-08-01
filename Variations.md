@@ -131,6 +131,7 @@
 |[pre_spherical](inversion/inversion.md#spherical) | Reflects the plane across the unit circle
 |[pre_zscale](zmanip/zmanip.md#zscale) | Multiply the z value by the variation amount
 |[pre_ztranslate](zmanip/zmanip.md#ztranslate) | Add the variation amount to z, translating points up or down the z axis
+|[prepost_circlize](reshapers/reshapers.md#prepost_circlize) | Circlize before and uncirclize after other variations, or vice versa
 |[primitives_wf](shapes/shapes.md#primitives_wf) | Blur with selectable two or three dimensional shape
 |[pRose3D](rosecurve/rosecurve.md#pRose3D) | Rose curve with three dimensional shaping
 | |

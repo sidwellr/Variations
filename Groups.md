@@ -160,6 +160,7 @@ Variations that reshape the input (for example, turn a circle into a square or o
 [![](reshapers/circlize2-2.png)](reshapers/reshapers.md#circlize2)
 [![](reshapers/ngon-1.png)](reshapers/reshapers.md#ngon)
 [![](reshapers/squarize-1.png)](reshapers/reshapers.md#squarize)
+[![](reshapers/prepost_circlize-1.png)](reshapers/reshapers.md#prepost_circlize)
 [![](reshapers/super_shape-1.png)](reshapers/reshapers.md#super_shape)
 [![](reshapers/xheart-1.png)](reshapers/reshapers.md#xheart)
 

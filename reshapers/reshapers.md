@@ -67,6 +67,20 @@ https://www.deviantart.com/satania/art/Tutorial-Portals-Flames-176482429
 https://www.deviantart.com/guagapunyaimel/art/Splits-Ngon-Tutorial-170779905  
 https://www.deviantart.com/fractaldesire/art/Tutorial-Xaos-revealed-276483388  
 
+## prepost_circlize
+Circlize before and uncirclize after other variations, or vice versa.
+
+Type: 2D  
+Author: Rick Sidwell  
+
+[![](prepost_circlize-1.png)](prepost_circlize-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| n | Number of sides in the polygon |
+| rotation | Rotation of the polygon, in degrees |
+| reverse | 0: Pre-circlize and post-uncirclize<br>1: Pre-uncirclize and post-circlize
+
 ## squarize
 Reshape circles centered at the orgin into squares.
 
