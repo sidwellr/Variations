@@ -71,7 +71,8 @@ https://www.deviantart.com/fractaldesire/art/Tutorial-Xaos-revealed-276483388
 Circlize before and uncirclize after other variations, or vice versa.
 
 Type: 2D  
-Author: Rick Sidwell  
+Author: Rick Sidwell
+Date: 17 Feb 2018    
 
 [![](prepost_circlize-1.png)](prepost_circlize-1.flame)
 
