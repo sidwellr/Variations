@@ -138,7 +138,7 @@ These variations are all blurs that plot formulas in two or three dimensions. Th
 [![](plotting/yplot3d-1.png)](plotting/plotting.md#yplot3d_wf)
 [![](plotting/yplot3d-2.png)](plotting/plotting.md#yplot3d_wf)
 
-## [Polar](polar/polar.md)
+## [Polar](polar/polar.md#Polar)
 
 Variations that switch between polar or log-polar and rectangular coordinates.
 
@@ -149,6 +149,18 @@ Variations that switch between polar or log-polar and rectangular coordinates.
 [![](polar/polar2-2.png)](polar/polar.md#polar2)
 [![](polar/unpolar-1.png)](polar/polar.md#unpolar)
 [![](polar/unpolar-2.png)](polar/polar.md#unpolar)
+
+## [Reshapers](reshapers/reshapers.md#Reshapers)
+
+Variations that reshape the input (for example, turn a circle into a square or other polygon).
+
+[![](reshapers/butterfly-1.png)](reshapers/reshapers.md#butterfly)
+[![](reshapers/circlize2-1.png)](reshapers/reshapers.md#circlize2)
+[![](reshapers/circlize2-2.png)](reshapers/reshapers.md#circlize2)
+[![](reshapers/ngon-1.png)](reshapers/reshapers.md#ngon)
+[![](reshapers/squarize-1.png)](reshapers/reshapers.md#squarize)
+[![](reshapers/super_shape-1.png)](reshapers/reshapers.md#super_shape)
+[![](reshapers/xheart-1.png)](reshapers/reshapers.md#xheart)
 
 ## [Rose Curve](rosecurve/rosecurve.md#Variations-Based-on-the-Rose-Curve)
 

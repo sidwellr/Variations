@@ -18,11 +18,14 @@
 |[blur3D](shapes/shapes.md#blur3D--pre_blur3D) | Three dimensional Gaussian blur
 |[boarders](boarders/boarders.md#boarders-1) | Divide the plane into squares with borders
 |[boarders2](boarders/boarders.md#boarders2--pre_boarders2) | Divide the plane into squares with borders, with parameters
+|[butterfly](reshapers/reshapers.md#butterfly) | Reshape squares centered at the origin into butterfly shapes
 | |
 |[cannabiscurve_wf](halfblurs/halfblurs.md#cannabiscurve_wf) | Shape resembling a cannabis leaf
 |[chrysanthemum](shapes/shapes.md#chrysanthemum) | Chrysanthemum flower shaped curve
 |[cloverleaf_wf](halfblurs/halfblurs.md#cloverleaf_wf) | Shape resembling a four leaf clover
 |[circleblur](shapes/shapes.md#circleblur) | Circle with even coloring
+|[circlize](reshapers/reshapers.md#circlize) | Reshape squares centered at the origin into circles
+|[circlize2](reshapers/reshapers.md#circlize2) | Reshape squares centered at the origin into circles (scaled to work better with other variations)
 |[clifford_js](attractors/attractors.md#clifford_js) | Strange attractor attributed to Cliff Pickover
 |[conic/conic2](halfblurs/halfblurs.md#conic--conic2) | Conic section shape (ellipse, parabola, or hyperbola)
 |[cpow](cpow/cpow.md#cpow) | Raise input point to a complex power specified by its real and imaginary parts
@@ -93,6 +96,7 @@
 |[maurer_rose](rosecurve/rosecurve.md#maurer_rose) | String art on a rose curve
 | |
 |[nBlur](shapes/shapes.md#nBlur) | Polygon shaped blur
+|[ngon](reshapers/reshapers.md#ngon) | Reshape circles centered at the origin into polygons, with an option for inversion
 |[noise](blurry/blurry.md#noise) | Add noise as a blur effect
 |[npolar](julia/julia.md#npolar) | Mashup of julian and polar2
 | |
@@ -145,7 +149,9 @@
 |[spherical3D_wf](inversion/inversion.md#spherical3D_wf) | A 3D version of spherical
 |[square](shapes/shapes.md#square) | Square shaped blur
 |[square3D](shapes/shapes.md#square3D) | Cube shaped blur
+|[squarize](reshapers/reshapers.md#squarize) | Reshape circles centered at the orgin into squares
 |[starblur](shapes/shapes.md#starblur) | Star shaped blur
+|[super_shape](reshapers/reshapers.md#super_shape) | Reshape (or create a shape) using the superformula
 |[superShape3d](shapes/shapes.md#superShape3d) | General 3D shape generator using two superformula instances
 |[svensson_js](attractors/attractors.md#svensson_js) | Johnny Svensson attractor
 |[synth](synth/synth.md#synth-v2) | Combo variation (emulates several others) with added wave functions
@@ -178,6 +184,7 @@
 |[wavesD4](waves/waves.md#wavesD4--waves4_wf) | Add damped cubed sine or cosine waves to x and y
 |[wavesn](waves/waves.md#wavesn) | Add damped waves to polynomial Julia set (aka julian)
 | |
+|[xheart](reshapers/reshapers.md#xheart) | Reshape circles centered at the origin into hearts
 |[xheart_blur_wf](shapes/shapes.md#xheart_blur_wf) | Heart shaped blur
 |[xtrb](boarders/boarders.md#xtrb) | Divide the plane into hexagons with borders; tri_boarders2 with extra parameters
 | |
