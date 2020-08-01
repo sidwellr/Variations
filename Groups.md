@@ -26,6 +26,7 @@ These variations use the formulas for strange attractors.
 
 ## [Blobs](blobs/blobs.md#Blobs)
 Variations that deform the plane by pinching it towards the origin, making a blob-like shape.
+
 [![](blobs/blob-1.png)](blobs/blobs.md#blob)
 [![](blobs/blob-2.png)](blobs/blobs.md#blob)
 [![](blobs/blob2-1.png)](blobs/blobs.md#blob2)
@@ -68,12 +69,12 @@ Treats 2D points as complex numbers and raises them to a complex power that can 
 ## [Half Blurs](halfshapes/halfblurs#Half-Blurs)
 Variations that generate specific shapes using polar coordinates.
 
-[![](halfshapes/cannabiscurve-1.png)](halfshapes/halfshapes.md#cannabiscurve_wf)
-[![](halfshapes/cloverleaf-1.png)](halfshapes/halfshapes.md#cloverleaf_wf)
-[![](halfshapes/conic-1.png)](halfshapes/halfshapes.md#conic--conic2)
-[![](halfshapes/conic-2.png)](halfshapes/halfshapes.md#conic--conic2)
-[![](halfshapes/shape-1.png)](halfshapes/halfshapes.md#shape)
-[![](halfshapes/shape-2.png)](halfshapes/halfshapes.md#shape)
+[![](halfblurs/cannabiscurve-1.png)](halfblurs/halfblurs.md#cannabiscurve_wf)
+[![](halfblurs/cloverleaf-1.png)](halfblurs/halfblurs.md#cloverleaf_wf)
+[![](halfblurs/conic-1.png)](halfblurs/halfblurs.md#conic--conic2)
+[![](halfblurs/conic-2.png)](halfblurs/halfblurs.md#conic--conic2)
+[![](halfblurs/shape-1.png)](halfblurs/halfblurs.md#shape)
+[![](halfblurs/shape-2.png)](halfblurs/halfblurs.md#shape)
 
 ## [Inversion](inversion/inversion.md#Inversion)
 
