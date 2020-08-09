@@ -123,7 +123,7 @@ Maurer lines extend the Maurer rose with different types of curves, rendering me
 [![](maurerlines/maurer_lines-2.png)](maurerlines/maurerlines.md#maurer_lines)
 
 ## [Meshes](meshes/meshes.md#Meshes)
-Variations that generate meshes, three dimensional shapes made from connected triqangles. These are all blur variations that ignore their inputs.
+Variations that generate meshes, three dimensional shapes made from connected triangles. These are all blur variations that ignore their inputs.
 
 [![](meshes/obj_mesh_primitive_wf-1.png)](meshes/meshes.md#obj_mesh_primitive_wf)
 [![](meshes/obj_mesh_wf-1.png)](meshes/meshes.md#obj_mesh_wf)
