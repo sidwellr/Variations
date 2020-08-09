@@ -122,6 +122,14 @@ Maurer lines extend the Maurer rose with different types of curves, rendering me
 [![](maurerlines/maurer_lines-1.png)](maurerlines/maurerlines.md#maurer_lines)
 [![](maurerlines/maurer_lines-2.png)](maurerlines/maurerlines.md#maurer_lines)
 
+## [Meshes](meshes/meshes.md#Meshes)
+Variations that generate meshes, three dimensional shapes made from connected triqangles. These are all blur variations that ignore their inputs.
+
+[![](meshes/obj_mesh_primitive_wf-1.png)](meshes/meshes.md#obj_mesh_primitive_wf)
+[![](meshes/obj_mesh_wf-1.png)](meshes/meshes.md#obj_mesh_wf)
+[![](meshes/sattractor3D-1.png)](meshes/meshes.md#sattractor3D)
+[![](meshes/sattractor3D-2.png)](meshes/meshes.md#sattractor3D)
+
 ## [Plotting Variations](plotting/plotting.md#Plotting-variations)
 
 These variations are all blurs that plot formulas in two or three dimensions. They allow entering custom formulas, but also come with presets for ease of use.

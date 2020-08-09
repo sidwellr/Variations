@@ -145,42 +145,6 @@ Date: Sept 2003
 http://paulbourke.net/fractals/peterdejong/  
 https://www.algosome.com/articles/strange-attractors-de-jong.html  
 
-## sattractor3D
-Generate a 3D mesh from differential equations.
-
-Type: 3D blur  
-Author: Jesus Sosa  
-Data: 21 Feb 2018
-
-[![](sattractor3D-1.png)](sattractor3D-1.flame) [![](sattractor3D-2.png)](sattractor3D-2.flame)
-
-| Parameter | Description |
-| --- | --- |
-| xformula | The formula to use for dx for the attractor differential equation; it returns the value for dx, and can use "x", "y", "z", and "param_a" through "param_h" as well as constants and standard math functions. Changing presetId will overwrite it with the preset formula. |
-| yformula | The formula to use for dy for the attractor differential equation |
-| zformula | The formula to use for dz for the attractor differential equation |
-| presetId | The preset to use; set to -1 to not use a preset |
-| steps | Number of thousands of steps to use in the curve |
-| radius | Thickness of the curve |
-| stepTime | Delta time for computing the curve |
-| facets | Number of sides in the attractor curve |
-| start_x, start_y, start_z | Initial values for x, y, and z |
-| warmup | Number of steps to skip before plotting the attractor |
-| param_a - param_h | Value for param_a through param_h in the formulas |
-| scale_x, scale_y, scale_z | Scale factors for x, y, and z |
-| offset_x, offset_y, offset_z | Offset for the attractor curve |
-| subdiv_level |
-| subdiv_smooth_passes |
-| subdiv_smooth_lambda |
-| subdiv_smooth_mu |
-| blend_colormap | Not used |
-| displ_amount | Not used |
-| blend_displ_map | Not used |
-| receive_only_shadows |
-
-http://jwildfire.org/forum/viewtopic.php?f=23&t=2607  
-https://github.com/thargor6/JWildfire/blob/master/src/org/jwildfire/create/tina/variation/plot/sattractor3d_wf_presets.txt  
-
 ## sattractor_js
 A strange attractor attributed to Roger Bagula.
 

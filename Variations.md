@@ -100,6 +100,8 @@
 |[noise](blurry/blurry.md#noise) | Add noise as a blur effect
 |[npolar](julia/julia.md#npolar) | Mashup of julian and polar2
 | |
+|[obj_mesh_primitive_wf](meshes/meshes.md#obj_mesh_primitive_wf) | Use a predefined object as a 3D mesh
+|[obj_mesh_wf](meshes/meshes.md#obj_mesh_wf) | Load a 3D mesh from a file in Wavefront OBJ format
 |[ovoid](inversion/inversion.md#ovoid) | Spherical with x and y scaling
 |[ovoid3D](inversion/inversion.md#ovoid3D) | Spherical with x, y, and z scaling
 | |
@@ -140,7 +142,7 @@
 |[rose](blobs/blobs.md#rose) | Modulate a flame using the rose curve
 |[rose_wf](rosecurve/rosecurve.md#rose_wf) | Simple rose curve
 | |
-|[sattractor3D](attractors/attractors.md#sattractor3D) | Generate a 3D mesh from differential equations
+|[sattractor3D](meshes/meshes.md#sattractor3D) | Generate a 3D mesh from differential equations
 |[sattractor_js](attractors/attractors.md#sattractor_js) | A strange attractor attributed to Roger Bagula
 |[shape](halfblurs/halfblurs.md#shape) | General shape generator using the superformula
 |[sineblur](shapes/shapes.md#sineblur) | A circle with a shading effect
