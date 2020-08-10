@@ -129,6 +129,7 @@ Variations that generate meshes, three dimensional shapes made from connected tr
 [![](meshes/obj_mesh_wf-1.png)](meshes/meshes.md#obj_mesh_wf)
 [![](meshes/sattractor3D-1.png)](meshes/meshes.md#sattractor3D)
 [![](meshes/sattractor3D-2.png)](meshes/meshes.md#sattractor3D)
+[![](meshes/terrain3D-1.png)](meshes/meshes.md#terrain3D)
 
 ## [Plotting Variations](plotting/plotting.md#Plotting-variations)
 

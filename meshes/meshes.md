@@ -24,19 +24,22 @@ Date: 29 Nov 2016
 | subdiv_level | The number of levels of subdivision to perform; it must be an integer between 0 (to disable smoothing) and 6. Note each level used will dramatically increase both render time and memory needed. |
 | subdiv_smooth_passes | The number of Taubin smoothing passes to apply to each subdivision level; it must be an integer between 0 and 24. |
 | subdiv_smooth_lambda | The lambda value used for the first step of each pass; it should be a positive number between 0 and 1. |
-| subdiv_smooth_mu | The mu value used for the second step of tach pass; it should be a negative number between 0 and -1, and is usually a bit less than -lambda). || blend_colormap | Whether to blend colormap colors with surrounding colors (color_mode 0 only)<br>0: Don't blend colors<br>1: Blend colors |
+| subdiv_smooth_mu | The mu value used for the second step of tach pass; it should be a negative number between 0 and -1, and is usually a bit less than -lambda). |
+| blend_colormap | Whether to blend colormap colors with surrounding colors (color_mode 0 only)<br>0: Don't blend colors<br>1: Blend colors |
 | displ_amount | Scaling for the displacement map; 0 to disable displacement |
 | blend_displ_map | Whether to blend values from the displacement map<br>0: Don't blend values<br>1: Blend values |
 | receive_only_shadows | If set to 1, and solid rendering is enabled, the mesh will be invisible but will show shadows that fall on it (hard shadows must be enabled to see any) |
 
 ## obj_mesh_wf
-Load a 3D mesh from a file in Wavefront OBJ format.
+Load a 3D mesh from an OBJ format file.
 
 Type: 3D mesh  
 Author: Andreas Maschke (thargor6)   
 Date: 29 Nov 2016  
 
 [![](obj_mesh_wf-1.png)](obj_mesh_wf-1.flame)
+
+The OBJ object file format was developed by Wavefront Technologies but is open and supported by many 3D graphics programs. It defines the XYZ position of each vertex and the faces that make each polygon in the mesh as a list of vertices. It can optionally define UV texture map coordinates for each face, used to map a 2D image to the mesh's surface. These are used by the color and displacement map features. If the OBJ file does not include texture map coordinates, the color and displacement maps are ignored.
 
 | Parameter | Description |
 | --- | --- |
@@ -48,7 +51,8 @@ Date: 29 Nov 2016
 | subdiv_level | The number of levels of subdivision to perform; it must be an integer between 0 (to disable smoothing) and 6. Note each level used will dramatically increase both render time and memory needed. |
 | subdiv_smooth_passes | The number of Taubin smoothing passes to apply to each subdivision level; it must be an integer between 0 and 24. |
 | subdiv_smooth_lambda | The lambda value used for the first step of each pass; it should be a positive number between 0 and 1. |
-| subdiv_smooth_mu | The mu value used for the second step of tach pass; it should be a negative number between 0 and -1, and is usually a bit less than -lambda). || blend_colormap | Whether to blend colormap colors with surrounding colors (color_mode 0 only)<br>0: Don't blend colors<br>1: Blend colors |
+| subdiv_smooth_mu | The mu value used for the second step of tach pass; it should be a negative number between 0 and -1, and is usually a bit less than -lambda). |
+| blend_colormap | Whether to blend colormap colors with surrounding colors (color_mode 0 only)<br>0: Don't blend colors<br>1: Blend colors |
 | displ_amount | Scaling for the displacement map; 0 to disable displacement |
 | blend_displ_map | Whether to blend values from the displacement map<br>0: Don't blend values<br>1: Blend values |
 | receive_only_shadows | If set to 1, and solid rendering is enabled, the mesh will be invisible but will show shadows that fall on it (hard shadows must be enabled to see any) |
@@ -56,7 +60,7 @@ Date: 29 Nov 2016
 ## sattractor3D
 Generate a 3D mesh from differential equations.
 
-Type: 3D blur  
+Type: 3D mesh  
 Author: Jesus Sosa  
 Data: 21 Feb 2018
 
@@ -83,5 +87,34 @@ Data: 21 Feb 2018
 | blend_displ_map | Not used |
 | receive_only_shadows | If set to 1, and solid rendering is enabled, the mesh will be invisible but will show shadows that fall on it (hard shadows must be enabled to see any) |
 
-http://jwildfire.org/forum/viewtopic.php?f=23&t=2607  
+https://jwildfire-forum.overwhale.com/viewtopic.php?f=23&t=2607  
 https://github.com/thargor6/JWildfire/blob/master/src/org/jwildfire/create/tina/variation/plot/sattractor3d_wf_presets.txt  
+
+## terrain3D
+Generate a random terrain surface mesh.
+
+Type: 3D mesh  
+Author: Jesus Sosa  
+Date: 14 Apr 2018  
+
+[![](terrain3D-1.png)](terrain3D-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| roughness | Surface roughness; 0.5 is average, smaller is smoother |
+| z_exaggeration | Altitude scale; larger values exaggerate the altitude |
+| Size (N PowersOf 2) | The number of cells per side used to generate the terrain, as a power of 2; for example a value of 5 would use 2^5=32 cells per side (for a total of 1024) |
+| seed | The random number seed; changing this number will change the terrain generated |
+| dc | 0: Use the transform color<br>1: Use direct color; the color of a point is based on its altitude |
+| scale_x, scale_y, scale_z | Scale factors for x, y, and z |
+| offset_x, offset_y, offset_z | Shift the mesh in the x, y, and z directions |
+| subdiv_level | The number of levels of subdivision to perform; it must be an integer between 0 (to disable smoothing) and 6. Note each level used will dramatically increase both render time and memory needed. |
+| subdiv_smooth_passes | The number of Taubin smoothing passes to apply to each subdivision level; it must be an integer between 0 and 24. |
+| subdiv_smooth_lambda | The lambda value used for the first step of each pass; it should be a positive number between 0 and 1. |
+| subdiv_smooth_mu | The mu value used for the second step of tach pass; it should be a negative number between 0 and -1, and is usually a bit less than -lambda). |
+| blend_colormap | Not used |
+| displ_amount | Not used |
+| blend_displ_map | Not used |
+| receive_only_shadows | If set to 1, and solid rendering is enabled, the mesh will be invisible but will show shadows that fall on it (hard shadows must be enabled to see any) |
+
+https://jwildfire-forum.overwhale.com/viewtopic.php?f=23&t=2626  

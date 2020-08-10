@@ -101,7 +101,7 @@
 |[npolar](julia/julia.md#npolar) | Mashup of julian and polar2
 | |
 |[obj_mesh_primitive_wf](meshes/meshes.md#obj_mesh_primitive_wf) | Use a predefined object as a 3D mesh
-|[obj_mesh_wf](meshes/meshes.md#obj_mesh_wf) | Load a 3D mesh from a file in Wavefront OBJ format
+|[obj_mesh_wf](meshes/meshes.md#obj_mesh_wf) | Load a 3D mesh from an OBJ format file
 |[ovoid](inversion/inversion.md#ovoid) | Spherical with x and y scaling
 |[ovoid3D](inversion/inversion.md#ovoid3D) | Spherical with x, y, and z scaling
 | |
@@ -159,6 +159,7 @@
 |[svensson_js](attractors/attractors.md#svensson_js) | Johnny Svensson attractor
 |[synth](synth/synth.md#synth-v2) | Combo variation (emulates several others) with added wave functions
 | |
+|[terrain3D](meshes/meshes.md#terrain3D) | Generate a random terrain surface mesh
 |[threeply](attractors/attractors.md#threeply) | A strange attractor named Three Ply
 |[tri_boarders2](boarders/boarders.md#tri_boarders2) | Divide the plane into hexagons with borders
 |[triangle](shapes/shapes.md#triangle) | Triangular blur (3D)
