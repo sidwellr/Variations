@@ -57,6 +57,8 @@ The OBJ object file format was developed by Wavefront Technologies but is open a
 | blend_displ_map | Whether to blend values from the displacement map<br>0: Don't blend values<br>1: Blend values |
 | receive_only_shadows | If set to 1, and solid rendering is enabled, the mesh will be invisible but will show shadows that fall on it (hard shadows must be enabled to see any) |
 
+[Teapot mesh](teapot.obj) used for above example.
+
 ## sattractor3D
 Generate a 3D mesh from differential equations.
 
