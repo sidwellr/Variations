@@ -30,6 +30,8 @@ Date: 29 Nov 2016
 | blend_displ_map | Whether to blend values from the displacement map<br>0: Don't blend values<br>1: Blend values |
 | receive_only_shadows | If set to 1, and solid rendering is enabled, the mesh will be invisible but will show shadows that fall on it (hard shadows must be enabled to see any) |
 
+https://www.youtube.com/watch?v=j470dOB4ksM  
+
 ## obj_mesh_wf
 Load a 3D mesh from an OBJ format file.
 
@@ -43,7 +45,7 @@ The OBJ object file format was developed by Wavefront Technologies but is open a
 
 | Parameter | Description |
 | --- | --- |
-| obj_filename | The file containing the mesh |
+| obj_filename | The file containing the mesh; set the default path with the preference tinaMeshPath |
 | colormap_filename | The file containing a color map to apply to the mesh |
 | displ_map_filename | The file containing the displacement map |
 | scale_x, scale_y, scale_z | Scale factors for x, y, and z |
@@ -57,7 +59,8 @@ The OBJ object file format was developed by Wavefront Technologies but is open a
 | blend_displ_map | Whether to blend values from the displacement map<br>0: Don't blend values<br>1: Blend values |
 | receive_only_shadows | If set to 1, and solid rendering is enabled, the mesh will be invisible but will show shadows that fall on it (hard shadows must be enabled to see any) |
 
-[Teapot mesh](teapot.obj) used for above example.
+[Teapot mesh](teapot.obj) used for above example.  
+https://www.youtube.com/watch?v=j470dOB4ksM  
 
 ## sattractor3D
 Generate a 3D mesh from differential equations.
