@@ -66,7 +66,21 @@ Treats 2D points as complex numbers and raises them to a complex power that can 
 [![](cpow/cpow3_wf-1.png)](cpow/cpow.md#cpow3_wf)
 [![](cpow/escher-1.png)](cpow/cpow.md#escher)
 
-## [Half Blurs](halfshapes/halfblurs#Half-Blurs)
+## [Flippers](filppers/flippers.md#Flippers)
+Variations that divide up the plane in various ways and flip or rotate the parts.
+
+[![](flippers/fan2-1.png)](flippers/flippers.md#fan2)
+[![](flippers/flipcircle-1.png)](flippers/flippers.md#flipcircle)
+[![](flippers/flipy-1.png)](flippers/flippers.md#flipy)
+[![](flippers/glitchy1-1.png)](flippers/flippers.md#glitchy1)
+[![](flippers/lazysensen-1.png)](flippers/flippers.md#lazysensen)
+[![](flippers/minkowscope-1.png)](flippers/flippers.md#minkowscope)
+[![](flippers/oscilloscope-1.png)](flippers/flippers.md#ocsilloscope)
+[![](flippers/oscilloscope2-1.png)](flippers/flippers.md#ocsilloscope2)
+[![](flippers/rectangles-1.png)](flippers/flippers.md#rectangles)
+[![](flippers/scrambly-1.png)](flippers/flippers.md#scrambly)
+
+## [Half Blurs](halfshapes/halfblurs.md#Half-Blurs)
 Variations that generate specific shapes using polar coordinates.
 
 [![](halfblurs/cannabiscurve-1.png)](halfblurs/halfblurs.md#cannabiscurve_wf)

@@ -45,7 +45,11 @@
 |[exblur](blurry/blurry.md#exblur) | Blur effect radiating from a point
 |[extrude](zmanip/zmanip.md#extrude) | Extrude the other variations on the transform by stretching the z coordinate
 | |
+|[fan](flippers/flippers.md#fan) | Divides the plane into pie shaped wedges and rotates them (dependent variation)
+|[fan2](flippers/flippers.md#fan2) | Divides the plane into pie shaped wedges and rotates them (parameter version)
 |[flatten](zmanip/zmanip.md#flatten--zclear) | Flatten the flame by setting the z coordinate to 0
+|[flipcircle](flippers/flippers.md#flipcircle) | Flips the points inside a circle centered at the origin top to bottom
+|[flipy](flippers/flippers.md#flipy) | Flips the points on the right side of the y-axis top to bottom
 |[flower](rosecurve/rosecurve.md#flower) | Filled-in rose curve; looks like a flower with petals
 |[flower_db](blobs/blobs.md#flower_db) | Reshape a flame into a 3D flower
 |[flower2](rosecurve/rosecurve.md#flower) | Filled-in rose curve; looks like a flower with petals
@@ -53,6 +57,7 @@
 | |
 |[gaussian_blur](shapes/shapes.md#gaussian_blur) | Fuzzy circle with a bright center, made from a Gaussian distribution
 |[gingerbread_man](attractors/attractors.md#gingerbread_man) | An attractor that resembles a gingerbread man
+|[glitchy1](flippers/flippers.md#glitchy1) | Mix of lazysensen (divide flame into strips and flip them) and pixel_flow (blur to resemble flowing pixels)
 |[gumowski_mira](attractors/attractors.md#gumowski_mira) | The strange attractor of Gumowski-Mira
 | |
 |[henon](attractors/attractors.md#henon) | Strange attractor discovered by Michel Hénon
@@ -84,6 +89,7 @@
 |[juliaNab](julia/julia.md#juliaNab) | Variant of julian with different parameters
 |[juliaq](julia/julia.md#juliaq) | Julia set using a rational power
 | |
+|[lazysensen](flippers/flippers.md#lazysensen) | Divide the flame into strips and flip them
 |[linear](linear/linear.md#linear-1) | Copy the input (x and y only)
 |[linear3D](linear/linear.md#linear3D) | Copy the input (x, y, and z)
 |[linearT](linear/linear.md#linearT) | Tweak of linear, adding an exponent for x and y
@@ -94,6 +100,7 @@
 |[macmillan](attractors/attractors.md#macmillan) | Perturbed McMillan map (studied by Edwin McMillan)
 |[maurer_lines](maurerlines/maurerlines.md#maurer_lines) | Generalized string art
 |[maurer_rose](rosecurve/rosecurve.md#maurer_rose) | String art on a rose curve
+|[minkowscope](flippers/flippers.md#minkowscope) | Flip the plane in a wave shape based on the Minkowsky question-mark function across the origin
 | |
 |[nBlur](shapes/shapes.md#nBlur) | Polygon shaped blur
 |[ngon](reshapers/reshapers.md#ngon) | Reshape circles centered at the origin into polygons, with an option for inversion
@@ -102,6 +109,8 @@
 | |
 |[obj_mesh_primitive_wf](meshes/meshes.md#obj_mesh_primitive_wf) | Use a predefined object as a 3D mesh
 |[obj_mesh_wf](meshes/meshes.md#obj_mesh_wf) | Load a 3D mesh from an OBJ format file
+|[oscilloscope](flippers/flippers.md#oscilloscope) | Flip the plane in a sine wave shape across the x axis
+|[oscilloscope2](flippers/flippers.md#oscilloscope2) | Flip the plane in a sine wave shape across the origin with perturbation
 |[ovoid](inversion/inversion.md#ovoid) | Spherical with x and y scaling
 |[ovoid3D](inversion/inversion.md#ovoid3D) | Spherical with x, y, and z scaling
 | |
@@ -138,12 +147,14 @@
 |[pRose3D](rosecurve/rosecurve.md#pRose3D) | Rose curve with three dimensional shaping
 | |
 |[radial_blur](blurry/blurry.md#radial_blur) | Blur effect rotating around the origin
+|[rectangles](flippers/flippers.md#rectangles) | Divide the plane into rectangles and flip each horizontally and vertically
 |[rhodonea](rosecurve/rosecurve.md#rhodonea) | Advanced rose curve
 |[rose](blobs/blobs.md#rose) | Modulate a flame using the rose curve
 |[rose_wf](rosecurve/rosecurve.md#rose_wf) | Simple rose curve
 | |
 |[sattractor3D](meshes/meshes.md#sattractor3D) | Generate a 3D mesh from differential equations
 |[sattractor_js](attractors/attractors.md#sattractor_js) | A strange attractor attributed to Roger Bagula
+|[scrambly](flippers/flippers.md#scrambly) | Divide the central square into subsquares and scramble them
 |[shape](halfblurs/halfblurs.md#shape) | General shape generator using the superformula
 |[sineblur](shapes/shapes.md#sineblur) | A circle with a shading effect
 |[sphereblur](shapes/shapes.md#sphereblur) | 3D version of sineblur
