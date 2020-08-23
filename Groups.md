@@ -75,8 +75,8 @@ Variations that divide up the plane in various ways and flip or rotate the parts
 [![](flippers/glitchy1-1.png)](flippers/flippers.md#glitchy1)
 [![](flippers/lazysensen-1.png)](flippers/flippers.md#lazysensen)
 [![](flippers/minkowscope-1.png)](flippers/flippers.md#minkowscope)
-[![](flippers/oscilloscope-1.png)](flippers/flippers.md#ocsilloscope)
-[![](flippers/oscilloscope2-1.png)](flippers/flippers.md#ocsilloscope2)
+[![](flippers/oscilloscope-1.png)](flippers/flippers.md#oscilloscope)
+[![](flippers/oscilloscope2-1.png)](flippers/flippers.md#oscilloscope2)
 [![](flippers/rectangles-1.png)](flippers/flippers.md#rectangles)
 [![](flippers/scrambly-1.png)](flippers/flippers.md#scrambly)
 
