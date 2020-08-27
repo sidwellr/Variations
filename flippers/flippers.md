@@ -260,6 +260,6 @@ Finally, here is a summary of the parameters:
 | r | Scale for x in region A |
 | s | Scale for y in region A |
 | type | 0: Flip region A; 1: Don't flip region A |
-| mode | Action for regions B and C (see table above) |
+| mode | Action for regions C and D (see table above) |
 
 https://jwildfire-forum.overwhale.com/viewtopic.php?f=23&t=1893  
