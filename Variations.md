@@ -161,6 +161,7 @@
 |[spherical](inversion/inversion.md#spherical) | Reflects the plane across the unit circle
 |[spherical3D](inversion/inversion.md#spherical3D) | A 3D version of spherical
 |[spherical3D_wf](inversion/inversion.md#spherical3D_wf) | A 3D version of spherical
+|[split](flippers/flippers.md#split) | Split the plane into horizontal and vertical strips and flip alternate strips across the x and y axes
 |[square](shapes/shapes.md#square) | Square shaped blur
 |[square3D](shapes/shapes.md#square3D) | Cube shaped blur
 |[squarize](reshapers/reshapers.md#squarize) | Reshape circles centered at the orgin into squares

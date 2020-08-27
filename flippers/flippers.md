@@ -184,3 +184,82 @@ Date: 27 Jun 2014
 | cellsize | Size of the central square (the default of 0.1 is very small) |
 
 https://www.deviantart.com/dark-beam/art/Scrambly-463910011  
+
+## split
+Split the plane into horizontal and vertical strips and flip alternate strips across the x and y axes.
+
+Type: 2D  
+Author: Joel Faber  
+Date: 21 Jun 2007  
+
+[![](split-1.png)](split-1.flame)
+
+Don't confuse with similarly named variation splits.
+
+| Parameter | Description |
+| --- | --- |
+| xsize | Controls the size of the vertical strips that are flipped across the x axis; higher values produce more strips |
+| ysize | Controls the size of the horizontal strips that are flipped across the y axis; higher values produce more strips |
+
+## tqmirror
+Divide the plane into four regions using right angles; shift one region and flip or rotate the others.
+
+Type: 2D  
+Authors: Nic Anderson (chronologicaldot) and Brad Stefanov  
+Date: 15 Aug 2015  
+
+[![](tqmirror-1.png)](tqmirror-1.flame)
+
+The variation name means "three quarter mirror". It uses four vertical lines and four horizontal lines to divide the plane into four regions. Here are the base values for the lines (amount is the variation amount, letters other than x and y are parameter values):
+
+| Vertical Line | Preset 0 | General |
+| --- | --- | --- |
+| Line 1 | *x = -amount* | *x = l - amount * d* |
+| Line 2 | *x = 0* (*y*-axis) | *x = n* |
+| Line 3 | *x = amount* | *x = amount - q* |
+| Line 4 | *x = -amount* (same as Line 1) | *x = l - amount * b* |
+
+| Horizontal Line | Preset 0 | General |
+| --- | --- | --- |
+| Line a | *y = -amount* | *y = m - amount * e* |
+| Line b | *y = 0* (*x*-axis) | *y = o* |
+| Line c | *y = amount* | *y = amount * a* |
+| Line d | *y = -amount* *same as Line a) | *y = p - amount * c* |
+
+Given these lines, here is a description of the four regions and what happens to each. In JWildfire, the major diagonal runs from top left to bottom right, and the minor diagonal runs from top right to bottom left. "Scale by (u,v)" means multiply the resulting x by u and y by v. Note that many combinations of parameters will result in overlaps and gaps.
+
+| Region | Boundaries | Action |
+| --- | --- | --- |
+| A | Left of line 1 or above line a | Type 0: Flip across the major diagonal, then scale by (r,s)<br>Type 1: Just scale by (r,s) |
+| B | Left of line 2 and above line b, but not in region A | Shift right by amount * f and down by amount * g |
+| C | Left of line 3, right of line 4, above line c, and below line d, but not in region A or B | Mode 0: Flip across the minor diagonal, then scale by (h,i)<br>Mode 1: Same as mode 0<br>Mode 2: Rotate 90° clockwise, then scale by (h,i) |
+| D | Everything not in regions A, B, or C | Mode 0: Scale by (j,k)<br>Mode 1: Flip across the minor diagonal, then scale by (j,k)<br>Mode 2: Flip across *x*-axis, then scale by (j,k)
+
+Finally, here is a summary of the parameters:
+| Parameter | Description |
+| --- | --- |
+| (amount) | The variation amount specifies the base size for the region boundaries; unlike most variations, the amount does not scale the result |
+| preset | Sets the letter parameters to specific values that work nicely; there are currently three presets: 0 through 2 |
+| a | Scale for line c (bottom of region C) |
+| b | Scale for line 4 (left side of region C) |
+| c | Scale for line d (top of region C)
+| d | Scale for line 1 (right side of region A) |
+| e | Scale for line a (bottom of region A) |
+| f | Scale for region B horizontal shift amount |
+| g | Scale for region B vertical shift amount |
+| h | Scale for x in region C |
+| i | Scale for y in region C |
+| j | Scale for x in region D |
+| k | Scale for y in region D |
+| l | Offset for lines 1 and 4 (right side of region A, left side of region C) |
+| m | Offset for line a (bottom of region A) |
+| n | Offset for line 2 (right side of region B) |
+| o | Offset for line b (bottom of region B) |
+| p | Offset for line d (top or region C) |
+| q | Offset for line 3 (right side of region C) |
+| r | Scale for x in region A |
+| s | Scale for y in region A |
+| type | 0: Flip region A; 1: Don't flip region A |
+| mode | Action for regions B and C (see table above) |
+
+https://jwildfire-forum.overwhale.com/viewtopic.php?f=23&t=1893  
