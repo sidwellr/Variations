@@ -224,7 +224,7 @@ The variation name means "three quarter mirror". It uses four vertical lines and
 | Line a | *y = -amount* | *y = m - amount * e* |
 | Line b | *y = 0* (*x*-axis) | *y = o* |
 | Line c | *y = amount* | *y = amount * a* |
-| Line d | *y = -amount* *same as Line a) | *y = p - amount * c* |
+| Line d | *y = -amount* (same as Line a) | *y = p - amount * c* |
 
 Given these lines, here is a description of the four regions and what happens to each. In JWildfire, the major diagonal runs from top left to bottom right, and the minor diagonal runs from top right to bottom left. "Scale by (u,v)" means multiply the resulting x by u and y by v. Note that many combinations of parameters will result in overlaps and gaps.
 
