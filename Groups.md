@@ -81,6 +81,7 @@ Variations that divide up the plane in various ways and flip or rotate the parts
 [![](flippers/scrambly-1.png)](flippers/flippers.md#scrambly)
 [![](flippers/split-1.png)](flippers/flippers.md#split)
 [![](flippers/tqmirror-1.png)](flippers/flippers.md#tqmirror)
+[![](flippers/trade-1.png)](flippers/flippers.md#trade)
 
 ## [Half Blurs](halfshapes/halfblurs.md#Half-Blurs)
 Variations that generate specific shapes using polar coordinates.

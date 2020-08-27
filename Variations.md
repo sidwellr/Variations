@@ -174,6 +174,7 @@
 |[terrain3D](meshes/meshes.md#terrain3D) | Generate a random terrain surface mesh
 |[threeply](attractors/attractors.md#threeply) | A strange attractor named Three Ply
 |[tqmirror](flippers/flippers.md#tqmirror) | Divide the plane into four regions using right angles; shift one region and flip or rotate the others
+|[trade](flippers/flippers.md#trade) | Trade a circle on the right with a circle on the left, flipping them in the process
 |[tri_boarders2](boarders/boarders.md#tri_boarders2) | Divide the plane into hexagons with borders
 |[triangle](shapes/shapes.md#triangle) | Triangular blur (3D)
 | |

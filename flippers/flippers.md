@@ -210,7 +210,7 @@ Date: 15 Aug 2015
 
 [![](tqmirror-1.png)](tqmirror-1.flame)
 
-The variation name means "three quarter mirror". It uses four vertical lines and four horizontal lines to divide the plane into four regions. Here are the base values for the lines (amount is the variation amount, letters other than x and y are parameter values):
+The variation name means "three quarter mirror". It uses four vertical lines and four horizontal lines to divide the plane into four regions. Here are the locations of the lines (amount is the variation amount, letters other than x and y are parameter values):
 
 | Vertical Line | Preset 0 | General |
 | --- | --- | --- |
@@ -230,10 +230,10 @@ Given these lines, here is a description of the four regions and what happens to
 
 | Region | Boundaries | Action |
 | --- | --- | --- |
-| A | Left of line 1 or above line a | Type 0: Flip across the major diagonal, then scale by (r,s)<br>Type 1: Just scale by (r,s) |
+| A | Left of line 1 or above line a | Type 0: Flip across the major diagonal, then scale by (r,s)<br>Type 1: Scale by (r,s) |
 | B | Left of line 2 and above line b, but not in region A | Shift right by amount * f and down by amount * g |
 | C | Left of line 3, right of line 4, above line c, and below line d, but not in region A or B | Mode 0: Flip across the minor diagonal, then scale by (h,i)<br>Mode 1: Same as mode 0<br>Mode 2: Rotate 90° clockwise, then scale by (h,i) |
-| D | Everything not in regions A, B, or C | Mode 0: Scale by (j,k)<br>Mode 1: Flip across the minor diagonal, then scale by (j,k)<br>Mode 2: Flip across *x*-axis, then scale by (j,k)
+| D | Everything not in regions A, B, or C | Mode 0: Scale by (j,k)<br>Mode 1: Flip across the minor diagonal, then scale by (j,k)<br>Mode 2: Flip across the *x*-axis, then scale by (j,k)
 
 Finally, here is a summary of the parameters:
 | Parameter | Description |
@@ -263,3 +263,19 @@ Finally, here is a summary of the parameters:
 | mode | Action for regions C and D (see table above) |
 
 https://jwildfire-forum.overwhale.com/viewtopic.php?f=23&t=1893  
+
+## trade
+Trade a circle on the right with a circle on the left, flipping them in the process.
+
+Type: 2D  
+Author: Michael Faber  
+Date: 5 Apr 2009  
+
+[![](trade-1.png)](trade-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| r1 | Radius of circle 1 (on the right) |
+| d1 | Distance of the left edge of circle 1 to the right of the origin |
+| r2 | Radius of circle 2 (on the left) |
+| d2 | Distance of the right edge of circle to the left of the origin |
