@@ -96,6 +96,8 @@
 |[linearT3D](linear/linear.md#linearT3D) | Tweak of linear3D, adding an exponent for x, y, and z
 |[lorenz_js](attractors/attractors.md#lorenz_js) | Strange attractor first studied by Edward Lorenz
 |[lozi](attractors/attractors.md#lozi) | Strange attractor discovered by René Lozi
+|[lsystem_js](lsystems/lsystems.md#lsystem_js) | Create a two dimensional shape using an L-System
+|[lsystem3D_js](lsystems/lsystems.md#lsystem3D_js) | Create a three dimensional mesh using an L-System
 | |
 |[macmillan](attractors/attractors.md#macmillan) | Perturbed McMillan map (studied by Edwin McMillan)
 |[maurer_lines](maurerlines/maurerlines.md#maurer_lines) | Generalized string art

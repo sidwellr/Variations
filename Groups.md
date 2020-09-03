@@ -132,6 +132,13 @@ Variations that just copy the input, some with minor modification.
 [![](linear/linear-1.png)](linear/linear.md#linear-1)
 [![](linear/linearT-1.png)](linear/linear.md#linearT)
 
+## [L-Systems](lsystems/lsystems.md#L-Systems)
+
+Variations that use L-Systems to generate shapes.
+
+[![](lsystems/lsystem-1.png)](lsystems/lsystems.md#lsystem_js)
+[![](lsystems/lsystem3D-1.png)](lsystems/lsystems.md#lsystem3D_js)
+
 ## [Maurer Lines](maurerlines/maurerlines.md#Maurer-Lines)
 
 Maurer lines extend the Maurer rose with different types of curves, rendering methods, and coloring.
