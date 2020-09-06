@@ -90,9 +90,9 @@ https://www.deviantart.com/piritipany/art/Ovoid-and-Ovoid3d-Plugins-113635970
 ## spherical
 Reflects the plane across the unit circle. Also post_spherical and pre_spherical.
 
-Type: 2D
-Author: Scott Draves
-Date: Sept 2003
+Type: 2D  
+Author: Scott Draves  
+Date: Sept 2003  
 
 [![](spherical-1.png)](spherical-1.flame)
 

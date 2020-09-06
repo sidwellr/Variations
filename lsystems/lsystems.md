@@ -16,7 +16,7 @@ http://paulbourke.net/fractals/lsys/
 ## lsystem_js
 Create a two dimensional shape using an L-System. Compatible with the Fractint L-System type. See general description above.
 
-Type: 2D  
+Type: 2D blur  
 Author: Jesus Sosa  
 Date: 31 Oct 2017  
 
@@ -43,7 +43,7 @@ After the axiom is iterated a number of times to produce the final string, that 
 
 | Character | Description |
 | --- | --- |
-| C## | Reserved (currently ignored)
+| C## | Set color to ## (gradient index 0-255) (currently ignored) |
 | D | Draw forward |
 | F | Draw forward |
 | G | Move forward (without drawing) |
@@ -57,8 +57,8 @@ After the axiom is iterated a number of times to produce the final string, that 
 | /## | Rotate right ## degrees |
 | \\## | Rotate left ## degrees |
 | @## | Scale the step size by ##; ## may be a plain number, or preceded by I for inverse (divide instead of multiply) or Q for square root (for example @IQ2 divides the step size by the square root of 2) |
-| <## | Reserved (currently ignored) |
-| >## | Reserved (currently ignored) |
+| <## | Increment color by ## (currently ignored) |
+| >## | Decrement color by ## (currently ignored) |
 
 ### Parameters
 
@@ -73,13 +73,15 @@ After the axiom is iterated a number of times to produce the final string, that 
 | line_thickness | Thickness of drawn lines |
 | show_points_param | Relative density of points compared to lines; typically set to 1 to show the points and 0 to hide them. |
 | point_thickness | Thickness of drawn points |
+| color_mode | (To be implemented in a future version)<br>0: Normal coloring (default)<br>1: Direct color (using C, <, and > drawing commands) |
 
 https://jwildfire-forum.overwhale.com/viewtopic.php?f=23&t=2555  
+https://web.archive.org/web/20090324234943/http://www.nahee.com/spanky/www/fractint/lsys/tutor.html  
 
 ## lsystem3D_js
 Create a three dimensional mesh using an L-System. Compatible with the L-System description in *The Algorithmic Beauty of Plants* by Przemyslaw Prusinkiewicz and Aristid Lindenmayer. See general description above.
 
-Type: 3D  
+Type: 3D blur  
 Author: Jesus Sosa, based on Lparser by Laurens Lapré  
 Date: 23 Nov 2017  
 
