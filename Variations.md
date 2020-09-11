@@ -113,6 +113,7 @@
 |[obj_mesh_wf](meshes/meshes.md#obj_mesh_wf) | Load a 3D mesh from an OBJ format file
 |[oscilloscope](flippers/flippers.md#oscilloscope) | Flip the plane in a sine wave shape across the x axis
 |[oscilloscope2](flippers/flippers.md#oscilloscope2) | Flip the plane in a sine wave shape across the origin with perturbation
+|[octagon](inversion/inversion.md#octagon) | Divide the flame into two parts using a rounded cuboid, and invert them separately and differently; includes splits capability
 |[ovoid](inversion/inversion.md#ovoid) | Spherical with x and y scaling
 |[ovoid3D](inversion/inversion.md#ovoid3D) | Spherical with x, y, and z scaling
 | |

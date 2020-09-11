@@ -58,6 +58,44 @@ Ring mode has some quirks. First, ring_scale must be something other than 1 for 
 #### Links
 http://archive.bridgesmathart.org/2017/bridges2017-467.html   
 
+## octagon
+Divide the flame into two parts using a rounded cuboid, and invert them separately and differently; includes splits capability.
+
+Type: 3D  
+Author: TJ Anderson (FracFx)  
+Date: 18 Jul 2010  
+
+[![](octagon-1.png)](octagon-1.flame)
+[![](octagon-2.png)](octagon-2.flame)
+
+| Parameter | Description |
+| --- | --- |
+| x | Split amount for x |
+| y | Split amount for y |
+| z | Split amount for z |
+| mode | Specify how to do the inverting; see below. Versions without the mode parameter use mode 1 if JWildfire, otherwise mode 0. |
+
+When the octagon variation was added to JWildfire, there was a bug (a brace was misplaced), making the behavior different from the original variation. But the new behavior was useful, so instead of "fixing" it, a mode parameter was added to select between them. Then additional modes were added to give even more variety.
+
+Octagon is based on two shapes, shown below. Shape A is a rounded cuboid, and shape B is a 3D version of an astroid that looks like an octahedron with concave sides.
+
+[![](octagon-a.png)](octagon-a.flame)
+[![](octagon-b.png)](octagon-b.flame)
+
+Octagon divides the flame into two parts using one of the shapes. It then inverts the inside and outside areas separately, sometimes adding linear (like d_spherical). This is controlled by the mode parameter, as described in the following table; mode 0 operates like the original variation and mode 1 operates like the original JWildfire implementation. In addition, the inverted inside points are split as with the splits variation (with mode 1, all inverted points are split).
+
+| Mode | Division | Inside | Outside |
+| --- | --- | --- | --- |
+| 0 | Shape A | Shape B + linear | Shape A |
+| 1 | Shape A | Shape B + linear | Shape A + Shape B |
+| 2 | Shape A | Shape B + linear | Shape A + linear |
+| 3 | Shape A | Shape B | Shape A |
+| 4 | Shape A | Shape A | Shape A |
+| 5 | Shape B | Shape B | Shape A |
+| 6 | Shape B | Shape B + linear | Shape A + linear |
+
+https://www.deviantart.com/fracfx/art/FracFx-Plugin-Pack-171806681  
+
 ## ovoid
 Spherical with x and y scaling.
 

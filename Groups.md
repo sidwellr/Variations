@@ -99,6 +99,8 @@ Variations that invert across various shapes, such as the unit circle.
 
 [![](inversion/d_spherical-1.png)](inversion/inversion.md#d_spherical)
 [![](inversion/inversion-1.png)](inversion/inversion.md#inversion-1)
+[![](inversion/octagon-1.png)](inversion/inversion.md#octagon)
+[![](inversion/octagon-2.png)](inversion/inversion.md#octagon)
 [![](inversion/spherical-1.png)](inversion/inversion.md#spherical)
 
 ## [Julia](julia/julia.md#Julia)
