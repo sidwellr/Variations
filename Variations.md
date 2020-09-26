@@ -34,8 +34,55 @@
 |[cpow3_wf](cpow/cpow.md#cpow3_wf) | Attempt to port cpow2 to JWildfire that "by happy accident became something else"
 | |
 |[d_spherical](inversion/inversion.md#d_spherical) | Combines spherical and linear
+|[dc_acrilic](stamps/stamps.md#dc_acrilic) | Create a pattern reminiscent of acrylic pour painting
+|[dc_apollonian](stamps/stamps.md#dc_apollonian) | Create a colorful pattern
 |[dc_boarders](boarders/boarders.md#dc_boarders) | Presumably, a direct color version of boarders, but it appears to be the same as boarders
+|[dc_booleans](stamps/stamps.md#dc_booleans) | Creates patterns based on boolean operators
+|[dc_butterflies](stamps/stamps.md#dc_butterflies) | Creates butterfly patterns using a Nova fractal
+|[dc_ciarotiles](stamps/stamps.md#dc_ciarotiles) | Create patterns from rotated squares in a grid
+|[dc_circlesblue](stamps/stamps.md#dc_circlesblue) | Create random bubbles
+|[dc_circuits](stamps/stamps.md#dc_circuits) | Create a pattern reminiscent of a circuit board
+|[dc_code](stamps/stamps.md#dc_code) | Create a fractal picture, using arbitrary code
+|[dc_ducks](stamps/stamps.md#dc_ducks) | Create a fractal "ducks" pattern
+|[dc_fingerprint](stamps/stamps.md#dc_fingerprint) | Create a pattern resembling a fingerprint
+|[dc_fractaldots](stamps/stamps.md#dc_fractaldots) | Create a pattern from fractally arranged dots
+|[dc_fractcolor](stamps/stamps.md#dc_fractcolor) | Generate a colorful fractal pattern
+|[dc_gabornoise](stamps/stamps.md#dc_gabornoise) | Generate a pattern resembling Gabor noise
+|[dc_glypho](stamps/stamps.md#dc_glypho) | Generate a pattern based on rings of nested circles
+|[dc_grid3D](stamps/stamps.md#dc_grid3D) | Generate a 2D image of a 3D grid
+|[dc_hexagons](stamps/stamps.md#dc_hexagons) | Generate a hexagon grid pattern
+|[dc_hoshi](stamps/stamps.md#dc_hoshi) | Create a design based on fractal hoshi tiling
+|[dc_hyperbolictile](stamps/stamps.md#dc_hyperbolictile) | Create a {3,8} hyperbolic tessellation mapped to a Poincaré disk
+|[dc_inversion](stamps/stamps.md#dc_inversion) | Create a fractal design based on circle inversion
+|[dc_kaleidocomplex](stamps/stamps.md#dc_kaleidocomplex) | Generate a kaleidoscopic pattern
+|[dc_kaleidoscopic](stamps/stamps.md#dc_kaleidoscopic) | Generate a kaleidoscopic pattern
+|[dc_kaliset](stamps/stamps.md#dc_kaliset) | Generate a pattern using Kalisets
+|[dc_kaliset2](stamps/stamps.md#dc_kaliset2) | Generate a pattern using Kalisets
+|[dc_layers](stamps/stamps.md#dc_layers) | Create a layered pattern of wavy circles
 |[dc_linear](linear/linear.md#dc_linear) | Direct color version of linear3D
+|[dc_mandala](stamps/stamps.md#dc_mandala) | Create a kaleidoscopic mandala pattern
+|[dc_mandbrot](stamps/stamps.md#dc_mandbrot) | Create a kaleidoscopic pattern based on the Mandelbrot set
+|[dc_mandelbox2D](stamps/stamps.md#dc_mandelbox2D) | Create a two dimensional Mandelbox pattern
+|[dc_menger](stamps/stamps.md#dc_menger) | Generate a Sierpiński carpet pattern (looks like the face of a Menger sponge)
+|[dc_moebiuslog](stamps/stamps.md#dc_moebiuslog) | Create a spiraling pattern using log and a Möbius transform
+|[dc_pentatiles](stamps/stamps.md#dc_pentatiles) | Generate a pattern of tiled pentagons
+|[dc_poincaredisc](stamps/stamps.md#dc_poincaredisc) | Generate a hyperbolic tiling mapped to a Poincaré disk
+|[dc_quadtree](stamps/stamps.md#dc_quadtree) | Create a graphical display of a random quadtree
+|[dc_randomoctree](stamps/stamps.md#dc_randomoctree) | Create a graphical (2D) display of a random (3D) octree
+|[dc_rotations](stamps/stamps.md#dc_rotations) | Create a pattern using repeated rotations
+|[dc_spacefold](stamps/stamps.md#dc_spacefold) | Create a pattern using a space folding technique
+|[dc_squares](stamps/stamps.md#dc_squares) | Create a pattern of squares on a grid
+|[dc_starsfield](stamps/stamps.md#dc_starsfield) | Create a field of stars
+|[dc_sunflower](stamps/stamps.md#dc_sunflower) | Create a pattern of spirals
+|[dc_tesla](stamps/stamps.md#dc_tesla) | Create a pattern resembling electrical arcing
+|[dc_tree](stamps/stamps.md#dc_tree) | Generate a tree shape
+|[dc_triantess](stamps/stamps.md#dc_triantess) | Construct a tiling using Wythoff construction
+|[dc_truchet](stamps/stamps.md#dc_truchet) | Generate a truchet tiling pattern
+|[dc_turbulence](stamps/stamps.md#dc_turbulence) | Generate a turbulence noise pattern
+|[dc_voronoise](stamps/stamps.md#dc_voronoise) | Generate a pattern based on a combination of Voronoi diagrams and noise
+|[dc_vortex](stamps/stamps.md#dc_vortex) | Create a pattern from a train of vortices
+|[dc_warping](stamps/stamps.md#dc_warping) | Generate a texture using fBm warping
+|[dc_worley](stamps/stamps.md#dc_worley) | Create a pattern based on Worley (cellular) noise
 |[droste](cpow/cpow.md#droste) | Implements Escher's map using logarithms; same effect as escher
 | |
 |[eJulia](julia/julia.md#eJulia) | Polynomial Julia sets in elliptic coordinates
