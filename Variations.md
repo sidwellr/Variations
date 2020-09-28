@@ -39,7 +39,7 @@
 |[dc_boarders](boarders/boarders.md#dc_boarders) | Presumably, a direct color version of boarders, but it appears to be the same as boarders
 |[dc_booleans](stamps/stamps.md#dc_booleans) | Creates patterns based on boolean operators
 |[dc_butterflies](stamps/stamps.md#dc_butterflies) | Creates butterfly patterns using a Nova fractal
-|[dc_ciarotiles](stamps/stamps.md#dc_ciarotiles) | Create patterns from rotated squares in a grid
+|[dc_cairotiles](stamps/stamps.md#dc_cairotiles) | Create patterns from rotated squares in a grid
 |[dc_circlesblue](stamps/stamps.md#dc_circlesblue) | Create random bubbles
 |[dc_circuits](stamps/stamps.md#dc_circuits) | Create a pattern reminiscent of a circuit board
 |[dc_code](stamps/stamps.md#dc_code) | Create a fractal picture, using arbitrary code

@@ -250,7 +250,7 @@ Variations that create colored stamps with interesting designs.
 [![](stamps/dc_apollonian-1.png)](stamps/stamps.md#dc_apollonian)
 [![](stamps/dc_booleans-1.png)](stamps/stamps.md#dc_booleans)
 [![](stamps/dc_butterflies-1.png)](stamps/stamps.md#dc_butterflies)
-[![](stamps/dc_ciarotiles-1.png)](stamps/stamps.md#dc_ciarotiles)
+[![](stamps/dc_cairotiles-1.png)](stamps/stamps.md#dc_cairotiles)
 [![](stamps/dc_circlesblue-1.png)](stamps/stamps.md#dc_circlesblue)
 [![](stamps/dc_circuits-1.png)](stamps/stamps.md#dc_circuits)
 [![](stamps/dc_code-1.png)](stamps/stamps.md#dc_code)
