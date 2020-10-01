@@ -105,6 +105,24 @@
 |[gaussian_blur](shapes/shapes.md#gaussian_blur) | Fuzzy circle with a bright center, made from a Gaussian distribution
 |[gingerbread_man](attractors/attractors.md#gingerbread_man) | An attractor that resembles a gingerbread man
 |[glitchy1](flippers/flippers.md#glitchy1) | Mix of lazysensen (divide flame into strips and flip them) and pixel_flow (blur to resemble flowing pixels)
+|[glsl_acrilic](stamps/stamps.md#glsl_acrilic) | Create a pattern reminiscent of acrylic pour painting
+|[glsl_apollonian](stamps/stamps.md#glsl_apollonian) | Create a colorful pattern
+|[glsl_circlesblue](stamps/stamps.md#glsl_circlesblue) | Create random bubbles
+|[glsl_circuits](stamps/stamps.md#glsl_circuits) | Create a pattern reminiscent of a circuit board
+|[glsl_code](stamps/stamps.md#glsl_code) | Create a fractal picture, using arbitrary code
+|[glsl_fractaldots](stamps/stamps.md#glsl_fractaldots) | Create a pattern from fractally arranged dots
+|[glsl_grid3D](stamps/stamps.md#glsl_grid3D) | Generate a 2D image of a 3D grid
+|[glsl_hoshi](stamps/stamps.md#glsl_hoshi) | Create a design based on fractal hoshi tiling
+|[glsl_hyperbolictile](stamps/stamps.md#glsl_hyperbolictile) | Create a {3,8} hyperbolic tessellation mapped to a Poincaré disk
+|[glsl_kaleidocomplex](stamps/stamps.md#glsl_kaleidocomplex) | Generate a kaleidoscopic pattern
+|[glsl_kaleidoscopic](stamps/stamps.md#glsl_kaleidoscopic) | Generate a kaleidoscopic pattern
+|[glsl_kaliset](stamps/stamps.md#glsl_kaliset) | Generate a pattern using Kalisets
+|[glsl_kaliset2](stamps/stamps.md#glsl_kaliset2) | Generate a pattern using Kalisets
+|[glsl_mandala](stamps/stamps.md#glsl_mandala) | Create a kaleidoscopic mandala pattern
+|[glsl_mandelbox2D](stamps/stamps.md#glsl_mandelbox2D) | Create a two dimensional Mandelbox pattern
+|[glsl_randomoctree](stamps/stamps.md#glsl_randomoctree) | Create a graphical (2D) display of a random (3D) octree
+|[glsl_squares](stamps/stamps.md#glsl_squares) | Create a pattern of squares on a grid
+|[glsl_starsfield](stamps/stamps.md#glsl_starsfield) | Create a field of stars
 |[gumowski_mira](attractors/attractors.md#gumowski_mira) | The strange attractor of Gumowski-Mira
 | |
 |[henon](attractors/attractors.md#henon) | Strange attractor discovered by Michel Hénon

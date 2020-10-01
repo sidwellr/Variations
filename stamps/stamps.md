@@ -1107,3 +1107,358 @@ Date: 13 Feb 2019
 | reset_z | 0: Add color-based z value to the the z value from other variations on the transform<br>1: Ignore z value from other variations on the transform |
 
 https://www.shadertoy.com/view/4dKSDV  
+
+## glsl_acrilic
+Create a pattern reminiscent of acrylic pour painting.
+
+Type: 2D blur, true color or direct color  
+Author: Jesus Sosa  
+Date: 31 Oct 2018  
+
+[![](glsl_acrilic-1.png)](glsl_acrilic-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| Density Pixels | Density of the computed pixels; has no real effect if it is large enough |
+| Seed | Not used, but changing the value will change the time parameter to a random value |
+| time | Changes the appearance of the result |
+| Steps | Number of iterations to use when computing the pattern |
+| p1, p2, p3, p4, p5, p6 | Adjust the appearance of the pattern |
+| Red, Green, Blue Fac. | Factors for the red, green, and blue components of the colors; adjust these to tweak the colors |
+| Gradient | 0: True color (gradient is ignored)<br>1: Direct color (set the gradient index for coloring) |
+
+## glsl_apollonian
+Create a colorful pattern.
+
+Type: 2D blur, true color or direct color  
+Author: Jesus Sosa, based on code by Wyatt Flanders  
+Date: 31 Oct 2018  
+
+[![](glsl_apollonian-1.png)](glsl_apollonian-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| Density Pixels | Density of the computed pixels; has no real effect if it is large enough |
+| Seed | Not used, but changing the value will change the time parameter to a random value |
+| time | Changes the appearance of the result |
+| Gradient | 0: True color (gradient is ignored)<br>1: Direct color (set the gradient index for coloring) |
+
+https://www.shadertoy.com/view/Xdcyzl  
+
+## glsl_circlesblue
+Create random bubbles.
+
+Type: 2D blur, true color or direct color  
+Author: Jesus Sosa, based on code by Inigo Quilez  
+Date: 31 Oct 2018  
+
+[![](glsl_circlesblue-1.png)](glsl_circlesblue-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| Density Pixels | Density of the computed pixels; has no real effect if it is large enough |
+| Seed | Not used, but changing the value will change the time parameter to a random value |
+| time | Changes the appearance of the result |
+| Radiusy | Radius of the bubbles (some are further away, so appear smaller) |
+| Bubles | Number of bubbles (some won't be visible) |
+| Gradient | 0: True color (gradient is ignored)<br>1: Direct color (set the gradient index for coloring) |
+
+https://www.shadertoy.com/view/4dl3zn  
+
+## glsl_circuits
+Create a pattern reminiscent of a circuit board.
+
+Type: 2D blur, true color or direct color  
+Author: Jesus Sosa, based on code by Kali  
+Date: 31 Oct 2018  
+
+[![](glsl_circuits-1.png)](glsl_circuits-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| Density Pixels | Density of the computed pixels; has no real effect if it is large enough |
+| time | Changes the appearance of the result |
+| rate |
+| intensity |
+| focus |
+| pulse |
+| glow |
+| loops | Number of times the generator function is executed; higher values produce more intricate results (but slow down rendering) |
+| zoom | Zooms in or out of the result (higher values zoom out) |
+| Gradient | 0: True color (gradient is ignored)<br>1: Direct color (set the gradient index for coloring) |
+
+https://www.shadertoy.com/view/XlX3Rj  
+
+## glsl_code
+Create a fractal picture, using arbitrary code.
+
+Type: 2D blur, true color or direct color  
+Author: Jesus Sosa  
+Date: 31 Oct 2018  
+
+[![](glsl_code-1.png)](glsl_code-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| code | The Java code to execute; must be a definition for function getRGBColor, which is called for each iteration |
+| ResolutionX, ResolutionY | X and y resolution; has no real effect if it is large enough |
+| zoom | Zooms in or out of the result (higher values zoom out) |
+| Gradient | 0: True color (gradient is ignored)<br>1: Direct color (set the gradient index for coloring) |
+
+## glsl_fractaldots
+Create a pattern from fractally arranged dots.
+
+Type: 2D blur, true color or direct color  
+Author: Jesus Sosa, based on code by Paulo Falcão  
+Date: 31 Oct 2018  
+
+[![](glsl_fractaldots-1.png)](glsl_fractaldots-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| Density Pixels | Density of the computed pixels; has no real effect if it is large enough |
+| iterations | Number of iterations to perform; higher values make more intricate patterns, but slow down rendering |
+| DotSize |
+| MaxIterations | Maximum number of iterations; should be greater than iterations |
+| complexity |
+| pattern | Divisor for spacing for each iteration |
+| spacing | Spacing amount for the first iteration |
+| rotate1 | Overall rotation, in radians |
+| rotate2 | Rotation for each iteration, in radians |
+| zoom | Zooms in or out of the result (higher values zoom out) |
+| Gradient | 0: True color (gradient is ignored)<br>1: Direct color (set the gradient index for coloring) |
+
+https://www.shadertoy.com/view/tltSWs  
+
+## glsl_grid3D
+Generate a 2D image of a 3D grid.
+
+Type: 2D blur, true color  
+Author: Jesus Sosa, based on code by Kapsy and Kabuto  
+Date: 31 Oct 2018  
+
+[![](glsl_grid3D-1.png)](glsl_grid3D-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| Density Pixels | Density of the computed pixels; has no real effect if it is large enough |
+| Seed | Not used, but changing the value will change the time parameter to a random value |
+| time | Changes the appearance of the result |
+
+## glsl_hoshi
+Create a design based on fractal hoshi tiling.
+
+Type: 2D blur, true color or direct color  
+Author: Jesus Sosa  
+Date: 31 Oct 2018  
+
+[![](glsl_hoshi-1.png)](glsl_hoshi-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| Density Pixels | Density of the computed pixels; has no real effect if it is large enough |
+| Seed | Not used, but changing the value will change the time parameter to a random value |
+| time | Changes the appearance of the result |
+| Steps | Number of iterations to perform |
+| Scale | Scale factor for each iteration |
+| Translate | Translation amount for each iteration |
+| Gradient | 0: True color (gradient is ignored)<br>1: Direct color (set the gradient index for coloring) |
+
+## glsl_hyperbolictile
+Create a {3,8} hyperbolic tessellation mapped to a Poincaré disk.
+
+Type: 2D blur, true color or direct color  
+Author: Jesus Sosa  
+Date: 31 Oct 2018  
+
+[![](glsl_hyperbolictile-1.png)](glsl_hyperbolictile-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| Density Pixels | Density of the computed pixels; has no real effect if it is large enough |
+| Gradient | 0: True color (gradient is ignored)<br>1: Direct color (set the gradient index for coloring) |
+
+## glsl_kaleidocomplex
+Generate a kaleidoscopic pattern.
+
+Type: 2D blur, true color or direct color  
+Author: Jesus Sosa, based on code by bal-khan  
+Date: 31 Oct 2018  
+
+[![](glsl_kaleidocomplex-1.png)](glsl_kaleidocomplex-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| Density Pixels | Density of the computed pixels; has no real effect if it is large enough |
+| Seed | Not used, but changing the value will change the time parameter to a random value |
+| time | Changes the appearance of the result |
+| iMax | Maximum number of iterations |
+| Color |
+| Red, Green, Blue Fac. | Factors for the red, green, and blue components of the colors; adjust these to tweak the colors |
+| Gradient | 0: True color (gradient is ignored)<br>1: Direct color (set the gradient index for coloring) |
+
+https://www.shadertoy.com/view/4slBW2  
+
+## glsl_kaleidoscopic
+Generate a kaleidoscopic pattern.
+
+Type: 2D blur, true color or direct color  
+Author: Jesus Sosa, based on code by gPlatl and ackleyrc  
+Date: 31 Oct 2018  
+
+[![](glsl_kaleidoscopic-1.png)](glsl_kaleidoscopic-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| Density Pixels | Density of the computed pixels; has no real effect if it is large enough |
+| Seed | Not used, but changing the value will change the time parameter to a random value |
+| time | Kaleidoscope rotation (if Radial is 1) |
+| Sides | Number of sides for the pattern, between 2 and 20 (if Radial is 1) |
+| zoom | Scale factor before kaleidoscopic reflection, between 0 and 1 |
+| P1 | Controls the base pattern, between 0 and 1 |
+| Radial | 0: Show only the base pattern without kaleidoscopic symmetry<br>1: Reflect the base pattern radially, using Sides and time |
+| Gradient | 0: True color (gradient is ignored)<br>1: Direct color (set the gradient index for coloring) |
+
+https://www.shadertoy.com/view/4lXyWS  
+
+## glsl_kaliset
+Generate a pattern using Kalisets.
+
+Type: 2D blur, true color or direct color  
+Author: Jesus Sosa, based on code by foran  
+Date: 31 Oct 2018  
+
+[![](glsl_kaliset-1.png)](glsl_kaliset-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| Density Pixels | Density of the computed pixels; has no real effect if it is large enough |
+| Seed | Not used, but changing the value will change the time parameter to a random value |
+| time | Changes the appearance of the result |
+| N | Number of iterations |
+| ShiftX, ShiftY | Amount pattern is shifted horizontally and vertically for each iteration |
+| Gradient | 0: True color (gradient is ignored)<br>1: Direct color (set the gradient index for coloring) |
+
+https://www.shadertoy.com/view/wtjXRR  
+http://www.fractalforums.com/new-theories-and-research/very-simple-formula-for-fractal-patterns/  
+
+## glsl_kaliset2
+Generate a pattern using kalisets.
+
+Type: 2D blur, true color or direct color  
+Author: Jesus Sosa, based on code by foran  
+Date: 31 Oct 2018  
+
+[![](glsl_kaliset2-1.png)](glsl_kaliset2-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| Density Pixels | Density of the computed pixels; has no real effect if it is large enough |
+| Seed | Not used, but changing the value will change the time parameter to a random value |
+| time | Changes the appearance of the result |
+| N | Number of iterations |
+| radio |
+| ShiftX, ShiftY | Amount pattern is shifted horizontally and vertically for each iteration |
+| Red, Green, Blue Fac. | Factors for the red, green, and blue components of the colors; adjust these to tweak the colors |
+| Gradient | 0: True color (gradient is ignored)<br>1: Direct color (set the gradient index for coloring) |
+
+https://www.shadertoy.com/view/wtjXRR  
+http://www.fractalforums.com/new-theories-and-research/very-simple-formula-for-fractal-patterns/  
+
+## glsl_mandala
+Create a kaleidoscopic mandala pattern.
+
+Type: 2D blur, true color or direct color  
+Author: Jesus Sosa  
+Date: 31 Oct 2018  
+
+[![](glsl_mandala-1.png)](glsl_mandala-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| Density Pixels | Density of the computed pixels; has no real effect if it is large enough |
+| mX, mY | Adjusts the appearance of the mandala |
+| scale | Zooms in or out of the mandala |
+| sides | Symmetry order for the mandala |
+| multiply |
+| loops | Number of detail-adding iterations to perform |
+| iR, iG, iB | When 1, inverts the red, green, or blue component of the result |
+| Gradient | 0: True color (gradient is ignored)<br>1: Direct color (set the gradient index for coloring) |
+
+## glsl_mandelbox2D
+Create a two dimensional Mandelbox pattern.
+
+Type: 2D blur, true color or direct color  
+Author: Jesus Sosa, based on code by stduhpf  
+Date: 31 Oct 2018  
+
+[![](glsl_mandelbox2D-1.png)](glsl_mandelbox2D-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| Density Pixels | Density of the computed pixels; has no real effect if it is large enough |
+| seed | Not used, but changing the value will change the time parameter to a random value |
+| time | Changes the appearance of the result |
+| Gradient | 0: True color (gradient is ignored)<br>1: Direct color (set the gradient index for coloring) |
+
+https://www.shadertoy.com/view/llcXWN  
+
+## glsl_randomoctree
+Create a graphical (2D) display of a random (3D) octree.
+
+Type: 2D blur, true color or direct color  
+Author: Jesus Sosa, based on code by abje  
+Date: 31 Oct 2018  
+
+[![](glsl_randomoctree-1.png)](glsl_randomoctree-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| Density Pixels | Density of the computed pixels; has no real effect if it is large enough |
+| Seed | Not used, but changing the value will change the time parameter to a random value |
+| time | Zooms and pans around the octree |
+| Steps | Number of octree levels to draw |
+| Rot. L-R, Rot. U-D | Left-right and up-down rotation |
+| Grid | Show the grid used to place the octree boxes if 1 |
+| Borders | Show borders and shading on the octree boxes if 1 |
+| Black Borders | Use black to show the grid and borders if 1; use white if 0 |
+| Gradient | 0: True color (gradient is ignored)<br>1: Direct color (set the gradient index for coloring) |
+
+https://www.shadertoy.com/view/4sVfWw
+
+## glsl_squares
+Create a pattern of squares on a grid.
+
+Type: 2D blur, true color or direct color  
+Author: Jesus Sosa  
+Date: 31 Oct 2018  
+
+[![](glsl_squares-1.png)](glsl_squares-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| Density Pixels | Density of the computed pixels; has no real effect if it is large enough |
+| Seed | Not used, but changing the value will change the time parameter to a random value |
+| time | Zooms the pattern in or out (see Direction), and changes the coloring |
+| N | Number of iterations to use when computing the pattern |
+| Direction | 0: Increasing time zooms in<br>1: Increasing time zooms out |
+| Red, Green, Blue Fac. | Factors for the red, green, and blue components of the colors; adjust these to tweak the colors |
+| Gradient | 0: True color (gradient is ignored)<br>1: Direct color (set the gradient index for coloring) |
+
+## glsl_starsfield
+Create a field of stars.
+
+Type: 2D blur, true color or direct color  
+Author: Jesus Sosa  
+Date: 31 Oct 2018  
+
+[![](glsl_starsfield-1.png)](glsl_starsfield-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| Density Pixels | Density of the computed pixels; has no real effect if it is large enough |
+| Seed | Not used, but changing the value will change the time parameter to a random value |
+| time | Rotates and moves through the star field |
+| Z distance | Distance to the stars, between 2 and 150; larger values make the stars smaller and fainter |
+| Glow | Amount of glow around each star, between 0 and 1 |
+| Gradient | 0: True color (gradient is ignored)<br>1: Direct color (set the gradient index for coloring) |
