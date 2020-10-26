@@ -83,8 +83,13 @@
 |[dc_vortex](stamps/stamps.md#dc_vortex) | Create a pattern from a train of vortices
 |[dc_warping](stamps/stamps.md#dc_warping) | Generate a texture using fBm warping
 |[dc_worley](stamps/stamps.md#dc_worley) | Create a pattern based on Worley (cellular) noise
+|[disc](disc/disc.md#disc-1) | Swap polar coordinates ρ and θ
+|[disc2](disc/disc.md#disc2) | Swap polar coordinates ρ and θ, but using Manhattan distance instead of Euclidean
+|[disc3](disc/disc.md#disc3) | Swap polar coordinates ρ and θ, with parameters
+|[disc3d](disc/disc.md#disc3d) | Swap 2D polar coordinates ρ and θ and transforms z according to the distance from the origin
 |[droste](cpow/cpow.md#droste) | Implements Escher's map using logarithms; same effect as escher
 | |
+|[edisc](disc/disc.md#edisc) | Swap elliptic coordinates μ and ν
 |[eJulia](julia/julia.md#eJulia) | Polynomial Julia sets in elliptic coordinates
 |[epispiral](rosecurve/rosecurve.md#epispiral) | An inside-out rose curve, known as an epispiral curve
 |[epispiral_wf](rosecurve/rosecurve.md#epispiral_wf) | Alternate version of epispiral
@@ -94,6 +99,7 @@
 | |
 |[fan](flippers/flippers.md#fan) | Divides the plane into pie shaped wedges and rotates them (dependent variation)
 |[fan2](flippers/flippers.md#fan2) | Divides the plane into pie shaped wedges and rotates them (parameter version)
+|[fdisc](disc/disc.md#fdisc) | Swap polar coordinates ρ and θ, first taking the reciprocal of ρ; scales by 2𝜋 instead of 𝜋
 |[flatten](zmanip/zmanip.md#flatten--zclear) | Flatten the flame by setting the z coordinate to 0
 |[flipcircle](flippers/flippers.md#flipcircle) | Flips the points inside a circle centered at the origin top to bottom
 |[flipy](flippers/flippers.md#flipy) | Flips the points on the right side of the y-axis top to bottom
@@ -128,6 +134,7 @@
 |[henon](attractors/attractors.md#henon) | Strange attractor discovered by Michel Hénon
 |[hopalong](attractors/attractors.md#hopalong) | Hopalong attractor, also known as the Martin map
 | |
+|[idisc](disc/disc.md#idisc) | Swap polar coordinates ρ and θ, first taking the reciprocal of ρ
 |[inflateZ_1](zmanip/zmanip.md#inflateZ_1) | Set z to tilt the plane forward, basing z mostly on y, but with some distortion
 |[inflateZ_2](zmanip/zmanip.md#inflateZ_2) | Set z to tilt the plane diagonally
 |[inflateZ_3](zmanip/zmanip.md#inflateZ_3) | Warp z to give a strong three dimensional effect
@@ -205,6 +212,8 @@
 |[pre_blur](shapes/shapes.md#pre_blur) | Pre version of gaussian_blur
 |[pre_blur3D](shapes/shapes.md#blur3D--pre_blur3D) | Three dimensional Gaussian blur
 |[pre_boarders2](boarders/boarders.md#boarders2--pre_boarders2) | Adds some parameters to boarders
+|[pre_disc](disc/disc.md#pre_disc) | Swap polar coordinates ρ and θ
+|[pre_disc3d](disc/disc.md#pre_disc3d) | Swap 2D polar coordinates ρ and θ and transforms z according to the distance from the origin
 |[pre_polar2](polar/polar.md#polar2) | Treat the log-polar coordinates (ρ,θ) of a point as rectangular coordinates (x,y)
 |[pre_polar2_y](polar/polar.md#pre_polar2_y) | Flawed attempt at a pre version of polar2
 |[pre_spherical](inversion/inversion.md#spherical) | Reflects the plane across the unit circle
@@ -269,6 +278,7 @@
 |[wavesD3](waves/waves.md#wavesD3--waves3_wf) | Add damped squared sine or cosine waves to x and y
 |[wavesD4](waves/waves.md#wavesD4--waves4_wf) | Add damped cubed sine or cosine waves to x and y
 |[wavesn](waves/waves.md#wavesn) | Add damped waves to polynomial Julia set (aka julian)
+|[wdisc](disc/disc.md#wdisc) | Swap polar coordinates ρ and θ, first taking the reciprocal of ρ, afterwards flipping the bottom half
 | |
 |[xheart](reshapers/reshapers.md#xheart) | Reshape circles centered at the origin into hearts
 |[xheart_blur_wf](shapes/shapes.md#xheart_blur_wf) | Heart shaped blur

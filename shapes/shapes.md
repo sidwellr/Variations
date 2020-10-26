@@ -266,7 +266,8 @@ Date: 19 Oct 2008
 | toroidmap | 0: Map points to spherical coordinates (normal)<br>1: Map points to toroidal coordinates |
 
 https://www.deviantart.com/sc0t0ma/art/SuperShape3d-101195889  
-http://paulbourke.net/geometry/supershape/  
+http://paulbourke.net/geometry/supershape/
+https://www.syedrezaali.com/3d-supershapes/   
 
 ## triangle
 Triangular blur (3D)

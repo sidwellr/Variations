@@ -66,6 +66,19 @@ Treats 2D points as complex numbers and raises them to a complex power that can 
 [![](cpow/cpow3_wf-1.png)](cpow/cpow.md#cpow3_wf)
 [![](cpow/escher-1.png)](cpow/cpow.md#escher)
 
+## [Disc](disc/disc.md#Disc)
+
+Variations that use polar coordinates and swap the ρ and θ values.
+
+[![](disc/disc-1.png)](disc/disc.md#disc-1)
+[![](disc/disc2-1.png)](disc/disc.md#disc2)
+[![](disc/disc3-1.png)](disc/disc.md#disc3)
+[![](disc/disc3d-1.png)](disc/disc.md#disc3d)
+[![](disc/edisc-1.png)](disc/disc.md#edisc)
+[![](disc/fdisc-1.png)](disc/disc.md#fdisc)
+[![](disc/idisc-1.png)](disc/disc.md#idisc)
+[![](disc/wdisc-1.png)](disc/disc.md#wdisc)
+
 ## [Flippers](filppers/flippers.md#Flippers)
 Variations that divide up the plane in various ways and flip or rotate the parts.
 
