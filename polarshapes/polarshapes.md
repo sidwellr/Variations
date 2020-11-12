@@ -1,5 +1,5 @@
-# Half Blurs
-Variations that generate specific shapes using polar coordinates. Unlike normal blurs, which ignore the input point, half blurs take the angle of the input point (theta) and compute a random distance (rho) within the shape. This allows some flexibility in coloring. They can be substituted for normal blurs in many flames; if it doesn't work, try adding some pre_blur to the transform to generate random angles (this is done for the examples here).
+# Polar Shapes
+Variations that generate specific shapes using polar coordinates. Unlike normal blurs, which ignore the input point, these variations are half blurs that take the angle of the input point (theta) and compute a random distance (rho) within the shape. This allows some flexibility in coloring. They can be substituted for normal blurs in many flames; if it doesn't work, try adding some pre_blur to the transform to generate random angles (this is done for the examples here).
 
 ## cannabiscurve_wf
 Shape resembling a cannabis leaf.

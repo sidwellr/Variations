@@ -20,14 +20,14 @@
 |[boarders2](boarders/boarders.md#boarders2--pre_boarders2) | Divide the plane into squares with borders, with parameters
 |[butterfly](reshapers/reshapers.md#butterfly) | Reshape squares centered at the origin into butterfly shapes
 | |
-|[cannabiscurve_wf](halfblurs/halfblurs.md#cannabiscurve_wf) | Shape resembling a cannabis leaf
+|[cannabiscurve_wf](polarshapes/polarshapes.md#cannabiscurve_wf) | Shape resembling a cannabis leaf
 |[chrysanthemum](shapes/shapes.md#chrysanthemum) | Chrysanthemum flower shaped curve
-|[cloverleaf_wf](halfblurs/halfblurs.md#cloverleaf_wf) | Shape resembling a four leaf clover
+|[cloverleaf_wf](polarshapes/polarshapes.md#cloverleaf_wf) | Shape resembling a four leaf clover
 |[circleblur](shapes/shapes.md#circleblur) | Circle with even coloring
 |[circlize](reshapers/reshapers.md#circlize) | Reshape squares centered at the origin into circles
 |[circlize2](reshapers/reshapers.md#circlize2) | Reshape squares centered at the origin into circles (scaled to work better with other variations)
 |[clifford_js](attractors/attractors.md#clifford_js) | Strange attractor attributed to Cliff Pickover
-|[conic/conic2](halfblurs/halfblurs.md#conic--conic2) | Conic section shape (ellipse, parabola, or hyperbola)
+|[conic/conic2](polarshapes/polarshapes.md#conic--conic2) | Conic section shape (ellipse, parabola, or hyperbola)
 |[cpow](cpow/cpow.md#cpow) | Raise input point to a complex power specified by its real and imaginary parts
 |[cpow2](cpow/cpow.md#cpow2) | Raise input point to a complex power specified in polar coordinates
 |[cpow3](cpow/cpow.md#cpow3) | Raise input point to a complex power to produce a spiral
@@ -232,7 +232,7 @@
 |[sattractor3D](meshes/meshes.md#sattractor3D) | Generate a 3D mesh from differential equations
 |[sattractor_js](attractors/attractors.md#sattractor_js) | A strange attractor attributed to Roger Bagula
 |[scrambly](flippers/flippers.md#scrambly) | Divide the central square into subsquares and scramble them
-|[shape](halfblurs/halfblurs.md#shape) | General shape generator using the superformula
+|[shape](polarshapes/polarshapes.md#shape) | General shape generator using the superformula
 |[sineblur](shapes/shapes.md#sineblur) | A circle with a shading effect
 |[sphereblur](shapes/shapes.md#sphereblur) | 3D version of sineblur
 |[spherical](inversion/inversion.md#spherical) | Reflects the plane across the unit circle
@@ -292,5 +292,5 @@
 |[zcone](zmanip/zmanip.md#zcone) | Add the x-y distance of each point to z, thus transforming the plane into a cone
 |[zscale](zmanip/zmanip.md#zscale) | Multiply the z value by the variation amount
 |[ztranslate](zmanip/zmanip.md#ztranslate) | Add the variation amount to z, translating points up or down the z axis
-|[Z_conic](halfblurs/halfblurs.md#conic--conic2) | Conic section shape (ellipse, parabola, or hyperbola)
+|[Z_conic](polarshapes/polarshapes.md#conic--conic2) | Conic section shape (ellipse, parabola, or hyperbola)
 |[Z_flower](rosecurve/rosecurve.md#flower) | Filled-in rose curve; looks like a flower with petals
