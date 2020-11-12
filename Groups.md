@@ -96,16 +96,6 @@ Variations that divide up the plane in various ways and flip or rotate the parts
 [![](flippers/tqmirror-1.png)](flippers/flippers.md#tqmirror)
 [![](flippers/trade-1.png)](flippers/flippers.md#trade)
 
-## [Polar Shapes](polarshapes/polarshapes.md#Half-Blurs)
-Variations that generate specific shapes using polar coordinates.
-
-[![](polarshapes/cannabiscurve-1.png)](polarshapes/polarshapes.md#cannabiscurve_wf)
-[![](polarshapes/cloverleaf-1.png)](polarshapes/polarshapes.md#cloverleaf_wf)
-[![](polarshapes/conic-1.png)](polarshapes/polarshapes.md#conic--conic2)
-[![](polarshapes/conic-2.png)](polarshapes/polarshapes.md#conic--conic2)
-[![](polarshapes/shape-1.png)](polarshapes/polarshapes.md#shape)
-[![](polarshapes/shape-2.png)](polarshapes/polarshapes.md#shape)
-
 ## [Inversion](inversion/inversion.md#Inversion)
 
 Variations that invert across various shapes, such as the unit circle.
@@ -198,6 +188,16 @@ Variations that switch between polar or log-polar and rectangular coordinates.
 [![](polar/polar2-2.png)](polar/polar.md#polar2)
 [![](polar/unpolar-1.png)](polar/polar.md#unpolar)
 [![](polar/unpolar-2.png)](polar/polar.md#unpolar)
+
+## [Polar Shapes](polarshapes/polarshapes.md#Half-Blurs)
+Variations that generate specific shapes using polar coordinates.
+
+[![](polarshapes/cannabiscurve-1.png)](polarshapes/polarshapes.md#cannabiscurve_wf)
+[![](polarshapes/cloverleaf-1.png)](polarshapes/polarshapes.md#cloverleaf_wf)
+[![](polarshapes/conic-1.png)](polarshapes/polarshapes.md#conic--conic2)
+[![](polarshapes/conic-2.png)](polarshapes/polarshapes.md#conic--conic2)
+[![](polarshapes/shape-1.png)](polarshapes/polarshapes.md#shape)
+[![](polarshapes/shape-2.png)](polarshapes/polarshapes.md#shape)
 
 ## [Reshapers](reshapers/reshapers.md#Reshapers)
 
