@@ -30,7 +30,7 @@ Date: 29 Nov 2016
 | blend_displ_map | Whether to blend values from the displacement map<br>0: Don't blend values<br>1: Blend values |
 | receive_only_shadows | If set to 1, and solid rendering is enabled, the mesh will be invisible but will show shadows that fall on it (hard shadows must be enabled to see any) |
 
-https://www.youtube.com/watch?v=j470dOB4ksM  
+[Working with Mesh Objects video tutorial](https://www.youtube.com/watch?v=j470dOB4ksM)  
 
 ## obj_mesh_wf
 Load a 3D mesh from an OBJ format file.
@@ -60,7 +60,7 @@ The OBJ object file format was developed by Wavefront Technologies but is open a
 | receive_only_shadows | If set to 1, and solid rendering is enabled, the mesh will be invisible but will show shadows that fall on it (hard shadows must be enabled to see any) |
 
 [Teapot mesh](teapot.obj) used for above example.  
-https://www.youtube.com/watch?v=j470dOB4ksM  
+[Working with Mesh Objects video tutorial](https://www.youtube.com/watch?v=j470dOB4ksM)  
 
 ## sattractor3D
 Generate a 3D mesh from differential equations.
@@ -92,8 +92,8 @@ Data: 21 Feb 2018
 | blend_displ_map | Not used |
 | receive_only_shadows | If set to 1, and solid rendering is enabled, the mesh will be invisible but will show shadows that fall on it (hard shadows must be enabled to see any) |
 
-https://jwildfire-forum.overwhale.com/viewtopic.php?f=23&t=2607  
-https://github.com/thargor6/JWildfire/blob/master/src/org/jwildfire/create/tina/variation/plot/sattractor3d_wf_presets.txt  
+[JWildfire forum post](https://jwildfire-forum.overwhale.com/viewtopic.php?f=23&t=2607)  
+[sattractor3D preset list](https://github.com/thargor6/JWildfire/blob/master/src/org/jwildfire/create/tina/variation/plot/sattractor3d_wf_presets.txt)  
 
 ## terrain3D
 Generate a random terrain surface mesh.
@@ -122,4 +122,4 @@ Date: 14 Apr 2018
 | blend_displ_map | Not used |
 | receive_only_shadows | If set to 1, and solid rendering is enabled, the mesh will be invisible but will show shadows that fall on it (hard shadows must be enabled to see any) |
 
-https://jwildfire-forum.overwhale.com/viewtopic.php?f=23&t=2626  
+[JWildfire forum post](https://jwildfire-forum.overwhale.com/viewtopic.php?f=23&t=2626)  

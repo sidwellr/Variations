@@ -27,7 +27,7 @@ Date: 6 Jan 2017
 | blend_color | Whether to blend colormap colors with surrounding colors (color_mode 0 only)<br>0: Don't blend colors<br>1: Blend colors |
 | param_a through param_f | Values that can be used by the formula to parameterize it; parameters not used in the formula are ignored |
 
-https://github.com/thargor6/JWildfire/blob/master/src/org/jwildfire/create/tina/variation/plot/isosfplot3d_wf_presets.txt  
+[isosfplot3d_wf preset list](https://github.com/thargor6/JWildfire/blob/master/src/org/jwildfire/create/tina/variation/plot/isosfplot3d_wf_presets.txt)  
 
 ## parplot2d_wf
 Parametric equation surface plot (2D surface plotted in three dimensions).
@@ -56,8 +56,8 @@ Date: 29 Nov 2016
 | solid | 1: Generate u and v randomly (normal operation; variation is a blur)<br>0: Set u and v from input x and y (makes this a normal variation, more difficult to use) |
 | param_a through param_f | Values that can be used by the formula to parameterize it; parameters not used in the formula are ignored |
 
-https://github.com/thargor6/JWildfire/blob/master/src/org/jwildfire/create/tina/variation/plot/parplot2d_wf_presets.txt  
-https://happy-stars.deviantart.com/art/Color-and-Displacement-Variables-HelpfulHints-697091366
+[parplot2d_wf preset list](https://github.com/thargor6/JWildfire/blob/master/src/org/jwildfire/create/tina/variation/plot/parplot2d_wf_presets.txt)  
+[Color and Displacment Variables Helpful Hints](https://happy-stars.deviantart.com/art/Color-and-Displacement-Variables-HelpfulHints-697091366)
 
 ## polarplot2d_wf
 Plot, in polar coordinates, rho in terms of theta, with 3D extrusion.
@@ -84,7 +84,7 @@ Date: 22 Apr 2020
 | blend_displ_map | Whether to blend values from the displacement map<br>0: Don't blend values<br>1: Blend values |
 | param_a through param_f | Values that can be used by the formula to parameterize it; parameters not used in the formula are ignored |
 
-https://github.com/thargor6/JWildfire/blob/master/src/org/jwildfire/create/tina/variation/plot/polarplot2d_wf_presets.txt  
+[polarplot2d_wf preset list](https://github.com/thargor6/JWildfire/blob/master/src/org/jwildfire/create/tina/variation/plot/polarplot2d_wf_presets.txt)  
 
 ## polarplot3d_wf
 Plot rho in terms of theta and phi (spherical coordinates) or theta and (cylindrical coordinates).
@@ -112,7 +112,7 @@ Date: 22 Apr 2020
 | blend_displ_map | Whether to blend values from the displacement map<br>0: Don't blend values<br>1: Blend values |
 | param_a through param_f | Values that can be used by the formula to parameterize it; parameters not used in the formula are ignored |
 
-https://github.com/thargor6/JWildfire/blob/master/src/org/jwildfire/create/tina/variation/plot/polarplot3d_wf_presets.txt  
+[polarplot3d_wf preset list](https://github.com/thargor6/JWildfire/blob/master/src/org/jwildfire/create/tina/variation/plot/polarplot3d_wf_presets.txt)  
 
 ## yplot2d_wf
 Plot y in terms of x, with 3D extrusion.
@@ -139,8 +139,8 @@ Date: 29 Nov 2016
 | blend_displ_map | Whether to blend values from the displacement map<br>0: Don't blend values<br>1: Blend values |
 | param_a through param_f | Values that can be used by the formula to parameterize it; parameters not used in the formula are ignored |
 
-https://github.com/thargor6/JWildfire/blob/master/src/org/jwildfire/create/tina/variation/plot/yplot2d_wf_presets.txt  
-https://happy-stars.deviantart.com/art/Color-and-Displacement-Variables-HelpfulHints-697091366  
+[yplot2d_wf preset list](https://github.com/thargor6/JWildfire/blob/master/src/org/jwildfire/create/tina/variation/plot/yplot2d_wf_presets.txt)  
+[Color and Displacment Variables Helpful Hints](https://happy-stars.deviantart.com/art/Color-and-Displacement-Variables-HelpfulHints-697091366)  
 
 ## yplot3d_wf
 Plot y in terms of x and z.
@@ -167,5 +167,5 @@ Date: 29 Nov 2016
 | blend_displ_map | Whether to blend values from the displacement map<br>0: Don't blend values<br>1: Blend values |
 | param_a through param_f | Values that can be used by the formula to parameterize it; parameters not used in the formula are ignored |
 
-https://github.com/thargor6/JWildfire/blob/master/src/org/jwildfire/create/tina/variation/plot/yplot3d_wf_presets.txt  
-https://happy-stars.deviantart.com/art/Color-and-Displacement-Variables-HelpfulHints-697091366  
+[yplot3d_wf preset list](https://github.com/thargor6/JWildfire/blob/master/src/org/jwildfire/create/tina/variation/plot/yplot3d_wf_presets.txt)  
+[Color and Displacment Variables Helpful Hints](https://happy-stars.deviantart.com/art/Color-and-Displacement-Variables-HelpfulHints-697091366)  

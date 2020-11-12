@@ -14,7 +14,7 @@ Date: 15 Jan 2012
 | --- | --- |
 | filled | 0 for an outline, 1 to fill in the shape |
 
-https://mathworld.wolfram.com/CannabisCurve.html  
+[Cannibis Curve on MathWorld](https://mathworld.wolfram.com/CannabisCurve.html)  
 
 ## cloverleaf_wf
 Shape resembling a four leaf clover.
@@ -45,9 +45,9 @@ Note that there is a different variation named "conic" which different from this
 | eccentricity | Determines the conic section type: 1 for a parabola, less for an ellipse, more for a hyperbola. |
 | holes | Set to 0.5 to generate two shapes, the main one on the left and one turned 180° on the right (a hyperbola naturally includes both). Set to 0 or 1 to show only the left or right shape. Go past 0 or 1 to create a hole. |
 
-https://en.wikipedia.org/wiki/Conic_section  
-https://www.youtube.com/watch?v=80Rd-fifUOE  
-https://www.deviantart.com/morphapoph/art/Apo-Anim-friendly-Plugins-178559281  
+[Apophysis plugin](https://www.deviantart.com/morphapoph/art/Apo-Anim-friendly-Plugins-178559281)  
+[Conic section on Wikipedia](https://en.wikipedia.org/wiki/Conic_section)  
+[Understanding Conic video tutorial](https://www.youtube.com/watch?v=80Rd-fifUOE)  
 
 ## shape
 General shape generator using the superformula.
@@ -67,6 +67,6 @@ The shape variation was later incorporated into the [super_shape](reshapers/resh
 | a, b | Stretch or contract the shape |
 | holes | Puts a hole in the center if less than 0. (Although the default is 1, it works best to use 0 for no hole and a negative value to add a hole.) |
 
-https://en.wikipedia.org/wiki/Superformula  
-http://paulbourke.net/geometry/supershape/  
-https://www.deviantart.com/fractal-resources/art/BD-s-Lazysusan-Shape-Script-102963146  
+[Superformula entry on Wikipedia](https://en.wikipedia.org/wiki/Superformula)  
+[Description and examples by Paul Bourke](http://paulbourke.net/geometry/supershape/)  
+[Lazysusan-Shape Apophysis script](https://www.deviantart.com/fractal-resources/art/BD-s-Lazysusan-Shape-Script-102963146)  

@@ -10,8 +10,8 @@ Date: 16 Sep 2007
 
 Divide the plane into squares of size 1, and make a copy of each. Shrink one copy to half size and keep it in place. Poke a square hole in the other and expand it to make a frame around the first.
 
-https://sourceforge.net/projects/apo-plugins/files/apo-plugins/80810/   
-http://tyrantwave.deviantart.com/art/Apophysis-3D-Baseforms-Pack-113871861   
+[Apophysis plugin](https://sourceforge.net/projects/apo-plugins/files/apo-plugins/80810/)   
+[Apophysis 3D Baseforms Pack](http://tyrantwave.deviantart.com/art/Apophysis-3D-Baseforms-Pack-113871861) (contains examples using boarders)   
 
 ## boarders2 / pre_boarders2
 Divide the plane into squares with borders, with parameters.
@@ -32,7 +32,8 @@ To imitate boarders, set all parameters to 0.5. To imitate linear, set c=1 and l
 | left | Offset value for the trapezoids that form the frame. |
 | right | A density balancing factor for the square in the middle vs the frame. High values emphasize the frame (and may make the middle disappear completely); low values emphasize the square. |
 
-http://xyrus02.deviantart.com/art/Boarders2-plugin-for-Apophysis-173427128    (defunct)
+[Archive of Apophysis plugin page](https://web.archive.org/web/20121117024521/https://xyrus02.deviantart.com/art/Boarders2-plugin-for-Apophysis-173427128) (Wayback Machine)   
+[Apophysis plugin source code on SourceForge](https://sourceforge.net/p/apo-plugins/code/HEAD/tree/personal/georgkiehne/)   
 
 ## dc_boarders
 Presumably, a direct color version of boarders, but it appears to be the same as boarders.
@@ -41,8 +42,7 @@ Type: 2D, direct color
 Author: Georg Kiehne (xyrus02)  
 Date: 30 Jun 2010  
 
-http://xyrus-02.deviantart.com/art/DC-Collection-169594950 (defunct)   
-https://sourceforge.net/p/apo-plugins/code/HEAD/tree/personal/georgkiehne/   
+[Apophysis plugin source code on SourceForge](https://sourceforge.net/p/apo-plugins/code/HEAD/tree/personal/georgkiehne/)   
 
 ## tri_boarders2
 Divide the plane into hexagons with borders.
@@ -58,10 +58,9 @@ Divide the plane into hexagons and make a copy of each. Shrink one copy and keep
 | radius | Radius of the hexagons  |
 | width | Scale factor for the in-place hexagon |
 
-https://eralex61.deviantart.com/art/Some-Plugins-76087119/ (defunct)   
-http://nightmares06.deviantart.com/art/Bubble-Triboarders-Tutorial-99317545   
-https://www.deviantart.com/djeaton3162/art/Glossy-TriBoarders-Script-76820857   
-https://www.deviantart.com/djeaton3162/art/Tiled-Tri-Boarders-Script-76868935   
+[Bubble Triboaders Tutorial](http://nightmares06.deviantart.com/art/Bubble-Triboarders-Tutorial-99317545)   
+[Glossy TriBoarders Apophysis script](https://www.deviantart.com/djeaton3162/art/Glossy-TriBoarders-Script-76820857)   
+[Tiled TriBoarders Apophysis script](https://www.deviantart.com/djeaton3162/art/Tiled-Tri-Boarders-Script-76868935)   
 
 ## xtrb
 Divide the plane into hexagons with borders, with julian feature.
@@ -84,5 +83,5 @@ Xtrb is a cross between tri_boarders2 and julian. To imitate tri_boarders2, set 
 
 Bug: The amount is multiplied twice, which may cause unexpected results. To work around, set the amount to the square root of what would normally be used.
 
-http://xyrus02.deviantart.com/art/XTrb-Plugin-for-Apophysis-136800563 (defunct)   
-https://www.deviantart.com/bpclarke/art/BC-BDs-Spher-Loonie-Bwraps-Xtrb-Projective-Batch-2-310446818   
+[Archive of Apophysis plugin page](https://web.archive.org/web/20101229055751/http://xyrus02.deviantart.com/art/XTrb-Plugin-for-Apophysis-136800563?q=gallery%3AXyrus02%2F2799816&qo=25) (Wayback Machine)   
+[Spher-Loonie-Bwraps-Xtrb-Projective Apophysis script](https://www.deviantart.com/bpclarke/art/BC-BDs-Spher-Loonie-Bwraps-Xtrb-Projective-Batch-2-310446818)   

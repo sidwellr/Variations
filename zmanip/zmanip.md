@@ -14,7 +14,7 @@ Date: 26 Jul 2010
 | --- | --- |
 | root_face | Density of the extruded face compared to the rest, from 0 (root face has no extra density) to 1 (only the root face) |
 
-http://xyrus02.deviantart.com/art/Extrude-Plugin-for-Apophysis-172778628 (defunct)  
+[Archive of Apophysis plugin](https://web.archive.org/web/20101229055847/https://xyrus02.deviantart.com/art/Extrude-Plugin-for-Apophysis-172778628) (Wayback Machine)  
 
 ## flatten / zclear
 Flatten the other variations on the transform by setting the z coordinate to 0.
@@ -32,7 +32,7 @@ Date: 28 Sep 2009
 
 [![](inflateZ_1-1.png)](inflateZ_1-1.flame)
 
-https://www.deviantart.com/aporev/art/3D-Plugins-Collection-One-138514007  
+[Apophysis plugin](https://www.deviantart.com/aporev/art/3D-Plugins-Collection-One-138514007)  
 
 ## inflateZ_2
 Set z to tilt the plane diagonally.
@@ -41,7 +41,7 @@ Type: 3D (sets z only)
 Author: Larry Berlin (aporev)  
 Date: 28 Sep 2009  
 
-https://www.deviantart.com/aporev/art/3D-Plugins-Collection-One-138514007  
+[Apophysis plugin](https://www.deviantart.com/aporev/art/3D-Plugins-Collection-One-138514007)  
 
 ## inflateZ_3
 Warp z to give a strong three dimensional effect.
@@ -52,7 +52,7 @@ Date: 28 Sep 2009
 
 [![](inflateZ_3-1.png)](inflateZ_3-1.flame)
 
-https://www.deviantart.com/aporev/art/3D-Plugins-Collection-One-138514007  
+[Apophysis plugin](https://www.deviantart.com/aporev/art/3D-Plugins-Collection-One-138514007)  
 
 ## inflateZ_4
 Set z to create interleaved helix shapes.
@@ -63,6 +63,8 @@ Date: 28 Sep 2009
 
 [![](inflateZ_4-1.png)](inflateZ_4-1.flame)
 
+[Apophysis plugin](https://www.deviantart.com/aporev/art/3D-Plugins-Collection-One-138514007)  
+
 ## inflateZ_5
 Set z to give a gentle three dimensional wave shape.
 
@@ -72,7 +74,7 @@ Date: 28 Sep 2009
 
 [![](inflateZ_5-1.png)](inflateZ_5-1.flame)
 
-https://www.deviantart.com/aporev/art/3D-Plugins-Collection-One-138514007  
+[Apophysis plugin](https://www.deviantart.com/aporev/art/3D-Plugins-Collection-One-138514007)  
 
 ## inflateZ_6
 Set z to give a rolling shape.
@@ -83,7 +85,7 @@ Date: 28 Sep 2009
 
 [![](inflateZ_6-1.png)](inflateZ_6-1.flame)
 
-https://www.deviantart.com/aporev/art/3D-Plugins-Collection-One-138514007  
+[Apophysis plugin](https://www.deviantart.com/aporev/art/3D-Plugins-Collection-One-138514007)  
 
 ## post_bumpmap_wf
 Set z from an external bumpmap image.

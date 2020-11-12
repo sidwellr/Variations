@@ -39,7 +39,7 @@ The result of circlize2 is slightly smaller than circlize, so it works better wi
 | --- | --- |
 | hole | Radius of a hole in the center of the result; 0 for no hole |
 
-https://www.deviantart.com/michaelfaber/art/The-Angle-Pack-277718538  
+[Apophysis plugin](https://www.deviantart.com/michaelfaber/art/The-Angle-Pack-277718538)  
 
 ## ngon
 Reshape circles centered at the origin into polygons, with an option for inversion.
@@ -61,11 +61,11 @@ Same as linear when circle=1, corners=0, and power=0.
 | power | The power used when computing the factor<br>1 collapses the polygon to an outline<br>>1 everts the flame (like spherical); 2 is normal size<br><1 works linearly, distorting but not everting the flame; 0 is normal size |
 | sides | Number of sides of the polygon; integers 3 and greater make regular polygons; integers -5 or less make regular stars; other values make intermediate shapes. Can be any value except 0 |
 
-https://web.archive.org/web/20090420224756/http:/slobo777.wikispaces.com/Variation+Idea (Wayback Machine)  
-https://www.deviantart.com/f--l--a--r--k/art/nGon-Tutorial-96864899  
-https://www.deviantart.com/satania/art/Tutorial-Portals-Flames-176482429  
-https://www.deviantart.com/guagapunyaimel/art/Splits-Ngon-Tutorial-170779905  
-https://www.deviantart.com/fractaldesire/art/Tutorial-Xaos-revealed-276483388  
+[Archive of ngon description](https://web.archive.org/web/20090420224756/http:/slobo777.wikispaces.com/Variation+Idea) (Wayback Machine)  
+[nGon Tutorial](https://www.deviantart.com/f--l--a--r--k/art/nGon-Tutorial-96864899)  
+[Portals Shapes Fractals tutorial](https://www.deviantart.com/satania/art/Tutorial-Portals-Flames-176482429)  
+[Splits-Ngon tutorial](https://www.deviantart.com/guagapunyaimel/art/Splits-Ngon-Tutorial-170779905)  
+[Xaos revealed](https://www.deviantart.com/fractaldesire/art/Tutorial-Xaos-revealed-276483388)  
 
 ## prepost_circlize
 Circlize before and uncirclize after other variations, or vice versa.
@@ -91,7 +91,7 @@ Date: 4 Jan 2012
 
 [![](squarize-1.png)](squarize-1.flame)
 
-https://www.deviantart.com/michaelfaber/art/The-Angle-Pack-277718538  
+[Apophysis plugin](https://www.deviantart.com/michaelfaber/art/The-Angle-Pack-277718538)  
 
 ## super_shape
 Reshape (or create a shape) using the superformula.
@@ -109,8 +109,8 @@ Date: 21 Jun 2007
 | n1, n2, n3 | Shaping variables |
 | holes | Puts a hole in the center if less than 0. (Although the default is 1, it works best to use 0 for no hole and a negative value to add a hole.) |
 
-https://en.wikipedia.org/wiki/Superformula  
-http://paulbourke.net/geometry/supershape/  
+[Wikipedia superformula description](https://en.wikipedia.org/wiki/Superformula)  
+[Superformula description and examples by Paul Bourke](http://paulbourke.net/geometry/supershape/)  
 
 ## xheart
 Reshape circles centered at the origin into hearts.
@@ -128,4 +128,4 @@ Xheart works by stretching circles into ellipses, then flipping the left half to
 | angle | The angle of the ellipses; 0 is 45°, which makes a typical heart, higher values rotate it clockwise (making a flatter heart), and lower values rotate it counter-clockwise (making a taller heart). |
 | ratio | Controls the eccentricity of the ellipses (how much they are stretched); 0 makes very rounded hearts; larger values make them more pointy. |
 
-https://web.archive.org/web/20121117024532/https://xyrus02.deviantart.com/art/XHeart-Plugin-139866412 (Wayback Machine)
+[Archive of Apophysis variation](https://web.archive.org/web/20121117024532/https://xyrus02.deviantart.com/art/XHeart-Plugin-139866412) (Wayback Machine)

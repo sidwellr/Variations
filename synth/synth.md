@@ -8,7 +8,7 @@ Type: 2D; blur with mode 2
 Author: Neil Slater  
 Date: 24 Sep 2008  
 
-https://www.deviantart.com/slobo777/art/Apo-plugin-Synth-98877432
+[Apophysis plugin](https://www.deviantart.com/slobo777/art/Apo-plugin-Synth-98877432)
 
 ## synth v2
 Combo variation (emulates several others) with added wave functions.
@@ -81,17 +81,17 @@ The five waveform modules are invoked in sequence, and, if enabled, apply a wave
 | x_layer | How this waveform combines with the input:<br>0: add<br>1: multiply<br>2: maximum<br>3: minimum |
 
 ### Resources
-https://www.deviantart.com/slobo777/art/Synth-V2-128594088  
-http://jwildfire.org/forum/viewtopic.php?f=11&t=1219  
-https://www.deviantart.com/slobo777/art/Apophysis-Synth-Pack-106698622  
-https://www.deviantart.com/anystasia/art/The-Beginnings-Tutorial-131305834  
-https://www.dropbox.com/sh/bt7se699hhfcx8v/AACGi-yoJllws_A1Lf2XJzvza/JWILDFIRE%20JULIA%20N_S%20SCARY%20SYNTH%20TUTORIAL.ppsx?dl=0   
-https://www.youtube.com/watch?v=QRwUowpLx1Y  
-https://www.deviantart.com/fractal-resources/art/BC-and-BDs-Synth-Gardens-2-107145254  
-https://www.deviantart.com/fractal-resources/art/BD-s-Curled-Synth-Script-105586976  
-https://www.deviantart.com/fractal-resources/art/BD-s-3D-Curled-Synth-106005764  
-http://jwildfire.org/forum/viewtopic.php?f=17&t=1861  
-https://www.deviantart.com/zweezwyy/art/Simply-Synthfull-128453759  
-http://jwildfire.org/forum/viewtopic.php?f=17&t=2087  
-http://jwildfire.org/forum/viewtopic.php?f=17&t=2604  
-http://jwildfire.org/forum/viewtopic.php?f=17&t=2584  
+[Apophysis plugin](https://www.deviantart.com/slobo777/art/Synth-V2-128594088)  
+[Synth Variation Explained](https://jwildfire-forum.overwhale.com/viewtopic.php?f=11&t=1219)  
+[Flame pack of shapes using synth](https://www.deviantart.com/slobo777/art/Apophysis-Synth-Pack-106698622)  
+[The Beginnings tutorial](https://www.deviantart.com/anystasia/art/The-Beginnings-Tutorial-131305834)  
+[JWildfire Julian Scary Synth tutorial](https://www.dropbox.com/sh/bt7se699hhfcx8v/AACGi-yoJllws_A1Lf2XJzvza/JWILDFIRE%20JULIA%20N_S%20SCARY%20SYNTH%20TUTORIAL.ppsx?dl=0)   
+[Synth Cut Painting video tutorial](https://www.youtube.com/watch?v=QRwUowpLx1Y)  
+[Simply Synthfull](https://www.deviantart.com/zweezwyy/art/Simply-Synthfull-128453759)  
+[Synth Gardens Apophysis script](https://www.deviantart.com/fractal-resources/art/BC-and-BDs-Synth-Gardens-2-107145254)  
+[Curled Synth Apophysis script](https://www.deviantart.com/fractal-resources/art/BD-s-Curled-Synth-Script-105586976)  
+[3D Curled Synth Apophysis script](https://www.deviantart.com/fractal-resources/art/BD-s-3D-Curled-Synth-106005764)  
+[3D Curled Synth JWildfire script](https://jwildfire-forum.overwhale.com/viewtopic.php?f=17&t=1861)  
+[Synth Tiling JWildfire script](https://jwildfire-forum.overwhale.com/viewtopic.php?f=17&t=2087)  
+[Inversion Synth JWildfire script](http://jwildfire.org/forum/viewtopic.php?f=17&t=2604)  
+[Snarly JWildfire script](http://jwildfire.org/forum/viewtopic.php?f=17&t=2584)  

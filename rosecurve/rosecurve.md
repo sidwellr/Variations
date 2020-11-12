@@ -1,8 +1,8 @@
 # Variations Based on the Rose Curve
 The rose or rhodonea curve is shaped like a flower with petals, obtained by plotting a sine curve in polar coordinates. Its shape is determined by the frequency of the sine wave, denoted k. It is finite when k is rational, meaning it is a fraction of two integers kn/kd. The results of various combinations of numerator and denominator are shown in the chart below, created by [Jason Davies](https://commons.wikimedia.org/wiki/File:Rose-rhodonea-curve-7x9-chart-improved.svg). The full rose effect of non-integer values requires multiple cycles and many of the variations listed here plot only the first so won't produce the complete curve.
 
-https://en.wikipedia.org/wiki/Rose_(mathematics)  
-https://www.mathcurve.com/courbes2d.gb/rosace/rosace.shtml  
+[Wikipedia description](https://en.wikipedia.org/wiki/Rose_(mathematics))  
+[Mathcurve description](https://www.mathcurve.com/courbes2d.gb/rosace/rosace.shtml)  
 
 ![](Rose-rhodonea-curve-7x9-chart-improved.png)
 
@@ -23,9 +23,9 @@ Epispiral is a rose curve which is inverted on the unit circle (see spherical), 
 | thickness | When non-zero, it adds thickness. |
 | holes | When n is even, every other petal is stretched towards the origin by this factor, touching the origin when 1, and looping to the other side when larger. The other petals are shrunk away from the origin. When n is odd, the effect is similar but the stretching and shrinking happens simultaneously to each petal. |
 
-https://mathworld.wolfram.com/Epispiral.html  
-https://www.mathcurve.com/courbes2d.gb/epi/epi.shtml  
-http://www.deviantart.com/art/BD-s-2-New-Scripts-80636384  
+[MathWorld description](https://mathworld.wolfram.com/Epispiral.html)  
+[Mathcurve description](https://www.mathcurve.com/courbes2d.gb/epi/epi.shtml)  
+[Droste-Plastic-Epispiral Apophysis script](http://www.deviantart.com/art/BD-s-2-New-Scripts-80636384)  
 
 ## epispiral_wf
 Alternate version of epispiral.
@@ -58,9 +58,9 @@ Originally from the Z+C++ Apophysis branch by cyberxaos, Jed Kelsey (Lu-Kout) in
 | holes | 1 is normal. Larger values both increase the flower size and add holes in the center. Smaller values (down to 0.5) shrink the flower size and, if petals is odd, grow new petals in the spaces between the main ones. |
 | petals | The frequency of the rose curve. Normally an integer; produces this many petals when odd, or twice as many when even. Other values are allowed and produce intermediate results (but won't produce the entire curve). |
 
-https://www.deviantart.com/lu-kout/art/Apophysis-Plugin-Pack-1-v0-4-59907275  
-https://www.deviantart.com/morphapoph/art/Apo-Anim-friendly-Plugins-178559281  
-https://www.deviantart.com/cothe/art/Apophysis-Z-Plugin-Pack-61192322  
+[Apophysis plugin](https://www.deviantart.com/lu-kout/art/Apophysis-Plugin-Pack-1-v0-4-59907275)  
+[Apophysis plugin](https://www.deviantart.com/morphapoph/art/Apo-Anim-friendly-Plugins-178559281) (flower2; works the same as flower)  
+[Apophysis plugin](https://www.deviantart.com/cothe/art/Apophysis-Z-Plugin-Pack-61192322) (Z_flower; works the same as flower)  
 
 ## flower3D
 Experimental 3D version of flower.
@@ -77,7 +77,7 @@ Date: 10 Nov 2011
 | petals | The frequency of the rose curve. Normally an integer; produces this many petals when odd, or twice as many when even. Other values are allowed and produce intermediate results (but won't produce the entire curve). |
 | zpetals | The frequency of the rose curve in the z direction. |
 
-https://www.deviantart.com/dark-beam/art/Flower3D-apoplugin-268287892  
+[Apophysis plugin](https://www.deviantart.com/dark-beam/art/Flower3D-apoplugin-268287892)  
 
 ## maurer_rose
 String art on a rose curve.
@@ -130,7 +130,7 @@ Date: 15 Oct 2009
 | wigsc | Wiggle scale (circumference effects) |
 | offset | Wiggle offset |
 
-https://www.deviantart.com/aporev/art/pRose3D-Plugin-140417044  
+[Apophysis plugin](https://www.deviantart.com/aporev/art/pRose3D-Plugin-140417044)  
 
 ## rhodonea
 Advanced rose curve
@@ -175,4 +175,4 @@ Date: 12 Jun 2011
 | waves | The frequency of the rose curve; must be an integer. Produces this many petals when odd, or twice as many when even. |
 | filled | 0 for an outline, 1 for filled (like flower) |
 
-https://mathworld.wolfram.com/Rose.html  
+[MathWorld description](https://mathworld.wolfram.com/Rose.html)  

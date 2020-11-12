@@ -190,6 +190,6 @@ The Maurer lines result has three components: the curve, the endpoints, and the 
 | curve_thickness | Thickness of the displayed curve |
 
 ## Resources
-https://en.wikipedia.org/wiki/Maurer_rose  
-https://mathworld.wolfram.com/MaurerRose.html  
-http://archive.bridgesmathart.org/2016/bridges2016-445.pdf  
+[Wikipedia description](https://en.wikipedia.org/wiki/Maurer_rose)  
+[MathWorld description](https://mathworld.wolfram.com/MaurerRose.html)  
+[A Rose by Any Other Name...](http://archive.bridgesmathart.org/2016/bridges2016-445.pdf) (paper by variation author)  

@@ -19,7 +19,7 @@ Works as a standalone variation.
 | length | How long to make the blur effect |
 | angle | The angle for the blur effect in radians |
 
-https://sourceforge.net/p/apo-plugins/code/HEAD/tree/  
+[Apophysis plugin source code on SourceForge](https://sourceforge.net/p/apo-plugins/code/HEAD/tree/)  
 
 ## blur_pixelize
 Averages colors in an area to make large square pixels.
@@ -37,7 +37,7 @@ Works as a standalone variation.
 | size | Size of the area to be averaged |
 | scale | Relative size of the pixels; <1 puts space between them, >1 makes them overlap |
 
-https://sourceforge.net/p/apo-plugins/code/HEAD/tree/  
+[Apophysis plugin source code on SourceForge](https://sourceforge.net/p/apo-plugins/code/HEAD/tree/)  
 
 ## blur_zoom
 Create a zoom blur effect.
@@ -55,7 +55,7 @@ Works as a standalone variation.
 | length | Length of the effect |
 | x, y | The center point of the effect |
 
-https://sourceforge.net/p/apo-plugins/code/HEAD/tree/  
+[Apophysis plugin source code on SourceForge](https://sourceforge.net/p/apo-plugins/code/HEAD/tree/)  
 
 ## exblur
 Blur effect radiating from a point.
@@ -74,7 +74,7 @@ Works best when used with another variation on the same transform.
 | r | Strength of the blur in side directions |
 | x_origin, y_origin, z_origin | Origin of the blur effect |
 
-https://www.deviantart.com/zephyrtronium/art/Exblur-Apophysis-Plugin-170961946  
+[Apophysis plugin](https://www.deviantart.com/zephyrtronium/art/Exblur-Apophysis-Plugin-170961946)  
 
 ## noise
 Add noise as a blur effect.
@@ -106,7 +106,7 @@ Use with another variation on the same transform.
 | seed | Seed for the random number generator; change to create different flows |
 | enable_dc | 1 to enable direct color; 0 to disable |
 
-http://bezo97.tk/plugins.html  
+[Apophysis plugin](http://bezo97.tk/plugins.html)  
 
 ## radial_blur
 Blur effect rotating around the origin.

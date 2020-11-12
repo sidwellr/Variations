@@ -19,7 +19,7 @@ The version built-in to Apophysis requires waves to be an integer. To avoid this
 
 Setting low and high to the same value will just scale the flame by that amount, with no deformation. Blob is the same as linear when low and high are both 1.
 
-https://www.jwfsanctuary.club/variation-information/blob/  
+[Blob variation information at the JWildfire Sanctuary](https://www.jwfsanctuary.club/variation-information/blob/)  
 
 ## blob_fl
 "Fluid" version of blob; allows fractional values for waves.
@@ -34,7 +34,7 @@ Date: 8 Sep 2010
 | high | Proportional height of the crests of the waves. It is typically set a bit larger than 1, though this is not required. |
 | waves | Number of waves. Normally an integer; if not, one of the waves will be cut off. |
 
-https://www.deviantart.com/morphapoph/art/Apo-Anim-friendly-Plugins-178559281  
+[Apophysis plugin](https://www.deviantart.com/morphapoph/art/Apo-Anim-friendly-Plugins-178559281)  
 
 ## blob2
 Modulate a flame using radial sine waves.
@@ -60,7 +60,7 @@ Tips from the author:
 * mode=1 works best for creating flower shapes
 * use linear variation on the same xForm to see both inwards and outwards pointed waves (otherwise the inward-pointed waves are just "mirrored" from the 0.0 point)
 
-https://www.deviantart.com/zy0rg/art/Blob2-244765425  
+[Apophysis plugin](https://www.deviantart.com/zy0rg/art/Blob2-244765425)  
 
 ## blob3D
 A variant of blob that adds a 3D component.
@@ -96,8 +96,8 @@ Date: 10 Jul 2014
 | petal_fold_strength | How much to fold the tips of the petals; positive values fold up, negative down |
 | petal_fold_radius | How far from the center the petal fold starts |
 
-http://jwildfire.org/forum/viewtopic.php?f=18&t=1444  
-http://jwildfire.org/forum/viewtopic.php?f=23&t=1759  
+[Variation post on JWildfire forum](https://jwildfire-forum.overwhale.com/viewtopic.php?f=18&t=1444)  
+[Followup post on JWildfire forum](http://jwildfire-forum.overwhale.com/viewtopic.php?f=23&t=1759)  
 
 ## rose
 Modulate a flame using the rose curve.
@@ -119,4 +119,4 @@ Date: 3 Aug 2011
 | turn_x, turn_y | How much to turn x and y, in radians |
 | strength | Overall strength for the effect |
 
-https://www.deviantart.com/fardareismai/art/Apophysis-Plugin-Rose-246324281  
+[Apophysis plugin](https://www.deviantart.com/fardareismai/art/Apophysis-Plugin-Rose-246324281)  

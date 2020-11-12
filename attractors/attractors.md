@@ -14,7 +14,7 @@ Date:  4 Nov 2017
 | --- | --- |
 | a - d | Variables that define the attractor |
 
-http://paulbourke.net/fractals/clifford/  
+[Description and examples by Paul Bourke](http://paulbourke.net/fractals/clifford/)  
 
 ## gingerbread_man
 An attractor that resembles a gingerbread man.
@@ -25,7 +25,7 @@ Date: 7 May 2020
 
 [![](gingerbread_man-1.png)](gingerbread_man-1.flame)
 
-https://mathworld.wolfram.com/GingerbreadmanMap.html  
+[MathWorld description](https://mathworld.wolfram.com/GingerbreadmanMap.html)  
 
 ## gumowski_mira
 The strange attractor of Gumowski-Mira.
@@ -36,8 +36,8 @@ Date: 7 May 2020
 
 [![](gumowski_mira-1.png)](gumowski_mira-1.flame)
 
-https://www.openprocessing.org/sketch/195425/  
-https://demonstrations.wolfram.com/StrangeAttractorOfGumowskiMira/  
+[Processing sketch by David Burnett](https://www.openprocessing.org/sketch/195425/)  
+[Wolfram interactive demonstration](https://demonstrations.wolfram.com/StrangeAttractorOfGumowskiMira/)  
 
 ## henon
 Strange attractor discovered by Michel Hénon.
@@ -52,9 +52,9 @@ Date: 6 Jun 2009
 | --- | --- |
 | a - c | Variables that define the attractor; set c to 1 for the classic Hénon map |
 
-https://www.deviantart.com/tyrantwave/art/Henon-and-Lozi-Apo-Plugins-125039554  
-https://mathworld.wolfram.com/HenonMap.html  
-https://en.wikipedia.org/wiki/H%C3%A9non_map  
+[Apophysis plugin](https://www.deviantart.com/tyrantwave/art/Henon-and-Lozi-Apo-Plugins-125039554)  
+[MathWorld description](https://mathworld.wolfram.com/HenonMap.html)  
+[Wikipedia description](https://en.wikipedia.org/wiki/H%C3%A9non_map)  
 
 ## hopalong
 Hopalong attractor, also known as the Martin map.
@@ -71,8 +71,8 @@ Date: 7 May 2020
 | a - c | Variables that define the attractor |
 | startx, starty | Starting values for plotting the attractor
 
-http://www.fraktalwelt.de/myhome/simpiter2.html  
-https://www.youtube.com/watch?v=JhHugpABjDo  
+[Description at Fraktelwelt](http://www.fraktalwelt.de/myhome/simpiter2.html)  
+[Video by Paul Nathan](https://www.youtube.com/watch?v=JhHugpABjDo)  
 
 ## lorenz_js
 Strange attractor first studied by Edward Lorenz.
@@ -92,9 +92,9 @@ Lorenz uses Euler's method to solve the Lorenz system of ordinary differential e
 | centerx, centery | Offset for direct coloring |
 | scale | Scale for direct coloring |
 
-http://paulbourke.net/fractals/lorenz/  
-https://en.wikipedia.org/wiki/Lorenz_system  
-https://en.wikipedia.org/wiki/Euler_method  
+[Description and examples by Paul Bourke](http://paulbourke.net/fractals/lorenz/)  
+[Wikipedia description](https://en.wikipedia.org/wiki/Lorenz_system)  
+[Euler method on Wikipedia](https://en.wikipedia.org/wiki/Euler_method)  
 
 ## lozi
 Strange attractor discovered by René Lozi.
@@ -109,9 +109,9 @@ Date: 6 Jun 2009
 | --- | --- |
 | a - c | Variables that define the attractor; set c to 1 for the classic Lozi map |
 
-https://www.deviantart.com/tyrantwave/art/Henon-and-Lozi-Apo-Plugins-125039554  
-http://padyn.wikidot.com/lozi-maps  
-https://mathworld.wolfram.com/LoziMap.html  
+[Apophysis plugin](https://www.deviantart.com/tyrantwave/art/Henon-and-Lozi-Apo-Plugins-125039554)  
+[Description on the Piecewise Affine Dynamics wiki](http://padyn.wikidot.com/lozi-maps)  
+[MathWorld description](https://mathworld.wolfram.com/LoziMap.html)  
 
 ## macmillan
 Perturbed McMillan map (studied by Edwin McMillan)
@@ -127,7 +127,7 @@ Date: 29 Mar 2018
 | a - b | Variables that define the attractor |
 | startx, starty | Starting point |
 
-http://www.3d-meier.de/tut19/Seite158.html  
+[Description by Jürgen Meier](http://www.3d-meier.de/tut19/Seite158.html) (German)  
 
 ## pdj
 Peter de Jong attractor
@@ -142,8 +142,8 @@ Date: Sept 2003
 | --- | --- |
 | a - d | Variables that define the attractor |
 
-http://paulbourke.net/fractals/peterdejong/  
-https://www.algosome.com/articles/strange-attractors-de-jong.html  
+[Description and examples by Paul Bourke](http://paulbourke.net/fractals/peterdejong/)  
+[Article by Greg Cope](https://www.algosome.com/articles/strange-attractors-de-jong.html)  
 
 ## sattractor_js
 A strange attractor attributed to Roger Bagula.
@@ -158,7 +158,7 @@ Date: 21 Dec 2017
 | --- | --- |
 | m | Symmetry of the attractor, integer between 2 and 12 |
 
-http://paulbourke.net/fractals/henonattractor/  
+[Examples by Paul Bourke](http://paulbourke.net/fractals/henonattractor/)  
 
 ## svensson_js
 Johnny Svensson attractor, based on the Peter de Jong attractor.
@@ -173,7 +173,7 @@ Date: 12 Dec 2017
 | --- | --- |
 | a - d | Variables that define the attractor |
 
-http://paulbourke.net/fractals/peterdejong/  
+[Description](http://paulbourke.net/fractals/peterdejong/) (scroll to very bottom)  
 
 ## threeply
 A strange attractor named Three Ply
@@ -188,4 +188,4 @@ Date: 7 May 2020
 | --- | --- |
 | a - c | Variables that define the attractor |
 
-http://www.jamesh.id.au/fractals/orbit/threeply.html  
+[Description and Java applet by James Henstridge](http://www.jamesh.id.au/fractals/orbit/threeply.html)  

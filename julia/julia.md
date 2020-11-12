@@ -18,8 +18,8 @@ Date: 24 Jun 2012
 | --- | --- |
 | power | The power for the polynomial; 2 for quadratic. Must be an integer. Negative values are allowed and return the reciprocal. |
 
-https://www.deviantart.com/michaelfaber/art/eSeries-306044892  
-http://platinus.deviantart.com/art/eJuliaTut-310065706  
+[Apophysis plugin](https://www.deviantart.com/michaelfaber/art/eSeries-306044892)  
+[eJulia tutorial](http://platinus.deviantart.com/art/eJuliaTut-310065706)  
 
 ## julia
 Classic quadratic Julia set (obsolete; use julian with power=2).
@@ -53,7 +53,7 @@ Date: 8 Sep 2010
 | --- | --- |
 | power | The power for the polynomial; 2 for quadratic. May be fractional. Negative values are allowed and return the reciprocal. |
 
-https://www.deviantart.com/morphapoph/art/Apo-Anim-friendly-Plugins-178559281
+[Apophysis plugin](https://www.deviantart.com/morphapoph/art/Apo-Anim-friendly-Plugins-178559281)
 
 ## julia3Dq
 Julia set using a rational power with 3D extrusion. Also post_julia3Dq.
@@ -69,7 +69,7 @@ Date: 2 Dec 2012
 | power | The numerator of the polynomial power. Must be an integer. Negative values are allowed and return the reciprocal. |
 | divisor | The denominator of the polynomial power. |
 
-https://www.deviantart.com/zueuk/art/juliaq-Apophysis-plugins-340813357
+[Apophysis plugin](https://www.deviantart.com/zueuk/art/juliaq-Apophysis-plugins-340813357)
 
 ## julia3Dz
 Classic polynomial Julia set with 3D extrusion.
@@ -93,7 +93,7 @@ Date: 8 Sep 2010
 | --- | --- |
 | power | The power for the polynomial; 2 for quadratic. May be fractional. Negative values are allowed and return the reciprocal. |
 
-https://www.deviantart.com/morphapoph/art/Apo-Anim-friendly-Plugins-178559281
+[Apophysis plugin](https://www.deviantart.com/morphapoph/art/Apo-Anim-friendly-Plugins-178559281)
 
 ## juliac
 Julia set using a complex power.
@@ -110,7 +110,7 @@ Date: 9 Sep 2008
 | im | The imaginary part of the complex power. |
 | dist | Distortion factor; increase to stretch the result and help fill in the hole normally left in the middle. Negative values do an inversion (aka spherical). |
 
-https://www.deviantart.com/sc0t0ma/art/Juliac-97512904  
+[Apophysis plugin](https://www.deviantart.com/sc0t0ma/art/Juliac-97512904)  
 
 ## juliacomplex
 Julia set using a complex power.
@@ -128,7 +128,7 @@ Date: 21 Nov 2011
 | dist | Distortion factor; increase to stretch the result and help fill in the hole normally left in the middle. Negative values do an inversion (aka spherical). |
 | logadd | An addition to the imaginary part; changes the shape of the "blades" |
 
-https://www.deviantart.com/dark-beam/art/Juliacomplex-apoplugin-270181347
+[Apophysis plugin](https://www.deviantart.com/dark-beam/art/Juliacomplex-apoplugin-270181347)
 
 ## julian
 Classic polynomial Julia set
@@ -146,22 +146,20 @@ Often referenced as "juliaN" to emphasize it is julia with an "N" parameter, but
 | power | The power for the polynomial; 2 for quadratic. Must be an integer. Negative values are allowed and return the reciprocal. |
 | dist | Distortion factor; increase to stretch the result and help fill in the hole normally left in the middle. Negative values do an inversion (aka spherical). |
 
-https://www.jwfsanctuary.club/variation-information/julian/  
-http://fiery-fire.deviantart.com/journal/JULIANS-Fractal-Styles-216748198  
-http://jp-talma.deviantart.com/art/JP-Talmq-Apophysis-Tutorial-5-309109720  
-http://clairejones.deviantart.com/art/Julia-Uncovered-v-2-2-49167519  
-http://nemopaice.deviantart.com/art/Julian-Tutorial-By-nemopaice-36434472  
-https://www.deviantart.com/apophysis/art/Julian-Tutorial-Log-50944789  
-http://fiery-fire.deviantart.com/art/Apo-Spiked-3D-Julian-tuto-130523681  
-http://www.mfcreative.co.uk/julianringstutorial/  
-http://lindelokse.deviantart.com/art/LazyJulian-Apophysis-Tutorial-169056797  
-http://clairejones.deviantart.com/art/The-Rings2-and-Julian-Guide-62854687  
-http://cygx1.deviantart.com/art/Wire-Tube-Fractals-Tutorial-39470081  
-http://tyrantwave.deviantart.com/art/Apophysis-3D-Baseforms-Pack-113871861  
-http://tyrantwave.deviantart.com/art/Apophysis-Base-Forms-Pack-103671251  
-http://cosmic-cuttlefish.deviantart.com/art/Tutorial-Fractal-Stars-315456570   
-https://chronologicaldot.wordpress.com/2014/04/05/how-julia-transforms-work/  
-https://www.deviantart.com/meckie/art/Simple-3D-Julian-and-DOF-Tut-77364026  
+[Julian variation information at JWildfire Sanctuary](https://www.jwfsanctuary.club/variation-information/julian/)  
+[Julians Fractal Styles article](http://fiery-fire.deviantart.com/journal/JULIANS-Fractal-Styles-216748198)  
+[Julia, Julian and Julianscopes tutorial](http://jp-talma.deviantart.com/art/JP-Talmq-Apophysis-Tutorial-5-309109720)  
+[Julia Uncovered v.2.2](http://clairejones.deviantart.com/art/Julia-Uncovered-v-2-2-49167519)  
+[Julian Tutorial log](https://www.deviantart.com/apophysis/art/Julian-Tutorial-Log-50944789) (Transcript of a chat session)  
+[Spiked 3D Julian tutorial](http://fiery-fire.deviantart.com/art/Apo-Spiked-3D-Julian-tuto-130523681)  
+[Julian Rings tutorial](https://web.archive.org/web/20150502173821/http://mfcreative.co.uk/julianringstutorial/) (Wayback Machine)  
+[LazyJulian tutorial](http://lindelokse.deviantart.com/art/LazyJulian-Apophysis-Tutorial-169056797)  
+[The Rings2 and Julian Guide](http://clairejones.deviantart.com/art/The-Rings2-and-Julian-Guide-62854687)  
+[Wire and Tube Fractals tutorial](http://cygx1.deviantart.com/art/Wire-Tube-Fractals-Tutorial-39470081)  
+[Apophysis Base Forms Pack](http://tyrantwave.deviantart.com/art/Apophysis-Base-Forms-Pack-103671251)  
+[Fractal Stars tutorial](http://cosmic-cuttlefish.deviantart.com/art/Tutorial-Fractal-Stars-315456570)   
+[How Julia transforms work article](https://chronologicaldot.wordpress.com/2014/04/05/how-julia-transforms-work/)  
+[Simple 3D Julian and DOF tutorial](https://www.deviantart.com/meckie/art/Simple-3D-Julian-and-DOF-Tut-77364026)  
 
 ## julian_fl
 "Fluid" version of julian; allows fractional values for power
@@ -175,7 +173,7 @@ Date: 8 Sep 2010
 | power | The power for the polynomial; 2 for quadratic. May be fractional. Negative values are allowed and return the reciprocal. |
 | dist | Distortion factor; increase to stretch the result and help fill in the hole normally left in the middle. Negative values do an inversion (aka spherical). |
 
-https://www.deviantart.com/morphapoph/art/Apo-Anim-friendly-Plugins-178559281
+[Apophysis plugin](https://www.deviantart.com/morphapoph/art/Apo-Anim-friendly-Plugins-178559281)
 
 ## julian2
 Julian with an integrated affine transform. Also post_julian2.
@@ -192,7 +190,7 @@ Date: 11 Sep 2009
 | dist | Distortion factor; increase to stretch the result and help fill in the hole normally left in the middle. Negative values do an inversion (aka spherical). |
 | a - f | Affine coefficients: *(x,y) → (ax+by+e, cx+dy+f)* |
 
-https://xyrus02.deviantart.com/art/JuliaN2-Plugin-for-Apophysis-136717838 (Defunct)
+[Archive of Apophysis plugin page](https://web.archive.org/web/20121009020332/https://xyrus02.deviantart.com/art/JuliaN2-Plugin-for-Apophysis-136717838) (Wayback Machine)
 
 ## julian2dc
 Julian2 with direct color.
@@ -210,8 +208,7 @@ Date: 16 Dec 2010
 | col | Controls direct color; 0 for radial, 1 for circles, others for spiral
 | a - f | Affine coefficients: *(x,y) → (ax+by+e, cx+dy+f)* |
 
-http://xyrus-worx.org/Content/apophysis.directcolor.php (Defunct)  
-https://sourceforge.net/p/apo-plugins/code/HEAD/tree/personal/georgkiehne/julian2dc.c
+[Source code on SourceForge](https://sourceforge.net/p/apo-plugins/code/HEAD/tree/personal/georgkiehne/julian2dc.c)
 
 ## julian3Dx
 Julian2 with 3D wave effect
@@ -228,7 +225,7 @@ Date: 21 May 2014
 | dist | Distortion factor; increase to stretch the result and help fill in the hole normally left in the middle. Negative values do an inversion (aka spherical). |
 | a - f | Affine coefficients: *(x,y) → (ax+by+e, cx+dy+f)* |
 
-http://xyrus-02.deviantart.com/art/julian3Dx-Plugin-for-Apophysis-455502519 (Defunct)
+[Archive of Apophysis plugin](https://web.archive.org/web/20140527054645/https://xyrus-02.deviantart.com/art/julian3Dx-Plugin-for-Apophysis-455502519) (Wayback Machine)
 
 ## juliaNab
 Variant of julian with different parameters.
@@ -246,7 +243,7 @@ Date: 2 Aug 2011
 | b | Added to x and y; shifts result diagonally |
 | separ | Power for x; integers work best |
 
-http://ffey.deviantart.com/art/apoplugin-juliaNab-246311162 (Defunct)
+[Archive of Apophysis plugin](https://web.archive.org/web/20151027091540/https://ffey.deviantart.com/art/apoplugin-juliaNab-246311162) (Wayback Machine)
 
 ## juliaq
 Julia set using a rational power. Also post_juliaq.
@@ -262,7 +259,7 @@ Date: 2 Dec 2012
 | power | The numerator of the polynomial power. Must be an integer. Negative values are allowed and return the reciprocal. |
 | divisor | The denominator of the polynomial power. |
 
-https://www.deviantart.com/zueuk/art/juliaq-Apophysis-plugins-340813357
+[Apophysis plugin](https://www.deviantart.com/zueuk/art/juliaq-Apophysis-plugins-340813357)  
 
 ## npolar
 Mashup of julian and polar2.
@@ -278,7 +275,7 @@ Date: 8 Apr 2010
 | parity | When odd, parity is a scale factor for julian; no polar2 is done.<br>When even, npolar first does [polar2](../polar/polar.md#polar2), then julian, then polar2 with x and y reversed; the value of parity is not used. |
 | n | The power for the polynomial; same as julian parameter power |
 
-http://xyrus-02.deviantart.com/art/npolar-160017708 (defunct)  
+[Archive of Apophysis plugin](https://web.archive.org/web/20151028083746/https://xyrus-02.deviantart.com/art/npolar-160017708) (Wayback Machine)  
 
 ## phoenix_julia
 Julian with extra distortion parameters.
@@ -296,4 +293,4 @@ Date: 2 May 2009
 | x_distort | Distortion factor for x. |
 | y_distort | Distortion factor for y. |
 
-https://www.deviantart.com/tyrantwave/art/PhoenixJulia-Apophysis-Plugin-121246658  
+[Apophysis plugin](https://www.deviantart.com/tyrantwave/art/PhoenixJulia-Apophysis-Plugin-121246658)  

@@ -10,8 +10,8 @@ Step 2: The resulting string is interpreted graphically, most commonly using a t
 
 There is no single standard for the formats of the L-System rules or turtle commands, so pay close attention to their definitions in each particular variation. Many L-Systems can be reformulated as Iterated Function Systems; these variations don't attempt that; they just iterate the rules on the axiom and interpret the result graphically.
 
-https://en.wikipedia.org/wiki/L-system  
-http://paulbourke.net/fractals/lsys/  
+[Wikipedia entry for L-System](https://en.wikipedia.org/wiki/L-system)  
+[L-System description and examples by Paul Bourke](http://paulbourke.net/fractals/lsys/)  
 
 ## lsystem_js
 Create a two dimensional shape using an L-System. Compatible with the Fractint L-System type. See general description above.
@@ -75,8 +75,8 @@ After the axiom is iterated a number of times to produce the final string, that 
 | point_thickness | Thickness of drawn points |
 | color_mode | (To be implemented in a future version; same as 0 if not present)<br>0: Normal coloring (default, C <, and > drawing commands ignored)<br>1: Direct color (using C, <, and > drawing commands) |
 
-https://jwildfire-forum.overwhale.com/viewtopic.php?f=23&t=2555  
-https://web.archive.org/web/20090324234943/http://www.nahee.com/spanky/www/fractint/lsys/tutor.html  
+[JWildfire forum post](https://jwildfire-forum.overwhale.com/viewtopic.php?f=23&t=2555)  
+[Archive of Fractint L-Systems Tutorial](https://web.archive.org/web/20090324234943/http://www.nahee.com/spanky/www/fractint/lsys/tutor.html) (Wayback Machine)  
 
 ## lsystem3D_js
 Create a three dimensional mesh using an L-System. Compatible with the L-System description in *The Algorithmic Beauty of Plants* by Przemyslaw Prusinkiewicz and Aristid Lindenmayer. See general description above.
@@ -153,6 +153,7 @@ After the axiom is iterated a number of times to produce the final string, that 
 | receive_only_shadows | If set to 1, and solid rendering is enabled, the mesh will be invisible but will show shadows that fall on it (hard shadows must be enabled to see any) |
 
 
-https://jwildfire-forum.overwhale.com/viewtopic.php?f=23&t=2563  
-https://jwildfire-forum.overwhale.com/viewtopic.php?f=17&t=2689  
-http://laurenslapre.nl/lapre_004.htm  
+[JWildfire forum post](https://jwildfire-forum.overwhale.com/viewtopic.php?f=23&t=2563)
+[The Algorithmic Beauty of Plants](http://algorithmicbotany.org/papers/#abop)    
+[Lsystem3D Random DT JWildfire script](https://jwildfire-forum.overwhale.com/viewtopic.php?f=17&t=2689)  
+[Lparser package](http://laurenslapre.nl/lapre_004.htm) (program this variation is based on)  

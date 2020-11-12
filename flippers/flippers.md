@@ -39,7 +39,7 @@ Date: 30 Jun 2011
 
 The radius of the circle is determined by the variation amount (which also scales the result as usual).
 
-https://www.deviantart.com/michaelfaber/art/Flip-216005432  
+[Apophysis plugin](https://www.deviantart.com/michaelfaber/art/Flip-216005432)  
 
 ## flipy
 Flips the points on the right side of the y-axis top to bottom.
@@ -50,7 +50,7 @@ Date: 30 Jun 2011
 
 [![](flipy-1.png)](flipy-1.flame)
 
-https://www.deviantart.com/michaelfaber/art/Flip-216005432  
+[Apophysis plugin](https://www.deviantart.com/michaelfaber/art/Flip-216005432)  
 
 ## glitchy1
 Mix of [lazysensen](#lazysensen) (divide flame into strips and flip them) and [pixel_flow](../blurry/blurry.md#pixel_flow) (blur to resemble flowing pixels).
@@ -71,7 +71,7 @@ Date: 19 May 2020
 | angle | Sharding angle, in degrees |
 | u, v, w | Control the shard randomization in three angles |
 
-https://jwildfire-forum.overwhale.com/viewtopic.php?f=23&t=2871  
+[JWildfire forum post](https://jwildfire-forum.overwhale.com/viewtopic.php?f=23&t=2871)  
 
 ## lazysensen
 Divide the flame into strips and flip them.
@@ -88,7 +88,7 @@ Date: 24 May 2018
 | scale_y | Controls the size of the horizontal stripes (perpendicular to the y axis); larger values create thinner stripes (reflected across the y axis) |
 | scale_z | Controls the size of stripes perpendicular to the z axis; larger values create thinner stripes (reflected across the z axis) |
 
-https://bezo97.tk/plugins  
+[Apophysis plugin](https://bezo97.tk/plugins)  
 
 ## minkowscope
 Flip the plane in a wave shape based on the Minkowsky question-mark function across the origin.
@@ -108,7 +108,7 @@ Date: 5 Aug 2017
 | perturbation | Amount of horizontal perturbation to add |
 | damping | Amount to dampen each side of the wave (reduce its amplitude as it gets further from the origin); 0 for no damping; negative values increase the amplitude |
 
-https://www.deviantart.com/dark-beam/art/Old-plugins-reloaded-for-Apo7x-in-32-and-64-bit-701559850  
+[Apophysis plugin](https://www.deviantart.com/dark-beam/art/Old-plugins-reloaded-for-Apo7x-in-32-and-64-bit-701559850)  
 
 ## oscilloscope
 Flip the plane in a sine wave shape across the x axis.
@@ -126,8 +126,8 @@ Date: 16 Sep 2007
 | amplitude | Height of the sine wave |
 | damping | Amount to dampen each side of the wave (reduce its amplitude as it gets further from the origin); 0 for no damping; negative values increase the amplitude |
 
-https://www.deviantart.com/nightmares06/art/Bubble-Variation-Tutorial-89801629  
-https://www.deviantart.com/tyrantwave/art/Apophysis-3D-Baseforms-Pack-113871861  
+[Bubble Variation tutorial](https://www.deviantart.com/nightmares06/art/Bubble-Variation-Tutorial-89801629) (uses oscilloscope)  
+[Apophysis 3D Baseforms pack](https://www.deviantart.com/tyrantwave/art/Apophysis-3D-Baseforms-Pack-113871861)  
 
 ## oscilloscope2
 Flip the plane in a sine wave shape across the origin with perturbation.
@@ -147,7 +147,7 @@ Date: 4 Jul 2014
 | perturbation | Amount of horizontal perturbation to add |
 | damping | Amount to dampen each side of the wave (reduce its amplitude as it gets further from the origin); 0 for no damping; negative values increase the amplitude |
 
-https://www.deviantart.com/dark-beam/art/Old-plugins-reloaded-for-Apo7x-in-32-and-64-bit-701559850  
+[Apophysis plugin](https://www.deviantart.com/dark-beam/art/Old-plugins-reloaded-for-Apo7x-in-32-and-64-bit-701559850)  
 
 ## rectangles
 Divide the plane into rectangles and flip each horizontally and vertically.
@@ -163,9 +163,9 @@ Date: 31 Dec 2006
 | x | Horizontal rectangle size; if 0, the plane is divided into horizontal stripes and flipped only vertically |
 | y | Vertical rectangle size; if 0, the plane is divided into vertical stripes and flipped only horizontally |
 
-https://www.deviantart.com/nestalgica/art/Using-Rectangle-and-Curl-47813401  
-http://www.deviantart.com/art/Rectangle-and-Curl-Script-71519219  
-https://www.deviantart.com/cabintom/art/Windows-Script-59966267  
+[Using Rectangle and Curl tutorial](https://www.deviantart.com/nestalgica/art/Using-Rectangle-and-Curl-47813401)  
+[Rectangle and Curl Apophysis script](http://www.deviantart.com/art/Rectangle-and-Curl-Script-71519219)  
+[Windows Apophysis script](https://www.deviantart.com/cabintom/art/Windows-Script-59966267)  
 
 ## scrambly
 Divide the central square into subsquares and scramble them.
@@ -183,7 +183,7 @@ Date: 27 Jun 2014
 | byrows | 0: Scramble the subsquares among the entire square<br>1: Scramble the subsquares within each row separately |
 | cellsize | Size of the central square (the default of 0.1 is very small) |
 
-https://www.deviantart.com/dark-beam/art/Scrambly-463910011  
+[Apophysis plugin](https://www.deviantart.com/dark-beam/art/Scrambly-463910011)  
 
 ## split
 Split the plane into horizontal and vertical strips and flip alternate strips across the x and y axes.
@@ -262,7 +262,7 @@ Finally, here is a summary of the parameters:
 | type | 0: Flip region A; 1: Don't flip region A |
 | mode | Action for regions C and D (see table above) |
 
-https://jwildfire-forum.overwhale.com/viewtopic.php?f=23&t=1893  
+[JWildfire forum post](https://jwildfire-forum.overwhale.com/viewtopic.php?f=23&t=1893)  
 
 ## trade
 Trade a circle on the right with a circle on the left, flipping them in the process.

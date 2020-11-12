@@ -44,7 +44,7 @@ Date: 12 Feb 2019
 | z_offset | Amount to shift result up or down the z axis |
 | reset_z | 0: Add color-based z value to the the z value from other variations on the transform<br>1: Ignore z value from other variations on the transform |
 
-https://www.shadertoy.com/view/Xdcyzl  
+[Shadertoy code](https://www.shadertoy.com/view/Xdcyzl)  
 
 ## dc_booleans
 Creates patterns based on boolean operators.
@@ -66,7 +66,7 @@ Date: 29 Aug 2019
 | z_offset | Amount to shift result up or down the z axis |
 | reset_z | 0: Add color-based z value to the the z value from other variations on the transform<br>1: Ignore z value from other variations on the transform |
 
-https://www.shadertoy.com/view/4ldcW8  
+[Shadertoy code](https://www.shadertoy.com/view/4ldcW8)  
 
 
 ## dc_butterflies
@@ -90,7 +90,7 @@ Date: 20 Oct 2019
 | z_offset | Amount to shift result up or down the z axis |
 | reset_z | 0: Add color-based z value to the the z value from other variations on the transform<br>1: Ignore z value from other variations on the transform |
 
-https://www.shadertoy.com/view/Xd2GRh  
+[Shadertoy code](https://www.shadertoy.com/view/Xd2GRh)  
 
 
 ## dc_cairotiles
@@ -113,7 +113,7 @@ Date: 13 Feb 2019
 | z_offset | Amount to shift result up or down the z axis |
 | reset_z | 0: Add color-based z value to the the z value from other variations on the transform<br>1: Ignore z value from other variations on the transform |
 
-https://www.shadertoy.com/view/3tfGW7  
+[Shadertoy code](https://www.shadertoy.com/view/3tfGW7)  
 
 
 ## dc_circlesblue
@@ -138,7 +138,7 @@ Date: 12 Feb 2019
 | z_offset | Amount to shift result up or down the z axis |
 | reset_z | 0: Add color-based z value to the the z value from other variations on the transform<br>1: Ignore z value from other variations on the transform |
 
-https://www.shadertoy.com/view/4dl3zn  
+[Shadertoy code](https://www.shadertoy.com/view/4dl3zn)  
 
 
 ## dc_circuits
@@ -167,7 +167,7 @@ Date: 12 Feb 2019
 | z_offset | Amount to shift result up or down the z axis |
 | reset_z | 0: Add color-based z value to the the z value from other variations on the transform<br>1: Ignore z value from other variations on the transform |
 
-https://www.shadertoy.com/view/XlX3Rj  
+[Shadertoy code](https://www.shadertoy.com/view/XlX3Rj)  
 
 ## dc_code
 Create a fractal picture, using arbitrary code.
@@ -210,7 +210,7 @@ Date: 13 Feb 2019
 | z_offset | Amount to shift result up or down the z axis |
 | reset_z | 0: Add color-based z value to the the z value from other variations on the transform<br>1: Ignore z value from other variations on the transform |
 
-https://www.shadertoy.com/view/4dXGWn
+[Shadertoy code](https://www.shadertoy.com/view/4dXGWn)
 
 ## dc_fingerprint
 Create a pattern resembling a fingerprint.
@@ -233,7 +233,7 @@ Date: 13 Feb 2019
 | z_offset | Amount to shift result up or down the z axis |
 | reset_z | 0: Add color-based z value to the the z value from other variations on the transform<br>1: Ignore z value from other variations on the transform |
 
-https://www.shadertoy.com/view/4t3SWN  
+[Shadertoy code](https://www.shadertoy.com/view/4t3SWN)  
 
 ## dc_fractaldots
 Create a pattern from fractally arranged dots.
@@ -261,7 +261,7 @@ Date: 13 Feb 2019
 | z_offset | Amount to shift result up or down the z axis |
 | reset_z | 0: Add color-based z value to the the z value from other variations on the transform<br>1: Ignore z value from other variations on the transform |
 
-https://www.shadertoy.com/view/tltSWs  
+[Shadertoy code](https://www.shadertoy.com/view/tltSWs)  
 
 
 # dc_fractcolor
@@ -286,8 +286,8 @@ Date: 13 Feb 2019
 | z_offset | Amount to shift result up or down the z axis |
 | reset_z | 0: Add color-based z value to the the z value from other variations on the transform<br>1: Ignore z value from other variations on the transform |
 
-https://www.shadertoy.com/view/MsK3zG  
-http://glslsandbox.com/e#29611.0  
+[Shadertoy code](https://www.shadertoy.com/view/MsK3zG)  
+[GLSL Sandbox code](http://glslsandbox.com/e#29611.0)  
 
 ## dc_gabornoise
 Generate a pattern resembling Gabor noise.
@@ -309,7 +309,7 @@ Date: 10 May 2019
 | z_offset | Amount to shift result up or down the z axis |
 | reset_z | 0: Add color-based z value to the the z value from other variations on the transform<br>1: Ignore z value from other variations on the transform |
 
-https://www.shadertoy.com/view/3slXDf
+[Shadertoy code](https://www.shadertoy.com/view/3slXDf)
 
 ## dc_glypho
 Generate a pattern based on rings of nested circles.
@@ -459,7 +459,7 @@ Date: 12 Feb 2019
 | z_offset | Amount to shift result up or down the z axis |
 | reset_z | 0: Add color-based z value to the the z value from other variations on the transform<br>1: Ignore z value from other variations on the transform |
 
-https://www.shadertoy.com/view/4slBW2  
+[Shadertoy code](https://www.shadertoy.com/view/4slBW2)  
 
 
 ## dc_kaleidoscopic
@@ -485,7 +485,7 @@ Date: 12 Feb 2019
 | z_offset | Amount to shift result up or down the z axis |
 | reset_z | 0: Add color-based z value to the the z value from other variations on the transform<br>1: Ignore z value from other variations on the transform |
 
-https://www.shadertoy.com/view/4lXyWS  
+[Shadertoy code](https://www.shadertoy.com/view/4lXyWS)  
 
 
 ## dc_kaliset
@@ -510,8 +510,8 @@ Date: 13 Feb 2019
 | z_offset | Amount to shift result up or down the z axis |
 | reset_z | 0: Add color-based z value to the the z value from other variations on the transform<br>1: Ignore z value from other variations on the transform |
 
-https://www.shadertoy.com/view/wtjXRR  
-http://www.fractalforums.com/new-theories-and-research/very-simple-formula-for-fractal-patterns/  
+[Shadertoy code](https://www.shadertoy.com/view/wtjXRR)  
+[Kaliset information](http://www.fractalforums.com/new-theories-and-research/very-simple-formula-for-fractal-patterns/)  
 
 ## dc_kaliset2
 Generate a pattern using kalisets.
@@ -537,8 +537,8 @@ Date: 12 Feb 2019
 | z_offset | Amount to shift result up or down the z axis |
 | reset_z | 0: Add color-based z value to the the z value from other variations on the transform<br>1: Ignore z value from other variations on the transform |
 
-https://www.shadertoy.com/view/wtjXRR  
-http://www.fractalforums.com/new-theories-and-research/very-simple-formula-for-fractal-patterns/  
+[Shadertoy code](https://www.shadertoy.com/view/wtjXRR)  
+[Kaliset information](http://www.fractalforums.com/new-theories-and-research/very-simple-formula-for-fractal-patterns/)  
 
 ## dc_layers
 Create a layered pattern of wavy circles.
@@ -609,7 +609,7 @@ Date: 13 Feb 2019
 | z_offset | Amount to shift result up or down the z axis |
 | reset_z | 0: Add color-based z value to the the z value from other variations on the transform<br>1: Ignore z value from other variations on the transform |
 
-http://glslsandbox.com/e#52121.6  
+[GSLS Sandbox code](http://glslsandbox.com/e#52121.6)  
 
 
 ## dc_mandelbox2D
@@ -632,7 +632,7 @@ Date: 13 Feb 2019
 | z_offset | Amount to shift result up or down the z axis |
 | reset_z | 0: Add color-based z value to the the z value from other variations on the transform<br>1: Ignore z value from other variations on the transform |
 
-https://www.shadertoy.com/view/llcXWN  
+[Shadertoy code](https://www.shadertoy.com/view/llcXWN)  
 
 
 ## dc_menger
@@ -678,7 +678,7 @@ Date: 13 Feb 2019
 | z_offset | Amount to shift result up or down the z axis |
 | reset_z | 0: Add color-based z value to the the z value from other variations on the transform<br>1: Ignore z value from other variations on the transform |
 
-https://www.shadertoy.com/view/4sGXDK  
+[Shadertoy code](https://www.shadertoy.com/view/4sGXDK)  
 
 ## dc_pentatiles
 Generate a pattern of tiled pentagons.
@@ -700,7 +700,7 @@ Date: 13 Feb 2019
 | z_offset | Amount to shift result up or down the z axis |
 | reset_z | 0: Add color-based z value to the the z value from other variations on the transform<br>1: Ignore z value from other variations on the transform |
 
-https://www.shadertoy.com/view/ltBBzK  
+[Shadertoy code](https://www.shadertoy.com/view/ltBBzK)  
 
 ## dc_poincaredisc
 Generate a hyperbolic tiling mapped to a Poincaré disk.
@@ -748,7 +748,7 @@ Date: 13 Feb 2019
 | z_offset | Amount to shift result up or down the z axis |
 | reset_z | 0: Add color-based z value to the the z value from other variations on the transform<br>1: Ignore z value from other variations on the transform |
 
-https://www.shadertoy.com/view/lljSDy
+[Shadertoy code](https://www.shadertoy.com/view/lljSDy)
 
 ## dc_randomoctree
 Create a graphical (2D) display of a random (3D) octree.
@@ -774,7 +774,7 @@ Date: 13 Feb 2019
 | z_offset | Amount to shift result up or down the z axis |
 | reset_z | 0: Add color-based z value to the the z value from other variations on the transform<br>1: Ignore z value from other variations on the transform |
 
-https://www.shadertoy.com/view/4sVfWw
+[Shadertoy code](https://www.shadertoy.com/view/4sVfWw)
 
 ## dc_rotations
 Create a pattern using repeated rotations.
@@ -817,7 +817,7 @@ Date: 29 Aug 2019
 | z_offset | Amount to shift result up or down the z axis |
 | reset_z | 0: Add color-based z value to the the z value from other variations on the transform<br>1: Ignore z value from other variations on the transform |
 
-https://www.shadertoy.com/view/lsGSzW  
+[Shadertoy code](https://www.shadertoy.com/view/lsGSzW)  
 
 ## dc_squares
 Create a pattern of squares on a grid.
@@ -887,7 +887,7 @@ Date: 13 Feb 2019
 | z_offset | Amount to shift result up or down the z axis |
 | reset_z | 0: Add color-based z value to the the z value from other variations on the transform<br>1: Ignore z value from other variations on the transform |
 
-https://www.shadertoy.com/view/MtGBDt  
+[Shadertoy code](https://www.shadertoy.com/view/MtGBDt)
 
 ## dc_tesla
 Create a pattern resembling electrical arcing.
@@ -939,7 +939,7 @@ The tree is upside down by default; make zoom negative to flip it right side up.
 | z_offset | Amount to shift result up or down the z axis |
 | reset_z | 0: Add color-based z value to the the z value from other variations on the transform<br>1: Ignore z value from other variations on the transform |
 
-https://www.shadertoy.com/view/wslGz7  
+[Shadertoy code](https://www.shadertoy.com/view/wslGz7)  
 
 
 ## dc_triantess
@@ -971,7 +971,7 @@ Date: 12 Feb 2019
 | z_offset | Amount to shift result up or down the z axis |
 | reset_z | 0: Add color-based z value to the the z value from other variations on the transform<br>1: Ignore z value from other variations on the transform |
 
-https://en.wikipedia.org/wiki/Wythoff_symbol  
+[Wythoff symbol at Wikipedia](https://en.wikipedia.org/wiki/Wythoff_symbol)  
 
 ## dc_truchet
 Generate a truchet tiling pattern.
@@ -992,8 +992,8 @@ Date: 12 Feb 2019
 | z_offset | Amount to shift result up or down the z axis |
 | reset_z | 0: Add color-based z value to the the z value from other variations on the transform<br>1: Ignore z value from other variations on the transform |
 
-https://thebookofshaders.com/10/  
-https://en.wikipedia.org/wiki/Truchet_tiles  
+[Book of Shaders code](https://thebookofshaders.com/10/)  
+[Truchet tiles at Wikipedia](https://en.wikipedia.org/wiki/Truchet_tiles)  
 
 ## dc_turbulence
 Generate a turbulence noise pattern.
@@ -1036,7 +1036,7 @@ Date: 12 Feb 2019
 | z_offset | Amount to shift result up or down the z axis |
 | reset_z | 0: Add color-based z value to the the z value from other variations on the transform<br>1: Ignore z value from other variations on the transform |
 
-https://www.iquilezles.org/www/articles/voronoise/voronoise.htm  
+[Voronoise article by Inigo Quilez](https://www.iquilezles.org/www/articles/voronoise/voronoise.htm)  
 
 
 ## dc_vortex
@@ -1061,7 +1061,7 @@ Date: 12 May 2020
 | z_offset | Amount to shift result up or down the z axis |
 | reset_z | 0: Add color-based z value to the the z value from other variations on the transform<br>1: Ignore z value from other variations on the transform |
 
-https://www.shadertoy.com/view/MlS3Rh  
+[Shadertoy code](https://www.shadertoy.com/view/MlS3Rh)  
 
 
 ## dc_warping
@@ -1083,7 +1083,7 @@ Date: 12 Feb 2019
 | z_offset | Amount to shift result up or down the z axis |
 | reset_z | 0: Add color-based z value to the the z value from other variations on the transform<br>1: Ignore z value from other variations on the transform |
 
-https://www.shadertoy.com/view/MdSXzz  
+[Shadertoy code](https://www.shadertoy.com/view/MdSXzz)  
 
 
 ## dc_worley
@@ -1106,7 +1106,7 @@ Date: 13 Feb 2019
 | z_offset | Amount to shift result up or down the z axis |
 | reset_z | 0: Add color-based z value to the the z value from other variations on the transform<br>1: Ignore z value from other variations on the transform |
 
-https://www.shadertoy.com/view/4dKSDV  
+[Shadertoy code](https://www.shadertoy.com/view/4dKSDV)  
 
 ## glsl_acrilic
 Create a pattern reminiscent of acrylic pour painting.
@@ -1143,7 +1143,7 @@ Date: 31 Oct 2018
 | time | Changes the appearance of the result |
 | Gradient | 0: True color (gradient is ignored)<br>1: Direct color (set the gradient index for coloring) |
 
-https://www.shadertoy.com/view/Xdcyzl  
+[Shadertoy code](https://www.shadertoy.com/view/Xdcyzl)  
 
 ## glsl_circlesblue
 Create random bubbles.
@@ -1163,7 +1163,7 @@ Date: 31 Oct 2018
 | Bubles | Number of bubbles (some won't be visible) |
 | Gradient | 0: True color (gradient is ignored)<br>1: Direct color (set the gradient index for coloring) |
 
-https://www.shadertoy.com/view/4dl3zn  
+[Shadertoy code](https://www.shadertoy.com/view/4dl3zn)  
 
 ## glsl_circuits
 Create a pattern reminiscent of a circuit board.
@@ -1187,7 +1187,7 @@ Date: 31 Oct 2018
 | zoom | Zooms in or out of the result (higher values zoom out) |
 | Gradient | 0: True color (gradient is ignored)<br>1: Direct color (set the gradient index for coloring) |
 
-https://www.shadertoy.com/view/XlX3Rj  
+[Shadertoy code](https://www.shadertoy.com/view/XlX3Rj)  
 
 ## glsl_code
 Create a fractal picture, using arbitrary code.
@@ -1228,7 +1228,7 @@ Date: 31 Oct 2018
 | zoom | Zooms in or out of the result (higher values zoom out) |
 | Gradient | 0: True color (gradient is ignored)<br>1: Direct color (set the gradient index for coloring) |
 
-https://www.shadertoy.com/view/tltSWs  
+[Shadertoy code](https://www.shadertoy.com/view/tltSWs)  
 
 ## glsl_grid3D
 Generate a 2D image of a 3D grid.
@@ -1297,7 +1297,7 @@ Date: 31 Oct 2018
 | Red, Green, Blue Fac. | Factors for the red, green, and blue components of the colors; adjust these to tweak the colors |
 | Gradient | 0: True color (gradient is ignored)<br>1: Direct color (set the gradient index for coloring) |
 
-https://www.shadertoy.com/view/4slBW2  
+[Shadertoy code](https://www.shadertoy.com/view/4slBW2)  
 
 ## glsl_kaleidoscopic
 Generate a kaleidoscopic pattern.
@@ -1319,7 +1319,7 @@ Date: 31 Oct 2018
 | Radial | 0: Show only the base pattern without kaleidoscopic symmetry<br>1: Reflect the base pattern radially, using Sides and time |
 | Gradient | 0: True color (gradient is ignored)<br>1: Direct color (set the gradient index for coloring) |
 
-https://www.shadertoy.com/view/4lXyWS  
+[Shadertoy code](https://www.shadertoy.com/view/4lXyWS)  
 
 ## glsl_kaliset
 Generate a pattern using Kalisets.
@@ -1339,8 +1339,8 @@ Date: 31 Oct 2018
 | ShiftX, ShiftY | Amount pattern is shifted horizontally and vertically for each iteration |
 | Gradient | 0: True color (gradient is ignored)<br>1: Direct color (set the gradient index for coloring) |
 
-https://www.shadertoy.com/view/wtjXRR  
-http://www.fractalforums.com/new-theories-and-research/very-simple-formula-for-fractal-patterns/  
+[Shadertoy code](https://www.shadertoy.com/view/wtjXRR)  
+[Kaliset description](http://www.fractalforums.com/new-theories-and-research/very-simple-formula-for-fractal-patterns/)  
 
 ## glsl_kaliset2
 Generate a pattern using kalisets.
@@ -1362,8 +1362,8 @@ Date: 31 Oct 2018
 | Red, Green, Blue Fac. | Factors for the red, green, and blue components of the colors; adjust these to tweak the colors |
 | Gradient | 0: True color (gradient is ignored)<br>1: Direct color (set the gradient index for coloring) |
 
-https://www.shadertoy.com/view/wtjXRR  
-http://www.fractalforums.com/new-theories-and-research/very-simple-formula-for-fractal-patterns/  
+[Shadertoy code](https://www.shadertoy.com/view/wtjXRR)  
+[Kaliset description](http://www.fractalforums.com/new-theories-and-research/very-simple-formula-for-fractal-patterns/)  
 
 ## glsl_mandala
 Create a kaleidoscopic mandala pattern.
@@ -1401,7 +1401,7 @@ Date: 31 Oct 2018
 | time | Changes the appearance of the result |
 | Gradient | 0: True color (gradient is ignored)<br>1: Direct color (set the gradient index for coloring) |
 
-https://www.shadertoy.com/view/llcXWN  
+[Shadertoy code](https://www.shadertoy.com/view/llcXWN)  
 
 ## glsl_randomoctree
 Create a graphical (2D) display of a random (3D) octree.
@@ -1424,7 +1424,7 @@ Date: 31 Oct 2018
 | Black Borders | Use black to show the grid and borders if 1; use white if 0 |
 | Gradient | 0: True color (gradient is ignored)<br>1: Direct color (set the gradient index for coloring) |
 
-https://www.shadertoy.com/view/4sVfWw
+[Shadertoy code](https://www.shadertoy.com/view/4sVfWw)
 
 ## glsl_squares
 Create a pattern of squares on a grid.

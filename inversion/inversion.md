@@ -14,7 +14,7 @@ Date: 5 Jun 2017
 | --- | --- |
 | d_spher_weight | Weight of spherical vs linear; 0 is all linear, 1 is all spherical, 0.5 is half and half; should be between 0 and 1
 
-https://www.deviantart.com/tatasz/art/Utilities-Plugin-Pack-684337906
+[Apophysis plugin](https://www.deviantart.com/tatasz/art/Utilities-Plugin-Pack-684337906)
 
 ## inversion
 Generalizes 2D circle inversion; same as spherical with the default parameters.
@@ -56,7 +56,7 @@ There are two anomalies with shape points (when draw_shape ≠ 0) and passthroug
 Ring mode has some quirks. First, ring_scale must be something other than 1 for it to work, which causes a glitch when ring_mode is 1 and ring_scale is moved gradually to or from 1. Second, it doesn't work correctly for some values of scale. To ensure proper operation, set ring_scale smaller than 1 when scale ≥ 1 and larger than 1 when scale ≤ 1.
 
 #### Links
-http://archive.bridgesmathart.org/2017/bridges2017-467.html   
+[Inversive Diversions and Diversive Inversions paper by inversion author](http://archive.bridgesmathart.org/2017/bridges2017-467.html)   
 
 ## octagon
 Divide the flame into two parts using a rounded cuboid, and invert them separately and differently; includes splits capability.
@@ -94,7 +94,7 @@ Octagon divides the flame into two parts using one of the shapes. It then invert
 | 5 | Shape B | Shape B | Shape A |
 | 6 | Shape B | Shape B + linear | Shape A + linear |
 
-https://www.deviantart.com/fracfx/art/FracFx-Plugin-Pack-171806681  
+[Apophysis plugin](https://www.deviantart.com/fracfx/art/FracFx-Plugin-Pack-171806681)  
 
 ## ovoid
 Spherical with x and y scaling.
@@ -108,7 +108,7 @@ Date: 21 Feb 2009
 | x | Scale factor for x |
 | y | Scale factor for y |
 
-https://www.deviantart.com/piritipany/art/Ovoid-and-Ovoid3d-Plugins-113635970   
+[Apophysis plugin](https://www.deviantart.com/piritipany/art/Ovoid-and-Ovoid3d-Plugins-113635970)   
 
 ## ovoid3D
 Spherical with x, y, and z scaling.
@@ -123,7 +123,7 @@ Date: 21 Feb 2009
 | y | Scale factor for y |
 | z | Scale factor for z |
 
-https://www.deviantart.com/piritipany/art/Ovoid-and-Ovoid3d-Plugins-113635970   
+[Apophysis plugin](https://www.deviantart.com/piritipany/art/Ovoid-and-Ovoid3d-Plugins-113635970)   
 
 ## spherical
 Reflects the plane across the unit circle. Also post_spherical and pre_spherical.
@@ -134,17 +134,17 @@ Date: Sept 2003
 
 [![](spherical-1.png)](spherical-1.flame)
 
-http://mathworld.wolfram.com/Inversion.html   
-http://fiery-fire.deviantart.com/art/Apo-Tuto-Sphericals-146647576   
-http://taser-rander.deviantart.com/art/Spherical-Fractal-Tutorial-47533316   
-http://fiery-fire.deviantart.com/art/Apo-Tuto-Spherical-Bubbles-127911026   
-http://heavenriver.deviantart.com/art/Apophysis-Spherical-Disc-Tut-181823644   
-http://plangkye.deviantart.com/art/Tutorial-Spherical-Jscope-for-the-Xaos-Phobic-362538919   
-http://www.mfcreative.co.uk/apophysisswirltutorial/   
-http://c-91.deviantart.com/art/Spherical-Plants-Apophysis-Tutorial-347919168   
-https://www.deviantart.com/universalkinase/art/Understanding-Spherical-Transforms-Apophysis-Tut-506110933   
-http://tatasz.deviantart.com/art/Inverting-Things-with-Spherical-570650125   
-https://www.jwfsanctuary.club/variation-information/spherical/   
+[Inversion description at MathWorld](http://mathworld.wolfram.com/Inversion.html)   
+[Sphericals tutorial](http://fiery-fire.deviantart.com/art/Apo-Tuto-Sphericals-146647576)   
+[A guide to Spherical Fractals](http://taser-rander.deviantart.com/art/Spherical-Fractal-Tutorial-47533316)   
+[Spherical/Bubble Gloss tutorial](http://fiery-fire.deviantart.com/art/Apo-Tuto-Spherical-Bubbles-127911026)   
+[Spherical/Disc tutorial](http://heavenriver.deviantart.com/art/Apophysis-Spherical-Disc-Tut-181823644)   
+[Spherical Jscope for the Xaos-Phobic](http://plangkye.deviantart.com/art/Tutorial-Spherical-Jscope-for-the-Xaos-Phobic-362538919)   
+[Apophysis Swirl tutorial](https://web.archive.org/web/20150504015835/http://mfcreative.co.uk/apophysisswirltutorial/) (Wayback Machine)   
+[Spherical Plants tutorial](http://c-91.deviantart.com/art/Spherical-Plants-Apophysis-Tutorial-347919168)   
+[Understanding Spherical Variations](https://www.deviantart.com/universalkinase/art/Understanding-Spherical-Transforms-Apophysis-Tut-506110933)   
+[Inverting Things with Spherical](http://tatasz.deviantart.com/art/Inverting-Things-with-Spherical-570650125)   
+[Spherical variation information at JWildfire Sanctuary](https://www.jwfsanctuary.club/variation-information/spherical/)   
 
 ## spherical3D
 A 3D version of spherical
@@ -153,10 +153,9 @@ Type: 3D
 Author: Chris Johns (TyrantWave)  
 Date: 24 Dec 2008  
 
-https://www.deviantart.com/tyrantwave/art/Spherical3D-Plugin-107283662   
-http://alien-dreams.deviantart.com/art/Xenophilia-Tutorial-264350378   
-http://tyrantwave.deviantart.com/art/Apophysis-3D-Baseforms-Pack-113871861   
-http://tyrantwave.deviantart.com/art/Apophysis-Base-Forms-Pack-103671251   
+[Apophysis plugin](https://www.deviantart.com/tyrantwave/art/Spherical3D-Plugin-107283662)   
+[Xenophilia tutorial](http://alien-dreams.deviantart.com/art/Xenophilia-Tutorial-264350378)   
+[Apophysis 3D Baseforms pack](http://tyrantwave.deviantart.com/art/Apophysis-3D-Baseforms-Pack-113871861)   
 
 ## spherical3D_wf
 Another 3D version of spherical

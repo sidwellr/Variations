@@ -18,9 +18,9 @@ Date: 10 Aug 2008
 
 The plugins restrict power to be an integer; JWildfire does not.
 
-https://sourceforge.net/projects/apo-plugins/files/apo-plugins/80810/   
-http://guagapunyaimel.deviantart.com/art/cpow-ring2-tutorial-192002748   
-https://fractalformulas.wordpress.com/flame-variations/cpow-and-escher/   
+[Apophysis plugin](https://sourceforge.net/projects/apo-plugins/files/apo-plugins/80810/)   
+[Cpow/ring2 tutorial](http://guagapunyaimel.deviantart.com/art/cpow-ring2-tutorial-192002748)   
+[Description at FractalFormulas](https://fractalformulas.wordpress.com/flame-variations/cpow-and-escher/)   
 
 ## cpow2
 Raise input point to a complex power specified in polar coordinates.
@@ -38,9 +38,9 @@ Date: 13 Mar 2009
 | divisor | Divides the complex power by this amount. This also shrinks the result, which is then replicated radially this many times to fill the vacated space (aka julian). |
 | range | Controls the number of values beyond the principal value that are included; must be an integer at least 1. |
 
-http://phoenixkeyblack.deviantart.com/art/cpow2-141045125   
-http://sourceforge.net/p/apo-plugins/code/HEAD/tree/personal/petersdobnov/   
-https://fractalformulas.wordpress.com/flame-variations/cpow-and-escher/   
+[Apophysis plugin](http://phoenixkeyblack.deviantart.com/art/cpow2-141045125)   
+[Source code on SourceForge](http://sourceforge.net/p/apo-plugins/code/HEAD/tree/personal/petersdobnov/)   
+[Description at FractalFormulas](https://fractalformulas.wordpress.com/flame-variations/cpow-and-escher/)   
 
 ## cpow3
 Raise input point to a complex power to produce a spiral
@@ -60,10 +60,10 @@ This variation was never released by its author, but has been frequently shared 
 | divisor | Divides the complex power by this amount. This also shrinks the result, which is then replicated radially this many times to fill the vacated space (aka julian). |
 | spread | Controls the number of values beyond the principal value that are included. The default value of 1 will dynamically adjust the number of values used based on the r and d values, and will normally not need to be increased. However it may be decreased to reduce the number of values down to a minimum of 0, which includes 1 value on each side of the principal value. |
 
-https://fractal2cry.deviantart.com/art/Cpow3-fractal-360743627   
-https://pillemaster.deviantart.com/art/Cauliflower-374228018   
-https://tatasz.deviantart.com/art/Cpow3-without-overlaps-710419456   
-https://fractalformulas.wordpress.com/flame-variations/cpow-and-escher/   
+[Essential plugin pack](https://www.deviantart.com/tatasz/art/Essential-Plugin-Pack-705591208) (contains the Apophysis plugin)  
+[Cpow3 without overlaps tutorial](https://tatasz.deviantart.com/art/Cpow3-without-overlaps-710419456)   
+[Description at FractalFormulas](https://fractalformulas.wordpress.com/flame-variations/cpow-and-escher/)   
+[Example flame](https://pillemaster.deviantart.com/art/Cauliflower-374228018)   
 
 ## cpow3_wf
 Attempt to port cpow2 to JWildfire that "by happy accident became something else".
@@ -76,7 +76,7 @@ Date: 11 Mar 2015
 
 This variation is the result of a serendipitous mistake the author made while attempting to implement cpow2 in JWildfire. He liked the results, so released this variation. It was originally added to JWildfire with the name "cpow3", but it was renamed to "cpow3_wf" when the above cpow3 was added in JWildfire version 3.21.
 
-http://jwildfire.org/forum/viewtopic.php?f=23&t=1743   
+[JWildfire forum post](https://jwildfire-forum.overwhale.com/viewtopic.php?f=23&t=1743)   
 
 ## droste
 Implements Escher's map using logarithms; same effect as escher.
@@ -90,9 +90,9 @@ Droste was "test code that [the author] forgot to delete" when he first released
 | --- | --- |
 | r1, r2 | The ratio r2/r1 determines the power |
 
-http://www.josleys.com/article_show.php?id=82   
-http://www.deviantart.com/art/BD-s-2-New-Scripts-80636384   
-http://www.deviantart.com/art/BD-s-Droste-Plastic-script-76392380   
+[The mathematics behind the Droste effect](http://www.josleys.com/article_show.php?id=82)   
+[Droste-Plastic Apophysis script](http://www.deviantart.com/art/BD-s-Droste-Plastic-script-76392380)   
+[Droste-Plastic-Epispiral Apophysis script](http://www.deviantart.com/art/BD-s-2-New-Scripts-80636384)   
 
 ## escher
 Implements Escher’s Map by treating each point of the flame as a complex number and raising it to a power determined by the variable beta.
@@ -109,8 +109,8 @@ Date: 21 Oct 2007
 
 Setting beta to 0 makes escher behave like linear.
 
-https://sourceforge.net/projects/apo-plugins/files/apo-plugins/80810/   
-http://mathworld.wolfram.com/EschersMap.html   
-http://satania.deviantart.com/art/Tutorial-Escher-StainedGlass-202130216   
-http://www.deviantart.com/art/BDs-Escher-Series-119834243   
-https://fractalformulas.wordpress.com/flame-variations/cpow-and-escher/   
+[Apophysis plugin](https://sourceforge.net/projects/apo-plugins/files/apo-plugins/80810/)   
+[Escher's Map on MathWorld](http://mathworld.wolfram.com/EschersMap.html)   
+[Escher Stained Glass tutorial](http://satania.deviantart.com/art/Tutorial-Escher-StainedGlass-202130216)   
+[Escher Series Apophysis scripts](http://www.deviantart.com/art/BDs-Escher-Series-119834243)   
+[Description at FractalFormulas](https://fractalformulas.wordpress.com/flame-variations/cpow-and-escher/)   

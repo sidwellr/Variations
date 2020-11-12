@@ -17,10 +17,10 @@ Date: 15 Mar 2009
 
 Square blur followed by circlize. Same result as circleblur. An older version had a "hole" parameter which didn't work correctly and was later removed.
 
-https://sourceforge.net/projects/apo-plugins/files/apo-plugins/80810/   
-http://sourceforge.net/p/apo-plugins/code/HEAD/tree/   
-https://fractalformulas.wordpress.com/flame-variations/blur/   
-https://www.jwfsanctuary.club/variation-information/blur/   
+[Apophysis plugin](https://sourceforge.net/projects/apo-plugins/files/apo-plugins/80810/)   
+[Source code](http://sourceforge.net/p/apo-plugins/code/HEAD/tree/)   
+[Description at Fractal Formulas](https://fractalformulas.wordpress.com/flame-variations/blur/)   
+[Variation information at JWildfire Sanctuary](https://www.jwfsanctuary.club/variation-information/blur/)   
 
 ## blur_heart
 Creates a heart from two ellipses.
@@ -39,9 +39,9 @@ Date: 14 Nov 2011
 
 Keep |a|≤|b| to keep the dimple below the zero point; if it goes below, the dimple will have some fill in it.
 
-https://www.deviantart.com/dark-beam/art/Blur-heart-hearty-apoplugins-269015914   
-http://www.mathematische-basteleien.de/heart.htm   
-http://www.deviantart.com/art/BCs-BDs-Gnarly-Blur-Heart-Script-284934920   
+[Apophysis plugin](https://www.deviantart.com/dark-beam/art/Blur-heart-hearty-apoplugins-269015914)   
+[Heart curve information](http://www.mathematische-basteleien.de/heart.htm)   
+[Gnarly Blur_Heart Apophysis script](http://www.deviantart.com/art/BCs-BDs-Gnarly-Blur-Heart-Script-284934920)   
 
 ## blur3D / pre_blur3D
 Three dimensional Gaussian blur.
@@ -59,7 +59,7 @@ Date: 1 Feb 2018
 
 [![](chrysanthemum-1.png)](chrysanthemum-1.flame)
 
-http://paulbourke.net/geometry/chrysanthemum/  
+[Description and examples by Paul Bourke](http://paulbourke.net/geometry/chrysanthemum/)  
 
 ## circleblur
 Circle with even coloring.
@@ -70,9 +70,9 @@ Date: 9 Jan 2013
 
 [![](circleblur-1.png)](circleblur-1.flame)
 
-http://zy0rg.deviantart.com/art/Blur-Package-347648919   
-https://fractalformulas.wordpress.com/flame-variations/blur/   
-https://www.jwfsanctuary.club/variation-information/blur/   
+[Apophysis plugin](http://zy0rg.deviantart.com/art/Blur-Package-347648919)   
+[Description at Fractal Formulas](https://fractalformulas.wordpress.com/flame-variations/blur/)   
+[Variation information at JWildfire Sanctuary](https://www.jwfsanctuary.club/variation-information/blur/)   
 
 ## gaussian_blur
 Fuzzy circle with a bright center, made from a Gaussian distribution.
@@ -81,8 +81,8 @@ Type: 2D blur
 
 [![](gaussian_blur-1.png)](gaussian_blur-1.flame)
 
-https://fractalformulas.wordpress.com/flame-variations/blur/   
-https://www.jwfsanctuary.club/variation-information/gaussian_blur/   
+[Description at Fractal Formulas](https://fractalformulas.wordpress.com/flame-variations/blur/)   
+[Variation information at JWildfire Sanctuary](https://www.jwfsanctuary.club/variation-information/blur/)   
 
 ## nBlur
 Polygon shaped blur
@@ -105,10 +105,10 @@ Date: 21 Dec 2010
 | exactCalc | If 0, the calculation will be interpolated to make the variation run faster. This will sometimes result in faint lines between the center and corners of the polygon, depending on the other settings and the color.<br>If 1, calculation will be exact, but may take longer.|
 | highlightEdges | This parameter provides an alternative to exactCalc to reduce the faint lines that sometimes appear between the center and corners of the polygon. The default value is 1; reduce it to darken and increase it to lighten these lines. It can also be used to highlight these edges if desired for special effect. The exactCalc and circumCircle values must both be 0 for this to have any effect. Any value is allowed, but the lowest effective value is 0.1.|
 
-https://www.deviantart.com/fractaldesire/art/nBlur-plugin-190401515   
-http://freerangeapophysis.wordpress.com/2011/01/01/first-play-with-nblur/   
-http://zweezwyy.deviantart.com/art/nBlur-a-useful-tool-207495126   
-https://fractalformulas.wordpress.com/flame-variations/nblur/   
+[Apophysis plugin](https://www.deviantart.com/fractaldesire/art/nBlur-plugin-190401515)   
+[nBlur blog post - Free Range Apophysis](http://freerangeapophysis.wordpress.com/2011/01/01/first-play-with-nblur/)   
+[nBlur - a useful tool](http://zweezwyy.deviantart.com/art/nBlur-a-useful-tool-207495126)   
+[Description at Fractal Formulas](https://fractalformulas.wordpress.com/flame-variations/nblur/)   
 
 ## pie
 A circle with wedges missing, like pieces of pie.
@@ -125,8 +125,8 @@ Date: 16 Sep 2007
 | rotation | Amount to rotate the shape, in radians. |
 | thickness | The proportion of wedge to space, from 0 (wedges are lines) to 1 (no space). |
 
-http://sourceforge.net/projects/apo-plugins/files/apo-plugins/80810/  
-http://joelfaber.deviantart.com/art/A-Recipe-for-Plastic-Pie-35295850  
+[Apophysis plugin](http://sourceforge.net/projects/apo-plugins/files/apo-plugins/80810/)  
+[A Recipe for Plastic Pie](http://joelfaber.deviantart.com/art/A-Recipe-for-Plastic-Pie-35295850)  
 
 ## pie_fl
 Fluid version of pie, allows fractional value for slices.
@@ -137,7 +137,7 @@ Date: 8 Sep 2010
 
 Same as pie, but relaxes the restriction that slices is an integer.
 
-https://www.deviantart.com/morphapoph/art/Apo-Anim-friendly-Plugins-178559281  
+[Apophysis plugin](https://www.deviantart.com/morphapoph/art/Apo-Anim-friendly-Plugins-178559281)  
 
 ## pie3D
 Three dimensional version of pie.
@@ -191,9 +191,9 @@ Date: 9 Jan 2013
 
 The appearance is greatly influnced by the background; the default of 1 works well for dark backgrounds, but a somewhat higher value (like 20) is better for light backgrounds. Very high values will have low density in the center. Values less than 1 will produce a smaller circle with a fuzzy edge.
 
-https://www.deviantart.com/zy0rg/art/Blur-Package-347648919   
-https://fractalformulas.wordpress.com/flame-variations/blur/   
-https://www.jwfsanctuary.club/variation-information/blur/   
+[Apophysis plugin](https://www.deviantart.com/zy0rg/art/Blur-Package-347648919)   
+[Description at Fractal Formulas](https://fractalformulas.wordpress.com/flame-variations/blur/)   
+[Variation information at JWildfire Sanctuary](https://www.jwfsanctuary.club/variation-information/blur/)   
 
 ## sphereblur
 3D version of sineblur
@@ -206,7 +206,7 @@ Date: 9 Jan 2013
 | --- | --- |
 | power | Controls the shading effect. |
 
-http://zy0rg.deviantart.com/art/Sphereblur-687844594   
+[Apophysis plugin](http://zy0rg.deviantart.com/art/Sphereblur-687844594)   
 
 ## square
 Square shaped blur
@@ -216,7 +216,7 @@ Author: Antonio Intieri (gygrazok)
 
 [![](square-1.png)](square-1.flame)
 
-http://lu-kout.deviantart.com/art/Apophysis-Plugin-Pack-1-v0-4-59907275   
+[Apophysis plugin](http://lu-kout.deviantart.com/art/Apophysis-Plugin-Pack-1-v0-4-59907275)   
 
 ## square3D
 Cube shaped blur
@@ -241,7 +241,7 @@ Date: 9 Jan 2013
 
 Negative values are allowed for both parameters, and can generate interesting shapes.
 
-https://www.deviantart.com/zy0rg/art/Blur-Package-347648919   
+[Apophysis plugin](https://www.deviantart.com/zy0rg/art/Blur-Package-347648919)   
 
 ## superShape3d
 General 3D shape generator using two superformula instances.
@@ -265,9 +265,9 @@ Date: 19 Oct 2008
 | spiral | Set to a non-zero value to make 3D Archimedean spirals |
 | toroidmap | 0: Map points to spherical coordinates (normal)<br>1: Map points to toroidal coordinates |
 
-https://www.deviantart.com/sc0t0ma/art/SuperShape3d-101195889  
-http://paulbourke.net/geometry/supershape/
-https://www.syedrezaali.com/3d-supershapes/   
+[Apophysis plugin](https://www.deviantart.com/sc0t0ma/art/SuperShape3d-101195889)  
+[Description and examples by Paul Bourke](http://paulbourke.net/geometry/supershape/)
+[Examples by Reza Ali](https://www.syedrezaali.com/3d-supershapes/)   
 
 ## triangle
 Triangular blur (3D)

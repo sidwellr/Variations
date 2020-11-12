@@ -19,8 +19,8 @@ Date: 20 Oct 2009
 | sym | Symmetry; controls the horizontal effect<br>0: No horizontal effect (only vertical)<br>1: Equal horizontal and vertical effect<br>Other values: interpolate or extrapolate |
 | scale | Scale of wave function at the origin |
 
-http://xyrus-02.deviantart.com/art/auger-140948430 (defunct)  
-https://sourceforge.net/p/apo-plugins/code/HEAD/tree/personal/georgkiehne/  
+[Archive of Apophysis plugin](https://web.archive.org/web/20160803123603/https://xyrus-02.deviantart.com/art/auger-140948430) (Wayback Machine)    
+[Source code](https://sourceforge.net/p/apo-plugins/code/HEAD/tree/personal/georgkiehne/)  
 
 ## vibration
 Add sine waves in two arbitrary directions
@@ -46,7 +46,7 @@ Same as waves2 when dir=0, angle=π/2, phase=0, dir2=π/2, angle2=π/2, and phas
 | amp2 | Amplitude of wave 2 |
 | phase2 | Phase of wave 1 |
 
-https://www.deviantart.com/fardareismai/art/Apo-Plugins-Vibration-1-and-2-252001851  
+[Apophysis plugin](https://www.deviantart.com/fardareismai/art/Apo-Plugins-Vibration-1-and-2-252001851)  
 
 ## vibration2
 Add sine waves in two arbitrary directions with modulation
@@ -88,8 +88,8 @@ Vibration2 is vibration with the ability to modulate the direction, angle, frequ
 | a2m | Amount to modulate the amplitude of wave 2 |
 | am2freq | Modulation frequency for wave 2 amplitude |
 
-https://www.deviantart.com/fardareismai/art/Apo-Plugins-Vibration-1-and-2-252001851  
-https://www.youtube.com/watch?v=SXg1cdZCMcw  
+[Apophysis plugin](https://www.deviantart.com/fardareismai/art/Apo-Plugins-Vibration-1-and-2-252001851)  
+[Weighted Gnarls video tutorial](https://www.youtube.com/watch?v=SXg1cdZCMcw)  
 
 ## waves
 Add sine waves to x and y (dependent variation).
@@ -129,9 +129,9 @@ Same as linear when scalex and scaley are 0. For versions with scalez, same as l
 | freqy | Frequency for vertical waves |
 | freqz | (Not in all versions) Frequency for waves in z direction |
 
-https://www.deviantart.com/satania/art/Tutorial-Gnarls-163590105  
-https://www.deviantart.com/tyrantwave/art/Apophysis-Base-Forms-Pack-103671251  
-https://www.deviantart.com/drummerboy08/art/Comprehensive-Gnarl-Tutorial-147402781  
+[Gnarls tutorial](https://www.deviantart.com/satania/art/Tutorial-Gnarls-163590105)  
+[Apophysis Base Forms pack](https://www.deviantart.com/tyrantwave/art/Apophysis-Base-Forms-Pack-103671251)  
+[Comprehensive Gnarl Tutorial](https://www.deviantart.com/drummerboy08/art/Comprehensive-Gnarl-Tutorial-147402781)  
 
 ## waves2_3D
 Add sine waves to x and y with 3D addition
@@ -147,7 +147,7 @@ Date: 28 Sep 2009
 | freq | Frequency for waves |
 | scale | Scale for waves |
 
-https://www.deviantart.com/aporev/art/3D-Plugins-Collection-One-138514007
+[Apophysis plugin](https://www.deviantart.com/aporev/art/3D-Plugins-Collection-One-138514007)
 
 ## waves2_radial
 Add sine waves to x and y outside a circle centered at the origin.
@@ -167,7 +167,7 @@ Date: 27 Nov 2016
 | null | Radius of circle where waves are not applied |
 | distance | Radius of transition circle where waves are partially applied; should be greater than null |
 
-https://www.deviantart.com/tatasz/art/Apophysis-Plugin-Pack-1-647321921  
+[Apophysis plugin](https://www.deviantart.com/tatasz/art/Apophysis-Plugin-Pack-1-647321921)  
 
 ## waves22
 Add sine waves to x and y with power option.
@@ -191,7 +191,7 @@ Same as waves2 when modex and modey are 0 and powerx and powery are 1.
 | powerx | Power for horizontal waves; integer only (fractions ignored) |
 | powery | Power for vertical waves; integer only (fractions ignored) |
 
-https://www.deviantart.com/tatasz/art/Weird-Waves-Plugin-Pack-1-783560564  
+[Apophysis plugin](https://www.deviantart.com/tatasz/art/Weird-Waves-Plugin-Pack-1-783560564)  
 
 ## waves23
 Add triangular "waves" to x and y.
@@ -209,7 +209,7 @@ Date: 21 Jan 2019
 | freqx | Frequency for horizontal waves |
 | freqy | Frequency for vertical waves |
 
-https://www.deviantart.com/tatasz/art/Weird-Waves-Plugin-Pack-1-783560564  
+[Apophysis plugin](https://www.deviantart.com/tatasz/art/Weird-Waves-Plugin-Pack-1-783560564)  
 
 ## waves2b
 Add sine waves to x and y with scaling based on distance from center
@@ -233,7 +233,7 @@ Date: 27 May 2014
 | unity | Distance for "near center" (scalex/scaley) and "away from center" (scaleinfx and scaleinfy) |
 | jacok | The value for k in the Jacobi Elliptic function sn(x,k) and/or sn(y,k) when pwx or pwy is between 0 and 0.0001. |
 
-https://www.deviantart.com/dark-beam/art/Waves2b-456744888  
+[Apophysis plugin](https://www.deviantart.com/dark-beam/art/Waves2b-456744888)  
 
 ## waves3
 Add modulated sine waves to x and y
@@ -253,7 +253,7 @@ Date: 21 Jan 2019
 | sx_freq | Frequency of the sine wave that modulates the horizontal wave |
 | sy_freq | Frequency of the sine wave that modulates the vertical wave |
 
-https://www.deviantart.com/tatasz/art/Weird-Waves-Plugin-Pack-1-783560564  
+[Apophysis plugin](https://www.deviantart.com/tatasz/art/Weird-Waves-Plugin-Pack-1-783560564)  
 
 ## waves4
 Add sine waves to x and y with fracturing of horizontal wave
@@ -273,7 +273,7 @@ Date: 21 Jan 2019
 | cont | 0: Fracture with continuous diagonal lines<br>1: Fracture in steps (restricted to positive y (bottom half) only) |
 | yfact | Fracture amount for horizontal wave; 0 for none |
 
-https://www.deviantart.com/tatasz/art/Weird-Waves-Plugin-Pack-1-783560564  
+[Apophysis plugin](https://www.deviantart.com/tatasz/art/Weird-Waves-Plugin-Pack-1-783560564)  
 
 ## waves42
 Add sine waves to x and y with fracturing of horizontal wave
@@ -294,7 +294,7 @@ Date: 21 Jan 2019
 | yfact | Fracture amount for horizontal wave; 0 for none |
 | freqx2 | Frequency for fracturing (0.159155 is same as waves4) |
 
-https://www.deviantart.com/tatasz/art/Weird-Waves-Plugin-Pack-1-783560564  
+[Apophysis plugin](https://www.deviantart.com/tatasz/art/Weird-Waves-Plugin-Pack-1-783560564)  
 
 ## wavesD2 / waves2_wf
 Add damped sine or cosine waves to x and y.
@@ -376,5 +376,5 @@ Date: 12 Sep 2009
 | incy | Vertical scale change amount |
 | power | Julia power (see [julian](../julia/julia.md#julian)) |
 
-http://xyrus-02.deviantart.com/art/wavesn-136822863 (defunct)  
-https://sourceforge.net/p/apo-plugins/code/HEAD/tree/personal/georgkiehne/  
+[Archive of Apophysis plugin](https://web.archive.org/web/20160803141218/https://xyrus-02.deviantart.com/art/wavesn-136822863) (Wayback Machine)    
+[Source code](https://sourceforge.net/p/apo-plugins/code/HEAD/tree/personal/georgkiehne/)  
