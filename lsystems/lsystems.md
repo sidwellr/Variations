@@ -73,7 +73,7 @@ After the axiom is iterated a number of times to produce the final string, that 
 | line_thickness | Thickness of drawn lines |
 | show_points_param | Relative density of points compared to lines; typically set to 1 to show the points and 0 to hide them. |
 | point_thickness | Thickness of drawn points |
-| color_mode | (To be implemented in a future version; same as 0 if not present)<br>0: Normal coloring (default, C <, and > drawing commands ignored)<br>1: Direct color (using C, <, and > drawing commands) |
+| color_mode | 0: Normal coloring (default, C <, and > drawing commands ignored)<br>1: Direct color (using C, <, and > drawing commands) |
 
 [JWildfire forum post](https://jwildfire-forum.overwhale.com/viewtopic.php?f=23&t=2555)  
 [Archive of Fractint L-Systems Tutorial](https://web.archive.org/web/20090324234943/http://www.nahee.com/spanky/www/fractint/lsys/tutor.html) (Wayback Machine)  
@@ -145,7 +145,7 @@ After the axiom is iterated a number of times to produce the final string, that 
 | presetId | 0: Use the grammar from the grammar parameter<br>Other: Use a preset grammar (currently 1 through 21) |
 | scale_x, scale_y, scale_z | Scale factors for x, y, and z |
 | offset_x, offset_y, offset_z | Shift the mesh in the x, y, and z directions |
-| color_mode | (To be implemented in a future version; same as 0 if not present)<br>0: Normal coloring (default; c drawing commands ignored)<br>1: Direct color (c drawing commands use gradient; color keyword ignored)<br>2: True color (c drawing commands use colors defined by color keywords) |
+| color_mode | 0: Normal coloring (default; c drawing commands ignored)<br>1: Direct color (c drawing commands use gradient; color keyword ignored)<br>2: True color (c drawing commands use colors defined by color keywords) |
 | subdiv_level, subdiv_smooth_passes, subdiv_smooth_lambda, subdiv_smooth_mu | Not used |
 | blend_colormap | Not used |
 | displ_amount | Not used |
