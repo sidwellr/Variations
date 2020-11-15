@@ -259,10 +259,10 @@ Variations that ignore the input and generate specific shapes.
 
 Variations that shred the plane in various ways.
 
-[![](shredders/checks-1.png)](sshredders/shredders.md#checks)
-[![](shredders/shredded-1.png)](sshredders/shredders.md#shredded)
-[![](shredders/shredlin-1.png)](sshredders/shredders.md#shredlin)
-[![](shredders/shredrad-1.png)](sshredders/shredders.md#shredrad)
+[![](shredders/checks-1.png)](shredders/shredders.md#checks)
+[![](shredders/shredded-1.png)](shredders/shredders.md#shredded)
+[![](shredders/shredlin-1.png)](shredders/shredders.md#shredlin)
+[![](shredders/shredrad-1.png)](shredders/shredders.md#shredrad)
 
 ## [Stamps](stamps/stamps#Stamps)
 
