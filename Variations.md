@@ -21,12 +21,13 @@
 |[butterfly](reshapers/reshapers.md#butterfly) | Reshape squares centered at the origin into butterfly shapes
 | |
 |[cannabiscurve_wf](polarshapes/polarshapes.md#cannabiscurve_wf) | Shape resembling a cannabis leaf
+|[checks](shredders/shredders.md#checks) | Divides the flame into a checkerboard and shifts half of the squares up and left and the other half down and right
 |[chrysanthemum](shapes/shapes.md#chrysanthemum) | Chrysanthemum flower shaped curve
-|[cloverleaf_wf](polarshapes/polarshapes.md#cloverleaf_wf) | Shape resembling a four leaf clover
 |[circleblur](shapes/shapes.md#circleblur) | Circle with even coloring
 |[circlize](reshapers/reshapers.md#circlize) | Reshape squares centered at the origin into circles
 |[circlize2](reshapers/reshapers.md#circlize2) | Reshape squares centered at the origin into circles (scaled to work better with other variations)
 |[clifford_js](attractors/attractors.md#clifford_js) | Strange attractor attributed to Cliff Pickover
+|[cloverleaf_wf](polarshapes/polarshapes.md#cloverleaf_wf) | Shape resembling a four leaf clover
 |[conic/conic2](polarshapes/polarshapes.md#conic--conic2) | Conic section shape (ellipse, parabola, or hyperbola)
 |[cpow](cpow/cpow.md#cpow) | Raise input point to a complex power specified by its real and imaginary parts
 |[cpow2](cpow/cpow.md#cpow2) | Raise input point to a complex power specified in polar coordinates
@@ -233,6 +234,9 @@
 |[sattractor_js](attractors/attractors.md#sattractor_js) | A strange attractor attributed to Roger Bagula
 |[scrambly](flippers/flippers.md#scrambly) | Divide the central square into subsquares and scramble them
 |[shape](polarshapes/polarshapes.md#shape) | General shape generator using the superformula
+|[shredded](shredders/shredders.md#shredded) | Shreds the flame into strips in the x, y, and z directions and scrambles them
+|[shredlin](shredders/shredders.md#shredlin) | Divides the plane into horizontal and vertical strips and shrinks them
+|[shredrad](shredders/shredders.md#shredrad) | Divides the plane into wedges and shrinks them
 |[sineblur](shapes/shapes.md#sineblur) | A circle with a shading effect
 |[sphereblur](shapes/shapes.md#sphereblur) | 3D version of sineblur
 |[spherical](inversion/inversion.md#spherical) | Reflects the plane across the unit circle
