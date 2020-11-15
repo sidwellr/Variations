@@ -43,7 +43,7 @@ After the axiom is iterated a number of times to produce the final string, that 
 
 | Character | Description |
 | --- | --- |
-| C## | Set color to ## (gradient index 0-255) (currently ignored) |
+| C## | Set color to ## (gradient index 0-255) |
 | D | Draw forward |
 | F | Draw forward |
 | G | Move forward (without drawing) |
@@ -57,8 +57,8 @@ After the axiom is iterated a number of times to produce the final string, that 
 | /## | Rotate right ## degrees |
 | \\## | Rotate left ## degrees |
 | @## | Scale the step size by ##; ## may be a plain number, or preceded by I for inverse (divide instead of multiply) or Q for square root (for example @IQ2 divides the step size by the square root of 2) |
-| <## | Increment color by ## (currently ignored) |
-| >## | Decrement color by ## (currently ignored) |
+| <## | Increment color by ## |
+| >## | Decrement color by ## |
 
 ### Parameters
 
