@@ -264,6 +264,18 @@ Variations that shred the plane in various ways.
 [![](shredders/shredlin-1.png)](shredders/shredders.md#shredlin)
 [![](shredders/shredrad-1.png)](shredders/shredders.md#shredrad)
 
+## [Splitters](splitters/splitters.md#Splitters)
+
+Variations that split the flame in various ways
+
+[![](splitters/circlesplit-1.png)](splitters/splitters.md#circlesplit)
+[![](splitters/circus-1.png)](splitters/splitters.md#circus)
+[![](splitters/corners-1.png)](splitters/splitters.md#corners)
+[![](splitters/separation-1.png)](splitters/splitters.md#separation)
+[![](splitters/spligon-1.png)](splitters/splitters.md#spligon)
+[![](splitters/splits-1.png)](splitters/splitters.md#splits)
+[![](splitters/splits3D-1.png)](splitters/splitters.md#splits3D)
+
 ## [Stamps](stamps/stamps#Stamps)
 
 Variations that create colored stamps with interesting designs.

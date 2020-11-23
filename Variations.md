@@ -24,11 +24,14 @@
 |[checks](shredders/shredders.md#checks) | Divides the flame into a checkerboard and shifts half of the squares up and left and the other half down and right
 |[chrysanthemum](shapes/shapes.md#chrysanthemum) | Chrysanthemum flower shaped curve
 |[circleblur](shapes/shapes.md#circleblur) | Circle with even coloring
+|[circlesplit](splitters/splitters.md#circlesplit) | Split the flame in a circle centered at the origin
 |[circlize](reshapers/reshapers.md#circlize) | Reshape squares centered at the origin into circles
 |[circlize2](reshapers/reshapers.md#circlize2) | Reshape squares centered at the origin into circles (scaled to work better with other variations)
+|[circlesplit](splitters/splitters.md#circlesplit) | Scale the unit circle and the the rest of the flame separately
 |[clifford_js](attractors/attractors.md#clifford_js) | Strange attractor attributed to Cliff Pickover
 |[cloverleaf_wf](polarshapes/polarshapes.md#cloverleaf_wf) | Shape resembling a four leaf clover
 |[conic/conic2](polarshapes/polarshapes.md#conic--conic2) | Conic section shape (ellipse, parabola, or hyperbola)
+|[splits](splitters/splitters.md#splits) | Splits the plane along the x and y axes and stretches it as if tugging the corners
 |[cpow](cpow/cpow.md#cpow) | Raise input point to a complex power specified by its real and imaginary parts
 |[cpow2](cpow/cpow.md#cpow2) | Raise input point to a complex power specified in polar coordinates
 |[cpow3](cpow/cpow.md#cpow3) | Raise input point to a complex power to produce a spiral
@@ -233,6 +236,7 @@
 |[sattractor3D](meshes/meshes.md#sattractor3D) | Generate a 3D mesh from differential equations
 |[sattractor_js](attractors/attractors.md#sattractor_js) | A strange attractor attributed to Roger Bagula
 |[scrambly](flippers/flippers.md#scrambly) | Divide the central square into subsquares and scramble them
+|[separation](splitters/splitters.md#separation) | Splits the plane along the x and y axes, squishing or stretching the half planes
 |[shape](polarshapes/polarshapes.md#shape) | General shape generator using the superformula
 |[shredded](shredders/shredders.md#shredded) | Shreds the flame into strips in the x, y, and z directions and scrambles them
 |[shredlin](shredders/shredders.md#shredlin) | Divides the plane into horizontal and vertical strips and shrinks them
@@ -242,7 +246,10 @@
 |[spherical](inversion/inversion.md#spherical) | Reflects the plane across the unit circle
 |[spherical3D](inversion/inversion.md#spherical3D) | A 3D version of spherical
 |[spherical3D_wf](inversion/inversion.md#spherical3D_wf) | A 3D version of spherical
+|[separation](splitters/splitters.md#separation) | Divide the plane into wedges and move them apart and around, leaving a polygon in the center
 |[split](flippers/flippers.md#split) | Split the plane into horizontal and vertical strips and flip alternate strips across the x and y axes
+|[splits](splitters/splitters.md#splits) | Splits the plane along the x and y axes, moving the half planes evenly
+|[splits3D](splitters/splitters.md#splits3D) | Splits the flame along the x, y, and z axes
 |[square](shapes/shapes.md#square) | Square shaped blur
 |[square3D](shapes/shapes.md#square3D) | Cube shaped blur
 |[squarize](reshapers/reshapers.md#squarize) | Reshape circles centered at the orgin into squares
