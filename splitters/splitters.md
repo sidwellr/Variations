@@ -93,6 +93,8 @@ Date: 28 Sep 2018
 | r | Distance to move each wedge from the origin |
 | i | Controls the distance to move the wedges around; (sides - 2) or (-2 - sides) to make them align perfectly with only a polygon at the center, -2 to only move wedges apart |
 
+[Apophysis plugin](https://www.deviantart.com/dark-beam/art/ScissorSisters-Plugin-pack-765870484)
+
 ## splits
 Splits the plane along the x and y axes, moving the half planes evenly.
 
