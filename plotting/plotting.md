@@ -103,7 +103,7 @@ Date: 22 Apr 2020
 | preset_id | The preset to use; set to -1 to not use a preset |
 | tmin, tmax | The range for theta; used to generate the plot |
 | umin, umax | The range for u, representing phi or z; used to generate the plot |
-| rmin, rmax | The range for rho, used only with color_mode 2; it does not constrain the plot, but set these parameters to the range of the plot for maximum color distribution when using color_mode 2 |
+| rmin, rmax | The range for rho, used only with color_mode 3; it does not constrain the plot, but set these parameters to the range of the plot for maximum color distribution when using color_mode 3 |
 | cylindrical | 0: Use spherical coordinates (u represents phi)<br>1: Use cylindrical coordinates (u represents z) |
 | direct_color | 0: Don't use direct color<br>1: Use direct color |
 | color_mode | The mode when using direct color<br>0: Use the specified colormap<br>1: Use the theta value<br>2: Use the u (for phi or z) value<br>3: use the rho value<br>4: Use a combination of theta and phi/z |
