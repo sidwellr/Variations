@@ -195,6 +195,7 @@
 | |
 |[parplot2d_wf](plotting/plotting.md#parplot2d_wf) | Parametric equation surface plot (2D surface plotted in three dimensions)
 |[pdj](attractors/attractors.md#pdj) | Peter de Jong attractor
+|[pdj3D](attractors/attractors.md#pdj3D) | Peter de Jong attractor  with 3D extension
 |[phoenix_julia](julia/julia.md#phoenix_julia) | Julian with extra distortion parameters
 |[pie](shapes/shapes.md#pie) | A circle with wedges missing, like pieces of pie
 |[pie_fl](shapes/shapes.md#pie_fl) | Fluid version of pie, allows fractional value for slices

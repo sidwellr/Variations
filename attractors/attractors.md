@@ -145,6 +145,22 @@ Date: Sept 2003
 [Description and examples by Paul Bourke](http://paulbourke.net/fractals/peterdejong/)  
 [Article by Greg Cope](https://www.algosome.com/articles/strange-attractors-de-jong.html)  
 
+## pdj3D
+Peter de Jong attractor with 3D extension
+
+Type: 3D  
+Author: Brad Stefanov  
+Date: 7 Dec 2020
+
+[![](pdj3D-1.png)](pdj3D-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| a - d | Variables that define the 2D part of the attractor |
+| e - h | Variables that define the 3D part of the attractor (flame must have some pitch or bank to see the effect) |
+
+[Code on JWildfire forum](https://jwildfire-forum.overwhale.com/viewtopic.php?f=23&t=2904)  
+
 ## sattractor_js
 A strange attractor attributed to Roger Bagula.
 

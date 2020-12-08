@@ -16,6 +16,7 @@ These variations use the formulas for strange attractors.
 [![](attractors/lozi-1.png)](attractors/attractors.md#lozi)
 [![](attractors/macmillan-1.png)](attractors/attractors.md#macmillan)
 [![](attractors/pdj-1.png)](attractors/attractors.md#pdj)
+[![](attractors/pdj3D-1.png)](attractors/attractors.md#pdj3D)
 [![](attractors/sattractor3D-1.png)](attractors/attractors.md#sattractor3D)
 [![](attractors/sattractor3D-2.png)](attractors/attractors.md#sattractor3D)
 [![](attractors/sattractor-1.png)](attractors/attractors.md#sattractor_js)
