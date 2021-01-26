@@ -11,4 +11,4 @@ I personally use JWildfire most often for generating fractal flames, and have us
 
 If you find errors, feel free to create an issue by scrolling to the top of any page and clicking "Issues". But please don't create issues for missing variations; I'm already aware most variations are missing.
 
-This information is copyright 2020 by Richard D. Sidwell. It may be copied under the conditions of the [Creative Commons Attribution-ShareAlike license](LICENSE.txt).
+This information is copyright 2021 by Richard D. Sidwell. It may be copied under the conditions of the [Creative Commons Attribution-ShareAlike license](LICENSE.txt).
