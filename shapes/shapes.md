@@ -162,9 +162,9 @@ Type: 2D blur
 ## primitives_wf
 Blur with selectable two or three dimensional shape.
 
-Type: 2D or 3D blur (depends on shape parameter)
-Author: Andreas Maschke (thargor6)
-Date: 12 Oct 2013
+Type: 2D or 3D blur (depends on shape parameter)  
+Author: Andreas Maschke (thargor6)  
+Date: 12 Oct 2013  
 
 [![](primitives_wf-1.png)](primitives_wf-1.flame)
 
