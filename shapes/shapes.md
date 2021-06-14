@@ -50,17 +50,6 @@ Type: 3D blur
 
 [![](blur3D-1.png)](blur3D-1.flame)
 
-## chrysanthemum
-Chrysanthemum flower shaped curve.
-
-Type: 2D blur  
-Author: Jesus Sosa  
-Date: 1 Feb 2018  
-
-[![](chrysanthemum-1.png)](chrysanthemum-1.flame)
-
-[Description and examples by Paul Bourke](http://paulbourke.net/geometry/chrysanthemum/)  
-
 ## circleblur
 Circle with even coloring.
 

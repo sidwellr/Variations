@@ -2,6 +2,7 @@
 
 | Variation | Description
 | --- | ---
+|[arch](lineshapes/lineshapes.md#arch) | A double arch
 |[auger](waves/waves.md#auger) | Wave effect that gets stronger further from the origin
 | |
 |[bi_linear](linear/linear.md#bi_linear) | Swap x and y
@@ -19,10 +20,11 @@
 |[boarders](boarders/boarders.md#boarders-1) | Divide the plane into squares with borders
 |[boarders2](boarders/boarders.md#boarders2--pre_boarders2) | Divide the plane into squares with borders, with parameters
 |[butterfly](reshapers/reshapers.md#butterfly) | Reshape squares centered at the origin into butterfly shapes
+|[butterfly_fay](lineshapes/lineshapes.md#butterfly_fay) | A butterfly shaped curve discovered by Temple H Fay in 1989
 | |
 |[cannabiscurve_wf](polarshapes/polarshapes.md#cannabiscurve_wf) | Shape resembling a cannabis leaf
 |[checks](shredders/shredders.md#checks) | Divides the flame into a checkerboard and shifts half of the squares up and left and the other half down and right
-|[chrysanthemum](shapes/shapes.md#chrysanthemum) | Chrysanthemum flower shaped curve
+|[chrysanthemum](lineshapes/lineshapes.md#chrysanthemum) | Chrysanthemum flower shaped curve
 |[circleblur](shapes/shapes.md#circleblur) | Circle with even coloring
 |[circlesplit](splitters/splitters.md#circlesplit) | Split the flame in a circle centered at the origin
 |[circlize](reshapers/reshapers.md#circlize) | Reshape squares centered at the origin into circles

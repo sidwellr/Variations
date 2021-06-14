@@ -59,6 +59,10 @@ Variations that just copy the input, some with minor modification.
 
 [![](linear/dc_linear-1.png)](linear/linear.md#dc_linear) [![](linear/linear-1.png)](linear/linear.md#linear-1) [![](linear/linearT-1.png)](linear/linear.md#linearT)
 
+## [Line Shapes](lineshapes/lineshapes.md#Line-shapes)
+
+Shape variations made from lines.
+
 ## [L-Systems](lsystems/lsystems.md#L-Systems)
 
 Variations that use L-Systems to generate shapes.
