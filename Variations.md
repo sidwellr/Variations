@@ -93,6 +93,7 @@
 |[disc2](disc/disc.md#disc2) | Swap polar coordinates ρ and θ, but using Manhattan distance instead of Euclidean
 |[disc3](disc/disc.md#disc3) | Swap polar coordinates ρ and θ, with parameters
 |[disc3d](disc/disc.md#disc3d) | Swap 2D polar coordinates ρ and θ and transforms z according to the distance from the origin
+|[dragon_js](lineshapes/lineshapes.md#dragon_js) | Draws a Heighway dragon curve
 |[droste](cpow/cpow.md#droste) | Implements Escher's map using logarithms; same effect as escher
 | |
 |[edisc](disc/disc.md#edisc) | Swap elliptic coordinates μ and ν
@@ -135,9 +136,13 @@
 |[glsl_randomoctree](stamps/stamps.md#glsl_randomoctree) | Create a graphical (2D) display of a random (3D) octree
 |[glsl_squares](stamps/stamps.md#glsl_squares) | Create a pattern of squares on a grid
 |[glsl_starsfield](stamps/stamps.md#glsl_starsfield) | Create a field of stars
+|[gosper_js](lineshapes/lineshapes.md#gosper_js) | Draws a Gosper island curve, also known as a flowsnake
 |[gumowski_mira](attractors/attractors.md#gumowski_mira) | The strange attractor of Gumowski-Mira
 | |
+|[hamid_js](lineshapes/lineshapes.md#hamid_js) | Figures made from lines and circles based on works by Iranian mathematician Hamid Naderi Yeganeh
+|[harmonium_js](lineshapes/lineshapes.md#harmonium_js) | Figures that might be made from a swinging pendulum on a harmonograph
 |[henon](attractors/attractors.md#henon) | Strange attractor discovered by Michel Hénon
+|[hilbert_js](lineshapes/lineshapes.md#hilbert_js) | Draws a Hilbert curve, a fractal space-filling curve
 |[hopalong](attractors/attractors.md#hopalong) | Hopalong attractor, also known as the Martin map
 | |
 |[idisc](disc/disc.md#idisc) | Swap polar coordinates ρ and θ, first taking the reciprocal of ρ
@@ -301,10 +306,11 @@
 |[yplot2d_wf](plotting/plotting.md#yplot2d_wf) | Plot y in terms of x, with 3D extrusion
 |[yplot3d_wf](plotting/plotting.md#yplot3d_wf) | Plot y in terms of x and z
 | |
+|[Z_arch](lineshapes/lineshapes.md#Z_arch) | A double arch
+|[Z_conic](polarshapes/polarshapes.md#conic--conic2) | Conic section shape (ellipse, parabola, or hyperbola)
+|[Z_flower](rosecurve/rosecurve.md#flower) | Filled-in rose curve; looks like a flower with petals
 |[zblur](shapes/shapes.md#zblur) | Gaussian blur for the z axis only (no effect on x or y)
 |[zclear](zmanip/zmanip.md#flatten--zclear) | Flatten the flame by setting the z coordinate to 0
 |[zcone](zmanip/zmanip.md#zcone) | Add the x-y distance of each point to z, thus transforming the plane into a cone
 |[zscale](zmanip/zmanip.md#zscale) | Multiply the z value by the variation amount
 |[ztranslate](zmanip/zmanip.md#ztranslate) | Add the variation amount to z, translating points up or down the z axis
-|[Z_conic](polarshapes/polarshapes.md#conic--conic2) | Conic section shape (ellipse, parabola, or hyperbola)
-|[Z_flower](rosecurve/rosecurve.md#flower) | Filled-in rose curve; looks like a flower with petals
