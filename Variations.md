@@ -140,7 +140,7 @@
 |[gumowski_mira](attractors/attractors.md#gumowski_mira) | The strange attractor of Gumowski-Mira
 | |
 |[hamid_js](lineshapes/lineshapes.md#hamid_js) | Figures made from lines and circles based on works by Iranian mathematician Hamid Naderi Yeganeh
-|[harmonium_js](lineshapes/lineshapes.md#harmonium_js) | Figures that might be made from a swinging pendulum on a harmonograph
+|[harmonograph_js](lineshapes/lineshapes.md#harmonograph_js) | Figures that might be made from a swinging pendulum on a harmonograph
 |[henon](attractors/attractors.md#henon) | Strange attractor discovered by Michel Hénon
 |[hilbert_js](lineshapes/lineshapes.md#hilbert_js) | Draws a Hilbert curve, a fractal space-filling curve
 |[hopalong](attractors/attractors.md#hopalong) | Hopalong attractor, also known as the Martin map
@@ -306,7 +306,7 @@
 |[yplot2d_wf](plotting/plotting.md#yplot2d_wf) | Plot y in terms of x, with 3D extrusion
 |[yplot3d_wf](plotting/plotting.md#yplot3d_wf) | Plot y in terms of x and z
 | |
-|[Z_arch](lineshapes/lineshapes.md#Z_arch) | A double arch
+|[Z_arch](lineshapes/lineshapes.md#z_arch) | A double arch
 |[Z_conic](polarshapes/polarshapes.md#conic--conic2) | Conic section shape (ellipse, parabola, or hyperbola)
 |[Z_flower](rosecurve/rosecurve.md#flower) | Filled-in rose curve; looks like a flower with petals
 |[zblur](shapes/shapes.md#zblur) | Gaussian blur for the z axis only (no effect on x or y)

@@ -1,5 +1,5 @@
 # Line Shapes
-Shape variations made from lines. Like all shape variations, they ignore the input. Some are generated using parametric equations. Other use algorithmic techniques.
+Shape variations made from lines. Like all shape variations, they ignore the input. Some are generated using parametric equations. Others use algorithmic techniques.
 
 ## arch
 A double arch.
@@ -109,12 +109,12 @@ Date: 8 Dec 2018
 
 [![](harmonograph_js-1.png)](harmonograph_js-1.flame)
 
-There are many types of harmonium devices. This variation uses four independent oscillators: 1 and 2 control *x*; 3 and 4 control *y*.
+There are many types of harmonograph devices. This variation uses four independent oscillators: 1 and 2 control *x*; 3 and 4 control *y*.
 
 | Parameter | Description |
 | --- | --- |
 | seed | The seed for generating random values for the other parameters; change the seed to generate new values (but the new values, although changed, don't appear immediately; you need to go to another transform and come back to see the new values) |
-| time | The amount of "time" to run the harmonium; larger values create more loops, as if the harmonium was run for a longer time |
+| time | The amount of "time" to run the harmonograph; larger values create more loops, as if the harmonograph was run for a longer time |
 | a1, a2, a3, a4 | The amplitudes for oscillators 1, 2, 3, and 4; set to 0 to disable a specific oscillator |
 | f1, f2, f3, f4 | The frequencies of oscillators 1, 2, 3, and 4 |
 | p1, p2, p3, p4 | The phases of oscillators 1, 2, 3, and 4, in degrees |
