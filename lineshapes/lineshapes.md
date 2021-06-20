@@ -91,9 +91,11 @@ Date: 29 Mar 2018
 
 [![](hamid_js-1.png)](hamid_js-1.flame) [![](hamid_js-2.png)](hamid_js-2.flame)
 
+Tip: The line based figures tend to have strong moiré patterns due to aliasing. Adding a tiny amount (0.005 to 0.01) of gaussian_blur on the same transform as hamid_js can help reduce it.
+
 | Parameter | Description |
 | --- | --- |
-| presetId | The type of figure to draw; 0-9 use lines and 10-19 use circles |
+| presetId | The type of figure to draw; 0-9 use lines and 10-19 use circles ([pdf index](hamid-presets.pdf)) |
 | number_lines/circles | The number of lines or circles to draw in the figure |
 | filled circles | 1 for filled circles, 0 for outlines (only applies to figures made from circles) |
 | a-p | Parameters that change the appearance of the figure, depending on the preset (not all presets use all of the parameters) |
