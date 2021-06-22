@@ -63,7 +63,7 @@ Variations that just copy the input, some with minor modification.
 
 Shape variations made from lines.
 
-[![](lineshapes/harmonograph_js-1.png)](lineshapes/lineshapes.md#harmonograph_js) [![](lineshapes/hilbert_js-1.png)](lineshapes/lineshapes.md#hilbert_js) 
+[![](lineshapes/harmonograph_js-1.png)](lineshapes/lineshapes.md#harmonograph_js) [![](lineshapes/hilbert_js-1.png)](lineshapes/lineshapes.md#hilbert_js) [![](lineshapes/spirograph-1.png)](lineshapes/lineshapes.md#spirograph) 
 
 ## [L-Systems](lsystems/lsystems.md#L-Systems)
 

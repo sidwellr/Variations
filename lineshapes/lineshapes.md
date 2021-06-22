@@ -145,6 +145,75 @@ Date: 21 Dec 2017
 
 [Wikipedia description](https://en.wikipedia.org/wiki/Hilbert_curve)  
 
+## line
+A straight line.
+
+Type: 3D blur  
+Author: Nic Anderson (chronologicaldot)  
+Date: 5 Mar 2014  
+
+[![](line-1.png)](line-1.flame)
+
+A line that starts at the origin with a length specified by the variation amount. The direction is determined by the parameters.
+
+| Parameter | Description |
+| --- | --- |
+| delta | The angle of the line in the XY plane; 0 is positive x, 0.5 is positive y (down), -0.5 is negative y (up), 1 or -1 is negative x |
+| phi | The angle of the line in the XZ plane; 0 is positive x, 0.5 is positive z, -0.5 is negative z, 1 or -1 is negative x |
+
+## lissajous
+A Lissajous curve (named for Jules-Antoine Lissajous, who studied them).
+
+Type: 2D blur  
+Author: Jed Kelsey (Lu-Kout)  
+Date: 16 Jul 2007  
+
+[![](lissajous-1.png)](lissajous-1.flame) [![](lissajous-2.png)](lissajous-2.flame)
+
+| Parameter | Description |
+| --- | --- |
+| tmin, tmax | The minimum and maximum values for the parametric equation parameter, which determines the endpoints for the curve; typically -π to +π |
+| a, b | The frequencies of the x and y components; the shape of the curve is determined by their ratio. They are normally integers, but this is not required. |
+| c | The amount of diagonal movement, 0 for a standard Lissajous curve; set to a small amount and increase the range of tmin to tmax to repeat the curve along the diagonal |
+| d | The phase difference between the x and y frequencies, in radians, between -π and π; the most common values are 0 and π/2 (1.5708) |
+| e | The thickness of the line used to draw the curve; 0 for a line |
+
+[Apophysis plugin](https://www.deviantart.com/lu-kout/art/Apophysis-Plugin-Pack-1-v0-4-59907275)
+[Description at Fractal Formulas](https://fractalformulas.wordpress.com/flame-variations/lissajous/)  
+[MathWorld description](https://mathworld.wolfram.com/LissajousCurve.html)  
+[Wikipedia description](https://en.wikipedia.org/wiki/Lissajous_curve)  
+[Mathcurve description](https://mathcurve.com/courbes2d.gb/lissajous/lissajous.shtml)  
+
+## spirograph
+A Spirograph figure (epitrochoid or hypotrochoid).
+
+Type: 2D blur  
+Author: Jed Kelsey (Lu-Kout)  
+Date: 16 Jul 2007  
+
+[![](spirograph-1.png)](spirograph-1.flame) [![](spirograph-2.png)](spirograph-2.flame) [![](spirograph-3.png)](spirograph-3.flame)
+
+The Spirograph toy has a plastic gear with multiple holes for a pen that is rotated around either the outside of another fixed disc or the inside of a fixed ring. Mathematically, the figures are called, respectively, epitrochoids or hypotrochoids. [Samples (pdf)](spirograph-samples.pdf).
+
+| Parameter | Description |
+| --- | --- |
+| a | The radius of the fixed disk, which should be positive and relatively small (the default value of 3 is much too large); as a rule of thumb, the sum of a and b should be around 1 |
+| b | The radius of the rotating disk; make it positive for an epitrochoid (rotating around the outside of the fixed disk) or negative for a hypotrochoid (rotating around the inside). It is typically smaller than a (the default value of 2 is too large) and must not be 0.
+| c1, c2 | These are normally equal and positive, representing the distance from the center of the rotating disk where the pen is located; they may be different to achieve special effects (the default values of 0 will result in a circle) |
+| d | Normally set to 0 (the default); other values modify the figure, but not in a way that creates something new which can't be obtained by modifying the other parameters |
+| tmin, tmax | The minimum and maximum values for t, the parametric equation parameter; reasonable values are 0 and 1000 (the default values of -1 and 1 do not give it enough range) |
+| ymin, ymax | Control the line thickness; set both to 0 for a normal line, or set ymin to a very small negative value (like -0.01) and ymax to the corresponding positive value for a ribbon effect (the default values of -1 and 1 result in a very thick line) |
+
+[Apophysis plugin](https://www.deviantart.com/lu-kout/art/Apophysis-Plugin-Pack-1-v0-4-59907275)
+[Description at Fractal Formulas](https://fractalformulas.wordpress.com/flame-variations/spirograph/)  
+[Wikipedia description](https://en.wikipedia.org/wiki/Spirograph)  
+[Spirograph Tutorial](https://www.deviantart.com/esintu/art/Spirograph-Tutorial-60652570)  
+[Floral Celebration Tutorial](https://www.deviantart.com/lightaesthetic/art/Floral-Celebration-Tutorial-60857715)  
+[JWildfire Blue Stew or Julian Meets Spirograph Tutorial](https://www.dropbox.com/sh/bt7se699hhfcx8v/AAAR4i1BvGsG7ecRyAzu6WXMa/JWILDFIRE%20BLUE%20STEW%20OR%20JULIA%20N%20MEETS%20SPIROGRAPH%20TUTORIAL.pdf?dl=0)
+
+There is also a different [Apophysis plugin](https://www.deviantart.com/rosros-3/art/Spirograph-391696676) named spirograph, but it doesn't seem to work correctly (I think the formulas get sin and cos confused).
+
+
 ## Z_arch
 A double arch.
 

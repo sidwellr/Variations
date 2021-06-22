@@ -173,10 +173,12 @@
 |[juliaq](julia/julia.md#juliaq) | Julia set using a rational power
 | |
 |[lazysensen](flippers/flippers.md#lazysensen) | Divide the flame into strips and flip them
+|[line](lineshapes/lineshapes.md#line) | A straight line
 |[linear](linear/linear.md#linear-1) | Copy the input (x and y only)
 |[linear3D](linear/linear.md#linear3D) | Copy the input (x, y, and z)
 |[linearT](linear/linear.md#linearT) | Tweak of linear, adding an exponent for x and y
 |[linearT3D](linear/linear.md#linearT3D) | Tweak of linear3D, adding an exponent for x, y, and z
+|[lissajous](lineshapes/lineshapes.md#lissajous) | A Lissajous curve (named for Jules-Antoine Lissajous, who studied them)
 |[lorenz_js](attractors/attractors.md#lorenz_js) | Strange attractor first studied by Edward Lorenz
 |[lozi](attractors/attractors.md#lozi) | Strange attractor discovered by René Lozi
 |[lsystem_js](lsystems/lsystems.md#lsystem_js) | Create a two dimensional shape using an L-System
@@ -254,6 +256,7 @@
 |[spherical](inversion/inversion.md#spherical) | Reflects the plane across the unit circle
 |[spherical3D](inversion/inversion.md#spherical3D) | A 3D version of spherical
 |[spherical3D_wf](inversion/inversion.md#spherical3D_wf) | A 3D version of spherical
+|[spirograph](lineshapes/lineshapes.md#spirograph) | A Spirograph figure (epitrochoid or hypotrochoid)
 |[separation](splitters/splitters.md#separation) | Divide the plane into wedges and move them apart and around, leaving a polygon in the center
 |[split](flippers/flippers.md#split) | Split the plane into horizontal and vertical strips and flip alternate strips across the x and y axes
 |[splits](splitters/splitters.md#splits) | Splits the plane along the x and y axes, moving the half planes evenly
