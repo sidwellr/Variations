@@ -143,6 +143,7 @@
 |[harmonograph_js](lineshapes/lineshapes.md#harmonograph_js) | Figures that might be made from a swinging pendulum on a harmonograph
 |[henon](attractors/attractors.md#henon) | Strange attractor discovered by Michel Hénon
 |[hilbert_js](lineshapes/lineshapes.md#hilbert_js) | Draws a Hilbert curve, a fractal space-filling curve
+|[htree_js](lineshapes/lineshapes.md#htree_js) | Draws an H-tree (made from lines in the shape of the letter H)
 |[hopalong](attractors/attractors.md#hopalong) | Hopalong attractor, also known as the Martin map
 | |
 |[idisc](disc/disc.md#idisc) | Swap polar coordinates ρ and θ, first taking the reciprocal of ρ
@@ -171,6 +172,8 @@
 |[julian3Dx](julia/julia.md#julian3Dx) | Julian2 with 3D wave effect
 |[juliaNab](julia/julia.md#juliaNab) | Variant of julian with different parameters
 |[juliaq](julia/julia.md#juliaq) | Julia set using a rational power
+| |
+|[koch_js](lineshapes/lineshapes.md#koch_js) | Draws a Koch curve
 | |
 |[lazysensen](flippers/flippers.md#lazysensen) | Divide the flame into strips and flip them
 |[line](lineshapes/lineshapes.md#line) | A straight line
@@ -242,6 +245,7 @@
 |[rhodonea](rosecurve/rosecurve.md#rhodonea) | Advanced rose curve
 |[rose](blobs/blobs.md#rose) | Modulate a flame using the rose curve
 |[rose_wf](rosecurve/rosecurve.md#rose_wf) | Simple rose curve
+|[rsquares_js](lineshapes/lineshapes.md#rsquares_js) | Draws a pattern of recursively placed squares
 | |
 |[sattractor3D](meshes/meshes.md#sattractor3D) | Generate a 3D mesh from differential equations
 |[sattractor_js](attractors/attractors.md#sattractor_js) | A strange attractor attributed to Roger Bagula
@@ -257,7 +261,8 @@
 |[spherical3D](inversion/inversion.md#spherical3D) | A 3D version of spherical
 |[spherical3D_wf](inversion/inversion.md#spherical3D_wf) | A 3D version of spherical
 |[spirograph](lineshapes/lineshapes.md#spirograph) | A Spirograph figure (epitrochoid or hypotrochoid)
-|[separation](splitters/splitters.md#separation) | Divide the plane into wedges and move them apart and around, leaving a polygon in the center
+|[spirograph3D](lineshapes/lineshapes.md#spirograph3D) | A 3D Spirograph figure
+|[spligon](splitters/splitters.md#spligon) | Divide the plane into wedges and move them apart and around, leaving a polygon in the center
 |[split](flippers/flippers.md#split) | Split the plane into horizontal and vertical strips and flip alternate strips across the x and y axes
 |[splits](splitters/splitters.md#splits) | Splits the plane along the x and y axes, moving the half planes evenly
 |[splits3D](splitters/splitters.md#splits3D) | Splits the flame along the x, y, and z axes
@@ -274,6 +279,7 @@
 |[threeply](attractors/attractors.md#threeply) | A strange attractor named Three Ply
 |[tqmirror](flippers/flippers.md#tqmirror) | Divide the plane into four regions using right angles; shift one region and flip or rotate the others
 |[trade](flippers/flippers.md#trade) | Trade a circle on the right with a circle on the left, flipping them in the process
+|[tree_js](lineshapes/lineshapes.md#tree_js) | Draws a fractal tree
 |[tri_boarders2](boarders/boarders.md#tri_boarders2) | Divide the plane into hexagons with borders
 |[triangle](shapes/shapes.md#triangle) | Triangular blur (3D)
 | |

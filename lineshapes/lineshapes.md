@@ -91,8 +91,6 @@ Date: 29 Mar 2018
 
 [![](hamid_js-1.png)](hamid_js-1.flame) [![](hamid_js-2.png)](hamid_js-2.flame)
 
-Tip: The line based figures tend to have strong moiré patterns due to aliasing. Adding a tiny amount (0.005 to 0.01) of gaussian_blur on the same transform as hamid_js can help reduce it.
-
 | Parameter | Description |
 | --- | --- |
 | presetId | The type of figure to draw; 0-9 use lines and 10-19 use circles ([pdf index](hamid-presets.pdf)) |
@@ -145,6 +143,45 @@ Date: 21 Dec 2017
 
 [Wikipedia description](https://en.wikipedia.org/wiki/Hilbert_curve)  
 
+## htree_js
+Draws an H-tree (made from lines in the shape of the letter H).
+
+Type: 2D blur  
+Author: Jesus Sosa  
+Date: 17 Oct 2017  
+
+[![](htree_js-1.png)](htree_js-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| level | The number of levels to draw; higher values make more intricate shapes |
+| size | Sets the size of the H-tree |
+| show_lines | 1 to show the lines; 0 to hide them |
+| line_thickness | Thickness of the lines (if shown) |
+| show_points | 1 to show endpoints of the lines; 0 to hide them |
+| point_thickness | Thickness of the points (if shown) |
+
+[Wikipedia description](https://en.wikipedia.org/wiki/H_tree)  
+
+## koch_js
+Draws a Koch curve.
+
+Type: 2D blur  
+Author: Jesus Sosa  
+Date: 17 Oct 2017  
+
+[![](koch_js-1.png)](koch_js-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| level | The number of levels to draw; higher values make more complex curves |
+| show_lines | 1 to show the lines; 0 to hide them |
+| line_thickness | Thickness of the lines (if shown) |
+| show_points | 1 to show points at the corners of each square; 0 to hide them |
+| point_thickness | Thickness of the points (if shown) |
+
+[Larry Riddle's Koch Curve page](https://larryriddle.agnesscott.org/ifs/kcurve/kcurve.htm)  
+
 ## line
 A straight line.
 
@@ -184,6 +221,23 @@ Date: 16 Jul 2007
 [Wikipedia description](https://en.wikipedia.org/wiki/Lissajous_curve)  
 [Mathcurve description](https://mathcurve.com/courbes2d.gb/lissajous/lissajous.shtml)  
 
+## rsquares_js
+Draws a pattern of recursively placed squares.
+
+Type: 2D blur  
+Author: Jesus Sosa  
+Date: 17 Oct 2017  
+
+[![](rsquares_js-1.png)](rsquares_js-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| level | The number of levels to draw; higher values make more complex curves |
+| show_lines | 1 to show the lines; 0 to hide them |
+| line_thickness | Thickness of the lines (if shown) |
+| show_points | 1 to show points at the corners of each square; 0 to hide them |
+| point_thickness | Thickness of the points (if shown) |
+
 ## spirograph
 A Spirograph figure (epitrochoid or hypotrochoid).
 
@@ -213,6 +267,43 @@ The Spirograph toy has a plastic gear with multiple holes for a pen that is rota
 
 There is also a different [Apophysis plugin](https://www.deviantart.com/rosros-3/art/Spirograph-391696676) named spirograph, but it doesn't seem to work correctly (I think the formulas get sin and cos confused).
 
+## spirograph3D
+A 3D Spirograph figure.
+
+Type: 3D blur  
+Author: Rick Sidwell  
+Date: 19 Jun 2017  
+
+[![](spirograph3D-1.png)](spirograph3D-1.flame) [![](spirograph3D-2.png)](spirograph3D-2.flame)
+
+| Parameter | Description |
+| --- | --- |
+| a | Size of the fixed circle |
+| b | Size of the moving circle that goes around the fixed circle; positive to go around the outside (making an epitrochoid) or negative to go around the inside (making a hypotrochoid) |
+| c | Distance from the center of the moving circle where the "pen" goes |
+| width | Pen width; keep it small (like 0.03) |
+| mode | Pen mode; only effect if pen width is not 0<br>0: ribbon<br>1: twisted ribbon<br>2: wire<br>3: gaussian<br>4: double pen (two lines width apart) |
+| direct_color | 0 for normal, 1 to use direct color |
+
+## tree_js
+Draws a fractal tree.
+
+Type: 2D blur  
+Author: Jesus Sosa  
+Date: 17 Oct 2017  
+
+[![](tree_js-1.png)](tree_js-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| level | The number of levels to draw; higher values make more intricate shapes |
+| show_lines | 1 to show the lines; 0 to hide them |
+| line_thickness | Thickness of the lines (if shown) |
+| bend_angle | Bend angle for the tree, clockwise in degrees |
+| branch_angle | Branch angle, in degrees |
+| branch_ratio | Ratio of the side branches to the main branch; 0.5 to make them equal |
+| show_points | 1 to show endpoints of the lines; 0 to hide them |
+| point_thickness | Thickness of the points (if shown) |
 
 ## Z_arch
 A double arch.
