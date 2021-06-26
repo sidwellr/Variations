@@ -176,6 +176,39 @@ Date: 21 Dec 2017
 
 [Examples by Paul Bourke](http://paulbourke.net/fractals/henonattractor/)  
 
+## sattractor3D
+Generate a 3D mesh from differential equations.
+
+Type: 3D mesh  
+Author: Jesus Sosa  
+Data: 21 Feb 2018
+
+[![](sattractor3D-1.png)](sattractor3D-1.flame) [![](sattractor3D-2.png)](sattractor3D-2.flame)
+
+| Parameter | Description |
+| --- | --- |
+| xformula | The formula to use for dx for the attractor differential equation; it returns the value for dx, and can use "x", "y", "z", and "param_a" through "param_h" as well as constants and standard math functions. Changing presetId will overwrite it with the preset formula. |
+| yformula | The formula to use for dy for the attractor differential equation |
+| zformula | The formula to use for dz for the attractor differential equation |
+| presetId | The preset to use; set to -1 to not use a preset<br>0: Aizawa Attractor<br>1: Anishchenko-Astakhov Attractor<br>2: Arneodo Attractor<br>3: Second Bouali Attractor<br>4: Bourke-Shaw Attractor<br>5: Chen Celikovsky Attractor<br>6: Chen Lee Attractor<br>7: Chua Attractor<br>8: Chen Attractor<br>9: Lotka Volterra Equations<br>10: Rikitake Attractor<br>11: Three Scroll Unified Chaotic System Attractor 1 (TSUCS 1)<br>12: Dequan Li Attractor<br>13: Halvorsen Attractor<br>14: Finnance Attractor<br>15: Newton Leipnik System<br>16: Nose-Hoover Attractor<br>17: Sprott-Linz Attractor<br>18: Thomas Attractor<br>19: Three Scroll Unified Chaotic System Attractor 2 (TSUCS 2)<br>20: Dadras Attractor |
+| steps | Number of thousands of steps to use in the curve |
+| radius | Thickness of the curve |
+| stepTime | Delta time for computing the curve |
+| facets | Number of sides in the attractor curve |
+| start_x, start_y, start_z | Initial values for x, y, and z |
+| warmup | Number of steps to skip before plotting the attractor |
+| param_a - param_h | Value for param_a through param_h in the formulas |
+| scale_x, scale_y, scale_z | Scale factors for x, y, and z |
+| offset_x, offset_y, offset_z | Offset for the attractor curve |
+| subdiv_level, subdiv_smooth_passes, subdiv_smooth_lambda, subdiv_smooth_mu | Not used |
+| blend_colormap | Not used |
+| displ_amount | Not used |
+| blend_displ_map | Not used |
+| receive_only_shadows | If set to 1, and solid rendering is enabled, the mesh will be invisible but will show shadows that fall on it (hard shadows must be enabled to see any) |
+
+[JWildfire forum post](https://jwildfire-forum.overwhale.com/viewtopic.php?f=23&t=2607)  
+[sattractor3D preset list](https://github.com/thargor6/JWildfire/blob/master/src/org/jwildfire/create/tina/variation/plot/sattractor3d_wf_presets.txt)  
+
 ## svensson_js
 Johnny Svensson attractor, based on the Peter de Jong attractor.
 

@@ -197,8 +197,8 @@
 |[noise](blurry/blurry.md#noise) | Add noise as a blur effect
 |[npolar](julia/julia.md#npolar) | Mashup of julian and polar2
 | |
-|[obj_mesh_primitive_wf](meshes/meshes.md#obj_mesh_primitive_wf) | Use a predefined object as a 3D mesh
-|[obj_mesh_wf](meshes/meshes.md#obj_mesh_wf) | Load a 3D mesh from an OBJ format file
+|[obj_mesh_primitive_wf](shapes/shapes.md#obj_mesh_primitive_wf) | Use a predefined object as a 3D mesh
+|[obj_mesh_wf](importers/importers.md#obj_mesh_wf) | Load a 3D mesh from an OBJ format file
 |[oscilloscope](flippers/flippers.md#oscilloscope) | Flip the plane in a sine wave shape across the x axis
 |[oscilloscope2](flippers/flippers.md#oscilloscope2) | Flip the plane in a sine wave shape across the origin with perturbation
 |[octagon](inversion/inversion.md#octagon) | Divide the flame into two parts using a rounded cuboid, and invert them separately and differently; includes splits capability
@@ -247,7 +247,7 @@
 |[rose_wf](rosecurve/rosecurve.md#rose_wf) | Simple rose curve
 |[rsquares_js](lineshapes/lineshapes.md#rsquares_js) | Draws a pattern of recursively placed squares
 | |
-|[sattractor3D](meshes/meshes.md#sattractor3D) | Generate a 3D mesh from differential equations
+|[sattractor3D](attractors/attractors.md#sattractor3D) | Generate a 3D mesh from differential equations
 |[sattractor_js](attractors/attractors.md#sattractor_js) | A strange attractor attributed to Roger Bagula
 |[scrambly](flippers/flippers.md#scrambly) | Divide the central square into subsquares and scramble them
 |[separation](splitters/splitters.md#separation) | Splits the plane along the x and y axes, squishing or stretching the half planes
@@ -270,12 +270,13 @@
 |[square3D](shapes/shapes.md#square3D) | Cube shaped blur
 |[squarize](reshapers/reshapers.md#squarize) | Reshape circles centered at the orgin into squares
 |[starblur](shapes/shapes.md#starblur) | Star shaped blur
+|[subflame_wf](importers/importers.md#subflame_wf) | Use a flame as a shape
 |[super_shape](reshapers/reshapers.md#super_shape) | Reshape (or create a shape) using the superformula
 |[superShape3d](shapes/shapes.md#superShape3d) | General 3D shape generator using two superformula instances
 |[svensson_js](attractors/attractors.md#svensson_js) | Johnny Svensson attractor
 |[synth](synth/synth.md#synth-v2) | Combo variation (emulates several others) with added wave functions
 | |
-|[terrain3D](meshes/meshes.md#terrain3D) | Generate a random terrain surface mesh
+|[terrain3D](patterns/patterns.md#terrain3D) | Generate a random terrain surface mesh
 |[threeply](attractors/attractors.md#threeply) | A strange attractor named Three Ply
 |[tqmirror](flippers/flippers.md#tqmirror) | Divide the plane into four regions using right angles; shift one region and flip or rotate the others
 |[trade](flippers/flippers.md#trade) | Trade a circle on the right with a circle on the left, flipping them in the process

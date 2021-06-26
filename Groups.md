@@ -41,6 +41,11 @@ Variations that divide up the plane in various ways and flip or rotate the parts
 
 [![](flippers/fan2-1.png)](flippers/flippers.md#fan2) [![](flippers/lazysensen-1.png)](flippers/flippers.md#lazysensen) [![](flippers/scrambly-1.png)](flippers/flippers.md#scrambly)
 
+## [Importers](importers/importers.md#Importers)
+Variations that import a flame, image, etc. from elsewhere.
+
+[![](importers/subflame_wf-1.png)](importers/importers.md#subflame_wf) [![](importers/obj_mesh_wf-1.png)](importers/importers.md#obj_mesh_wf)
+
 ## [Inversion](inversion/inversion.md#Inversion)
 
 Variations that invert across various shapes, such as the unit circle.
@@ -63,7 +68,7 @@ Variations that just copy the input, some with minor modification.
 
 Shape variations made from lines.
 
-[![](lineshapes/harmonograph_js-1.png)](lineshapes/lineshapes.md#harmonograph_js) [![](lineshapes/hilbert_js-1.png)](lineshapes/lineshapes.md#hilbert_js) [![](lineshapes/spirograph-1.png)](lineshapes/lineshapes.md#spirograph) 
+[![](lineshapes/harmonograph_js-1.png)](lineshapes/lineshapes.md#harmonograph_js) [![](lineshapes/hilbert_js-1.png)](lineshapes/lineshapes.md#hilbert_js) [![](lineshapes/spirograph-1.png)](lineshapes/lineshapes.md#spirograph)
 
 ## [L-Systems](lsystems/lsystems.md#L-Systems)
 
@@ -77,10 +82,10 @@ Maurer lines extend the Maurer rose with different types of curves, rendering me
 
 [![](maurerlines/maurer_lines-1.png)](maurerlines/maurerlines.md#maurer_lines) [![](maurerlines/maurer_lines-2.png)](maurerlines/maurerlines.md#maurer_lines)
 
-## [Meshes](meshes/meshes.md#Meshes)
-Variations that generate meshes, three dimensional shapes made from connected triangles. These are all blur variations that ignore their inputs.
+## [Patterns](patterns/patterns.md#Patterns)
+Variations that create different kinds of patterns.
 
-[![](meshes/obj_mesh_primitive_wf-1.png)](meshes/meshes.md#obj_mesh_primitive_wf) [![](meshes/sattractor3D-1.png)](meshes/meshes.md#sattractor3D) [![](meshes/terrain3D-1.png)](meshes/meshes.md#terrain3D)
+[![](patterns/terrain3D-1.png)](patterns/patterns.md#terrain3D)
 
 ## [Plotting Variations](plotting/plotting.md#Plotting-variations)
 

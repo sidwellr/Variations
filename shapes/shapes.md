@@ -99,6 +99,33 @@ Date: 21 Dec 2010
 [nBlur - a useful tool](http://zweezwyy.deviantart.com/art/nBlur-a-useful-tool-207495126)   
 [Description at Fractal Formulas](https://fractalformulas.wordpress.com/flame-variations/nblur/)   
 
+## obj_mesh_primitive_wf
+Use a predefined object as a 3D mesh.
+
+Type: 3D mesh  
+Author: Andreas Maschke (thargor6)   
+Date: 29 Nov 2016  
+
+[![](obj_mesh_primitive_wf-1.png)](obj_mesh_primitive_wf-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| colormap_filename | The file containing a color map to apply to the mesh |
+| displ_map_filename | The file containing the displacement map |
+| primitive | The object to use:<br>0: Ball<br>1: Capsule<br>2: Cone<br>3: Diamond<br>4: Torus<br>5: Box<br>6: Gear (15 teeth)<br>7: Icosahedron<br>8: Tetrahedron<br>9: Octahedron<br>10: Dodecahedron<br>11: Cylinder with a hole<br>12: Icosidodecahedron<br>13: Cubeoctahedron<br>14: Gear (6 teeth)<br>15: Smooth gear (6 teeth)<br>16: Gear (8 teeth)<br>17: Smooth gear (8 teeth)<br>18: Gear (12 teeth)<br>19: Smooth gear (12 teeth)<br>20: Gear (16 teeth)<br>21: Smooth gear (16 teeth)<br>22: Gear (24 teeth)<br>23: Smooth gear (24 teeth)<br>24: Mandelbulb<br>25: Drop
+| scale_x, scale_y, scale_z | Scale factors for x, y, and z |
+| offset_x, offset_y, offset_z | Shift the mesh in the x, y, and z directions |
+| subdiv_level | The number of levels of subdivision to perform; it must be an integer between 0 (to disable smoothing) and 6. Note each level used will dramatically increase both render time and memory needed. |
+| subdiv_smooth_passes | The number of Taubin smoothing passes to apply to each subdivision level; it must be an integer between 0 and 24. |
+| subdiv_smooth_lambda | The lambda value used for the first step of each pass; it should be a positive number between 0 and 1. |
+| subdiv_smooth_mu | The mu value used for the second step of each pass; it should be a negative number between 0 and -1, and is usually a bit less than -lambda). |
+| blend_colormap | Whether to blend colormap colors with surrounding colors (color_mode 0 only)<br>0: Don't blend colors<br>1: Blend colors |
+| displ_amount | Scaling for the displacement map; 0 to disable displacement |
+| blend_displ_map | Whether to blend values from the displacement map<br>0: Don't blend values<br>1: Blend values |
+| receive_only_shadows | If set to 1, and solid rendering is enabled, the mesh will be invisible but will show shadows that fall on it (hard shadows must be enabled to see any) |
+
+[Working with Mesh Objects video tutorial](https://www.youtube.com/watch?v=j470dOB4ksM)  
+
 ## pie
 A circle with wedges missing, like pieces of pie.
 
