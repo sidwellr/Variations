@@ -1,6 +1,50 @@
 # Importers
 Variations that import a flame, image, etc. from elsewhere.
 
+## colormap_wf / post_colormap_wf
+Load colors from an external image.
+
+Type: Sets z and color  
+Author: Andreas Maschke (thargor6)   
+Date: 28 Feb 2012  
+
+[![](colormap_wf-1.png)](colormap_wf-1.flame) [![](colormap_wf-2.png)](colormap_wf-2.flame)
+
+Colormap_wf sets the color of the input point from an external image, but it doesn't pass the (x,y) coordinates of the input point to the output so it can't be used on a transform by itself; at least one other variation is needed to set the output point coordinates. (The same is true of post_colormap_wf, but post_ variations always need another variation.)
+
+One common way to use this variation is to use a transform with some shape variation such as square or primitives_wf, then add post_colormap_wf as a second variation. This will map the image onto the shape. Other transforms can then be added to turn the colored shape into a nice flame. The first example above uses this technique; the image of a flower mapped to a square is replicated using a transform with linear3D to make a spiral (coloring type CYCLIC is used to vary the colors in each copy).
+
+Another way to use it is to add colormap_wf to a transform of an existing flame to add (often distorted) copies of the image to the flame. In the second image above, the built-in script Oily_Rev3 was used to create an oily style flame. Then colormap_wf was used to color it with a flower image.
+
+This variation can add bump mapping based on the brightness of the image point. It is scaled by the scale_z parameter (the default is 0, so it needs to be changed to enable bump-mapping).
+
+When used with 3D flames, set the reset_z parameter to 0 to preserve the flame z values. Orthographic projection is used to map the 2D image to the XY plane, so the colors will smear along the z-axis.  
+
+| Parameter | Description |
+| --- | --- |
+| image_filename | Set the filename for the image to import. The flame is then dependent on that file existing in the same place. If you want to share the flame with others (or don't want to worry about keeping the image separate), use inlined_image instead. |
+| inlined_image | Load the image from a file, then keep the image encoded in the flame. This makes it easier to share flames with others, but it also makes the flame very large. |
+| image_desc_src | Can be used to store the URL of the web page containing the image, but not used by the variation |
+| image_src | Can be used to store the URL of the image, but not used by the variation |
+| scale_x, scale_y | Scale factors for x and y |
+| scale_z | Scale factor for bump mapping, typically set to between -0.3 and 0.3; 0 to disable bump mapping |
+| offset_x, offset_y | Adjust the horizontal and vertical position of the image |
+| offset_z | The base level for the bump map |
+| tile_x | 1 to tile the image horizontally; 0 to disable tiling |
+| tile_y | 1 to tile the image vertically; 0 to disable tiling |
+| reset_z | 0 to preserve the flame z values; 1 to flatten the image before bump mapping |
+| dc_color | 0 to use the actual RGB image color; 1 to use a gradient color. Gradient colors are limited, so there won't be an exact match (use the "Create from image" gradient option with the same image to make it closer). The advantage of using a gradient color is that the color index gets set and can be manipulated normally by other transforms. |
+| blend_colormap | 1 to blend the colormap colors; 0 to disable blending (this only makes a difference when using low resolution colormaps) |
+| with_alpha | 1 to hide points that map to transparent colormap pixels; 0 to disable |
+| is_sequence | 0 for a single image; 1 for a sequence of images (used for animation; image_filename must be the first image in the sequence) |
+| sequence_start | Starting sequence number |
+| sequence_digits | Number of digits in the sequence numbers (for example, 4 means sequence numbers are 0001, 0002, etc.) |
+
+[Image used for above examples](flower.png)  
+[Image mapping on fractal flames tutorial](http://www.andreas-maschke.de/java/jwildfire_tutorial05.pdf)  
+[Texture Mapping in JWildfire Tutorial](https://www.jwfsanctuary.club/tutorial/how-to/how-to-use-texture-mapping-in-jwildfire-ex1/)  
+[Understanding Colormap video](https://www.jwfsanctuary.club/tutorial/how-to/how-to-use-texture-mapping-in-jwildfire-ex1/)  
+
 ## obj_mesh_wf
 Load a 3D mesh from an OBJ format file.
 

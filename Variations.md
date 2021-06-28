@@ -32,8 +32,9 @@
 |[circlesplit](splitters/splitters.md#circlesplit) | Scale the unit circle and the the rest of the flame separately
 |[clifford_js](attractors/attractors.md#clifford_js) | Strange attractor attributed to Cliff Pickover
 |[cloverleaf_wf](polarshapes/polarshapes.md#cloverleaf_wf) | Shape resembling a four leaf clover
+|[colormap_wf](importers/importers.md#colormap_wf--post_colormap_wf) | Load colors from an external image
 |[conic/conic2](polarshapes/polarshapes.md#conic--conic2) | Conic section shape (ellipse, parabola, or hyperbola)
-|[splits](splitters/splitters.md#splits) | Splits the plane along the x and y axes and stretches it as if tugging the corners
+|[corners](splitters/splitters.md#corners) | Splits the plane along the x and y axes and stretches it as if tugging the corners
 |[cpow](cpow/cpow.md#cpow) | Raise input point to a complex power specified by its real and imaginary parts
 |[cpow2](cpow/cpow.md#cpow2) | Raise input point to a complex power specified in polar coordinates
 |[cpow3](cpow/cpow.md#cpow3) | Raise input point to a complex power to produce a spiral
@@ -219,6 +220,7 @@
 |[polarplot2d_wf](plotting/plotting.md#polarplot2d_wf) | Plot, in polar coordinates, rho in terms of theta, with 3D extrusion
 |[polarplot3d_wf](plotting/plotting.md#polarplot3d_wf) | Plot rho in terms of theta and phi (spherical coordinates) or theta and (cylindrical coordinates)
 |[post_bumpmap_wf](zmanip/zmanip.md#post_bumpmap_wf) | Set z from an external bumpmap image
+|[post_colormap_wf](importers/importers.md#colormap_wf--post_colormap_wf) | Load colors from an external image
 |[post_julia3Dq](julia/julia.md#julia3Dq) | Julia set using a rational power with 3D extrusion
 |[post_julian2](julia/julia.md#julian2) | Julian with an integrated affine transform
 |[post_juliaq](julia/julia.md#juliaq) | Julia set using a rational power

@@ -44,7 +44,7 @@ Variations that divide up the plane in various ways and flip or rotate the parts
 ## [Importers](importers/importers.md#Importers)
 Variations that import a flame, image, etc. from elsewhere.
 
-[![](importers/subflame_wf-1.png)](importers/importers.md#subflame_wf) [![](importers/obj_mesh_wf-1.png)](importers/importers.md#obj_mesh_wf)
+[![](importers/colormap_wf-2.png)](importers/importers.md#colormap_wf--post_colormap_wf) [![](importers/obj_mesh_wf-1.png)](importers/importers.md#obj_mesh_wf) [![](importers/subflame_wf-1.png)](importers/importers.md#subflame_wf) 
 
 ## [Inversion](inversion/inversion.md#Inversion)
 
