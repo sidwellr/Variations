@@ -1,6 +1,49 @@
 # Z Manipulation
 Variations that manipulate only the z coordinate. All of these must be used with another variation to process x and y (even if linear to simply copy it).
 
+## colorscale_wf
+Set a point's z coordinate to its color index. (Compare dc_ztransl.)
+
+Type: 3D (normally sets z only)  
+Author: Andreas Maschke (thargor6)  
+Date: 14 Jan 2012  
+
+The color index is between 0 and 1, so colorscale_wf sets z to a value between 0 and scale_z times the variation amount. Unlike the other Z manipulation variations, colorscale_wf can set the x and y coordinates by setting scale_x and scale_y to non-zero values.
+
+There is also post_colorscale_wf, which does the same thing but as a post_ variation.
+
+| Parameter | Description |
+| --- | --- |
+| scale_x, scale_y | Scale factors for x and y; normally 0, so only the z coordinate is affected |
+| scale_z | Scale factor for z |
+| offset_z | Offset for z |
+| reset_z | 0: Add the color index to existing z value<br>1: Override existing z value with the color index |
+| sides | 0: Step z to the color index (normal operation)<br>1: Set z to a random value between 0 and the color index (fill in the extrusion) |
+
+[Understanding Colorscale video](https://www.youtube.com/watch?v=9zNrC01etc8)  
+
+## dc_ztransl
+Set a point's z coordinate to its color index. (Compare colorscale_wf.)
+
+Type: 3D  
+Author: Georg Kiehne (xyrus02)  
+Date: 28 May 2011  
+
+Unlike the other Z manipulation variations, dc_ztransl copies the x and y coordinates like linear.
+
+There are also post_dc_ztransl and pre_dc_ztransl, which do the same thing but as post_ and pre_ variations.
+
+| Parameter | Description |
+| --- | --- |
+| x0 | The color index (0 to 1) corresponding to a z scale value of 0 |
+| x1 | The color index (0 to 1) corresponding to a z scale value of factor |
+| factor | The factor for scaling z |
+| overwrite | 0: Add the color index to existing z value<br>1: Override existing z value with the color index |
+| clamp | 0: allow the z factor to be the full range<br>1: clamp the z factor to be between 0 and 1 |
+
+[Apophysis plugin](https://web.archive.org/web/20120820095720/http://xyrus02.deviantart.com/art/DC-ZTransl-plugins-for-Apo7X-210719008) (Wayback machine)  
+[Source code](https://sourceforge.net/p/apo-plugins/code/HEAD/tree/personal/georgkiehne/)  
+
 ## extrude
 Extrude the other variations on the transform by stretching the z coordinate.
 

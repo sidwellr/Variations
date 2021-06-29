@@ -97,7 +97,7 @@ Subflame_wf supports animation. The easiest way to include animated subflames in
 | scale | Adjust the size of the subflame |
 | angle | Adjust the rotation angle of the subflame in degrees |
 | offset_x, offset_y, offset_z | Adjust the position of the subflame |
-| colorscale_z | Multiply the flame's gradient index by this and add to z (like colorscale_wf) |
+| colorscale_z | Multiply the flame's gradient index by this and add to z (like [colorscale_wf](../zmanip/zmanip.md#colorscale_wf)) |
 | color_mode | How to treat subflame colors:<br>-2: True color - Use the original subflame colors<br>-1: Ignore subflame colors (use the coloring type of the transform containing subflame_wf)<br>0: Direct color; use the gradient index of the subflame, but the gradient of the main flame<br>1: Red - set the gradient index to the amount of red in the subflame<br>2: Green - set the gradient index to the amount of green in the subflame<br>3: Blue - set the gradient index to the amount of blue in the subflame<br>4: Brightness - set the gradient index to the brightness of the subflame
 | flame_is_sequence | 0 for a single flame, 1 for a sequence of flames (flame_filename must be set to the first file in the sequence) |
 | flame_sequence_start | Starting sequence number |
