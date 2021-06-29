@@ -68,7 +68,7 @@ After the axiom is iterated a number of times to produce the final string, that 
 | iters | Number of times to iterate the L-System before drawing |
 | step | Length of each drawing step |
 | angle | Angle to turn; 0 to use the value specified in the grammar |
-| presetId | -1: Use the grammar from the grammar parameter<br>Other: Use a preset grammar (currently 0 through 25) |
+| presetId | -1: Use the grammar from the grammar parameter<br>Other: Use a preset grammar (currently 0 through 25, [pdf index](lsystem-presets.pdf)) |
 | show_lines_param | Relative density of lines compared to points; typically set to 1 to show the lines and 0 to hide them, but, for example, if show_lines_param is 5 and show_points_param is 1 then lines will be five times more dense than points |
 | line_thickness | Thickness of drawn lines |
 | show_points_param | Relative density of points compared to lines; typically set to 1 to show the points and 0 to hide them. |
@@ -142,7 +142,7 @@ After the axiom is iterated a number of times to produce the final string, that 
 | Parameter | Description |
 | --- | --- |
 | grammar | The grammar for the L-System; see description above |
-| presetId | 0: Use the grammar from the grammar parameter<br>Other: Use a preset grammar (currently 1 through 21) |
+| presetId | 0: Use the grammar from the grammar parameter<br>Other: Use a preset grammar (currently 1 through 21, [pdf index](lsystem3D-presets.pdf)) |
 | scale_x, scale_y, scale_z | Scale factors for x, y, and z |
 | offset_x, offset_y, offset_z | Shift the mesh in the x, y, and z directions |
 | color_mode | 0: Normal coloring (default; c drawing commands ignored)<br>1: Direct color (c drawing commands use gradient; color keyword ignored)<br>2: True color (c drawing commands use colors defined by color keywords) |
