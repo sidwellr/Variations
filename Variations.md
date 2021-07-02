@@ -281,6 +281,7 @@
 |[super_shape](reshapers/reshapers.md#super_shape) | Reshape (or create a shape) using the superformula
 |[superShape3d](shapes/shapes.md#superShape3d) | General 3D shape generator using two superformula instances
 |[svensson_js](attractors/attractors.md#svensson_js) | Johnny Svensson attractor
+|[svg_wf](importers/importers.md#svg_wf) | Import a Scalable Vector Graphics (SVG) file
 |[synth](synth/synth.md#synth-v2) | Combo variation (emulates several others) with added wave functions
 | |
 |[terrain3D](patterns/patterns.md#terrain3D) | Generate a random terrain surface mesh

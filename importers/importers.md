@@ -109,3 +109,26 @@ Subflame_wf supports animation. The easiest way to include animated subflames in
 [Description on Fractal Formulas](https://fractalformulas.wordpress.com/flame-variations/subflame/)  
 [Subflame tutorial on JWildfire Sanctuary](https://fractalformulas.wordpress.com/flame-variations/subflame/)  
 [JWildfire subflame cylinder technique video](https://www.youtube.com/watch?v=PmVlSLAmi30)  
+
+## svg_wf
+Import a Scalable Vector Graphics (SVG) file.
+
+Type: 2D blur  
+Author: Andreas Maschke (thargor6)  
+Date: 2 Jun 2013  
+
+[![](svg_wf-1.png)](svg_wf-1.flame) [![](svg_wf-2.png)](svg_wf-2.flame)
+
+A Scalable Vector Graphics (SVG) file stores graphics as objects (lines, circles, etc.) instead of pixels, which allows them retain high quality when being scaled to different sizes. They can be created using programs such as Inkscape. The svg_wf variation allows using SVG graphics in flames. It works by first rendering the SVG file as a grid of dots, then returning one of the dots for each flame iteration that uses it.
+
+| Parameter | Description |
+| --- | --- |
+| svg | The SVG file to use |
+| antialias_radius | Controls the size of the dots returned by svg_wf; larger values make the dots larger, which can help reduce aliasing (but can also make the result blurry) |
+| resolution_multiplier | Controls the resolution of the grid of dots used to render the SVG file; increase this value to reduce pixelation or aliasing; decrease it for special effects, as in the second example |
+| true_color | 1: Use the colors specified in the SVG file<br>0: Use similar colors from the gradient |
+| pre_antialias | 1: Use antialiasing when rendering the SVG graphic to a grid of dots<br>0: Disable this antialiasing |
+| scale_x, scale_y | Adjust the horizontal and vertical scale of the graphic |
+| offset_x, offset_y | Adjust the horizontal and vertical position of the graphic |
+
+[Flower SVG](Sunflower.svg) used for the examples ([source](https://commons.wikimedia.org/wiki/File:Sunflower_clip_art.svg))  
