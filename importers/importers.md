@@ -131,4 +131,27 @@ A Scalable Vector Graphics (SVG) file stores graphics as objects (lines, circles
 | scale_x, scale_y | Adjust the horizontal and vertical scale of the graphic |
 | offset_x, offset_y | Adjust the horizontal and vertical position of the graphic |
 
-[Flower SVG](Sunflower.svg) used for the examples ([source](https://commons.wikimedia.org/wiki/File:Sunflower_clip_art.svg))  
+[Flower SVG](Sunflower.svg) used for the examples ([source](https://commons.wikimedia.org/wiki/File:Sunflower_clip_art.svg))
+[Understanding and Creating SVG Tutorial](https://www.facebook.com/groups/jwfsanctuary/posts/895835934342533/)   
+
+## text_wf
+A line of arbitrary text
+
+Type: 2D blur  
+Author: Andreas Maschke (thargor6)  
+Date: 24 Dec 2012  
+
+[![](text_wf-1.png)](text_wf-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| text | The line of text to use (line breaks are ignored) |
+| font_name | The font to use, including style (bold/italic), but the size is ignored (use scale_x and scale_y) |
+| font_size | The size of the grid used to rasterize the text; increase to reduce aliasing, but JWildfire can hang if it is too large; most users will want it under 1500. Small values will result in text made from dots.
+| antialias | Controls the size of the dots in the raster; larger values make the dots larger, which can help reduce aliasing |
+| scale_x, scale_y | Scale factors for x and y |
+| offset_x, offset_y | Moves the text horizontally and vertically |
+| baseline | Not used (it specifies the spacing between lines, but since the text is put on a single line, it is ignored |
+
+[Tutorial](https://jwildfire-forum.overwhale.com/viewtopic.php?f=12&t=1308)  
+[Variation information at the JWildfire Sanctuary](https://www.jwfsanctuary.club/variation-information/text_wf/)  

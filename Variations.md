@@ -285,6 +285,7 @@
 |[synth](synth/synth.md#synth-v2) | Combo variation (emulates several others) with added wave functions
 | |
 |[terrain3D](patterns/patterns.md#terrain3D) | Generate a random terrain surface mesh
+|[text_wf](importers/importers.md#text_wf) | A line of arbitrary text
 |[threeply](attractors/attractors.md#threeply) | A strange attractor named Three Ply
 |[tqmirror](flippers/flippers.md#tqmirror) | Divide the plane into four regions using right angles; shift one region and flip or rotate the others
 |[trade](flippers/flippers.md#trade) | Trade a circle on the right with a circle on the left, flipping them in the process
