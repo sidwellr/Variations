@@ -132,7 +132,7 @@ A Scalable Vector Graphics (SVG) file stores graphics as objects (lines, circles
 | offset_x, offset_y | Adjust the horizontal and vertical position of the graphic |
 
 [Flower SVG](Sunflower.svg) used for the examples ([source](https://commons.wikimedia.org/wiki/File:Sunflower_clip_art.svg))
-[Understanding and Creating SVG Tutorial](https://www.facebook.com/groups/jwfsanctuary/posts/895835934342533/)   
+[Understanding and Creating SVG Tutorial](https://www.jwfsanctuary.club/tutorial/how-to/how-to-create-your-own-fractal-svg-files/)   
 
 ## text_wf
 A line of arbitrary text
