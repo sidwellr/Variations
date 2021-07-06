@@ -80,7 +80,18 @@ Date: 17 Feb 2018
 | --- | --- |
 | n | Number of sides in the polygon |
 | rotation | Rotation of the polygon, in degrees |
-| reverse | 0: Pre-circlize and post-uncirclize<br>1: Pre-uncirclize and post-circlize
+| reverse | 0: Pre-circlize and post-uncirclize<br>1: Pre-uncirclize and post-circlize |
+
+## pyramid
+Map points to the faces of a pyramid
+
+Type: 3D  
+Author: Peter Sdobnov (Zueuk)  
+Date: Around 2007  
+
+[![](pyramid-1.png)](pyramid-1.flame)
+
+A 3D variation, but does not "pop" z; if the input point has z=0, so will the output point.
 
 ## squarize
 Reshape circles centered at the orgin into squares.
@@ -129,3 +140,22 @@ Xheart works by stretching circles into ellipses, then flipping the left half to
 | ratio | Controls the eccentricity of the ellipses (how much they are stretched); 0 makes very rounded hearts; larger values make them more pointy. |
 
 [Archive of Apophysis variation](https://web.archive.org/web/20121117024532/https://xyrus02.deviantart.com/art/XHeart-Plugin-139866412) (Wayback Machine)
+
+## yin_yang
+Map the unit circle to a yin yang shape.
+
+Type: 2D  
+Author: Luca G (dark-beam)  
+Date: 28 Jul 2014  
+
+[![](yin_yang-1.png)](yin_yang-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| radius | The ratio of the radii of the two halves of the yin_yang shape; 0.5 will make them equal, smaller values make the left side smaller, larger values make the right side smaller |
+| ang1 | Rotation angle for the right side; 1 for 180 degrees |
+| ang2 | Rotation angle for the left side; 1 for 180 degrees |
+| dual_t | 0: Map only to right side<br>1: Map to both left and right sides |
+| outside | 0: Crop points outside the unit circle (they are mapped to the origin)<br>1: Include points outside the unit circle (they are not mapped) |
+
+[JWildire forum post](https://jwildfire-forum.overwhale.com/viewtopic.php?f=23&t=1496)  

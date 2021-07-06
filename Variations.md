@@ -246,6 +246,7 @@
 |[prepost_circlize](reshapers/reshapers.md#prepost_circlize) | Circlize before and uncirclize after other variations, or vice versa
 |[primitives_wf](shapes/shapes.md#primitives_wf) | Blur with selectable two or three dimensional shape
 |[pRose3D](rosecurve/rosecurve.md#pRose3D) | Rose curve with three dimensional shaping
+|[pyramid](reshapers/reshapers.md#pyramid) | Map points to the faces of a pyramid
 | |
 |[radial_blur](blurry/blurry.md#radial_blur) | Blur effect rotating around the origin
 |[rectangles](flippers/flippers.md#rectangles) | Divide the plane into rectangles and flip each horizontally and vertically
@@ -322,6 +323,7 @@
 |[xheart_blur_wf](shapes/shapes.md#xheart_blur_wf) | Heart shaped blur
 |[xtrb](boarders/boarders.md#xtrb) | Divide the plane into hexagons with borders; tri_boarders2 with extra parameters
 | |
+|[yin_yang](reshapers/reshapers.md#yin_yang) | Map the unit circle to a yin yang shape
 |[yplot2d_wf](plotting/plotting.md#yplot2d_wf) | Plot y in terms of x, with 3D extrusion
 |[yplot3d_wf](plotting/plotting.md#yplot3d_wf) | Plot y in terms of x and z
 | |
