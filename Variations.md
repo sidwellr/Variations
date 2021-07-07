@@ -24,6 +24,7 @@
 | |
 |[cannabiscurve_wf](polarshapes/polarshapes.md#cannabiscurve_wf) | Shape resembling a cannabis leaf
 |[checks](shredders/shredders.md#checks) | Divides the flame into a checkerboard and shifts half of the squares up and left and the other half down and right
+|[checkerboard_wf](patterns/patterns.md#checkerboard_wf) | Generate a checkerboard pattern
 |[chrysanthemum](lineshapes/lineshapes.md#chrysanthemum) | Chrysanthemum flower shaped curve
 |[circleblur](shapes/shapes.md#circleblur) | Circle with even coloring
 |[circlesplit](splitters/splitters.md#circlesplit) | Split the flame in a circle centered at the origin
@@ -74,6 +75,7 @@
 |[dc_menger](stamps/stamps.md#dc_menger) | Generate a Sierpiński carpet pattern (looks like the face of a Menger sponge)
 |[dc_moebiuslog](stamps/stamps.md#dc_moebiuslog) | Create a spiraling pattern using log and a Möbius transform
 |[dc_pentatiles](stamps/stamps.md#dc_pentatiles) | Generate a pattern of tiled pentagons
+|[dc_perlin](patterns/patterns.md#dc_perlin) | Generate a pattern based on fractal Brownian motion (fBm), also known as Perlin noise
 |[dc_poincaredisc](stamps/stamps.md#dc_poincaredisc) | Generate a hyperbolic tiling mapped to a Poincaré disk
 |[dc_quadtree](stamps/stamps.md#dc_quadtree) | Create a graphical display of a random quadtree
 |[dc_randomoctree](stamps/stamps.md#dc_randomoctree) | Create a graphical (2D) display of a random (3D) octree
@@ -299,6 +301,7 @@
 |[vibration](waves/waves.md#vibration) | Add sine waves in two arbitrary directions
 |[vibration2](waves/waves.md#vibration2) | Add sine waves in two arbitrary directions with modulation
 | |
+|[wangtiles](patterns/patterns.md#wangtiles) | Generate a (possibly repeating) pattern from a 12x8 set of Wang tiles
 |[waveblur_wf](shapes/shapes.md#waveblur_wf) | Creates waves, like ripples in a pond
 |[waves](waves/waves.md#waves-1) | Add sine waves to x and y (dependent variation)
 |[waves2](waves/waves.md#waves2) | Add sine waves to x and y

@@ -44,7 +44,7 @@ Variations that divide up the plane in various ways and flip or rotate the parts
 ## [Importers](importers/importers.md#Importers)
 Variations that import a flame, image, etc. from elsewhere.
 
-[![](importers/colormap_wf-2.png)](importers/importers.md#colormap_wf--post_colormap_wf) [![](importers/obj_mesh_wf-1.png)](importers/importers.md#obj_mesh_wf) [![](importers/subflame_wf-1.png)](importers/importers.md#subflame_wf) 
+[![](importers/colormap_wf-2.png)](importers/importers.md#colormap_wf--post_colormap_wf) [![](importers/obj_mesh_wf-1.png)](importers/importers.md#obj_mesh_wf) [![](importers/subflame_wf-1.png)](importers/importers.md#subflame_wf)
 
 ## [Inversion](inversion/inversion.md#Inversion)
 
@@ -85,7 +85,7 @@ Maurer lines extend the Maurer rose with different types of curves, rendering me
 ## [Patterns](patterns/patterns.md#Patterns)
 Variations that create different kinds of patterns.
 
-[![](patterns/terrain3D-1.png)](patterns/patterns.md#terrain3D)
+[![](patterns/dc_perlin-1.png)](patterns/patterns.md#dc_perlin) [![](patterns/terrain3D-1.png)](patterns/patterns.md#terrain3D) 
 
 ## [Plotting Variations](plotting/plotting.md#Plotting-variations)
 
