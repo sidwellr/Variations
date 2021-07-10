@@ -73,7 +73,7 @@ Date: 22 Apr 2020
 | formula | The formula to use; it returns the value for rho, and can use "t" (for theta) and "param_a" through "param_f" as well as constants and standard math functions. Changing preset_id will overwrite it with the preset formula. |
 | colormap_filename | The file containing the colormap used with color_mode 0 |
 | displ_map_filename | The file containing the displacement map |
-| preset_id | The preset to use; set to -1 to not use a preset |
+| preset_id | The preset to use; set to -1 to not use a preset ([pdf index](polarplot2d-presets.pdf)) |
 | tmin, tmax | The range for theta; used to generate the plot |
 | rmin, rmax | The range for rho, used only with color_mode 2; it does not constrain the plot, but set these parameters to the range of the plot for maximum color distribution when using color_mode 2 |
 | zmin, zmax | The range for z; the plot will be extruded to these values in the z direction; set both to 0 to disable extrusion |
@@ -87,7 +87,7 @@ Date: 22 Apr 2020
 [polarplot2d_wf preset list](https://github.com/thargor6/JWildfire/blob/master/src/org/jwildfire/create/tina/variation/plot/polarplot2d_wf_presets.txt)  
 
 ## polarplot3d_wf
-Plot rho in terms of theta and phi (spherical coordinates) or theta and (cylindrical coordinates).
+Plot rho in terms of theta and phi (spherical coordinates) or theta and z (cylindrical coordinates).
 
 Type: 3D blur (DC and colormap options)  
 Author: Rick Sidwell  
@@ -100,7 +100,7 @@ Date: 22 Apr 2020
 | formula | The formula to use; it returns the value for rho, and can use "t" (for theta), "u" (for either phi or z) and "param_a" through "param_f" as well as constants and standard math functions. Changing preset_id will overwrite it with the preset formula. |
 | colormap_filename | The file containing the colormap used with color_mode 0 |
 | displ_map_filename | The file containing the displacement map |
-| preset_id | The preset to use; set to -1 to not use a preset |
+| preset_id | The preset to use; set to -1 to not use a preset ([pdf index](polarplot3d-presets.pdf)) |
 | tmin, tmax | The range for theta; used to generate the plot |
 | umin, umax | The range for u, representing phi or z; used to generate the plot |
 | rmin, rmax | The range for rho, used only with color_mode 3; it does not constrain the plot, but set these parameters to the range of the plot for maximum color distribution when using color_mode 3 |
