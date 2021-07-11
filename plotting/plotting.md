@@ -29,6 +29,39 @@ Date: 6 Jan 2017
 
 [isosfplot3d_wf preset list](https://github.com/thargor6/JWildfire/blob/master/src/org/jwildfire/create/tina/variation/plot/isosfplot3d_wf_presets.txt)  
 
+## knots3D
+Build a mesh representation of mathematical knot.
+
+Type: 3D mesh  
+Author: Jesus Sosa  
+Date: 22 Jan 2018  
+
+[![](knots3d-1.png)](knots3d-1.flame)
+
+Knots3D uses one dimensional parametric equations to define the knots, so can be used to produce more general shapes. However, the parameter t is only evaluated between 0 and 2π. Basically, knots3D takes a line segment of length 2π, gives it thickness (controlled by the radius and facets parameters), and bends it into a knot using the formulas.
+
+| Parameter | Description |
+| --- | --- |
+| xformula | The formula to use for x; it returns the value for x, and can use "t" (the parametric value) and "param_a" through "param_h" as well as constants and standard math functions. Changing preset_id will overwrite it with the preset formula. |
+| yformula | The formula to use for y |
+| zformula | The formula to use for z |
+| preset_id | The preset to use; set to -1 to not use a preset ([pdf index](knots3d-presets.pdf)) |
+| steps | The number of segments to use (steps for t between 0 and 2π); increase for finer resolution (but a larger mesh) |
+| radius | The radius of the line segments used to form the knot |
+| facets | The number of faces used for the line segments that form the knot; should be 2 (for a ribbon) or larger |
+| param_a through param_h | Values that can be used by the formula to parameterize it; parameters not used in the formula are ignored (most of the presets do not use parameters) |
+| scale_x, scale_y, scale_z | Scale factors for x, y, and z |
+| offset_x, offset_y, offset_z | Offset for the attractor curve |
+| subdiv_level, subdiv_smooth_passes, subdiv_smooth_lambda, subdiv_smooth_mu | Not used |
+| blend_colormap | Not used |
+| displ_amount | Not used |
+| blend_displ_map | Not used |
+| receive_only_shadows | If set to 1, and solid rendering is enabled, the mesh will be invisible but will show shadows that fall on it (hard shadows must be enabled to see any) |
+
+[Wikipedia description of knots](https://en.wikipedia.org/wiki/Knot_(mathematics))  
+[Paul Bourke's Knots page](http://paulbourke.net/geometry/knots/)  
+[Jürgen Meier's Knots page](http://www.3d-meier.de/tut8/Seite0.html) (in German; used to develop this variation)  
+
 ## parplot2d_wf
 Parametric equation surface plot (2D surface plotted in three dimensions).
 

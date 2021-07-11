@@ -178,6 +178,7 @@
 |[juliaNab](julia/julia.md#juliaNab) | Variant of julian with different parameters
 |[juliaq](julia/julia.md#juliaq) | Julia set using a rational power
 | |
+|[knots3D](plotting/plotting.md#knots3D) | Build a mesh representation of mathematical knot
 |[koch_js](lineshapes/lineshapes.md#koch_js) | Draws a Koch curve
 | |
 |[lazysensen](flippers/flippers.md#lazysensen) | Divide the flame into strips and flip them
