@@ -37,10 +37,22 @@
 |[colorscale_wf](zmanip/zmanip.md#colorscale_wf) | Set a point's z coordinate to its color index
 |[conic/conic2](polarshapes/polarshapes.md#conic--conic2) | Conic section shape (ellipse, parabola, or hyperbola)
 |[corners](splitters/splitters.md#corners) | Splits the plane along the x and y axes and stretches it as if tugging the corners
+|[cos](complex/complex.md#cos) | Complex cosine
+|[cos2_bs](complex/complex.md#cos2_bs) | Complex cosine with parameters
+|[cosh](complex/complex.md#cosh) | Complex hyperbolic cosine
+|[cosh2_bs](complex/complex.md#cosh2_bs) | Complex hyperbolic cosine with parameters
+|[cot](complex/complex.md#cot) | Complex cotangent
+|[cot2_bs](complex/complex.md#cot2_bs) | Complex cotangent with parameters
+|[coth](complex/complex.md#coth) | Complex hyperbolic cotangent
+|[coth2_bs](complex/complex.md#coth2_bs) | Complex hyperbolic cotangent with parameters
 |[cpow](cpow/cpow.md#cpow) | Raise input point to a complex power specified by its real and imaginary parts
 |[cpow2](cpow/cpow.md#cpow2) | Raise input point to a complex power specified in polar coordinates
 |[cpow3](cpow/cpow.md#cpow3) | Raise input point to a complex power to produce a spiral
 |[cpow3_wf](cpow/cpow.md#cpow3_wf) | Attempt to port cpow2 to JWildfire that "by happy accident became something else"
+|[csc](complex/complex.md#csc) | Complex cosecant
+|[csc2_bs](complex/complex.md#csc2_bs) | Complex cosecant with parameters
+|[csch](complex/complex.md#csch) | Complex cosecant
+|[csch2_bs](complex/complex.md#csch2_bs) | Complex cosecant with parameters
 | |
 |[d_spherical](inversion/inversion.md#d_spherical) | Combines spherical and linear
 |[dc_acrilic](stamps/stamps.md#dc_acrilic) | Create a pattern reminiscent of acrylic pour painting
@@ -261,11 +273,19 @@
 |[sattractor3D](attractors/attractors.md#sattractor3D) | Generate a 3D mesh from differential equations
 |[sattractor_js](attractors/attractors.md#sattractor_js) | A strange attractor attributed to Roger Bagula
 |[scrambly](flippers/flippers.md#scrambly) | Divide the central square into subsquares and scramble them
+|[sec](complex/complex.md#sec) | Complex secant
+|[sec2_bs](complex/complex.md#sec2_bs) | Complex secant with parameters
+|[sech](complex/complex.md#sech) | Complex hyperbolic secant
+|[sech2_bs](complex/complex.md#sech2_bs) | Complex hyperbolic secant with parameters
 |[separation](splitters/splitters.md#separation) | Splits the plane along the x and y axes, squishing or stretching the half planes
 |[shape](polarshapes/polarshapes.md#shape) | General shape generator using the superformula
 |[shredded](shredders/shredders.md#shredded) | Shreds the flame into strips in the x, y, and z directions and scrambles them
 |[shredlin](shredders/shredders.md#shredlin) | Divides the plane into horizontal and vertical strips and shrinks them
 |[shredrad](shredders/shredders.md#shredrad) | Divides the plane into wedges and shrinks them
+|[sin](complex/complex.md#sin) | Complex sine
+|[sin2_bs](complex/complex.md#sin2_bs) | Complex sine with parameters
+|[sinh](complex/complex.md#sinh) | Complex hyperbolic sine
+|[sinh2_bs](complex/complex.md#sinh2_bs) | Complex hyperbolic sine with parameters
 |[sineblur](shapes/shapes.md#sineblur) | A circle with a shading effect
 |[sphereblur](shapes/shapes.md#sphereblur) | 3D version of sineblur
 |[spherical](inversion/inversion.md#spherical) | Reflects the plane across the unit circle
@@ -288,6 +308,10 @@
 |[svg_wf](importers/importers.md#svg_wf) | Import a Scalable Vector Graphics (SVG) file
 |[synth](synth/synth.md#synth-v2) | Combo variation (emulates several others) with added wave functions
 | |
+|[tan](complex/complex.md#tan) | Complex tangent
+|[tan2_bs](complex/complex.md#tan2_bs) | Complex tangent with parameters
+|[tanh](complex/complex.md#tanh) | Complex hyperbolic tangent
+|[tanh2_bs](complex/complex.md#tanh2_bs) | Complex hyperbolic tangent with parameters
 |[terrain3D](patterns/patterns.md#terrain3D) | Generate a random terrain surface mesh
 |[text_wf](importers/importers.md#text_wf) | A line of arbitrary text
 |[threeply](attractors/attractors.md#threeply) | A strange attractor named Three Ply
