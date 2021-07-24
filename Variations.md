@@ -35,6 +35,7 @@
 |[cloverleaf_wf](polarshapes/polarshapes.md#cloverleaf_wf) | Shape resembling a four leaf clover
 |[colormap_wf](importers/importers.md#colormap_wf--post_colormap_wf) | Load colors from an external image
 |[colorscale_wf](zmanip/zmanip.md#colorscale_wf) | Set a point's z coordinate to its color index
+|[complex](complex/complex.md#complex) | Combination of cos2_bs, cosh2_bs, cot2_bs, coth2_bs, csc2_bs, csch2_bs, exp2_bs, sec2_bs, sech2_bs, sin2_bs, sinh2_bs, tan2_bs, and tanh2_bs
 |[conic/conic2](polarshapes/polarshapes.md#conic--conic2) | Conic section shape (ellipse, parabola, or hyperbola)
 |[corners](splitters/splitters.md#corners) | Splits the plane along the x and y axes and stretches it as if tugging the corners
 |[cos](complex/complex.md#cos) | Complex cosine
