@@ -28,7 +28,7 @@ Divide the plane into squares or hexagons with borders.
 
 Variations that perform standard math functions using complex numbers.
 
-[![](complex/cot2_bs-1.png)](complex/complex.md#cot2_bs) [![](complex/sin2_bs-1.png)](complex/complex.md#sin2_bs)
+[![](complex/post_trig-1.png)](complex/complex.md#post_trig) [![](complex/cot2_bs-1.png)](complex/complex.md#cot2_bs) [![](complex/cos-1.png)](complex/complex.md#cos) 
 
 ## [Complex Power](cpow/cpow.md#Complex-Power)
 

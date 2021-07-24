@@ -42,6 +42,7 @@
 |[cos2_bs](complex/complex.md#cos2_bs) | Complex cosine with parameters
 |[cosh](complex/complex.md#cosh) | Complex hyperbolic cosine
 |[cosh2_bs](complex/complex.md#cosh2_bs) | Complex hyperbolic cosine with parameters
+|[cosine](complex/complex.md#cosine) | Modified complex cosine
 |[cot](complex/complex.md#cot) | Complex cotangent
 |[cot2_bs](complex/complex.md#cot2_bs) | Complex cotangent with parameters
 |[coth](complex/complex.md#coth) | Complex hyperbolic cotangent
@@ -245,6 +246,7 @@
 |[post_juliaq](julia/julia.md#juliaq) | Julia set using a rational power
 |[post_polar2](polar/polar.md#polar2) | Treat the log-polar coordinates (ρ,θ) of a point as rectangular coordinates (x,y)
 |[post_spherical](inversion/inversion.md#spherical) | Reflects the plane across the unit circle
+|[post_trig](complex/complex.md#post_trig) | Combination of one or more complex trigonometric functions (post variation)
 |[post_zscale](zmanip/zmanip.md#zscale) | Multiply the z value by the variation amount
 |[post_dcztransl](zmanip/zmanip.md#dc_ztransl) | Set a point's z coordinate to its color index
 |[post_ztranslate](zmanip/zmanip.md#ztranslate) | Add the variation amount to z, translating points up or down the z axis

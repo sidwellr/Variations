@@ -94,6 +94,17 @@ Date: 30 May 2017
 
 [Understanding Cos2h_bs](https://www.youtube.com/watch?v=wMw0fAwoDEM) (video)  
 
+## cosine
+Modified complex cosine.
+
+Type: 2D  
+Author: Scott Draves  
+Date: 1 Dec 2004  
+
+[![](cosine-1.png)](cosine-1.flame)
+
+Like cos, but x is first multiplied by π.
+
 ## cot
 Complex cotangent.
 
@@ -193,6 +204,35 @@ Date: 30 May 2017
 | Parameter | Description |
 | --- | --- |
 | x1, x2, y1, y2 | Change the result (no particular mathematical significance) |
+
+## post_trig
+Combination of one or more complex trigonometric functions (post variation).
+
+Type: 2D  
+Author: Whittaker Courtney  
+Date: 31 Jul 2020  
+
+[![](post_trig-1.png)](post_trig-1.flame) [![](post_trig-2.png)](post_trig-2.flame)
+
+| Parameter | Description |
+| --- | --- |
+| reciprocalpow | Amount of complex reciprocal to include |
+| log_dividepow | Amount of log((z+1)/(z-1)) to include |
+| sqrtpow | Amount of complex square root to include |
+| exppow | Amount of complex exponential to include |
+| logpow | Amount of complex log to include |
+| asinhpow | Amount of complex inverse hyperbolic sine to include |
+| acoshpow | Amount of complex inverse hyperbolic cosine to include |
+| atanhpow | Amount of complex inverse hyperbolic tangent to include |
+| asinpow | Amount of complex inverse sine to include |
+| acospow | Amount of complex inverse cosine to include |
+| atanpow | Amount of complex inverse tangent to include |
+| sinpow | Amount of complex sine to include |
+| cospow | Amount of complex cosine to include |
+| tanpow | Amount of complex tangent to include |
+| sinhpow | Amount of complex hyperbolic sine to include |
+| coshpow | Amount of complex hyperbolic cosine to include |
+| tanhpow | Amount of complex hyperbolic tangent to include |
 
 ## sec
 Complex secant.
