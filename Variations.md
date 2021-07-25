@@ -290,6 +290,7 @@
 |[sinh](complex/complex.md#sinh) | Complex hyperbolic sine
 |[sinh2_bs](complex/complex.md#sinh2_bs) | Complex hyperbolic sine with parameters
 |[sineblur](shapes/shapes.md#sineblur) | A circle with a shading effect
+|[snowflake_wf](patterns/patterns.md#snowflake_wf) | Generate a snowflake shape
 |[sphereblur](shapes/shapes.md#sphereblur) | 3D version of sineblur
 |[spherical](inversion/inversion.md#spherical) | Reflects the plane across the unit circle
 |[spherical3D](inversion/inversion.md#spherical3D) | A 3D version of spherical

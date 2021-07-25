@@ -29,6 +29,7 @@ Author: Neil Slater (slobo777)
 Date: 14 Nov 2010  
 
 [![](dc_perlin-1.png)](dc_perlin-1.flame)
+
 | Parameter | Description |
 | --- | --- |
 | shape | The shape to use:<br>0: Square<br>1: Disk (filled-in circle)<br>2: Blur disk (brighter in center, like the blur variation) |
@@ -49,6 +50,37 @@ Date: 14 Nov 2010
 [Coherent Noise explanation](https://fractalformulas.wordpress.com/2019/08/19/coherent-noise/)  
 [Wikipedia description of Perlin noise](https://en.wikipedia.org/wiki/Perlin_noise)  
 [Roz Scripts (for Apophysis)](https://www.deviantart.com/rozrr/art/Roz-Scripts-321285804)  
+
+## snowflake_wf
+Generate a snowflake shape using a cellular automaton.
+
+Type: 2D direct color blur  
+Author: Andreas Maschke (thargor6)  
+Date: 10 Jan 2021  
+
+[![](snowflake_wf-1.png)](snowflake_wf-1.flame) [![](snowflake_wf-2.png)](snowflake_wf-2.flame)
+
+To animate snowflake growth, start with a low value for max_iter at the beginning of the animation and increase it as the animation progresses.
+
+| Parameter | Description |
+| --- | --- |
+| buffer_size | Controls the number of cells (dots) in the generated snowflake |
+| max_iter | Number of times to iterate snowflake generation; larger values make larger, more intricate patterns, but take longer and require a larger buffer_size value |
+| bg_freeze_level | The base starting value for the cells |
+| fg_freeze_speed | How fast cells next to frozen cells (with value at least 1) freeze |
+| diffusion_speed | How fast cells not next to frozen cells freeze |
+| diffusion_asymmetry | Controls the weighting for averaging cell values |
+| rnd_bg_noise | Amount of noise added to base starting value for the cells; 0 for completely symmetrical snowflakes |
+| threshold | Threshold value to display cells in final snowflake; if background dots appear, increase threshold to remove them |
+| seed | The random number seed; different seeds will generate similar but different results |
+| scale | Scale factor for the result |
+| jitter | Controls the random offset of the dots creating the snowflake; 0 makes the dots line up perfectly, which can be distracting |
+| dc_color | 0: Standard variation coloring; don't modify the gradient color index directly<br>1: Direct color; set the gradient color index according to the point intensity |
+| dc_color_scale | Scale factor for the point intensity (most points will have intensity between the threshold parameter and 1) |
+| dc_color_offset | Lowest color index to use (0 for leftmost gradient color) |
+
+[A local cellular model for snow crystal growth](http://patarnott.com/pdf/SnowCrystalGrowth.pdf) (description of the algorithm)  
+[Interactive online version](https://snowflake.overwhale.com/)  
 
 ## terrain3D
 Generate a random terrain surface mesh.

@@ -28,7 +28,7 @@ Divide the plane into squares or hexagons with borders.
 
 Variations that perform standard math functions using complex numbers.
 
-[![](complex/post_trig-1.png)](complex/complex.md#post_trig) [![](complex/cot2_bs-1.png)](complex/complex.md#cot2_bs) [![](complex/cos-1.png)](complex/complex.md#cos) 
+[![](complex/post_trig-1.png)](complex/complex.md#post_trig) [![](complex/cot2_bs-1.png)](complex/complex.md#cot2_bs) [![](complex/cos-1.png)](complex/complex.md#cos)
 
 ## [Complex Power](cpow/cpow.md#Complex-Power)
 
@@ -91,7 +91,7 @@ Maurer lines extend the Maurer rose with different types of curves, rendering me
 ## [Patterns](patterns/patterns.md#Patterns)
 Variations that create different kinds of patterns.
 
-[![](patterns/dc_perlin-1.png)](patterns/patterns.md#dc_perlin) [![](patterns/terrain3D-1.png)](patterns/patterns.md#terrain3D)
+[![](patterns/dc_perlin-1.png)](patterns/patterns.md#dc_perlin) [![](patterns/snowflake_wf-2.png)](patterns/patterns.md#snowflake_wf) [![](patterns/terrain3D-1.png)](patterns/patterns.md#terrain3D)
 
 ## [Plotting Variations](plotting/plotting.md#Plotting-variations)
 
