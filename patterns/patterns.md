@@ -60,7 +60,7 @@ Date: 10 Jan 2021
 
 [![](snowflake_wf-1.png)](snowflake_wf-1.flame) [![](snowflake_wf-2.png)](snowflake_wf-2.flame)
 
-To animate snowflake growth, start with a low value for max_iter at the beginning of the animation and increase it as the animation progresses.
+To animate snowflake growth, start with a low value for max_iter at the beginning of the animation and increase it as the animation progresses. [Samples (pdf)](snowflake-samples.pdf)
 
 | Parameter | Description |
 | --- | --- |
