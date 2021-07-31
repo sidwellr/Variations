@@ -82,6 +82,25 @@ To animate snowflake growth, start with a low value for max_iter at the beginnin
 [A local cellular model for snow crystal growth](http://patarnott.com/pdf/SnowCrystalGrowth.pdf) (description of the algorithm)  
 [Interactive online version](https://snowflake.overwhale.com/)  
 
+## sunflower
+Generate a spiral of small polygons that can resemble the center of a sunflower.
+
+Type: 2D direct color blur  
+Author: Jesus Sosa  
+Date: 8 Jul 2018  
+
+[![](sunflower-1.png)](sunflower-1.flame) [![](sunflower-2.png)](sunflower-2.flame) [![](sunflower-3.png)](sunflower-3.flame)
+
+| Parameter | Description |
+| --- | --- |
+| nPoints | Number of polygons to generate |
+| shape | Number of sides of each polygon (3 to 20) |
+| scale | Size of largest polygons |
+| angle | Controls the angle of the spiral; adjusted so 180 gives the "golden angle", the angle between successive florets in sunflowers |
+| color | Not used |
+| F.filling | Amount to fill the shapes, from 0 (filled) to 1 (hollow) |
+| invert | 0: Center of spiral has largest polygons with color index 1<br>1: Center of spiral has smallest polygons with color index 0 |
+
 ## terrain3D
 Generate a random terrain surface mesh.
 

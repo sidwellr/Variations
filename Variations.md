@@ -306,6 +306,7 @@
 |[squarize](reshapers/reshapers.md#squarize) | Reshape circles centered at the orgin into squares
 |[starblur](shapes/shapes.md#starblur) | Star shaped blur
 |[subflame_wf](importers/importers.md#subflame_wf) | Use a flame as a shape
+|[sunflower](patterns/patterns.md#sunflower) | Generate a spiral of small polygons that can resemble the center of a sunflower
 |[super_shape](reshapers/reshapers.md#super_shape) | Reshape (or create a shape) using the superformula
 |[superShape3d](shapes/shapes.md#superShape3d) | General 3D shape generator using two superformula instances
 |[svensson_js](attractors/attractors.md#svensson_js) | Johnny Svensson attractor
