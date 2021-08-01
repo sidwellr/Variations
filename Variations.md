@@ -208,6 +208,7 @@
 |[lsystem3D_js](lsystems/lsystems.md#lsystem3D_js) | Create a three dimensional mesh using an L-System
 | |
 |[macmillan](attractors/attractors.md#macmillan) | Perturbed McMillan map (studied by Edwin McMillan)
+|[mandala](patterns/patterns.md#mandala) | Generate a fractal kaleidoscope pattern based on rotation transformations and rounding errors
 |[maurer_lines](maurerlines/maurerlines.md#maurer_lines) | Generalized string art
 |[maurer_rose](rosecurve/rosecurve.md#maurer_rose) | String art on a rose curve
 |[minkowscope](flippers/flippers.md#minkowscope) | Flip the plane in a wave shape based on the Minkowsky question-mark function across the origin

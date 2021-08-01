@@ -51,6 +51,29 @@ Date: 14 Nov 2010
 [Wikipedia description of Perlin noise](https://en.wikipedia.org/wiki/Perlin_noise)  
 [Roz Scripts (for Apophysis)](https://www.deviantart.com/rozrr/art/Roz-Scripts-321285804)  
 
+## mandala
+Generate a fractal kaleidoscope pattern based on rotation transformations and rounding errors.
+
+Type: 2D blur, true color or direct color  
+Authors: Jesus Sosa and Steve Witham  
+Date: 14 Sep 2018  
+
+[![](mandala-1.png)](mandala-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| width | Number of points to use for both the width and height of the pattern; large values give a higher resolution pattern, but slow down the variation |
+| size | Size of each point, between 0 and 1 |
+| num | Numerator of the rotation angle as a fraction of 360 degrees |
+| denom | Denominator of the rotation angle as a fraction of 360 degrees |
+| minsky | 0: Circular mandala<br>1: Elliptical mandala |
+| wobble | Varies the mandala calculation by a small amount, which disturbs the pattern (some fractions are more sensitive to wobble than others); an integer between 0 and 8, 0 for none |
+| wrap_range | If not 0, includes a wrapping effect in the mandala calculation; an integer between 0 and 8, 0 for none |
+| hskew | If not 0, the point is shifted to the right by some amount after each rotation step, often resulting in interesting effects; an integer between 0 and 22 |
+| color id | 0: True color: colors are set directly, ignoring the gradient<br>1: Direct color: sets the gradient index so gradient colors are used |
+
+[Mandala description](http://www.mac-guyver.com/switham/2005/03/Mandala/index.html) (by Steve Witham, author of the mandala program the variation is based on)
+
 ## snowflake_wf
 Generate a snowflake shape using a cellular automaton.
 
@@ -100,6 +123,9 @@ Date: 8 Jul 2018
 | color | Not used |
 | F.filling | Amount to fill the shapes, from 0 (filled) to 1 (hollow) |
 | invert | 0: Center of spiral has largest polygons with color index 1<br>1: Center of spiral has smallest polygons with color index 0 |
+
+[The Golden Ratio](https://www.youtube.com/watch?v=sj8Sg8qnjOg) (Numberphile video that shows how the sunflower variation works)
+[Nature, The Golden Ratio, and Fibonacci too](https://www.mathsisfun.com/numbers/nature-golden-ratio-fibonacci.html)
 
 ## terrain3D
 Generate a random terrain surface mesh.
