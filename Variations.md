@@ -27,6 +27,7 @@
 |[checkerboard_wf](patterns/patterns.md#checkerboard_wf) | Generate a checkerboard pattern
 |[chrysanthemum](lineshapes/lineshapes.md#chrysanthemum) | Chrysanthemum flower shaped curve
 |[circleblur](shapes/shapes.md#circleblur) | Circle with even coloring
+|[circleRand](shapegroups/shapegroups.md#circleRand) | Random size circles in a grid
 |[circlesplit](splitters/splitters.md#circlesplit) | Split the flame in a circle centered at the origin
 |[circlize](reshapers/reshapers.md#circlize) | Reshape squares centered at the origin into circles
 |[circlize2](reshapers/reshapers.md#circlize2) | Reshape squares centered at the origin into circles (scaled to work better with other variations)
@@ -156,6 +157,7 @@
 |[glsl_squares](stamps/stamps.md#glsl_squares) | Create a pattern of squares on a grid
 |[glsl_starsfield](stamps/stamps.md#glsl_starsfield) | Create a field of stars
 |[gosper_js](lineshapes/lineshapes.md#gosper_js) | Draws a Gosper island curve, also known as a flowsnake
+|[gpattern](shapegroups/shapegroups.md#gpattern) | A grid pattern of polygons
 |[gumowski_mira](attractors/attractors.md#gumowski_mira) | The strange attractor of Gumowski-Mira
 | |
 |[hamid_js](lineshapes/lineshapes.md#hamid_js) | Figures made from lines and circles based on works by Iranian mathematician Hamid Naderi Yeganeh
@@ -313,6 +315,7 @@
 |[svensson_js](attractors/attractors.md#svensson_js) | Johnny Svensson attractor
 |[svg_wf](importers/importers.md#svg_wf) | Import a Scalable Vector Graphics (SVG) file
 |[synth](synth/synth.md#synth-v2) | Combo variation (emulates several others) with added wave functions
+|[szubieta](patterns/patterns.md#szubieta) | Fractal patterns by Santiago Zubieta: circle squares and square tile
 | |
 |[tan](complex/complex.md#tan) | Complex tangent
 |[tan2_bs](complex/complex.md#tan2_bs) | Complex tangent with parameters

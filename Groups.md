@@ -91,7 +91,7 @@ Maurer lines extend the Maurer rose with different types of curves, rendering me
 ## [Patterns](patterns/patterns.md#Patterns)
 Variations that create different kinds of patterns.
 
-[![](patterns/dc_perlin-1.png)](patterns/patterns.md#dc_perlin) [![](patterns/snowflake_wf-2.png)](patterns/patterns.md#snowflake_wf) [![](patterns/terrain3D-1.png)](patterns/patterns.md#terrain3D)
+[![](patterns/dc_perlin-1.png)](patterns/patterns.md#dc_perlin) [![](patterns/snowflake_wf-2.png)](patterns/patterns.md#snowflake_wf) [![](patterns/sunflower-1.png)](patterns/patterns.md#sunflower)
 
 ## [Plotting Variations](plotting/plotting.md#Plotting-variations)
 
@@ -105,7 +105,7 @@ Variations that switch between polar or log-polar and rectangular coordinates.
 
 [![](polar/polar-1.png)](polar/polar.md#polar-1) [![](polar/polar2-2.png)](polar/polar.md#polar2) [![](polar/unpolar-2.png)](polar/polar.md#unpolar)
 
-## [Polar Shapes](polarshapes/polarshapes.md#Half-Blurs)
+## [Polar Shapes](polarshapes/polarshapes.md#Polar-Shapes)
 Variations that generate specific shapes using polar coordinates.
 
 [![](polarshapes/cannabiscurve-1.png)](polarshapes/polarshapes.md#cannabiscurve_wf) [![](polarshapes/cloverleaf-1.png)](polarshapes/polarshapes.md#cloverleaf_wf) [![](polarshapes/shape-2.png)](polarshapes/polarshapes.md#shape)
@@ -121,6 +121,12 @@ Variations that reshape the input (for example, turn a circle into a square or o
 Variations based on the rose or rhodonea curve.
 
 [![](rosecurve/flower-1.png)](rosecurve/rosecurve.md#flower) [![](rosecurve/maurer_rose-2.png)](rosecurve/rosecurve.md#maurer_rose) [![](rosecurve/rhodonea-1.png)](rosecurve/rosecurve.md#rhodonea)
+
+## [Shape Groups](shapegroups/shapegroups.md#Shape-Groups)
+
+Variations that generate groups of shapes.
+
+[![](shapegroups/circleRand-1.png)](shapegroups/shapegroups.md#circleRand)  [![](shapegroups/gpattern-1.png)](shapegroups/shapegroups.md#gpattern)
 
 ## [Shapes](shapes/shapes.md#Shapes)
 

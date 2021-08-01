@@ -127,6 +127,25 @@ Date: 8 Jul 2018
 [The Golden Ratio](https://www.youtube.com/watch?v=sj8Sg8qnjOg) (Numberphile video that shows how the sunflower variation works)
 [Nature, The Golden Ratio, and Fibonacci too](https://www.mathsisfun.com/numbers/nature-golden-ratio-fibonacci.html)
 
+## szubieta
+Fractal patterns by Santiago Zubieta: circle squares and square tile.
+
+Type: 2D direct color blur  
+Author: Jesus Sosa  
+Date: 16 Aug 2018  
+
+[![](szubieta-1.png)](szubieta-1.flame) [![](szubieta-2.png)](szubieta-2.flame)
+
+| Parameter | Description |
+| --- | --- |
+| width | Number of circles horizontally |
+| height | Number of circles vertically |
+| type | 0: Circle squares pattern (first example)<br>1: Square tile pattern (second example) |
+| scale | Size of the circles |
+
+[Circle squares fractal](http://paulbourke.net/fractals/circlesquares/)  
+[Square tile fractal](http://paulbourke.net/fractals/squaretile/)  
+
 ## terrain3D
 Generate a random terrain surface mesh.
 
