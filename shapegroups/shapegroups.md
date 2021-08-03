@@ -67,3 +67,7 @@ Date: 17 Dec 2018
 | direct_color | 0: Don't use direct color (just standard variation coloring)<br>1: Use direct color according to color_mode |
 | color_mode | 0: Use colormap on YZ plane<br>1: Use colormap on XZ plane<br>2: Use colormap on XY plans<br>3: Use gradient along the x axis<br>4: Use gradient along the y axis<br>5: Use gradient along the z axis<br>6: Use the gradient along the x and y axes combined<br>7: Use the gradient along the y and z axes combined<br>8: Use the gradient along the x and z axes combined<br>9: Use the gradient along the x, y, and z axes combined |
 | blend_colormap | Whether to blend colormap colors with surrounding colors (color_modes 0-2 only)<br>0: Don't blend colors<br>1: Blend colors |
+
+[Wikipedia article](https://en.wikipedia.org/wiki/Metaballs)  
+[Description and examples by Paul Bourke](http://paulbourke.net/geometry/implicitsurf/index.html)
+[Metaball article by Ryan Geiss](http://www.geisswerks.com/ryan/BLOBS/blobs.html)   
