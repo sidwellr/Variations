@@ -24,7 +24,7 @@ Date: 6 Jan 2017
 | max_iter | Maximum times the variation will try to find a point in the isosurface |
 | direct_color | 0: Don't use direct color<br>1: Use direct color |
 | color_mode | The mode when using direct color<br>0: Use the specified colormap along x<br>1: Use the specified colormap along y<br>2: Use the specified colormap along z<br>3: Use the x value<br>4: Use the y value<br>5: Use the z value<br>6: Use x times y<br>7: Use y times z<br>8: Use z times x<br>9: Use x times y times z |
-| blend_color | Whether to blend colormap colors with surrounding colors (color_mode 0 only)<br>0: Don't blend colors<br>1: Blend colors |
+| blend_colormap | Whether to blend colormap colors with surrounding colors (color_mode 0 only)<br>0: Don't blend colors<br>1: Blend colors |
 | param_a through param_f | Values that can be used by the formula to parameterize it; parameters not used in the formula are ignored |
 
 [isosfplot3d_wf preset list](https://github.com/thargor6/JWildfire/blob/master/src/org/jwildfire/create/tina/variation/plot/isosfplot3d_wf_presets.txt)  
@@ -83,7 +83,7 @@ Date: 29 Nov 2016
 | vmin, vmax | The range for v, the second parametric value; used to generate the plot |
 | direct_color | 0: Don't use direct color<br>1: Use direct color |
 | color_mode | The mode when using direct color<br>0: Use the specified colormap<br>1: Use the u value<br>2: Use the v value<br>3: Use u times v |
-| blend_color | Whether to blend colormap colors with surrounding colors (color_mode 0 only)<br>0: Don't blend colors<br>1: Blend colors |
+| blend_colormap | Whether to blend colormap colors with surrounding colors (color_mode 0 only)<br>0: Don't blend colors<br>1: Blend colors |
 | displ_amount | Scaling for the displacement map; 0 to disable displacement |
 | blend_displ_map | Whether to blend values from the displacement map<br>0: Don't blend values<br>1: Blend values |
 | solid | 1: Generate u and v randomly (normal operation; variation is a blur)<br>0: Set u and v from input x and y (makes this a normal variation, more difficult to use) |
@@ -112,7 +112,7 @@ Date: 22 Apr 2020
 | zmin, zmax | The range for z; the plot will be extruded to these values in the z direction; set both to 0 to disable extrusion |
 | direct_color | 0: Don't use direct color<br>1: Use direct color |
 | color_mode | The mode when using direct color<br>0: Use the specified colormap<br>1: Use the theta value<br>2: Use the rho value |
-| blend_color | Whether to blend colormap colors with surrounding colors (color_mode 0 only)<br>0: Don't blend colors<br>1: Blend colors |
+| blend_colormap | Whether to blend colormap colors with surrounding colors (color_mode 0 only)<br>0: Don't blend colors<br>1: Blend colors |
 | displ_amount | Scaling for the displacement map; 0 to disable displacement |
 | blend_displ_map | Whether to blend values from the displacement map<br>0: Don't blend values<br>1: Blend values |
 | param_a through param_f | Values that can be used by the formula to parameterize it; parameters not used in the formula are ignored |
@@ -140,7 +140,7 @@ Date: 22 Apr 2020
 | cylindrical | 0: Use spherical coordinates (u represents phi)<br>1: Use cylindrical coordinates (u represents z) |
 | direct_color | 0: Don't use direct color<br>1: Use direct color |
 | color_mode | The mode when using direct color<br>0: Use the specified colormap<br>1: Use the theta value<br>2: Use the u (for phi or z) value<br>3: use the rho value<br>4: Use a combination of theta and phi/z |
-| blend_color | Whether to blend colormap colors with surrounding colors (color_mode 0 only)<br>0: Don't blend colors<br>1: Blend colors |
+| blend_colormap | Whether to blend colormap colors with surrounding colors (color_mode 0 only)<br>0: Don't blend colors<br>1: Blend colors |
 | displ_amount | Scaling for the displacement map; 0 to disable displacement |
 | blend_displ_map | Whether to blend values from the displacement map<br>0: Don't blend values<br>1: Blend values |
 | param_a through param_f | Values that can be used by the formula to parameterize it; parameters not used in the formula are ignored |
@@ -167,7 +167,7 @@ Date: 29 Nov 2016
 | zmin, zmax | The range for z; the plot will be extruded to these values in the z direction; set both to 0 to disable extrusion |
 | direct_color | 0: Don't use direct color<br>1: Use direct color |
 | color_mode | The mode when using direct color<br>0: Use the specified colormap<br>1: Use the x value<br>2: Use the y value |
-| blend_color | Whether to blend colormap colors with surrounding colors (color_mode 0 only)<br>0: Don't blend colors<br>1: Blend colors |
+| blend_colormap | Whether to blend colormap colors with surrounding colors (color_mode 0 only)<br>0: Don't blend colors<br>1: Blend colors |
 | displ_amount | Scaling for the displacement map; 0 to disable displacement |
 | blend_displ_map | Whether to blend values from the displacement map<br>0: Don't blend values<br>1: Blend values |
 | param_a through param_f | Values that can be used by the formula to parameterize it; parameters not used in the formula are ignored |
@@ -195,7 +195,7 @@ Date: 29 Nov 2016
 | zmin, zmax | The range for z; used to generate the plot |
 | direct_color | 0: Don't use direct color<br>1: Use direct color |
 | color_mode | The mode when using direct color<br>0: Use the specified colormap<br>1: Use the x value<br>2: Use the y value |
-| blend_color | Whether to blend colormap colors with surrounding colors (color_mode 0 only)<br>0: Don't blend colors<br>1: Blend colors |
+| blend_colormap | Whether to blend colormap colors with surrounding colors (color_mode 0 only)<br>0: Don't blend colors<br>1: Blend colors |
 | displ_amount | Scaling for the displacement map; 0 to disable displacement |
 | blend_displ_map | Whether to blend values from the displacement map<br>0: Don't blend values<br>1: Blend values |
 | param_a through param_f | Values that can be used by the formula to parameterize it; parameters not used in the formula are ignored |
