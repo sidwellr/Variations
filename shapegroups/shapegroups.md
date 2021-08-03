@@ -42,3 +42,28 @@ Date: 15 May 2018
 | fill color | Start color (gradient index) for filling polygons, between 0 and 1 |
 | fill color speed | Maximum amount to randomly vary fill color, between 0 (single color) and 1 (use full gradient) |
 | outline color | Outline color (gradient index), between 0 and 1 |
+
+## metaballs3d_wf
+A group of metaballs, balls (solid spheres) that merge when close to each other to form blobs.
+
+Type: 3D direct color blur  
+Author: Andreas Maschke (thargor6)  
+Date: 17 Dec 2018  
+
+[![](metaballs3d_wf-1.png)](metaballs3d_wf-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| colormap_filename | Name of image file for coloring the metaballs; only used when color_mode is 0, 1, or 2 |
+| mb_mode | 0: Distribute metaballs uniformly<br>1: Distribute metaballs closer to the XZ plane<br>2: Distribute metaballs closer to the origin |
+| mb_count | Number of metaballs to generate |
+| mb_min_radius, mb_max_radius | Minimum and maximum values for the radius of influence for each metaball |
+| mb_negative | Fraction (between 0 and 1) of the metaballs that will have a negative radius of influence; such metaballs are not visible, but interfere with merging of other metaballs to form more interesting shapes |
+| mb_seed | Seed for the random numbers used to generate the metaballs |
+| mb_sharpness | The threshold for determining whether a point is within a blob; small values make larger blobs and vice versa |
+| border_size | Size of the border; each of xmin, xmax, ymin, ymax, zmin, and zmax is adjusted towards the origin by this amount, which is more convenient that adjusting all six boundary parameters individually |
+| xmin, xmax, ymin, ymax, zmin, zmax | The boundaries the variation uses when placing the random metaballs |
+| max_iter | Maximum tries for finding points within a blob; this keeps the variation from trying forever and hanging JWildfire |
+| direct_color | 0: Don't use direct color (just standard variation coloring)<br>1: Use direct color according to color_mode |
+| color_mode | 0: Use colormap on YZ plane<br>1: Use colormap on XZ plane<br>2: Use colormap on XY plans<br>3: Use gradient along the x axis<br>4: Use gradient along the y axis<br>5: Use gradient along the z axis<br>6: Use the gradient along the x and y axes combined<br>7: Use the gradient along the y and z axes combined<br>8: Use the gradient along the x and z axes combined<br>9: Use the gradient along the x, y, and z axes combined |
+| blend_colormap |

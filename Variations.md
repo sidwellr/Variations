@@ -213,6 +213,7 @@
 |[mandala](patterns/patterns.md#mandala) | Generate a fractal kaleidoscope pattern based on rotation transformations and rounding errors
 |[maurer_lines](maurerlines/maurerlines.md#maurer_lines) | Generalized string art
 |[maurer_rose](rosecurve/rosecurve.md#maurer_rose) | String art on a rose curve
+|[metaballs3d_wf](shapegroups/shapegroups.md#metaballs3d_wf) | A group of metaballs, balls (solid spheres) that merge when close to each other to form blobs
 |[minkowscope](flippers/flippers.md#minkowscope) | Flip the plane in a wave shape based on the Minkowsky question-mark function across the origin
 | |
 |[nBlur](shapes/shapes.md#nBlur) | Polygon shaped blur

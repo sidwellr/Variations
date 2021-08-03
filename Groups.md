@@ -126,7 +126,7 @@ Variations based on the rose or rhodonea curve.
 
 Variations that generate groups of shapes.
 
-[![](shapegroups/circleRand-1.png)](shapegroups/shapegroups.md#circleRand)  [![](shapegroups/gpattern-1.png)](shapegroups/shapegroups.md#gpattern)
+[![](shapegroups/circleRand-1.png)](shapegroups/shapegroups.md#circleRand)  [![](shapegroups/gpattern-1.png)](shapegroups/shapegroups.md#gpattern) [![](shapegroups/metaballs3d_wf-1.png)](shapegroups/shapegroups.md#metaballs3d_wf)
 
 ## [Shapes](shapes/shapes.md#Shapes)
 
