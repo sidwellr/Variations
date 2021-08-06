@@ -113,6 +113,8 @@
 |[disc2](disc/disc.md#disc2) | Swap polar coordinates ρ and θ, but using Manhattan distance instead of Euclidean
 |[disc3](disc/disc.md#disc3) | Swap polar coordinates ρ and θ, with parameters
 |[disc3d](disc/disc.md#disc3d) | Swap 2D polar coordinates ρ and θ and transforms z according to the distance from the origin
+|[dla3d_wf](patterns/patterns.md#dla3d_wf) | Create a 3D Diffusion Limited Aggregation (DLA) mesh
+|[dla_wf](patterns/patterns.md#dla_wf) | Create a simple Diffusion Limited Aggregation (DLA) pattern
 |[dragon_js](lineshapes/lineshapes.md#dragon_js) | Draws a Heighway dragon curve
 |[droste](cpow/cpow.md#droste) | Implements Escher's map using logarithms; same effect as escher
 | |
@@ -220,6 +222,7 @@
 |[ngon](reshapers/reshapers.md#ngon) | Reshape circles centered at the origin into polygons, with an option for inversion
 |[noise](blurry/blurry.md#noise) | Add noise as a blur effect
 |[npolar](julia/julia.md#npolar) | Mashup of julian and polar2
+|[nsudoku](shapegroups/shapegroups.md#nsudoku) | A 9x9 grid of nested polygons, with coloring based on sudoku
 | |
 |[obj_mesh_primitive_wf](shapes/shapes.md#obj_mesh_primitive_wf) | Use a predefined object as a 3D mesh
 |[obj_mesh_wf](importers/importers.md#obj_mesh_wf) | Load a 3D mesh from an OBJ format file

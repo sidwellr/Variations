@@ -51,6 +51,68 @@ Date: 14 Nov 2010
 [Wikipedia description of Perlin noise](https://en.wikipedia.org/wiki/Perlin_noise)  
 [Roz Scripts (for Apophysis)](https://www.deviantart.com/rozrr/art/Roz-Scripts-321285804)  
 
+## dla3d_wf
+Create a 3D Diffusion Limited Aggregation (DLA) mesh.
+
+Type: 3D direct color blur  
+Author: Andreas Maschke (thargor6)  
+Date: 12 March 2017  
+
+[![](dla3d_wf-1.png)](dla3d_wf-1.flame) [![](dla3d_wf-2.png)](dla3d_wf-2.flame)
+
+| Parameter | Description |
+| --- | --- |
+| node_obj_filename | Name of file containing the mesh object used for nodes; default is a sphere |
+| node_colormap_filename | Name of file containing the colormap used for nodes |
+| junct_obj_filename | Name of file containing the mesh object used for junctions; default is a cylinder |
+| junct_colormap_filename | Name of file containing the colormap used for junctions |
+| max_iter | Maximum number of iterations to use; larger values create a larger, more intricate pattern. To animate DLA growth, set single_thread to 1, then start with a small value for max_iter, and increasing it as the animation progresses |
+| seed | Random number seed |
+| inner_blur_radius | Radius for elements closest to center; normally larger than outer_blur_radius, but this is not required |
+| outer_blur_radius | Radius for elements furthest from center; very small values will make them pointed |
+| junction_scale | Scale factor for nodes |
+| dc_color | 0: Standard variation coloring; don't modify the gradient color index directly<br>1: Direct color; set the gradient color index according to the distance from the center |
+| glue_radius | Radius for adding new nodes; small values tend to clump the nodes together; larger values spread them apart |
+| force_x, force_y, force_z | Values added to x, y, and z, respectively, when adding new nodes |
+| display_nodes | 1 to display nodes; 0 to hide them |
+| display_junctions | 1 to display junctions; 0 to hide them |
+| single_thread | 0: Use multiple threads for DLA generation; this is faster, but less predictable<br>1: Use a single thread for DLA generation |
+| node_sdiv_level | Number of levels of subdivision smoothing to perform on node meshes; 0 to disable |
+| node_sdiv_smooth_passes | Number of smoothing passes to perform for each subdivision level for nodes |
+| node_sdiv_smooth_lambda | Smoothing parameter for first step for each node smoothing pass (should be positive) |
+| node_sdiv_smooth_mu | Smoothing parameter for second step for each node smoothing pass (should be negative) |
+| blend_colormap | Whether to blend node colormap colors with surrounding colors<br>0: Don't blend colors<br>1: Blend colors |
+| node_mesh_scale | Scale factor for node meshes |
+| junct_sdiv_level | Number of levels of subdivision smoothing to perform on junction meshes; 0 to disable |
+| junct_sdiv_smooth_passes | Number of smoothing passes to perform for each subdivision level for junctions |
+| junct_sdiv_smooth_lambda | Smoothing parameter for first step for each junction smoothing pass (should be positive) |
+| junct_sdiv_smooth_mu | Smoothing parameter for second step for each junction smoothing pass (should be negative) |
+| blend_colormap | Whether to blend junction colormap colors with surrounding colors<br>0: Don't blend colors<br>1: Blend colors |
+| junct_mesh_scale | Scale factor for junction meshes |
+
+[Wikipedia article on DLA](https://en.wikipedia.org/wiki/Diffusion-limited_aggregation)
+[Paul Bourke article on DLA](http://paulbourke.net/fractals/dla/)  
+
+## dla_wf
+Create a simple Diffusion Limited Aggregation (DLA) pattern.
+
+Type: 2D blur  
+Author: Andreas Maschke (thargor6)  
+Date: 26 May 2014  
+
+[![](dla_wf-1.png)](dla_wf-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| buffer_size | Number of points per side of the square buffer used to store the generated points |
+| max_iter | Maximum number of iterations to use; larger values create a larger, more intricate pattern. Animate DLA growth by starting with a small value, and increasing max_iter as the animation progresses. |
+| seed | Random number generator seed; different seeds create different patterns |
+| scale | Scale factor |
+| jitter | Controls the random offset of the dots creating the pattern; 0 makes the dots line up perfectly, which can be distracting |
+
+[Wikipedia article on DLA](https://en.wikipedia.org/wiki/Diffusion-limited_aggregation)
+[Paul Bourke article on DLA](http://paulbourke.net/fractals/dla/)  
+
 ## mandala
 Generate a fractal kaleidoscope pattern based on rotation transformations and rounding errors.
 
@@ -180,6 +242,7 @@ Generate a (possibly repeating) pattern from a 12x8 set of Wang tiles.
 
 Type: 3D blur  
 Author: Jesus Sosa  
+Tile artist: Guy Walker  
 Date: 29 Apr 2018  
 
 [![](wangtiles-1.png)](wangtiles-1.flame) [![](wangtiles-2.png)](wangtiles-2.flame)

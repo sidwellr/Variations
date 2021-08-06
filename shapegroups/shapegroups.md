@@ -69,5 +69,24 @@ Date: 17 Dec 2018
 | blend_colormap | Whether to blend colormap colors with surrounding colors (color_modes 0-2 only)<br>0: Don't blend colors<br>1: Blend colors |
 
 [Wikipedia article](https://en.wikipedia.org/wiki/Metaballs)  
-[Description and examples by Paul Bourke](http://paulbourke.net/geometry/implicitsurf/index.html)
+[Description and examples by Paul Bourke](http://paulbourke.net/geometry/implicitsurf/index.html)  
 [Metaball article by Ryan Geiss](http://www.geisswerks.com/ryan/BLOBS/blobs.html)   
+
+## nsudoku
+A 9x9 grid of nested polygons, with coloring based on sudoku.
+
+Type: 2D direct color blur  
+Author: Jesus Sosa  
+Date: 19 Jun 2018  
+
+[![](nsudoku-1.png)](nsudoku-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| Level | Nesting level (1-9) |
+| thickness | Thickness of outer polygons (0-1); innermost polygon is always filled |
+| size | Polygon size (0.3-1.0) |
+| angle | Polygon rotation angle |
+| type | Number of sides for the polygons (3-6) |
+
+[Coloring Sudokus blog post](https://fronkonstin.com/2018/06/01/coloring-sudokus/)  (the basis for this variation)
