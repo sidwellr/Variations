@@ -325,6 +325,7 @@
 |[tan2_bs](complex/complex.md#tan2_bs) | Complex tangent with parameters
 |[tanh](complex/complex.md#tanh) | Complex hyperbolic tangent
 |[tanh2_bs](complex/complex.md#tanh2_bs) | Complex hyperbolic tangent with parameters
+|[taprats](shapegroups/shapegroups.md#taprats) | Generate an Islamic style tiling (based on code from the "taprats" program)
 |[terrain3D](patterns/patterns.md#terrain3D) | Generate a random terrain surface mesh
 |[text_wf](importers/importers.md#text_wf) | A line of arbitrary text
 |[threeply](attractors/attractors.md#threeply) | A strange attractor named Three Ply

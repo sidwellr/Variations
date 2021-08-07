@@ -90,3 +90,29 @@ Date: 19 Jun 2018
 | type | Number of sides for the polygons (3-6) |
 
 [Coloring Sudokus blog post](https://fronkonstin.com/2018/06/01/coloring-sudokus/)  (the basis for this variation)
+
+## taprats
+Generate an Islamic style tiling (based on code from the "taprats" program).
+
+Type: 2D direct color blur  
+Authors: Jesus Sosa, Craig S. Kaplan, and Pierre Baillargeon  
+Date: 29 May 2018  
+
+[![](taprats-1.png)](taprats-1.flame) [![](taprats-2.png)](taprats-2.flame) [![](taprats-3.png)](taprats-3.flame)
+
+| Parameter | Description |
+| --- | --- |
+| id | Tiling to use, 0 to 49 ([pdf index](taprats-id.pdf)) |
+| style | Style to draw the pattern:<br>0: Line<br>1: Outline<br>2: Interlace<br>3: Emboss<br>4: Filled<br>5: Sketch |
+| width | Width of segments; should be less than 0.1 (styles 1, 2, 3 only) |
+| gap | Size of gap at segment crossing; should be less than 0.1 (style 3 only) |
+| fill | 1 to fill polygons; 0 for outline only (styles 1, 2, 3, 4 only) |
+| Rosette Q | Controls the "pointiness" of the star at the center of the rosette, between -1.0 and 0.9 (only used if Rosette(0/1) is 1) |
+| Rosett S | 1: Omit the central star of the rosette<br>2: Show the central star<br>(only used if Rosette(0/1) is 1) |
+| Rosette(0/1) | 0: Decorate polygons with stars<br>1: Decorate polygons with rosettes |
+| Star D | Controls the "pointiness" of the star, between 1.0 and 3.5 (only used if Rosette(0/1) is 0) |
+| Star S | Number of "sub-stars", 1, 2, or 3; the result is limited by Star D; for example, if Star D is 2.9, only 2 sub-stars will be generated even if Star S is 3 (only used if Rosette(0/1) is 0) |
+| Infer(0/1) | 0: Use only polygons from the chosen tiling<br>1: Infer other polygons between the ones from the tiling |
+
+[Author's description of variation](https://jwildfire-forum.overwhale.com/viewtopic.php?f=23&t=2643)  
+[Taprats program](http://taprats.sourceforge.net/) (on which this variation is based)  
