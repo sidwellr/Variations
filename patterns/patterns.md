@@ -90,7 +90,7 @@ Date: 12 March 2017
 | blend_colormap | Whether to blend junction colormap colors with surrounding colors<br>0: Don't blend colors<br>1: Blend colors |
 | junct_mesh_scale | Scale factor for junction meshes |
 
-[Wikipedia article on DLA](https://en.wikipedia.org/wiki/Diffusion-limited_aggregation)
+[Wikipedia article on DLA](https://en.wikipedia.org/wiki/Diffusion-limited_aggregation)  
 [Paul Bourke article on DLA](http://paulbourke.net/fractals/dla/)  
 
 ## dla_wf
@@ -110,7 +110,7 @@ Date: 26 May 2014
 | scale | Scale factor |
 | jitter | Controls the random offset of the dots creating the pattern; 0 makes the dots line up perfectly, which can be distracting |
 
-[Wikipedia article on DLA](https://en.wikipedia.org/wiki/Diffusion-limited_aggregation)
+[Wikipedia article on DLA](https://en.wikipedia.org/wiki/Diffusion-limited_aggregation)  
 [Paul Bourke article on DLA](http://paulbourke.net/fractals/dla/)  
 
 ## mandala
