@@ -213,6 +213,7 @@
 | |
 |[macmillan](attractors/attractors.md#macmillan) | Perturbed McMillan map (studied by Edwin McMillan)
 |[mandala](patterns/patterns.md#mandala) | Generate a fractal kaleidoscope pattern based on rotation transformations and rounding errors
+|[maple_leaf](polarshapes/polarshapes.md#maple_leaf) | Shape resembling a maple leaf
 |[maurer_lines](maurerlines/maurerlines.md#maurer_lines) | Generalized string art
 |[maurer_rose](rosecurve/rosecurve.md#maurer_rose) | String art on a rose curve
 |[metaballs3d_wf](shapegroups/shapegroups.md#metaballs3d_wf) | A group of metaballs, balls (solid spheres) that merge when close to each other to form blobs
@@ -224,6 +225,7 @@
 |[npolar](julia/julia.md#npolar) | Mashup of julian and polar2
 |[nsudoku](shapegroups/shapegroups.md#nsudoku) | A 9x9 grid of nested polygons, with coloring based on sudoku
 | |
+|[oak_leaf](polarshapes/polarshapes.md#oak_leaf) | Shape resembling an oak leaf
 |[obj_mesh_primitive_wf](shapes/shapes.md#obj_mesh_primitive_wf) | Use a predefined object as a 3D mesh
 |[obj_mesh_wf](importers/importers.md#obj_mesh_wf) | Load a 3D mesh from an OBJ format file
 |[oscilloscope](flippers/flippers.md#oscilloscope) | Flip the plane in a sine wave shape across the x axis

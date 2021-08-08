@@ -173,6 +173,6 @@ Date: 12 Jun 2011
 | --- | --- |
 | amp | Amplitude of the rose curve. |
 | waves | The frequency of the rose curve; must be an integer. Produces this many petals when odd, or twice as many when even. |
-| filled | 0 for an outline, 1 for filled (like flower) |
+| filled | Density of the filling, from 0 (not filled, just an outline) to 1 (filled with maximum density, like flower); prior to JWildfire version 7.0.0, the value had to be 0 or 1 |
 
 [MathWorld description](https://mathworld.wolfram.com/Rose.html)  

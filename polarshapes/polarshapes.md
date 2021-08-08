@@ -12,7 +12,7 @@ Date: 15 Jan 2012
 
 | Parameter | Description |
 | --- | --- |
-| filled | 0 for an outline, 1 to fill in the shape |
+| filled | Density of the filling, from 0 (not filled, just an outline) to 1 (filled with maximum density); prior to JWildfire version 7.0.0, the value had to be 0 or 1 |
 
 [Cannibis Curve on MathWorld](https://mathworld.wolfram.com/CannabisCurve.html)  
 
@@ -27,7 +27,7 @@ Date: 15 Jan 2012
 
 | Parameter | Description |
 | --- | --- |
-| filled | 0 for an outline, 1 to fill in the shape |
+| filled | Density of the filling, from 0 (not filled, just an outline) to 1 (filled with maximum density); prior to JWildfire version 7.0.0, the value had to be 0 or 1 |
 
 ## conic / conic2
 Conic section shape (ellipse, parabola, or hyperbola)
@@ -47,7 +47,52 @@ Note that there is a different variation named "conic" which different from this
 
 [Apophysis plugin](https://www.deviantart.com/morphapoph/art/Apo-Anim-friendly-Plugins-178559281)  
 [Conic section on Wikipedia](https://en.wikipedia.org/wiki/Conic_section)  
-[Understanding Conic video tutorial](https://www.youtube.com/watch?v=80Rd-fifUOE)  
+[Understanding Conic video tutorial](https://www.youtube.com/watch?v=80Rd-fifUOE)
+
+## japanese_maple_leaf
+Shape resembling a Japanese maple leaf.
+
+Type: 2D half blur  
+Author: Andreas Maschke (thargor6)  
+Date: 7 Aug 2021
+
+[![](japanese_maple_leaf-1.png)](japanese_maple_leaf-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| filled | Density of the filling, from 0 (not filled, just an outline) to 1 (filled with maximum density) |
+
+[How to Draw with Math](https://blogs.scientificamerican.com/guest-blog/how-to-draw-with-math/) (source of the formula for this variation)  
+
+## maple_leaf
+Shape resembling a maple leaf.
+
+Type: 2D half blur  
+Author: Andreas Maschke (thargor6)  
+Date: 7 Aug 2021
+
+[![](maple_leaf-1.png)](maple_leaf-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| filled | Density of the filling, from 0 (not filled, just an outline) to 1 (filled with maximum density) |
+
+[How to Draw with Math](https://blogs.scientificamerican.com/guest-blog/how-to-draw-with-math/) (source of the formula for this variation)  
+
+## oak_leaf
+Shape resembling an oak leaf.
+
+Type: 2D half blur  
+Author: Andreas Maschke (thargor6)  
+Date: 7 Aug 2021
+
+[![](oak_leaf-1.png)](oak_leaf-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| filled | Density of the filling, from 0 (not filled, just an outline) to 1 (filled with maximum density) |
+
+[How to Draw with Math](https://blogs.scientificamerican.com/guest-blog/how-to-draw-with-math/) (source of the formula for this variation)  
 
 ## shape
 General shape generator using the superformula.
