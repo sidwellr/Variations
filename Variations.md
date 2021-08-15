@@ -247,12 +247,15 @@
 |[polar2_3D](polar/polar.md#polar2_3D) | Variant of polar2 with added 3D wave
 |[polarplot2d_wf](plotting/plotting.md#polarplot2d_wf) | Plot, in polar coordinates, rho in terms of theta, with 3D extrusion
 |[polarplot3d_wf](plotting/plotting.md#polarplot3d_wf) | Plot rho in terms of theta and phi (spherical coordinates) or theta and (cylindrical coordinates)
+|[post_axis_symmetry_wf](symmetry/symmetry.md#post_axis_symmetry_wf) | Mirror the flame across the x, y, or z axis, with rotation
 |[post_bumpmap_wf](zmanip/zmanip.md#post_bumpmap_wf) | Set z from an external bumpmap image
 |[post_colormap_wf](importers/importers.md#colormap_wf--post_colormap_wf) | Load colors from an external image
 |[post_colorscale_wf](zmanip/zmanip.md#colorscale_wf) | Set a point's z coordinate to its color index
 |[post_julia3Dq](julia/julia.md#julia3Dq) | Julia set using a rational power with 3D extrusion
 |[post_julian2](julia/julia.md#julian2) | Julian with an integrated affine transform
-|[post_juliaq](julia/julia.md#juliaq) | Julia set using a rational power
+|[post_juliaq](julia/julia.md#juliaq) | Julia set using a rational power\
+|[post_mirror_wf](symmetry/symmetry.md#post_mirror_wf) | Mirror the flame across the x, y, and/or z axes
+|[post_point_symmetry_wf](symmetry/symmetry.md#post_point_symmetry_wf) | Rotational symmetry of any order around an arbitrary point
 |[post_polar2](polar/polar.md#polar2) | Treat the log-polar coordinates (ρ,θ) of a point as rectangular coordinates (x,y)
 |[post_spherical](inversion/inversion.md#spherical) | Reflects the plane across the unit circle
 |[post_trig](complex/complex.md#post_trig) | Combination of one or more complex trigonometric functions (post variation)
@@ -320,6 +323,30 @@
 |[superShape3d](shapes/shapes.md#superShape3d) | General 3D shape generator using two superformula instances
 |[svensson_js](attractors/attractors.md#svensson_js) | Johnny Svensson attractor
 |[svg_wf](importers/importers.md#svg_wf) | Import a Scalable Vector Graphics (SVG) file
+|[sym_bg1](symmetry/symmetry.md#sym_bg1) | Make two identical copies of the flame
+|[sym_bg2](symmetry/symmetry.md#sym_bg2) | Make two copies of the flame, the original and a horizontal reflection
+|[sym_bg3](symmetry/symmetry.md#sym_bg3) | Make two copies of the flame, the original and a 180° rotation
+|[sym_bg4](symmetry/symmetry.md#sym_bg4) | Make two copies of the flame, the original and a vertical reflection
+|[sym_bg5](symmetry/symmetry.md#sym_bg5) | Make two copies of the flame, the original and a horizontal reflection
+|[sym_bg6](symmetry/symmetry.md#sym_bg6) | Make four copies of the flame, the original, a vertical reflection, a horizontal reflection, and a 180° rotation
+|[sym_bg7](symmetry/symmetry.md#sym_bg7) | Make four copies of the flame, the original, a vertical reflection, a horizontal reflection, and a 180° rotation
+|[sym_ng1](symmetry/symmetry.md#sym_ng1) | Make two identical copies of the flame
+|[sym_ng2](symmetry/symmetry.md#sym_ng2) | Make two copies of the flame, the original and a horizontal reflection
+|[sym_ng3](symmetry/symmetry.md#sym_ng3) | Make two copies of the flame, the original and a 180° rotation
+|[sym_ng4](symmetry/symmetry.md#sym_ng4) | Make four copies of the flame, the original, a vertical reflection, a horizontal reflection, and a 180° rotation
+|[sym_ng5](symmetry/symmetry.md#sym_ng5) | Make four copies of the flame, the original, a vertical reflection, a horizontal reflection, and a 180° rotation
+|[sym_ng6](symmetry/symmetry.md#sym_ng6) | Make four copies of the flame, two of the original and two horizontal reflections
+|[sym_ng7](symmetry/symmetry.md#sym_ng7) | Make two copies of the flame, the original and a horizontal reflection
+|[sym_ng8](symmetry/symmetry.md#sym_ng8) | Make eight copies of the flame, two each of the original, a vertical reflection, a horizontal reflection, and a 180° rotation
+|[sym_ng9](symmetry/symmetry.md#sym_ng9) | Make four copies of the flame, the original, a vertical reflection, a horizontal reflection, and a 180° rotation
+|[sym_ng10](symmetry/symmetry.md#sym_ng10) | Make four copies of the flame at 90° angles from each other
+|[sym_ng11](symmetry/symmetry.md#sym_ng11) | Make eight copies of the flame, four at 90° angles from each other, and reflections of each of these
+|[sym_ng12](symmetry/symmetry.md#sym_ng12) | Make eight copies of the flame, four at 90° angles from each other, and reflections of each of these
+|[sym_ng13](symmetry/symmetry.md#sym_ng13) | Make six copies of the flame, two each at 120° angles from each other, all with a horizonal reflection
+|[sym_ng14](symmetry/symmetry.md#sym_ng14) | Make twelve copies of the flame, two each at 120° angles from each other, plus horizontal reflections of each
+|[sym_ng15](symmetry/symmetry.md#sym_ng15) | Make twelve copies of the flame, two each at 120° angles from each other, plus horizontal reflections of each
+|[sym_ng16](symmetry/symmetry.md#sym_ng16) | Make twelve copies of the flame, two each at 60° angles from each other
+|[sym_ng17](symmetry/symmetry.md#sym_ng17) | Make 24 copies of the flame, two each at 60° angles from each other, plus horizontal reflections of each
 |[synth](synth/synth.md#synth-v2) | Combo variation (emulates several others) with added wave functions
 |[szubieta](patterns/patterns.md#szubieta) | Fractal patterns by Santiago Zubieta: circle squares and square tile
 | |

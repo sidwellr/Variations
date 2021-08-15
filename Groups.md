@@ -146,12 +146,17 @@ Variations that split the flame in various ways
 
 [![](splitters/circus-1.png)](splitters/splitters.md#circus) [![](splitters/corners-1.png)](splitters/splitters.md#corners) [![](splitters/spligon-1.png)](splitters/splitters.md#spligon)
 
-## [Stamps](stamps/stamps#Stamps)
+## [Stamps](stamps/stamps.md#Stamps)
 
 Variations that create colored stamps with interesting designs.
 
 [![](stamps/dc_glypho-1.png)](stamps/stamps.md#dc_glypho) [![](stamps/dc_inversion-1.png)](stamps/stamps.md#dc_inversion) [![](stamps/dc_mandala-1.png)](stamps/stamps.md#dc_mandala) [![](stamps/dc_warping-1.png)](stamps/stamps.md#dc_warping) [![](stamps/glsl_circuits-1.png)](stamps/stamps.md#glsl_circuits) [![](stamps/glsl_mandelbox2D-1.png)](stamps/stamps.md#glsl_mandelbox2D)
 
+## [Symmetry](symmetry/symmetry.md#Symmetry)
+
+Variations that create multiple copies with various symmetrical variations.
+
+[![](symmetry/post_mirror_wf-1.png)](symmetry/symmetry.md#post_mirror_wf) [![](symmetry/post_point_symmetry_wf-1.png)](symmetry/symmetry.md#post_point_symmetry_wf) [![](symmetry/sym_ng15-1.png)](symmetry/symmetry.md#sym_ng15)
 
 ## [Synth](synth/synth.md#Synth)
 
