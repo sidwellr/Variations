@@ -52,6 +52,7 @@
 |[cpow2](cpow/cpow.md#cpow2) | Raise input point to a complex power specified in polar coordinates
 |[cpow3](cpow/cpow.md#cpow3) | Raise input point to a complex power to produce a spiral
 |[cpow3_wf](cpow/cpow.md#cpow3_wf) | Attempt to port cpow2 to JWildfire that "by happy accident became something else"
+|[crown_js](attractors/attractors.md#crown_js) | Fractal crown using equations by Roger Bagula
 |[csc](complex/complex.md#csc) | Complex cosecant
 |[csc2_bs](complex/complex.md#csc2_bs) | Complex cosecant with parameters
 |[csch](complex/complex.md#csch) | Complex cosecant
@@ -369,6 +370,7 @@
 |[vibration](waves/waves.md#vibration) | Add sine waves in two arbitrary directions
 |[vibration2](waves/waves.md#vibration2) | Add sine waves in two arbitrary directions with modulation
 | |
+|[wallpaper_js](attractors/attractors.md#wallpaper_js) | A strange attractor by Paul Bourke called Wallpaper
 |[wangtiles](patterns/patterns.md#wangtiles) | Generate a (possibly repeating) pattern from a 12x8 set of Wang tiles
 |[waveblur_wf](shapes/shapes.md#waveblur_wf) | Creates waves, like ripples in a pond
 |[waves](waves/waves.md#waves-1) | Add sine waves to x and y (dependent variation)
@@ -389,6 +391,7 @@
 |[wavesD4](waves/waves.md#wavesD4--waves4_wf) | Add damped cubed sine or cosine waves to x and y
 |[wavesn](waves/waves.md#wavesn) | Add damped waves to polynomial Julia set (aka julian)
 |[wdisc](disc/disc.md#wdisc) | Swap polar coordinates ρ and θ, first taking the reciprocal of ρ, afterwards flipping the bottom half
+|[woggle_js](attractors/attractors.md#woggle_js) | The Woggle fractal by Roger Bagula
 | |
 |[xheart](reshapers/reshapers.md#xheart) | Reshape circles centered at the origin into hearts
 |[xheart_blur_wf](shapes/shapes.md#xheart_blur_wf) | Heart shaped blur

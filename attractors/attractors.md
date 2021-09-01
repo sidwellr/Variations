@@ -16,6 +16,22 @@ Date:  4 Nov 2017
 
 [Description and examples by Paul Bourke](http://paulbourke.net/fractals/clifford/)  
 
+## crown_js
+Fractal crown using equations by Roger Bagula.
+
+Type: 3D Direct Color Blur  
+Author: Jesus Sosa  
+Date: 4 November 2017
+
+[![](crown-1.png)](crown-1.flame) [![](crown-2.png)](crown-2.flame)
+
+| Parameter | Description |
+| --- | --- |
+| a | Order; if an integer, the result will have a+1 branches |
+| b | Power; controls the appearance |
+
+[Description and examples by Paul Bourke](http://paulbourke.net/fractals/crown/)  
+
 ## gingerbread_man
 An attractor that resembles a gingerbread man.
 
@@ -238,3 +254,34 @@ Date: 7 May 2020
 | a - c | Variables that define the attractor |
 
 [Description and Java applet by James Henstridge](http://www.jamesh.id.au/fractals/orbit/threeply.html)  
+
+## wallpaper_js
+A strange attractor by Paul Bourke called Wallpaper.
+
+Type: 2D  
+Author: Jesus Sosa  
+Date: 4 November 2017  
+
+[![](wallpaper-1.png)](wallpaper-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| a - c | Variables that define the attractor |
+
+[Description and examples by Paul Bourke](http://paulbourke.net/fractals/wallpaper/)  
+
+## woggle_js
+The Woggle fractal by Roger Bagula.
+
+Type: 2D  
+Author: Jesus Sosa  
+Date: 4 November 2017
+
+[![](woggle-1.png)](woggle-1.flame)
+
+| Parameter | Description |
+| --- | --- |
+| m | Symmetry number (integer between 2 and 12) |
+
+[Code this variation is based on](http://paulbourke.net/fractals/woggle/roger14.c)  
+[Examples by Paul Bourke](http://paulbourke.net/fractals/woggle/)  
