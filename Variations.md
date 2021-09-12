@@ -281,6 +281,7 @@
 | |
 |[radial_blur](blurry/blurry.md#radial_blur) | Blur effect rotating around the origin
 |[rectangles](flippers/flippers.md#rectangles) | Divide the plane into rectangles and flip each horizontally and vertically
+|[recurrenceplot](patterns/patterns.md#recurrenceplot) | Use a recurrence plot to generate a pattern
 |[rhodonea](rosecurve/rosecurve.md#rhodonea) | Advanced rose curve
 |[rose](blobs/blobs.md#rose) | Modulate a flame using the rose curve
 |[rose_wf](rosecurve/rosecurve.md#rose_wf) | Simple rose curve

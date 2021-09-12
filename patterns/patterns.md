@@ -136,6 +136,32 @@ Date: 14 Sep 2018
 
 [Mandala description](http://www.mac-guyver.com/switham/2005/03/Mandala/index.html) (by Steve Witham, author of the mandala program the variation is based on)
 
+## recurrenceplot
+Use a recurrence plot to generate a pattern.
+
+Type: 2D blur, direct color option  
+Author: Jesus Sosa  
+Date: 19 March 2018  
+
+[![](recurrenceplot-1.png)](recurrenceplot-1.flame) [![](recurrenceplot-2.png)](recurrenceplot-2.flame)
+
+| Parameter | Description |
+| --- | --- |
+| func_id | Selects the function to use for the recurrence plot, from 0 to 29 ([visual index](recurrenceplot-ids.pdf))<br>0: Sine sum (frequencies 4 and 40)<br>1: Sine product (frequencies 5 and 15)<br>2: Cosine/sine sum (frequencies 24 and 6)<br>3: Sine sum (frequencies 20 and 22)<br>4: Sine sum (frequencies 20 and 22)<br>5: Sine sum (frequencies a and a) (uses a)<br>6: Sigmoid<br>7: Square wave (Fourier approximation)<br>8: Triangle wave (Fourier approximation)<br>9: Hyperbolic tangent (uses a)<br>10: Tangent (uses a)<br>11: Sawtooth wave (Fourier approximation)<br>12: Sine sum (frequencies 40 and 44)<br>13: Sine sum (frequencies 40 and 44)<br>14: Sine/linear sum<br>15: Sine<br>16: Inverted cosine (uses a)<br>17: Sine sum (frequencies 50 and 1)<br>18: Exponential (uses a and b)<br>19: Sine/exponential product<br>20: Sine/exponential product<br>21: Tangent<br>22: Legendre polynomial (uses a and b; b is an integer between 0 and 10)<br>23: Square wave (Fourier approximation) (uses a, b, and k)<br>24: Sawtooth wave (Fourier approximation) (uses a, b, and k)<br>25: Rectification (Fourier approximation) (uses a, b, and k)<br>26: Parabolic (Fourier approximation) (uses a, b, and k)<br>27: Sinc (uses a and b)<br>28: Gabor function (uses a and b)<br>29: Chebyshev polynomial (uses a and k) |
+| a, b | Floating point parameters for some functions as identified above |
+| k | Integer parameter for some functions as identified above; specifies the number of terms to use |
+| Density | Number of points to plot for both x and y |
+| dc | Direct color mode; for best results, set the color speed to 1 if using a non-zero mode<br>0: No direct color<br>1: Color based on product of x and y<br>2: Color stripes at given angle |
+| scale | Color scaling; only used when dc is not 0 |
+| angle | Color strip angle in radians; only used when dc is 2; truncated to an integer for some reason |
+| offset | Gradient offset; only used when dc is not 0 |
+| tolerance | Threshold for the recurrence plot; larger values produce thicker patterns |
+
+[Wikipedia entry for recurrence plot](https://en.wikipedia.org/wiki/Recurrence_plot)  
+[Technical introduction to recurrence plots](http://www.recurrence-plot.tk/glance.php)  
+[Site used to create this variation](http://www.3d-meier.de/tut19/Seite0.html) (in German); see specifically items 2.129 through 2.140
+
+
 ## snowflake_wf
 Generate a snowflake shape using a cellular automaton.
 
