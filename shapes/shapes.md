@@ -112,7 +112,7 @@ Date: 29 Nov 2016
 | --- | --- |
 | colormap_filename | The file containing a color map to apply to the mesh |
 | displ_map_filename | The file containing the displacement map |
-| primitive | The object to use ([pdf index](obj_mesh_primitive.pdf)):<br>0: Ball<br>1: Capsule<br>2: Cone<br>3: Diamond<br>4: Torus<br>5: Box<br>6: Gear (15 teeth)<br>7: Icosahedron<br>8: Tetrahedron<br>9: Octahedron<br>10: Dodecahedron<br>11: Cylinder with a hole<br>12: Icosidodecahedron<br>13: Cubeoctahedron<br>14: Gear (6 teeth)<br>15: Smooth gear (6 teeth)<br>16: Gear (8 teeth)<br>17: Smooth gear (8 teeth)<br>18: Gear (12 teeth)<br>19: Smooth gear (12 teeth)<br>20: Gear (16 teeth)<br>21: Smooth gear (16 teeth)<br>22: Gear (24 teeth)<br>23: Smooth gear (24 teeth)<br>24: Mandelbulb<br>25: Drop
+| primitive | The object to use ([visual index](obj_mesh_primitive.pdf)):<br>0: Ball<br>1: Capsule<br>2: Cone<br>3: Diamond<br>4: Torus<br>5: Box<br>6: Gear (15 teeth)<br>7: Icosahedron<br>8: Tetrahedron<br>9: Octahedron<br>10: Dodecahedron<br>11: Cylinder with a hole<br>12: Icosidodecahedron<br>13: Cubeoctahedron<br>14: Gear (6 teeth)<br>15: Smooth gear (6 teeth)<br>16: Gear (8 teeth)<br>17: Smooth gear (8 teeth)<br>18: Gear (12 teeth)<br>19: Smooth gear (12 teeth)<br>20: Gear (16 teeth)<br>21: Smooth gear (16 teeth)<br>22: Gear (24 teeth)<br>23: Smooth gear (24 teeth)<br>24: Mandelbulb<br>25: Drop
 | scale_x, scale_y, scale_z | Scale factors for x, y, and z |
 | offset_x, offset_y, offset_z | Shift the mesh in the x, y, and z directions |
 | subdiv_level | The number of levels of subdivision to perform; it must be an integer between 0 (to disable smoothing) and 6. Note each level used will dramatically increase both render time and memory needed. |

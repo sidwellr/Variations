@@ -102,7 +102,7 @@ Date: 29 May 2018
 
 | Parameter | Description |
 | --- | --- |
-| id | Tiling to use, 0 to 49 ([pdf index](taprats-id.pdf)) |
+| id | Tiling to use, 0 to 49 ([visual index](taprats-id.pdf)) |
 | style | Style to draw the pattern:<br>0: Line<br>1: Outline<br>2: Interlace<br>3: Emboss<br>4: Filled<br>5: Sketch |
 | width | Width of segments; should be less than 0.1 (styles 1, 2, 3 only) |
 | gap | Size of gap at segment crossing; should be less than 0.1 (style 3 only) |

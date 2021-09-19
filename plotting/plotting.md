@@ -14,7 +14,7 @@ Date: 6 Jan 2017
 
 | Parameter | Description |
 | --- | --- |
-| formula | The formula to use; it can use "x", "y", "z", and "param_a" through "param_f" as well as constants and standard math functions. Changing preset_id will overwrite it with the preset formula. |
+| formula | The formula to use; it can use "x", "y", "z", and "param_a" through "param_f" as well as constants and standard math functions. Changing preset_id will overwrite it with the preset formula. ([visual index](isosfplot3d-presets.pdf)) |
 | colormap_filename | The file containing the colormap used with color_modes 0-2 |
 | preset_id | The preset to use; set to -1 to not use a preset |
 | xmin, xmax | The range for x in the iso formula; used to generate the plot |
@@ -45,7 +45,7 @@ Knots3D uses one dimensional parametric equations to define the knots, so can be
 | xformula | The formula to use for x; it returns the value for x, and can use "t" (the parametric value) and "param_a" through "param_h" as well as constants and standard math functions. Changing preset_id will overwrite it with the preset formula. |
 | yformula | The formula to use for y |
 | zformula | The formula to use for z |
-| preset_id | The preset to use; set to -1 to not use a preset ([pdf index](knots3d-presets.pdf)) |
+| preset_id | The preset to use; set to -1 to not use a preset ([visual index](knots3d-presets.pdf)) |
 | steps | The number of segments to use (steps for t between 0 and 2π); increase for finer resolution (but a larger mesh) |
 | radius | The radius of the line segments used to form the knot |
 | facets | The number of faces used for the line segments that form the knot; should be 2 (for a ribbon) or larger |
@@ -73,7 +73,7 @@ Date: 29 Nov 2016
 
 | Parameter | Description |
 | --- | --- |
-| xformula | The formula to use for x; it returns the value for x, and can use "u" and "v" (the parametric values) and "param_a" through "param_f" as well as constants and standard math functions. Changing preset_id will overwrite it with the preset formula. |
+| xformula | The formula to use for x; it returns the value for x, and can use "u" and "v" (the parametric values) and "param_a" through "param_f" as well as constants and standard math functions. Changing preset_id will overwrite it with the preset formula. ([visual index](parplot2d-presets.pdf)) |
 | yformula | The formula to use for y |
 | zformula | The formula to use for z |
 | colormap_filename | The file containing the colormap used with color_mode 0 |
@@ -106,7 +106,7 @@ Date: 22 Apr 2020
 | formula | The formula to use; it returns the value for rho, and can use "t" (for theta) and "param_a" through "param_f" as well as constants and standard math functions. Changing preset_id will overwrite it with the preset formula. |
 | colormap_filename | The file containing the colormap used with color_mode 0 |
 | displ_map_filename | The file containing the displacement map |
-| preset_id | The preset to use; set to -1 to not use a preset ([pdf index](polarplot2d-presets.pdf)) |
+| preset_id | The preset to use; set to -1 to not use a preset ([visual index](polarplot2d-presets.pdf)) |
 | tmin, tmax | The range for theta; used to generate the plot |
 | rmin, rmax | The range for rho, used only with color_mode 2; it does not constrain the plot, but set these parameters to the range of the plot for maximum color distribution when using color_mode 2 |
 | zmin, zmax | The range for z; the plot will be extruded to these values in the z direction; set both to 0 to disable extrusion |
@@ -133,7 +133,7 @@ Date: 22 Apr 2020
 | formula | The formula to use; it returns the value for rho, and can use "t" (for theta), "u" (for either phi or z) and "param_a" through "param_f" as well as constants and standard math functions. Changing preset_id will overwrite it with the preset formula. |
 | colormap_filename | The file containing the colormap used with color_mode 0 |
 | displ_map_filename | The file containing the displacement map |
-| preset_id | The preset to use; set to -1 to not use a preset ([pdf index](polarplot3d-presets.pdf)) |
+| preset_id | The preset to use; set to -1 to not use a preset ([visual index](polarplot3d-presets.pdf)) |
 | tmin, tmax | The range for theta; used to generate the plot |
 | umin, umax | The range for u, representing phi or z; used to generate the plot |
 | rmin, rmax | The range for rho, used only with color_mode 3; it does not constrain the plot, but set these parameters to the range of the plot for maximum color distribution when using color_mode 3 |
@@ -161,7 +161,7 @@ Date: 29 Nov 2016
 | formula | The formula to use; it returns the value for y, and can use "x" and "param_a" through "param_f" as well as constants and standard math functions. Changing preset_id will overwrite it with the preset formula. |
 | colormap_filename | The file containing the colormap used with color_mode 0 |
 | displ_map_filename | The file containing the displacement map |
-| preset_id | The preset to use; set to -1 to not use a preset ([pdf index](yplot2d-presets.pdf)) |
+| preset_id | The preset to use; set to -1 to not use a preset ([visual index](yplot2d-presets.pdf)) |
 | xmin, xmax | The range for x; used to generate the plot |
 | ymin, ymax | The range for y, used only with color_mode 2; it does not constrain the plot, but set these parameters to the range of the plot for maximum color distribution when using color_mode 2 |
 | zmin, zmax | The range for z; the plot will be extruded to these values in the z direction; set both to 0 to disable extrusion |
@@ -189,7 +189,7 @@ Date: 29 Nov 2016
 | formula | The formula to use; it returns the value for y, and can use "x", "z", and "param_a" through "param_f" as well as constants and standard math functions. Changing preset_id will overwrite it with the preset formula. |
 | colormap_filename | The file containing the colormap used with color_mode 0 |
 | displ_map_filename | The file containing the displacement map |
-| preset_id | The preset to use; set to -1 to not use a preset ([pdf index](yplot3d-presets.pdf)) |
+| preset_id | The preset to use; set to -1 to not use a preset ([visual index](yplot3d-presets.pdf)) |
 | xmin, xmax | The range for x; used to generate the plot |
 | ymin, ymax | The range for y, used only with color_mode 2; it does not constrain the plot, but set these parameters to the range of the plot for maximum color distribution when using color_mode 2 |
 | zmin, zmax | The range for z; used to generate the plot |

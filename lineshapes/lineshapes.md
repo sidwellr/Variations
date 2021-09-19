@@ -93,7 +93,7 @@ Date: 29 Mar 2018
 
 | Parameter | Description |
 | --- | --- |
-| presetId | The type of figure to draw; 0-9 use lines and 10-19 use circles ([pdf index](hamid-presets.pdf)) |
+| presetId | The type of figure to draw; 0-9 use lines and 10-19 use circles ([visual index](hamid-presets.pdf)) |
 | number_lines/circles | The number of lines or circles to draw in the figure |
 | filled circles | 1 for filled circles, 0 for outlines (only applies to figures made from circles) |
 | a-p | Parameters that change the appearance of the figure, depending on the preset (not all presets use all of the parameters) |
