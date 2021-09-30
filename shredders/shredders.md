@@ -19,6 +19,36 @@ Date: 19 Nov 2007
 
 [Archive of Apophysis plugin](https://web.archive.org/web/20101229095529/https://xyrus02.deviantart.com/art/Checks-The-fixed-version-138967784) (Wayback Machine)
 
+## rings
+Divide the flame into concentric rings and vary the size and width of each (obsolete).
+
+Type: 2D  
+Author: Scott Draves  
+Date: 1 Dec 2004  
+
+Rings is an early variation added before parameters were supported. It uses the O1 value from the pre-affine transform to control its operation. This also affects the flame, making it difficult to control. So it is recommended to use rings2 instead of rings for new flames.
+
+## rings2
+Divide the flame into concentric rings and vary the size and width of each.
+
+Type: 2D  
+Author: Scott Draves  
+Date: 4 Nov 2005  
+
+[![](rings2-1.png)](rings2-1.flame)
+
+When val is 1.2247, the width of each ring matches the size of its neighbors so the rings touch without overlapping.
+
+| Parameter | Description |
+| --- | --- |
+| val | Controls the size and width of the concentric rings:<br>0: Don't change the rings (makes rings2 the same as linear)<br>0-1: Each ring is shrunk but the width increases, making the rings overlap<br>1: Width of each ring is the same, but size is 0, making superimposed circles<br>>1: Rings are reflected across the origin and width decreases |
+
+[Cpow/ring2 Tutorial](https://www.deviantart.com/guagapunyaimel/art/cpow-ring2-tutorial-192002748)  
+[Julian Rings Tutorial](https://mfcreative.co.uk/apophysis/apophysis-tutorials/julian-rings-tutorial/)  
+[Rings2 and Julian Guide](https://www.deviantart.com/clairejones/art/The-Rings2-and-Julian-Guide-62854687)  
+[Rings2 and Curl Tutorial](https://www.deviantart.com/one-tough-one/art/Rings-2-and-Curl-Tutorial-52457896)  
+[Julian Rings Apophysis Script](https://www.deviantart.com/cabintom/art/Julian-Rings-Script-65218145)  
+
 ## shredded
 Shreds the flame into strips in the x, y, and z directions and scrambles them.
 

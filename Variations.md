@@ -283,6 +283,8 @@
 |[rectangles](flippers/flippers.md#rectangles) | Divide the plane into rectangles and flip each horizontally and vertically
 |[recurrenceplot](patterns/patterns.md#recurrenceplot) | Use a recurrence plot to generate a pattern
 |[rhodonea](rosecurve/rosecurve.md#rhodonea) | Advanced rose curve
+|[rings](shredders/shredders.md#rings) | Divide the flame into concentric rings and vary the size and width of each (obsolete)
+|[rings2](shredders/shredders.md#rings2) | Divide the flame into concentric rings and vary the size and width of each
 |[rose](blobs/blobs.md#rose) | Modulate a flame using the rose curve
 |[rose_wf](rosecurve/rosecurve.md#rose_wf) | Simple rose curve
 |[rsquares_js](lineshapes/lineshapes.md#rsquares_js) | Draws a pattern of recursively placed squares
