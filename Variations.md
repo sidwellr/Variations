@@ -63,7 +63,7 @@
 |[crop_stars](crop/crop.md#crop_stars--post_crop_stars) | Crop the flame to a star shape
 |[crop_trapezoid](crop/crop.md#crop_trapezoid--post_crop_trapezoid) | Crop the flame to a trapezoid/trapezium
 |[crop_triangle](crop/crop.md#crop_triangle--post_crop_triangle) | Crop the flame to a triangle shape
-|[crop_vesica](crop/crop.md#crop_vesica--post_crop_vesica) | Crop the flame to a vesica piscis (lens) shape
+|[crop_vesica](crop/crop.md#crop_vesica--post_crop_vesica) | Crop the flame to a symmetric lens shape
 |[crop_x](crop/crop.md#crop_x--post_crop_x) | Crop the flame to an 'X' shape
 |[crown_js](attractors/attractors.md#crown_js) | Fractal crown using equations by Roger Bagula
 |[csc](complex/complex.md#csc) | Complex cosecant
@@ -275,7 +275,7 @@
 |[post_crop_stars](crop/crop.md#crop_stars--post_crop_stars) | Crop the flame to a star shape
 |[post_crop_trapezoid](crop/crop.md#crop_trapezoid--post_crop_trapezoid) | Crop the flame to a trapezoid/trapezium
 |[post_crop_triangle](crop/crop.md#crop_triangle--post_crop_triangle) | Crop the flame to a triangle shape
-|[post_crop_vesica](crop/crop.md#crop_vesica--post_crop_vesica) | Crop the flame to a vesica piscis (lens) shape
+|[post_crop_vesica](crop/crop.md#crop_vesica--post_crop_vesica) | Crop the flame to a symmetric lens shape
 |[post_crop_x](crop/crop.md#crop_x--post_crop_x) | Crop the flame to an 'X' shape
 |[post_julia3Dq](julia/julia.md#julia3Dq) | Julia set using a rational power with 3D extrusion
 |[post_julian2](julia/julia.md#julian2) | Julian with an integrated affine transform
@@ -283,6 +283,7 @@
 |[post_mirror_wf](symmetry/symmetry.md#post_mirror_wf) | Mirror the flame across the x, y, and/or z axes
 |[post_point_symmetry_wf](symmetry/symmetry.md#post_point_symmetry_wf) | Rotational symmetry of any order around an arbitrary point
 |[post_polar2](polar/polar.md#polar2) | Treat the log-polar coordinates (ρ,θ) of a point as rectangular coordinates (x,y)
+|[post_smartcrop](crop/crop.md#post_smartcrop) | Crop the flame to a polygon, with advanced options
 |[post_spherical](inversion/inversion.md#spherical) | Reflects the plane across the unit circle
 |[post_trig](complex/complex.md#post_trig) | Combination of one or more complex trigonometric functions (post variation)
 |[post_zscale](zmanip/zmanip.md#zscale) | Multiply the z value by the variation amount
