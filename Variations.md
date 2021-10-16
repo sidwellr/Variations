@@ -26,7 +26,9 @@
 |[checks](shredders/shredders.md#checks) | Divides the flame into a checkerboard and shifts half of the squares up and left and the other half down and right
 |[checkerboard_wf](patterns/patterns.md#checkerboard_wf) | Generate a checkerboard pattern
 |[chrysanthemum](lineshapes/lineshapes.md#chrysanthemum) | Chrysanthemum flower shaped curve
+|[chunk](crop/crop.md#chunk--post_chunk--pre_chunk) | Crop the flame to an ellipse or hyperbola
 |[circleblur](shapes/shapes.md#circleblur) | Circle with even coloring
+|[circlecrop](crop/crop.md#circlecrop--post_circlecrop--pre_circlecrop) | Crop the flame to a circle
 |[circleRand](shapegroups/shapegroups.md#circleRand) | Random size circles in a grid
 |[circlesplit](splitters/splitters.md#circlesplit) | Split the flame in a circle centered at the origin
 |[circlize](reshapers/reshapers.md#circlize) | Reshape squares centered at the origin into circles
@@ -52,6 +54,17 @@
 |[cpow2](cpow/cpow.md#cpow2) | Raise input point to a complex power specified in polar coordinates
 |[cpow3](cpow/cpow.md#cpow3) | Raise input point to a complex power to produce a spiral
 |[cpow3_wf](cpow/cpow.md#cpow3_wf) | Attempt to port cpow2 to JWildfire that "by happy accident became something else"
+|[crob](crop/crop.md#crob) | Crop the flame to a rectangle or square with added blur
+|[crop](crop/crop.md#crop--post_crop--pre_crop) | Crop the flame to a rectangle or square
+|[crop_box](crop/crop.md#crop_box--post_crop_box) | Crop the flame to a rectangle or square
+|[crop_cross](crop/crop.md#crop_cross--post_crop_cross) | Crop the flame to a cross shape
+|[crop_polygon](crop/crop.md#crop_polygon--post_crop_polygon) | Crop the flame to a circle, pentagon, hexagon, octagon, or hexagram
+|[crop_rhombus](crop/crop.md#crop_rhombus--post_crop_rhombus) | Crop the flame to a rhombus (diamond shape)
+|[crop_stars](crop/crop.md#crop_stars--post_crop_stars) | Crop the flame to a star shape
+|[crop_trapezoid](crop/crop.md#crop_trapezoid--post_crop_trapezoid) | Crop the flame to a trapezoid/trapezium
+|[crop_triangle](crop/crop.md#crop_triangle--post_crop_triangle) | Crop the flame to a triangle shape
+|[crop_vesica](crop/crop.md#crop_vesica--post_crop_vesica) | Crop the flame to a vesica piscis (lens) shape
+|[crop_x](crop/crop.md#crop_x--post_crop_x) | Crop the flame to an 'X' shape
 |[crown_js](attractors/attractors.md#crown_js) | Fractal crown using equations by Roger Bagula
 |[csc](complex/complex.md#csc) | Complex cosecant
 |[csc2_bs](complex/complex.md#csc2_bs) | Complex cosecant with parameters
@@ -250,8 +263,20 @@
 |[polarplot3d_wf](plotting/plotting.md#polarplot3d_wf) | Plot rho in terms of theta and phi (spherical coordinates) or theta and (cylindrical coordinates)
 |[post_axis_symmetry_wf](symmetry/symmetry.md#post_axis_symmetry_wf) | Mirror the flame across the x, y, or z axis, with rotation
 |[post_bumpmap_wf](zmanip/zmanip.md#post_bumpmap_wf) | Set z from an external bumpmap image
+|[post_chunk](crop/crop.md#chunk--post_chunk--pre_chunk) | Crop the flame to an ellipse or hyperbola
+|[post_circlecrop](crop/crop.md#circlecrop--post_circlecrop--pre_circlecrop) | Crop the flame to a circle
 |[post_colormap_wf](importers/importers.md#colormap_wf--post_colormap_wf) | Load colors from an external image
 |[post_colorscale_wf](zmanip/zmanip.md#colorscale_wf) | Set a point's z coordinate to its color index
+|[post_crop](crop/crop.md#crop--post_crop--pre_crop) | Crop the flame to a rectangle or square
+|[post_crop_box](crop/crop.md#crop_box--post_crop_box) | Crop the flame to a rectangle or square
+|[post_crop_cross](crop/crop.md#crop_cross--post_crop_cross) | Crop the flame to a cross shape
+|[post_crop_polygon](crop/crop.md#crop_polygon--post_crop_polygon) | Crop the flame to a circle, pentagon, hexagon, octagon, or hexagram
+|[post_crop_rhombus](crop/crop.md#crop_rhombus--post_crop_rhombus) | Crop the flame to a rhombus (diamond shape)
+|[post_crop_stars](crop/crop.md#crop_stars--post_crop_stars) | Crop the flame to a star shape
+|[post_crop_trapezoid](crop/crop.md#crop_trapezoid--post_crop_trapezoid) | Crop the flame to a trapezoid/trapezium
+|[post_crop_triangle](crop/crop.md#crop_triangle--post_crop_triangle) | Crop the flame to a triangle shape
+|[post_crop_vesica](crop/crop.md#crop_vesica--post_crop_vesica) | Crop the flame to a vesica piscis (lens) shape
+|[post_crop_x](crop/crop.md#crop_x--post_crop_x) | Crop the flame to an 'X' shape
 |[post_julia3Dq](julia/julia.md#julia3Dq) | Julia set using a rational power with 3D extrusion
 |[post_julian2](julia/julia.md#julian2) | Julian with an integrated affine transform
 |[post_juliaq](julia/julia.md#juliaq) | Julia set using a rational power\
@@ -266,6 +291,9 @@
 |[pre_blur](shapes/shapes.md#pre_blur) | Pre version of gaussian_blur
 |[pre_blur3D](shapes/shapes.md#blur3D--pre_blur3D) | Three dimensional Gaussian blur
 |[pre_boarders2](boarders/boarders.md#boarders2--pre_boarders2) | Adds some parameters to boarders
+|[pre_chunk](crop/crop.md#chunk--post_chunk--pre_chunk) | Crop the flame to an ellipse or hyperbola
+|[pre_circlecrop](crop/crop.md#circlecrop--post_circlecrop--pre_circlecrop) | Crop the flame to a circle
+|[pre_crop](crop/crop.md#crop--post_crop--pre_crop) | Crop the flame to a rectangle or square
 |[pre_disc](disc/disc.md#pre_disc) | Swap polar coordinates ρ and θ
 |[pre_disc3d](disc/disc.md#pre_disc3d) | Swap 2D polar coordinates ρ and θ and transforms z according to the distance from the origin
 |[pre_polar2](polar/polar.md#polar2) | Treat the log-polar coordinates (ρ,θ) of a point as rectangular coordinates (x,y)

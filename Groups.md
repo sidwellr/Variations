@@ -36,6 +36,12 @@ Treats 2D points as complex numbers and raises them to a complex power that can 
 
 [![](cpow/cpow-1.png)](cpow/cpow.md#cpow) [![](cpow/cpow3-1.png)](cpow/cpow.md#cpow3) [![](cpow/escher-1.png)](cpow/cpow.md#escher)
 
+## [Crop](crop/crop.md#Crop)
+
+Variations that crop the flame in various ways.
+
+[![](crop/chunk-2.png)](crop/crop.md#chunk--post_chunk--pre_chunk) [![](crop/crop-1.png)](crop/crop.md#crop--post_crop--pre_crop) [![](crop/post_smartcrop-1.png)](crop/crop.md#post_smartcrop)
+
 ## [Disc](disc/disc.md#Disc)
 
 Variations that use polar coordinates and swap the ρ and θ values.
