@@ -167,6 +167,37 @@ Date: 31 Dec 2006
 [Rectangle and Curl Apophysis script](http://www.deviantart.com/art/Rectangle-and-Curl-Script-71519219)  
 [Windows Apophysis script](https://www.deviantart.com/cabintom/art/Windows-Script-59966267)  
 
+## rosoni
+Make a rosette from a ring of overlapping shapes and rotate every other subshape.
+
+Type: 2D  
+Author: Luca G (dark-beam)  
+Date: 11 Jul 2014  
+
+[![](rosoni-1.png)](rosoni-1.flame)
+
+There are four possible base shapes, depending on the values of the altshapes and radius parameters:
+| Shape | altshapes | radius |
+| --- | --- | --- |
+| Circle | 0 | positive |
+| Square | 0 | negative |
+| Half-lemniscate | 1 | positive |
+| Angle | 1 | negative |
+
+Note: The square and angle shapes have a bug that prevents them from working correctly.
+
+| Parameter | Description |
+| --- | --- |
+| maxiter | Number of shapes to use (an integer between 1 and 1024) |
+| sweetiter | Rotation amount<br>0: If dy is 0, flip the subshapes vertically instead of rotating them; otherwise rotate 180°<br>1 or more: Rotate the subshapes clockwise this number of shapes |
+| altshapes | Specifies the type of shape to use; see table above |
+| cutoff | Radius of the variation effect; points outside this radius will be unchanged; positive for a circle, negative for a square |
+| radius | Size of the shapes |
+| dx, dy | Center point of one of the shapes; the rest are arranged in a ring around the origin |
+
+[Apophysis plug-in](https://www.deviantart.com/dark-beam/art/Old-plugins-reloaded-for-Apo7x-in-32-and-64-bit-701559850)  
+[JWildfire Forum post](https://jwildfire-forum.overwhale.com/viewtopic.php?f=23&t=1449)
+
 ## scrambly
 Divide the central square into subsquares and scramble them.
 

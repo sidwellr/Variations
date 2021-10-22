@@ -316,6 +316,7 @@
 |[rings2](shredders/shredders.md#rings2) | Divide the flame into concentric rings and vary the size and width of each
 |[rose](blobs/blobs.md#rose) | Modulate a flame using the rose curve
 |[rose_wf](rosecurve/rosecurve.md#rose_wf) | Simple rose curve
+|[rosoni](flippers/flippers.md#rosoni) | Make a rosette from a ring of overlapping shapes and rotate every other subshape
 |[rsquares_js](lineshapes/lineshapes.md#rsquares_js) | Draws a pattern of recursively placed squares
 | |
 |[sattractor3D](attractors/attractors.md#sattractor3D) | Generate a 3D mesh from differential equations
