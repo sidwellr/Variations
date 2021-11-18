@@ -95,3 +95,4 @@ The five waveform modules are invoked in sequence, and, if enabled, apply a wave
 [Synth Tiling JWildfire script](https://jwildfire-forum.overwhale.com/viewtopic.php?f=17&t=2087)  
 [Inversion Synth JWildfire script](http://jwildfire.org/forum/viewtopic.php?f=17&t=2604)  
 [Snarly JWildfire script](http://jwildfire.org/forum/viewtopic.php?f=17&t=2584)  
+[Synthetic Tutorial](https://www.youtube.com/watch?v=osvbtqiWtTE) (video)  

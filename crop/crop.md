@@ -102,6 +102,9 @@ Date: 3 Feb 2020
 | height | Height of cropping box |
 | invert | 0: Crop out the outside of the box<br>1: Crop out the inside of the box |
 
+[Exploring New Crops video](https://www.youtube.com/watch?v=ib1x2B9iCi0)  
+[Making a Frame--Double Crop Method](https://www.jwfsanctuary.club/tutorial/how-to/making-a-frame-double-crop-method/)  
+
 ## crop_cross / post_crop_cross
 Crop the flame to a cross shape.
 
@@ -164,6 +167,8 @@ Date: 3 Feb 2020
 | r2 | Pointiness of the cropping star, between 0 and 1; higher values make a more pointy star |
 | invert | 0: Crop out the outside of the star<br>1: Crop out the inside of the star |
 
+[Exploring New Crops video](https://www.youtube.com/watch?v=ib1x2B9iCi0)  
+
 ## crop_trapezoid / post_crop_trapezoid
 Crop the flame to a trapezoid/trapezium.
 
@@ -198,7 +203,6 @@ When setting the coordinates of the triangle, remember that positive y is down i
 | x1, y1 | Coordinates of the first corner of the cropping triangle |
 | x2, y2 | Coordinates of the second corner of the cropping triangle |
 | x3, y3 | Coordinates of the third corner of the cropping triangle |
-| invert | 0: Crop out the outside of the triangle<br>1: Crop out the inside of the triangle |
 
 ## crop_vesica / post_crop_vesica
 Crop the flame to a symmetric lens shape.

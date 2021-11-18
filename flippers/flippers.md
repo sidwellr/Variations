@@ -215,6 +215,7 @@ Date: 27 Jun 2014
 | cellsize | Size of the central square (the default of 0.1 is very small) |
 
 [Apophysis plugin](https://www.deviantart.com/dark-beam/art/Scrambly-463910011)  
+[Tutorial on "modern art" Fractals](https://www.deviantart.com/dark-beam/art/Tutorial-on-modern-art-fractals-767087845)  
 
 ## split
 Split the plane into horizontal and vertical strips and flip alternate strips across the x and y axes.
